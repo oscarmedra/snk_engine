@@ -1,0 +1,24 @@
+[project]
+name = "snk-engine"
+version = "0.1.0"
+description = "Moteur linguistique soninké : conjugaison, génération de corpus"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pyyaml>=6.0",
+    "typer>=0.12",
+    "pyarrow>=15.0",
+    "huggingface_hub>=0.24",
+    "tqdm>=4.66",
+    "openpyxl>=3.1",
+]
+
+[project.scripts]
+snk-engine = "snk_engine.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/snk_engine"]

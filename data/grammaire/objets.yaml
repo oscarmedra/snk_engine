@@ -1,0 +1,20 @@
+# Objets et compléments confirmés par le locuteur, pour varier les phrases.
+# `objets` : ce qui se place après di / na (phrases avec objet).
+# `complements` : lieu ou moment, à la fin de la phrase ; `temps` limite les temps compatibles.
+# Chaque entrée porte sa traduction française (article compris).
+
+# `verbes` limite l'objet aux verbes qui l'acceptent (on ne mange pas du lait).
+objets:
+  - {snk: maro, fr: du riz, verbes: [yigeyer, wori], source: "corp1 #28"}
+  - {snk: "maro ke", fr: le riz, verbes: [yigeyer, wori], source: "serie_03"}
+  - {snk: xati, fr: du lait, verbes: [mini, wori], source: "2026-09-17"}
+  - {snk: "xati ke", fr: le lait, verbes: [mini, wori], source: "2026-09-17"}
+  - {snk: lemine, fr: un enfant, verbes: [wori], source: "serie_02 #26"}
+  - {snk: "lemine ke", fr: l'enfant, verbes: [wori], source: "serie_03"}
+
+complements:
+  - {snk: saxa, fr: au marché, source: "corp1 #27"}
+  - {snk: lenki, fr: aujourd'hui, source: "serie_02 #19",
+     temps: [past, past_object, present, present_object]}
+  - {snk: daru, fr: hier, source: "corp1 #29", temps: [past, past_object]}
+  - {snk: kumbene, fr: demain, source: "corp1 #30", temps: [future]}

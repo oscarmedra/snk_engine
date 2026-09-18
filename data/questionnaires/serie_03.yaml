@@ -1,0 +1,59 @@
+serie: "03"
+# Série 3 : confirmer ce que les articles laissent prévoir, et compléter les verbes.
+# Nouvelle orthographe : x, u, e, g ; gérondif avec trait d'union (daga-na).
+questions:
+  # --- A. Particule devant p, l, n (prédiction : m'p, l'l, n'n) ---
+  - {categorie: Particule, fr: "Il a vu l'enfant.", personne: 3sg,
+     indication: "Verbe wori (voir) : ake ?wori — quelle particule ?"}
+  - {categorie: Particule, fr: "Tu as vu l'enfant.", personne: 2sg, indication: "anke ?wori"}
+  - {categorie: Particule, fr: "Il a travaillé.", personne: 3sg, indication: "golli : ake n'golli ?"}
+  - {categorie: Particule, fr: "Il a dormi.", personne: 3sg,
+     indication: "xenxe : ta réponse serie_02 n'avait pas de particule. ake ?xenxe"}
+  - {categorie: Particule, fr: "Tu as dormi.", personne: 2sg, indication: "anke ?xenxe"}
+
+  # --- B. Forme en -na (gérondif) des verbes connus ---
+  - {categorie: Forme en -na, fr: "Tu ne parleras pas.", verbe: sefeer, temps: future_negative, personne: 2sg,
+     indication: "sefe-ne ? (le moteur attend anke n'ti sefe-ne)"}
+  - {categorie: Forme en -na, fr: "Tu ne courras pas.", verbe: wurier, temps: future_negative, personne: 2sg,
+     indication: "wuru-nu ?"}
+  - {categorie: Forme en -na, fr: "Tu ne regarderas pas.", verbe: fayinder, temps: future_negative, personne: 2sg,
+     indication: "faye-ne ?"}
+  - {categorie: Forme en -na, fr: "Il ne boira pas.", personne: 3sg, indication: "mini : mini-ni ou minni ?"}
+  - {categorie: Forme en -na, fr: "Il ne verra pas.", personne: 3sg, indication: "wori : wori-ni ?"}
+  - {categorie: Forme en -na, fr: "Il parle (en ce moment).", verbe: sefeer, temps: progressive_watia, personne: 3sg,
+     indication: "attendu : ake m'fayi sefe-ne watia"}
+  - {categorie: Forme en -na, fr: "Il court (en ce moment).", verbe: wurier, temps: progressive_watia, personne: 3sg}
+
+  # --- C. Phrases avec objet : di, et forme du verbe ---
+  - {categorie: Objet (di), fr: "Il a bu l'eau.", personne: 3sg, indication: "eau = ? ; mini change-t-il de forme ?"}
+  - {categorie: Objet (di), fr: "Il a bu.", personne: 3sg, indication: "sans objet : même forme que ci-dessus ?"}
+  - {categorie: Objet (di), fr: "Il a acheté le riz.", personne: 3sg, indication: "acheter = ? (radical)"}
+  - {categorie: Objet (di), fr: "Il a écrit la lettre.", personne: 3sg, indication: "écrire = ? lettre = ?"}
+  - {categorie: Objet (di), fr: "J'ai vu l'enfant. (avec le pronom n)", personne: 1sg,
+     indication: "avec le pronom diminutif : n di lemine ?wori"}
+  - {categorie: Objet (di), fr: "Nous avons vu l'enfant.", personne: 1pl, indication: "oku ou o ?"}
+
+  # --- D. Négation avec objet : mi ou maxa ? ---
+  - {categorie: Négation + objet, fr: "Il n'a pas mangé le riz.", personne: 3sg,
+     indication: "serie_02 : ake mi maro n'yiga. mi remplace-t-il maxa quand il y a un objet ?"}
+  - {categorie: Négation + objet, fr: "Il n'a pas mangé.", personne: 3sg, indication: "sans objet : ake maxa yige ?"}
+  - {categorie: Négation + objet, fr: "Tu n'as pas vu l'enfant.", personne: 2sg}
+  - {categorie: Négation + objet, fr: "Il ne mangera pas le riz.", personne: 3sg, indication: "futur + objet"}
+
+  # --- E. Nouveaux verbes : infinitif + radical ---
+  - {categorie: Nouveau verbe, fr: "Il est arrivé.", indication: "infinitif = ? radical = ?"}
+  - {categorie: Nouveau verbe, fr: "Il a acheté.", indication: "infinitif = ? radical = ?"}
+  - {categorie: Nouveau verbe, fr: "Il a vendu.", indication: "infinitif = ? radical = ?"}
+  - {categorie: Nouveau verbe, fr: "Il a écrit.", indication: "infinitif = ? radical = ?"}
+  - {categorie: Nouveau verbe, fr: "Il a donné.", indication: "infinitif = ? radical = ?"}
+  - {categorie: Nouveau verbe, fr: "Il s'est assis.", indication: "infinitif = ? radical = ?"}
+  - {categorie: Nouveau verbe, fr: "Il a pris le livre.", indication: "prendre = ? livre = ?"}
+  - {categorie: Nouveau verbe, fr: "Il a lavé les habits.", indication: "laver = ? habits = ?"}
+
+  # --- F. Mots pour varier les phrases ---
+  - {categorie: Vocabulaire, fr: "eau, riz, viande, lait", indication: "un mot par ligne ou séparés par /"}
+  - {categorie: Vocabulaire, fr: "maison, village, champ, école, marché", indication: "marché = saxa ?"}
+  - {categorie: Vocabulaire, fr: "enfant, femme, homme, ami, mère, père", indication: "enfant = lemine ?"}
+  - {categorie: Vocabulaire, fr: "aujourd'hui, hier, demain, maintenant, ce matin, ce soir",
+     indication: "lenki, daru, kumbene ? et les autres ?"}
+  - {categorie: Vocabulaire, fr: "vite, doucement, beaucoup, un peu, bien, mal"}

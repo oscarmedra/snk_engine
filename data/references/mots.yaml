@@ -1,0 +1,196 @@
+# Mots donnés par le locuteur (hors verbes). Pas encore lus par le moteur :
+# ils serviront à construire les phrases avec objet et compléments.
+# Orthographe du projet (x, u, e, g). « ? » = à confirmer.
+
+noms:
+  - {snk: lemine, fr: enfant, source: "serie_02 #26, serie_03"}
+  - {snk: maro, fr: riz, source: "corp1 #28, confirmé 2026-09-17"}
+  - {snk: xati, fr: lait, source: "2026-09-17"}
+  - {snk: saxa, fr: marché, source: "corp1 #27"}
+  - {snk: lettra, fr: lettre, source: "serie_03 #16", note: "variante donnée : fare"}
+  - {snk: fare, fr: "lettre ?", source: "serie_03 #16", note: "à confirmer ; fare = âne chez Creissels"}
+  - {snk: soninke, fr: soninké (la langue), source: "serie_02 #18"}
+
+temps:
+  - {snk: lenki, fr: aujourd'hui, source: "serie_02 #19"}
+  - {snk: daru, fr: hier, source: "corp1 #29"}
+  - {snk: kumbene, fr: demain, source: "corp1 #30"}
+
+grammaire:
+  - {snk: ke, fr: "le/la (met l'accent sur le nom)", source: "serie_03, précisé 2026-09-17",
+     note: "placé APRÈS le nom (lemine ke, maro ke) ; facultatif, mais habituel dans ce dialecte.
+            Sert surtout à signaler qu'il s'agit de celui dont on parle déjà (l'enfant en question)."}
+  - {snk: di, fr: "marqueur d'objet (passé)", source: "corp1 #28, serie_03"}
+  - {snk: maxa, fr: "négation (passé)", source: "corp1 #20"}
+  - {snk: mi, fr: "négation (passé), forme courte de maxa", source: "serie_03 #19-21",
+     note: "« mi est un diminutif de maxa, très souvent utilisé »"}
+  - {snk: "n'ti ri-ni / n'taxa ri-ni", fr: "négation (futur)", source: "serie_03, confirmé 2026-09-17",
+     note: "maxa pour le passé, n'ti/n'taxa pour le futur"}
+  - {snk: watia, fr: "insiste sur le moment", source: "corp1 #3"}
+  - {snk: ya ba, fr: "marque la question (oui/non)", source: "corp1 #24"}
+  - {snk: mina, fr: où, source: "corp1 #25"}
+  - {snk: "mane ni … gi", fr: "pourquoi", source: "corp1 #22"}
+  - {snk: kan dimma, fr: quand, source: "corp1 #26"}
+
+adverbes:
+  - {snk: siri, fr: "mal (douleur, non tangible)", source: "serie_03 #35"}
+  - {snk: gebe, fr: "mal (chose tangible)", source: "serie_03 #35", note: "orthographe guébé → gebe ?"}
+
+# --- texte_journee (2026-09-17) : compris à ~96 %, à vérifier un par un ---
+texte_journee:
+  marqueurs:
+    - {snk: na, fr: "présent / habitude (?)", exemple: "nke na guiri"}
+    - {snk: ga, fr: "introduit la subordonnée", exemple: "o ga daga-na noqu be"}
+    - {snk: "kati … n'ga", fr: "avant de", exemple: "kati n'ga baka ka ke noxo"}
+    - {snk: "-ni / -yi / -nu", fr: "pluriel", exemple: "yoku-ni, kine-yi, xana-nu"}
+    - {snk: noxo, fr: "dans", exemple: "ka ke noxo"}
+    - {snk: "m'falle", fr: après, exemple: "locolou m'falle"}
+    - {snk: "m'fallaqe", fr: devant, exemple: "o ka m'fallaqe"}
+    - {snk: "do me", fr: ensemble}
+    - {snk: ma, fr: "jusqu'à", exemple: "o na tere ma saxa"}
+    - {snk: bawoni, fr: parce que}
+    - {snk: kempale, fr: ensuite}
+    - {snk: su, fr: "chaque / tout", exemple: "suxuba su, sere su"}
+    - {snk: be, fr: "qui / que / où"}
+    - {snk: xadi, fr: encore}
+    - {snk: "i / ni / o", fr: "son / mon / notre (avant le nom)"}
+    - {snk: "-na", fr: "forme un nom de métier", exemple: "gaaga-na = le vendeur"}
+  noms:
+    - {snk: suxuba, fr: matin}
+    - {snk: "suxuba m'po", fr: petit-déjeuner}
+    - {snk: kiye, fr: soleil}
+    - {snk: dji, fr: eau}
+    - {snk: ka, fr: maison}
+    - {snk: xoxone, fr: frère}
+    - {snk: yiramu, fr: habits}
+    - {snk: yoku-ni, fr: choses}
+    - {snk: taxalema, fr: voisin}
+    - {snk: dionko-ni, fr: prix}
+    - {snk: wetieti, fr: monnaie}
+    - {snk: xaju, fr: besoin}
+    - {snk: yerexate, fr: repas}
+    - {snk: kine-yi, fr: aliments}
+    - {snk: bara, fr: cour}
+    - {snk: dimma, fr: moment}
+    - {snk: xara moxo, fr: professeur}
+    - {snk: xana-nu, fr: amis}
+    - {snk: lele, fr: soir}
+    - {snk: sere, fr: personne}
+    - {snk: mburu, fr: pain}
+    - {snk: "yite-remu", fr: fruits}
+    - {snk: teh, fr: thé}
+
+# --- Précisions du locuteur (serie_04_termes, 2026-09-17) ---
+serie_04:
+  - {snk: beteye, fr: midi}
+  - {snk: "xara-kompe", fr: école, note: "littéralement la maison où l'on apprend ; lokolou est l'emprunt courant"}
+  - {snk: lemane, fr: un peu, exemple: "o na fo lemane sefe = nous parlons un peu"}
+  - {snk: xoto, fr: difficile}
+  - {snk: siri, fr: "bien (bien fait)"}
+  - {snk: sarano, fr: "les parents (père et mère)"}
+  - {snk: bara, fr: "cour, espace"}
+  - {snk: "-su", fr: "chaque / tout", exemple: "suxuba-su, lele-su, sere-su"}
+  - {snk: "-ni", fr: "pluriel", exemple: "maro-ni = les riz"}
+  - {snk: "m'fallaqe", fr: derrière, note: "corrigé : derrière, et non devant ; proche de m'falle (après)"}
+  - {snk: "do me", fr: "ensemble", note: "o na tere do me, o na yige do me, o na xara do me"}
+  - {snk: "o ya / oku ya", fr: "à nous"}
+  - {snk: possessifs, fr: "n, an, a, o, xa, i + nom", exemple: "a ka = sa maison, i yiramu = leurs vêtements"}
+  - {snk: na, fr: "présent (on explique ce qu'on fait)", exemple: "nke na wutu = je prends ; nke di wutu = je l'ai déjà pris"}
+  - {snk: di, fr: "accompli (action déjà faite)", note: "sert aussi devant l'objet"}
+  - {snk: "ŋ'", fr: "particule devant w ?", note: "serie_04 : ŋ'wori (voir) ; mais corp1 : n'wuru (courir). À trancher."}
+
+# --- texte_marche (2026-09-17) : compris d'après le texte, à confirmer ---
+texte_marche:
+  questions:
+    - {snk: minna, fr: où, exemple: "anke daga-na minna ?"}
+    - {snk: "mane-ni", fr: pourquoi, exemple: "mane-ni anke n'ga daga-na saxa ?"}
+    - {snk: mane, fr: quoi, exemple: "an di mane xobo daru ?"}
+    - {snk: ko, fr: qui, exemple: "anke n'do ko daga-na do me ?"}
+    - {snk: "kan dimma", fr: quand}
+    - {snk: "mani-me", fr: combien, exemple: "mani-me ni maro ?"}
+    - {snk: ba, fr: "marque la question oui/non (en fin de phrase)"}
+    - {snk: ayi, fr: non}
+  copule_et_avoir:
+    - {snk: yi, fr: "être (quelque part)", exemple: "a yi ka ke = elle est à la maison"}
+    - {snk: "n'ti", fr: "ne pas être", exemple: "ake n'ti ka ke = elle n'est pas à la maison"}
+    - {snk: ni, fr: "c'est (copule)", exemple: "nke faba ka n'ya ni = c'est la maison de mon père"}
+    - {snk: "ya", fr: "met en relief (focus)", exemple: "(maro ado te-ni)-ni ya xobono",
+       note: "confirmé : ce que je lisais « n'ya » est le -ni du nom suivi de ya"}
+    - {snk: maxa, fr: "chez, avec (possession)", exemple: "xalisi n'ti maxa = je n'ai pas d'argent"}
+    - {snk: fayi, fr: "être (là), être en train de, regarder", exemple: "n waxi-ni ku fayi locolou",
+       note: "confirmé : c'est le même mot dans les trois emplois"}
+  pluriel_et_determinants:
+    - {snk: ku, fr: "les (pluriel, après le nom)", exemple: "n waxi-ni ku, i remu ku"}
+    - {snk: "-ni / -mu", fr: "pluriel du nom", exemple: "waxi-ni, taxa-lemu"}
+  nombres:
+    - {snk: filli, fr: deux}
+    - {snk: siki, fr: trois}
+  noms:
+    - {snk: faba, fr: père}
+    - {snk: waxi, fr: "frère (waxi-ni = frères)", note: "xoxone = petit frère"}
+    - {snk: "guida xaxaru", fr: sœur, note: "corrigé : xaxaru, et non naxaru"}
+    - {snk: remme, fr: "enfant (remu = enfants)"}
+    - {snk: gunne, fr: champ}
+    - {snk: xalisi, fr: argent}
+    - {snk: xase, fr: vieux}
+    - {snk: yere, fr: ici}
+    - {snk: ngebe, fr: beaucoup}
+    - {snk: do, fr: avec}
+  imperatif:
+    - {snk: taxu, fr: "assieds-toi"}
+    - {snk: yeli, fr: "viens"}
+    - {snk: "maro ke yiga", fr: "mange le riz (objet + verbe)"}
+    - {snk: "maxa daga", fr: "ne pars pas"}
+    - {snk: "xa guiri / xa terinke / xa maxa mungo", fr: "levez-vous / écoutez / n'oubliez pas (xa = vous)"}
+    - {snk: "a nia ti allah", fr: "s'il te plaît"}
+    - {snk: "a wara", fr: "laisse-le"}
+    - {snk: siri, fr: "pas beaucoup", exemple: "xa maxa yige siri = ne mangez pas beaucoup",
+       note: "ailleurs : bien (bien fait)"}
+  corrections:
+    - "« nke fayi daga-na saxa » était une erreur : la bonne forme est nke fayi ri-ni daga."
+    - "« An l'rini kan dimma » était une erreur : les pronoms diminutifs ne prennent pas la particule."
+
+# --- texte_village (2026-09-17) : lecture de Claude, à confirmer ---
+texte_village:
+  constructions:
+    - {snk: "yi + forme en -nu", fr: "état / action en cours dans le passé",
+       exemple: "ma-ma yi taxu-nu = elle était assise ; nke ni tere-ne = je marchais"}
+    - {snk: "n'gana", fr: "si", exemple: "an n'gana daga watia = si tu pars maintenant"}
+    - {snk: "n'ga / ga", fr: "quand", exemple: "kiye n'ga xenu = quand le soleil s'est couché"}
+    - {snk: "ti … da", fr: "dire à", exemple: "a ti n'da = elle m'a dit"}
+    - {snk: nanti, fr: "que (parole rapportée)", exemple: "n'ti a da nanti nke daga na ya"}
+    - {snk: "dinan-ti", fr: "que (comparaison)", exemple: "a ka ke lamane ni ya dinan-ti o ka"}
+    - {snk: xa, fr: mais}
+    - {snk: yogo, fr: "un (indéfini)", exemple: "yigu-xoso yogo ri = un vieil homme est venu"}
+    - {snk: "ya", fr: "à / chez (postposition)", exemple: "kini nke ya = donner à moi ; ma debe ke ya",
+       note: "confirmé 2026-09-17"}
+    - {snk: "ni ya", fr: "est (avec un adjectif)", exemple: "towoyinte ni ya = il est malade ; xore ni ya = elle est grande",
+       note: "confirmé 2026-09-17"}
+    - {snk: wure, fr: sous, exemple: "yite xore ŋ'wure = sous le grand arbre"}
+    - {snk: moxo, fr: "comment", exemple: "a ma-ma moxo ? = comment va ta grand-mère ?"}
+    - {snk: "yi / ti", fr: "est / n'est pas (auxiliaire)", exemple: "nke yi mula = je le veux ; nke ti mula = je ne veux pas",
+       note: "confirmé. Explique sans doute yi ri-ni (futur) et n'ti ri-ni (futur négatif)"}
+    - {snk: "n (objet)", fr: "me (avant le verbe)", exemple: "a di ŋ'wori = a di nke wori = elle m'a vu",
+       note: "confirmé : les deux formes se disent ; ŋ' est le n assimilé"}
+    - {snk: siri, fr: "renforce le mot (longtemps, vite, beaucoup)", note: "confirmé : le sens dépend du contexte"}
+    - {snk: kaane, fr: "avant / plus tard", note: "confirmé : c'est le même mot"}
+  noms:
+    - {snk: "ma-ma", fr: grand-mère}
+    - {snk: kissima, fr: grand-père}
+    - {snk: kawu, fr: oncle}
+    - {snk: debe, fr: village, note: "debe xoore = la ville (grand village)"}
+    - {snk: kille, fr: route}
+    - {snk: xibaru, fr: nouvelles}
+    - {snk: wuro, fr: nuit}
+    - {snk: goli, fr: travail}
+    - {snk: "yigu-xoso", fr: vieil homme}
+    - {snk: yite, fr: arbre}
+  adjectifs:
+    - {snk: gillo, fr: long}
+    - {snk: xore, fr: grand}
+    - {snk: lamane, fr: petit}
+    - {snk: towoyinte, fr: malade}
+    - {snk: diomu, fr: "bien, en bonne santé"}
+    - {snk: "fene fene", fr: tôt}
+  corrections_village:
+    - "« A l'ri ? » était une erreur : la bonne forme est An l'ri (tu es venu)."

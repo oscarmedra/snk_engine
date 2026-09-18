@@ -1,0 +1,186 @@
+# Inventaire de TOUS les verbes rencontrés, pour ne rien perdre.
+# Ce fichier n'est PAS lu par le moteur. Les verbes conjugables sont dans
+# data/grammaire/soninke.yaml ; un verbe y passe quand son radical (et au besoin
+# son gérondif) est confirmé par le locuteur.
+#
+# locuteur : donné par le locuteur, infos incomplètes
+# sources  : trouvé dans une ressource (autre dialecte possible), à confirmer.
+#            Champs : radical, fr, gerondif (inaccompli), intransitif (-i), antipassif (-ndi), ref.
+
+locuteur:
+  - {radical: mini, fr: boire, exemple: "ake m'mini (il a bu)", source: "serie_02 #24", manque: infinitif}
+  - {radical: goli, fr: travailler, exemple: "ake n'goli (il a travaillé)", source: "serie_02 #28, serie_03 #3", manque: "infinitif ; variante ake n'golinia ?"}
+  - {radical: wori, fr: voir, exemple: "ake n'di lemine n'wori (il a vu l'enfant)", source: "serie_02 #26", manque: infinitif}
+  - {radical: xenxe, fr: dormir, exemple: "ake n'xenxe (il a dormi)", source: "serie_02 #25, serie_03 #4", manque: infinitif, note: "« anke xenxe » était une erreur : la particule s'applique"}
+  - {radical: mara, fr: "?", exemple: "m'mara", source: "message du 2026-09-16 (maréer)", manque: sens}
+  - {radical: "?", fr: arriver, source: "serie_02 #27", manque: tout}
+  - {radical: xobo, fr: acheter, exemple: "ake n'di maro xobo (il a acheté le riz)", source: "serie_03 #15", manque: "infinitif ; forme sans objet"}
+  - {radical: safa, fr: écrire, exemple: "ake n'di lettra n'safa (il a écrit la lettre)", source: "serie_03 #16", manque: "infinitif ; forme sans objet"}
+
+  # --- texte_journee (2026-09-17) : sens compris à ~96 % d'après le locuteur,
+  # à vérifier un par un avant d'entrer dans le moteur. Orthographe du texte.
+  - {radical: guiri, fr: se lever, source: texte_journee}
+  - {radical: guilli, fr: se réveiller, source: texte_journee}
+  - {radical: wanqi, fr: laver / se laver, source: texte_journee}
+  - {radical: deberi, fr: préparer / faire, source: texte_journee}
+  - {radical: baka, fr: sortir, source: texte_journee, note: "variante bogu"}
+  - {radical: londi, fr: mettre (un vêtement), source: texte_journee}
+  - {radical: sagata, fr: rejoindre, source: texte_journee}
+  - {radical: tere, fr: marcher, source: texte_journee}
+  - {radical: qawa, fr: devoir / falloir, source: texte_journee}
+  - {radical: xobo, fr: acheter, source: texte_journee, note: "formes vues : xobo, n'gobo, q'xobo, xobono"}
+  - {radical: tirindi, fr: demander, source: texte_journee, note: "tirindindu = les questions"}
+  - {radical: ti, fr: dire, source: texte_journee}
+  - {radical: nko, fr: raconter / dire, source: texte_journee}
+  - {radical: mula, fr: vouloir, source: texte_journee}
+  - {radical: koyi, fr: montrer, source: texte_journee}
+  - {radical: ro, fr: entrer, source: texte_journee}
+  - {radical: tuga, fr: payer, source: texte_journee}
+  - {radical: kini, fr: donner, source: texte_journee}
+  - {radical: nawari, fr: remercier, source: texte_journee}
+  - {radical: soro, fr: cuisiner, source: texte_journee, note: "soreye, sorene"}
+  - {radical: diompa, fr: commencer, source: texte_journee, note: "joppa dans la littérature"}
+  - {radical: sella, fr: balayer, source: texte_journee}
+  - {radical: terinka, fr: écouter, source: texte_journee}
+  - {radical: xara, fr: lire / apprendre, source: texte_journee}
+  - {radical: safandi, fr: écrire, source: texte_journee, note: "safande = un texte écrit"}
+  - {radical: famu, fr: comprendre, source: texte_journee}
+  - {radical: jabi, fr: répondre, source: texte_journee}
+  - {radical: fatampachi, fr: expliquer, source: texte_journee}
+  - {radical: sanga, fr: jouer, source: texte_journee}
+  - {radical: dangi, fr: passer, source: texte_journee}
+  - {radical: sirondi, fr: préparer / arranger, source: texte_journee}
+  - {radical: soxu, fr: se coucher, source: texte_journee}
+  - {radical: bisimilah, fr: accueillir, source: texte_journee}
+
+# Références :
+#   K2018 = Creissels 2018, verbes statifs, soninké du Kingi — https://journals.openedition.org/mandenkan/1271
+#   B2013 = Creissels & Diagne 2013, Transitivity in Bakel Soninke (Mandenkan 50)
+#   G1979 = Grégoire, accompli/inaccompli (Mandenkan 1), d'après Galtier 1971 et le Manuel CRES 1977
+# Tons retirés ; orthographe des sources conservée (x, q, ñ, ŋ).
+sources:
+  # --- G1979 : accompli → inaccompli (gérondif) ---
+  - {radical: daga, fr: partir, gerondif: dagana, ref: G1979, note: "= daga du locuteur (daga-na)"}
+  - {radical: sefe, fr: parler, gerondif: sefene, ref: G1979, note: "= sefe du locuteur"}
+  - {radical: ri, fr: arriver, gerondif: rini, ref: G1979, note: "le locuteur : ri = venir"}
+  - {radical: yiga, fr: manger, gerondif: yigana, intransitif: yige, ref: "G1979, B2013", note: "le locuteur : yige (sans objet), yiga (avec objet)"}
+  - {radical: mini, fr: boire, gerondif: minni, ref: "G1979, B2013", note: "= mini du locuteur"}
+  - {radical: wari, fr: voir, gerondif: "walla / warini / walli", ref: "G1979, B2013", note: "le locuteur dit wori"}
+  - {radical: ku, fr: donner, gerondif: kunu, intransitif: kuyi, ref: "G1979, B2013"}
+  - {radical: ko, fr: raconter, gerondif: kono, ref: G1979}
+  - {radical: nya, fr: faire, gerondif: nyana, ref: G1979}
+  - {radical: kutu, fr: couper, gerondif: kutunu, ref: G1979}
+  - {radical: kunyi, fr: saluer, gerondif: kunyini, ref: G1979}
+  - {radical: kita, fr: recevoir, gerondif: kitana, ref: G1979}
+  - {radical: bire, fr: vivre, gerondif: birene, ref: "G1979, B2013"}
+  - {radical: saaga, fr: rendre, gerondif: saagana, ref: G1979}
+  - {radical: muuru, fr: chercher, gerondif: muurunu, ref: G1979}
+  - {radical: kuyi, fr: offrir, gerondif: kuyini, ref: G1979}
+  - {radical: kampi, fr: voler (dérober), gerondif: kampini, ref: G1979}
+  - {radical: dangi, fr: traverser, gerondif: dangini, ref: G1979}
+  - {radical: nyaxali, fr: être content, gerondif: nyaxalini, ref: G1979}
+  - {radical: digamu, fr: parler, gerondif: digamunu, ref: G1979}
+  - {radical: tifi, fr: semer, gerondif: tifini, ref: G1979}
+  - {radical: dotti, fr: tomber, gerondif: dottini, ref: G1979}
+  - {radical: miri, fr: tisser, gerondif: mirini, ref: G1979}
+  - {radical: rondi, fr: porter (un vêtement), gerondif: rondini, ref: G1979}
+  - {radical: wutu, fr: prendre, gerondif: wuttu, ref: "G1979, B2013"}
+  - {radical: katu, fr: frapper, gerondif: katta, intransitif: kati, ref: "G1979, B2013"}
+  - {radical: xata, fr: maudire, gerondif: xatta, ref: G1979}
+  - {radical: gunu, fr: plier, gerondif: gunnu, intransitif: guni, ref: "G1979, B2013"}
+  - {radical: bunu, fr: toucher (une cible), gerondif: bunnu, ref: G1979}
+  - {radical: bono, fr: gâter, gerondif: bonno, ref: "G1979, B2013"}
+  - {radical: xenu, fr: tomber, gerondif: xenne, ref: "G1979, B2013"}
+  - {radical: kanu, fr: avoir peur, gerondif: kanna, ref: "G1979, B2013"}
+  - {radical: goro, fr: piler, gerondif: gollo, intransitif: gore, ref: "G1979, B2013"}
+  - {radical: kara, fr: mourir, gerondif: kalla, ref: "G1979, B2013"}
+  - {radical: bara, fr: refuser, gerondif: balla, ref: G1979}
+  - {radical: tere, fr: marcher, gerondif: "telle / terene", ref: G1979}
+  - {radical: jara, fr: dégouliner, gerondif: jalla, ref: G1979}
+  - {radical: kuti, fr: cesser, gerondif: kutti, ref: G1979}
+  - {radical: kari, fr: tuer, gerondif: kalli, ref: "G1979, B2013"}
+  - {radical: mugu, fr: "comprendre / entendre", gerondif: mukku, intransitif: mugi, ref: "G1979, B2013"}
+  - {radical: bogu, fr: sortir, gerondif: bakka, ref: "G1979, B2013"}
+  - {radical: joxu, fr: verser, gerondif: joqo, ref: G1979}
+  - {radical: toxo, fr: rester, gerondif: toqo, ref: G1979}
+  - {radical: saxu, fr: se coucher, gerondif: saqa, ref: G1979}
+  - {radical: kafu, fr: réunir, gerondif: kapa, intransitif: kafi, ref: "G1979, B2013"}
+  - {radical: xesu, fr: puiser, gerondif: xece, ref: G1979}
+
+  # --- K2018 ---
+  - {radical: qobo, fr: acheter, gerondif: qobono, ref: K2018, note: "xobo à Bakel"}
+  - {radical: gaaga, fr: vendre, gerondif: gaagana, intransitif: gaage, ref: "K2018, B2013"}
+  - {radical: siiti, fr: attacher, gerondif: siitini, ref: K2018}
+  - {radical: salli, fr: prier, gerondif: sallini, ref: "K2018, B2013"}
+  - {radical: duguta, fr: "s'échapper", ref: K2018}
+  - {radical: danbu, fr: donner un coup de pied, ref: K2018}
+  - {radical: taaxu, fr: "s'asseoir", gerondif: taaxunu, ref: "K2018, B2013"}
+  - {radical: ke, fr: entrer, ref: K2018}
+  - {radical: deema, fr: aider, ref: K2018}
+  - {radical: ŋari, fr: voir, ref: K2018}
+  - {radical: booxo, fr: déchirer, ref: K2018}
+
+  # --- B2013 : transitif / intransitif (-i) / antipassif (-ndi) ---
+  - {radical: faaba, fr: aider (secourir), intransitif: faabe, antipassif: faabandi, ref: B2013}
+  - {radical: banbu, fr: porter sur le dos, intransitif: banbi, antipassif: banbundi, ref: B2013}
+  - {radical: boora, fr: déshabiller, intransitif: boore, antipassif: boorandi, ref: B2013}
+  - {radical: buruxa, fr: effacer / exterminer, intransitif: buruxe, antipassif: buruxandi, ref: B2013}
+  - {radical: buuda, fr: trop cuire, intransitif: buude, antipassif: buudundi, ref: B2013}
+  - {radical: cucufu, fr: asperger, intransitif: cucufi, antipassif: cucufindi, ref: B2013}
+  - {radical: danpu, fr: piétiner, intransitif: danpi, antipassif: danpundi, ref: B2013}
+  - {radical: duqquta, fr: arracher, intransitif: duqqute, antipassif: duqqutandi, ref: B2013}
+  - {radical: fata, fr: "séparer / récolter / sevrer", intransitif: fate, antipassif: fatandi, ref: B2013}
+  - {radical: fubba, fr: plonger (qqch), intransitif: fubbe, antipassif: fubbandi, ref: B2013}
+  - {radical: garaba, fr: fendre, intransitif: garabe, antipassif: garabandi, ref: B2013}
+  - {radical: jaga, fr: creuser, intransitif: jage, antipassif: jagandi, ref: B2013}
+  - {radical: kaga, fr: gratter, intransitif: kage, antipassif: kagandi, ref: B2013}
+  - {radical: kippa, fr: retourner, intransitif: kippe, antipassif: kippandi, ref: B2013}
+  - {radical: langa, fr: maudire, intransitif: lange, antipassif: langandi, ref: B2013}
+  - {radical: nafa, fr: rendre service, intransitif: nafe, antipassif: nafandi, ref: B2013}
+  - {radical: raga, fr: saisir, intransitif: rage, antipassif: ragandi, ref: B2013}
+  - {radical: saada, fr: entasser, intransitif: saade, antipassif: saadandi, ref: B2013}
+  - {radical: safa, fr: écrire, intransitif: safe, antipassif: safandi, ref: B2013}
+  - {radical: saga, fr: défricher, intransitif: sage, antipassif: sagandi, ref: B2013}
+  - {radical: sagara, fr: ramasser, intransitif: sagare, antipassif: sagarandi, ref: B2013}
+  - {radical: sagata, fr: joindre, intransitif: sagate, antipassif: sagatandi, ref: B2013}
+  - {radical: sella, fr: balayer, intransitif: selle, antipassif: sellandi, ref: B2013}
+  - {radical: taga, fr: construire, intransitif: tage, antipassif: tagandi, ref: B2013}
+  - {radical: tulu, fr: tresser (cheveux), intransitif: tuli, antipassif: tulundi, ref: B2013}
+  - {radical: waara, fr: ouvrir grand, intransitif: waare, antipassif: waarandi, ref: B2013}
+  - {radical: wara, fr: relâcher, intransitif: ware, antipassif: warandi, ref: B2013}
+  - {radical: wundu, fr: réveiller, intransitif: wundi, antipassif: wundundi, ref: B2013}
+  - {radical: xamu, fr: traire, intransitif: xami, antipassif: xamundi, ref: B2013}
+  - {radical: xoso, fr: "casser / vaincre", intransitif: xose, antipassif: xosondi, ref: B2013}
+  - {radical: yiriga, fr: compter, antipassif: yirigandi, ref: B2013}
+  - {radical: yonto, fr: pousser, intransitif: yonte, antipassif: yontondi, ref: B2013}
+  - {radical: yoola, fr: noyer, intransitif: yoole, antipassif: yoolandi, ref: B2013}
+  - {radical: soro, fr: cuisiner, intransitif: sore, ref: B2013}
+  - {radical: faamu, fr: comprendre, intransitif: faami, ref: B2013}
+  - {radical: joppa, fr: commencer, intransitif: joppe, ref: B2013}
+  - {radical: saara, fr: accoucher, intransitif: saare, ref: B2013}
+  - {radical: xobo, fr: acheter, intransitif: xobe, ref: B2013}
+  - {radical: yaara, fr: glaner, intransitif: yaare, ref: B2013}
+  - {radical: soxo, fr: cultiver, intransitif: soxe, gerondif: soxono, ref: B2013}
+  - {radical: xara, fr: apprendre, ref: B2013}
+  - {radical: lifi, fr: coudre, gerondif: lifini, ref: B2013}
+  - {radical: bayi, fr: étendre, antipassif: bayindi, ref: B2013}
+  - {radical: buyi, fr: brûler, ref: B2013}
+  - {radical: dabari, fr: réparer, ref: B2013}
+  - {radical: faccari, fr: traduire, ref: B2013}
+  - {radical: jaabi, fr: répondre, ref: B2013}
+  - {radical: kori, fr: tamiser, ref: B2013}
+  - {radical: koroosi, fr: surveiller, gerondif: koroosini, ref: B2013}
+  - {radical: guuji, fr: verser, ref: B2013}
+  - {radical: loggi, fr: suspendre, ref: B2013}
+  - {radical: wanqi, fr: laver, ref: B2013}
+  - {radical: wuñi, fr: ouvrir, ref: B2013}
+  - {radical: xiyili, fr: traîner, ref: B2013}
+  - {radical: sii, fr: raser, ref: B2013}
+  - {radical: ka, fr: insulter, intransitif: kayi, ref: B2013}
+  - {radical: tu, fr: connaître, intransitif: tuyi, ref: B2013}
+  - {radical: baami, fr: galoper, ref: B2013}
+  - {radical: soyi, fr: rire, ref: B2013}
+  - {radical: butu, fr: se fâcher, ref: B2013}
+  - {radical: muxu, fr: se cacher, ref: B2013}
+  - {radical: kaawa, fr: sécher, ref: B2013}
+  - {radical: rege, fr: danser, ref: B2013}

@@ -1,0 +1,26 @@
+{"id": "02-01", "snk": "nké fayi dagana watia", "fr": "Je pars (en ce moment).", "description": null, "category": "Progressif", "verb": "dagaer", "tense": "progressive", "person": "1sg"}
+{"id": "02-02", "snk": "anké m'fayi daga na  watia", "fr": "Tu pars (en ce moment).", "description": null, "category": "Progressif", "verb": "dagaer", "tense": "progressive", "person": "2sg"}
+{"id": "02-03", "snk": "aké m'faui daga na watia", "fr": "Il part (en ce moment).", "description": null, "category": "Progressif", "verb": "dagaer", "tense": "progressive", "person": "3sg"}
+{"id": "02-04", "snk": "okou faui daga na watia", "fr": "Nous partons (en ce moment).", "description": null, "category": "Progressif", "verb": "dagaer", "tense": "progressive", "person": "1pl"}
+{"id": "02-05", "snk": "xakou fayi daga na watia", "fr": "Vous partez (en ce moment).", "description": null, "category": "Progressif", "verb": "dagaer", "tense": "progressive", "person": "2pl"}
+{"id": "02-06", "snk": "ikou fayi daga na watia", "fr": "Ils partent (en ce moment).", "description": null, "category": "Progressif", "verb": "dagaer", "tense": "progressive", "person": "3pl"}
+{"id": "02-07", "snk": "aké m'fayi yigéné watia", "fr": "Il mange (en ce moment).", "description": null, "category": "Progressif", "verb": "yigueyer", "tense": "progressive", "person": "3sg"}
+{"id": "02-08", "snk": "anké n'ti dagana", "fr": "Tu ne partiras pas.", "description": null, "category": "Négation futur", "verb": "dagaer", "tense": "future_negative", "person": "2sg"}
+{"id": "02-09", "snk": "aké n'ti dagana", "fr": "Il ne partira pas.", "description": null, "category": "Négation futur", "verb": "dagaer", "tense": "future_negative", "person": "3sg"}
+{"id": "02-10", "snk": "okou nt'i dagana", "fr": "Nous ne partirons pas.", "description": null, "category": "Négation futur", "verb": "dagaer", "tense": "future_negative", "person": "1pl"}
+{"id": "02-11", "snk": "ikou n'ti rini", "fr": "Ils ne viendront pas.", "description": null, "category": "Négation futur", "verb": "rier", "tense": "future_negative", "person": "3pl"}
+{"id": "02-12", "snk": "nké n'ti  rini daga", "fr": "Je suis parti (avec n').", "description": "Écrit-on n'daga (collé) ou n' daga (séparé) ?", "category": "Diminutif", "verb": "dagaer", "tense": "past", "person": "1sg"}
+{"id": "02-14", "snk": "anké n'di maro n'yiga", "fr": "Tu as mangé le riz.", "description": null, "category": "Objet (di)", "verb": "yigueyer", "tense": "past", "person": "2sg"}
+{"id": "02-15", "snk": "okou di maro n'yiga", "fr": "Nous avons mangé le riz.", "description": null, "category": "Objet (di)", "verb": "yigueyer", "tense": "past", "person": "1pl"}
+{"id": "02-16", "snk": "aké rini maro n'yiga", "fr": "Il mangera le riz.", "description": null, "category": "Objet (di)", "verb": "yigueyer", "tense": "future", "person": "3sg"}
+{"id": "02-17", "snk": "aké mi maro n'yiga", "fr": "Il n'a pas mangé le riz.", "description": null, "category": "Objet (di)", "verb": "yigueyer", "tense": "past_negative", "person": "3sg"}
+{"id": "02-18", "snk": "aké n'séfé soninké", "fr": "Il a parlé soninké.", "description": null, "category": "Objet (di)", "verb": "seféer", "tense": "past", "person": "3sg"}
+{"id": "02-19", "snk": "aké n'daga sakha lenki", "fr": "Il est parti au marché aujourd'hui.", "description": null, "category": "Complément", "verb": "dagaer", "tense": "past", "person": "3sg"}
+{"id": "02-20", "snk": "okou yi rini koumbéné", "fr": "Nous viendrons demain.", "description": null, "category": "Complément", "verb": "rier", "tense": "future", "person": "1pl"}
+{"id": "02-21", "snk": "aké n'yi rini ba ?", "fr": "Est-ce qu'il viendra ?", "description": null, "category": "Question", "verb": "rier", "tense": "future", "person": "3sg"}
+{"id": "02-22", "snk": "mané ni anké gui ri ?", "fr": "Pourquoi es-tu venu ?", "description": null, "category": "Question", "verb": "rier", "tense": "past", "person": "2sg"}
+{"id": "02-23", "snk": "anké m'fayi rini daga mina", "fr": "Où partiras-tu ?", "description": "mina veut dire \"ou\"", "category": "Question", "verb": "dagaer", "tense": "future", "person": "2sg"}
+{"id": "02-24", "snk": "aké m'mini", "fr": "Il a bu.", "description": "Infinitif = ? Radical = ?", "category": "Nouveau verbe", "verb": "minéer", "tense": "past", "person": "3sg"}
+{"id": "02-25", "snk": "aké xénxxé", "fr": "Il a dormi.", "description": "Infinitif = ? Radical = ?", "category": "Nouveau verbe", "verb": "xénxxéer", "tense": "past", "person": "3sg"}
+{"id": "02-26", "snk": "aké n'di léminé n'wori", "fr": "Il a vu l'enfant.", "description": "Infinitif = ? Radical = ? enfant = ?", "category": "Nouveau verbe", "verb": "worier", "tense": "past", "person": "3sg"}
+{"id": "02-28", "snk": "aké n'golli", "fr": "Il a travaillé.", "description": "Infinitif = ? Radical = ?", "category": "Nouveau verbe", "verb": "gollié", "tense": "past", "person": "3sg"}

@@ -1,0 +1,46 @@
+serie: "02"
+# Chaque question : categorie, fr, et si possible verbe / temps / personne
+# (pour comparer la réponse au moteur). « indication » s'affiche dans Description.
+questions:
+  # --- Présent progressif (réponses contradictoires dans corp1) ---
+  - {categorie: Progressif, fr: "Je pars (en ce moment).", verbe: dagaer, temps: progressive, personne: 1sg}
+  - {categorie: Progressif, fr: "Tu pars (en ce moment).", verbe: dagaer, temps: progressive, personne: 2sg}
+  - {categorie: Progressif, fr: "Il part (en ce moment).", verbe: dagaer, temps: progressive, personne: 3sg}
+  - {categorie: Progressif, fr: "Nous partons (en ce moment).", verbe: dagaer, temps: progressive, personne: 1pl}
+  - {categorie: Progressif, fr: "Vous partez (en ce moment).", verbe: dagaer, temps: progressive, personne: 2pl}
+  - {categorie: Progressif, fr: "Ils partent (en ce moment).", verbe: dagaer, temps: progressive, personne: 3pl}
+  - {categorie: Progressif, fr: "Il mange (en ce moment).", verbe: yigeyer, temps: progressive, personne: 3sg}
+
+  # --- Négation du futur ---
+  - {categorie: Négation futur, fr: "Tu ne partiras pas.", verbe: dagaer, temps: future_negative, personne: 2sg}
+  - {categorie: Négation futur, fr: "Il ne partira pas.", verbe: dagaer, temps: future_negative, personne: 3sg}
+  - {categorie: Négation futur, fr: "Nous ne partirons pas.", verbe: dagaer, temps: future_negative, personne: 1pl}
+  - {categorie: Négation futur, fr: "Ils ne viendront pas.", verbe: rier, temps: future_negative, personne: 3pl}
+
+  # --- Pronom diminutif n' ---
+  - {categorie: Diminutif, fr: "Je suis parti (avec n').", verbe: dagaer, temps: past, personne: 1sg,
+     indication: "Écrit-on n'daga (collé) ou n' daga (séparé) ?"}
+  - {categorie: Diminutif, fr: "Je partirai (avec n').", verbe: dagaer, temps: future, personne: 1sg}
+
+  # --- Objet avec di ---
+  - {categorie: Objet (di), fr: "Tu as mangé le riz.", verbe: yigeyer, temps: past, personne: 2sg}
+  - {categorie: Objet (di), fr: "Nous avons mangé le riz.", verbe: yigeyer, temps: past, personne: 1pl}
+  - {categorie: Objet (di), fr: "Il mangera le riz.", verbe: yigeyer, temps: future, personne: 3sg}
+  - {categorie: Objet (di), fr: "Il n'a pas mangé le riz.", verbe: yigeyer, temps: past_negative, personne: 3sg}
+  - {categorie: Objet (di), fr: "Il a parlé soninké.", verbe: sefeer, temps: past, personne: 3sg}
+
+  # --- Compléments de lieu et de temps ---
+  - {categorie: Complément, fr: "Il est parti au marché aujourd'hui.", verbe: dagaer, temps: past, personne: 3sg}
+  - {categorie: Complément, fr: "Nous viendrons demain.", verbe: rier, temps: future, personne: 1pl}
+
+  # --- Questions ---
+  - {categorie: Question, fr: "Est-ce qu'il viendra ?", verbe: rier, temps: future, personne: 3sg}
+  - {categorie: Question, fr: "Pourquoi es-tu venu ?", verbe: rier, temps: past, personne: 2sg}
+  - {categorie: Question, fr: "Où partiras-tu ?", verbe: dagaer, temps: future, personne: 2sg}
+
+  # --- Nouveaux verbes (donner infinitif et radical dans Description) ---
+  - {categorie: Nouveau verbe, fr: "Il a bu.", indication: "Infinitif = ? Radical = ?"}
+  - {categorie: Nouveau verbe, fr: "Il a dormi.", indication: "Infinitif = ? Radical = ?"}
+  - {categorie: Nouveau verbe, fr: "Il a vu l'enfant.", indication: "Infinitif = ? Radical = ? enfant = ?"}
+  - {categorie: Nouveau verbe, fr: "Il est arrivé.", indication: "Infinitif = ? Radical = ?"}
+  - {categorie: Nouveau verbe, fr: "Il a travaillé.", indication: "Infinitif = ? Radical = ?"}

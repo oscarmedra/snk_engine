@@ -1,0 +1,233 @@
+# Données linguistiques CONFIRMÉES — dialecte de référence du projet.
+# N'ajouter ici que des formes validées. Ce qui est absent est inconnu :
+# le moteur refuse alors de conjuguer au lieu d'inventer.
+#
+# Orthographe (confirmée, d'après Creissels, Mandenkan) :
+#   x (et non kh), u (et non ou), e (et non é), g (et non gu devant e/i) ;
+#   voyelles écrites comme prononcées (daga, gaaga, taaxu) ; tons non écrits ;
+#   gérondif avec trait d'union (daga-na) ; particules avec apostrophe (n'daga) ;
+#   pronom diminutif de la 1re personne : n.
+
+# Deux séries : longue (nke…) et diminutive (n, an…), la plus utilisée.
+# Les diminutifs ne prennent jamais la particule (absents de particules.personnes).
+pronoms:
+  - {forme: nke, personne: 1sg, fr: je, serie: longue}
+  - {forme: anke, personne: 2sg, fr: tu, serie: longue}
+  - {forme: ake, personne: 3sg, fr: il / elle, serie: longue}
+  - {forme: oku, personne: 1pl, fr: nous, serie: longue}
+  - {forme: xaku, personne: 2pl, fr: vous, serie: longue}
+  - {forme: iku, personne: 3pl, fr: ils / elles, serie: longue}
+  - {forme: n, personne: 1sg, fr: je, serie: diminutif}
+  - {forme: an, personne: 2sg, fr: tu, serie: diminutif}
+  - {forme: a, personne: 3sg, fr: il / elle, serie: diminutif}
+  - {forme: o, personne: 1pl, fr: nous, serie: diminutif}
+  - {forme: xa, personne: 2pl, fr: vous, serie: diminutif}
+  - {forme: i, personne: 3pl, fr: ils / elles, serie: diminutif}
+
+# Temps / constructions. Le marqueur éventuel se place avant le verbe, le suffixe après.
+# particule: true → la particule s'applique à ce temps (voir `particules`).
+# ri-ni est le gérondif de ri (venir) : ce qui est « à venir » ; fayi vient de fayinder (regarder).
+temps:
+  past:
+    nom: passé / accompli
+    marqueur: null
+    particule: true
+  progressive:
+    nom: présent progressif
+    marqueur: fayi ri-ni
+    particule: true      # anke m'fayi ri-ni daga
+  progressive_watia:
+    nom: présent progressif (watia)
+    marqueur: fayi
+    suffixe: watia       # watia : insiste sur le moment
+    particule: true      # anke m'fayi daga-na watia
+  future:
+    nom: futur
+    marqueur: yi ri-ni
+    particule: true
+  present:
+    nom: présent (na)
+    marqueur: na         # nke na daga, a na yige : on explique ce qu'on fait
+  present_object:
+    nom: présent avec objet
+    marqueur: na         # a na maro n'yiga
+    objet: true
+    particule_verbe: true
+  past_object:
+    nom: passé avec objet
+    marqueur: di           # ake n'di maro n'yiga
+    particule: true        # sur di, selon le pronom
+    objet: true
+    particule_verbe: true  # le verbe qui suit l'objet prend aussi la particule
+  imperfect:
+    nom: imparfait (action qui durait)
+    marqueur: yi         # an yi tere-ne ; avec les pronoms longs : anke n'yi tere-ne
+    particule: true
+  past_negative:
+    nom: négation – passé
+    marqueur: maxa       # « toujours la même chose, on met juste maxa »
+  future_negative:
+    nom: négation – futur
+    marqueur: "n'ti ri-ni"    # + radical : anke n'ti ri-ni daga
+    # « anke n'ti daga-na » (serie_02) était une erreur, corrigée le 2026-09-17
+  future_negative_ntaxa:
+    nom: négation – futur (n'taxa)
+    marqueur: "n'taxa ri-ni"  # variante confirmée : anke n'taxa ri-ni daga
+
+# Règles confirmées pour tous les verbes :
+#   A. seuls ces pronoms prennent la particule (jamais nke ni oku) ;
+#   B. elle se colle au mot qui suit le pronom : le verbe au passé (n'daga),
+#      le marqueur au futur (n'yi ri-ni daga) ;
+#   C. sa forme dépend de l'initiale de ce mot.
+particules:
+  personnes: [anke, ake, xaku, iku]
+  par_initiale:
+    b: "m'"
+    f: "m'"
+    r: "l'"
+    m: "m'"          # m'mara
+    w: "ŋ'"          # confirmé : ŋ'wori, ŋ'wuru (« n'wuru » faute de pouvoir écrire ŋ)
+  defaut: "n'"       # « sinon généralement n' » (daga → n'daga)
+  # « on accente » : forme exacte encore non confirmée pour ces initiales
+  a_confirmer: [n, p, l]
+
+# Classes de conjugaison. Même structure que `conjugaison` d'un verbe ;
+# « {forme} » y est remplacé par la forme (radical) du verbe, « {gerondif} » par son gérondif.
+classes:
+  regulier:          # confirmé : passé et futur de tous les verbes via les règles A-C
+    conjugaison:
+      past:
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      future:
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      imperfect:       # confirmé : diminutifs sans particule, pronoms longs avec (n'yi)
+        forme: "{gerondif}"
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      present:         # confirmé : nke na daga, a na yige (pronoms sans particule)
+        personnes: [nke, oku, n, an, a, o, xa, i]
+      present_object:  # confirmé : a na maro n'yiga
+        personnes: [nke, oku, n, an, a, o, xa, i]
+      past_object:     # confirmé : ake n'di maro n'yiga, n di lemine n'wori, oku di lemine n'wori
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      past_negative:   # « toujours la même chose » ; diminutifs : « généralement » (retenu pour le moment)
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      future_negative:        # confirmé : nke, anke (serie_02 #23, serie_03 #6-7)
+        personnes: [nke, anke]
+      future_negative_ntaxa:  # même construction avec n'taxa
+        personnes: [anke]
+      progressive_watia:  # serie_02 : nke fayi daga-na watia, ake m'fayi yige-ne watia
+        forme: "{gerondif}"
+        personnes: [nke, anke, ake, oku]
+
+verbes:
+  dagaer:
+    fr: partir
+    francais:            # formes françaises, pour la traduction du corpus
+      auxiliaire: etre
+      participe: parti
+      present: [pars, pars, part, partons, partez, partent]
+      imparfait: [partais, partais, partait, partions, partiez, partaient]
+      futur_radical: partir
+    forme: daga
+    gerondif: daga-na
+    classe: regulier
+    conjugaison:
+      progressive:
+        personnes: [nke, anke]
+
+  rier:
+    fr: venir
+    francais:            # formes françaises, pour la traduction du corpus
+      auxiliaire: etre
+      participe: venu
+      present: [viens, viens, vient, venons, venez, viennent]
+      imparfait: [venais, venais, venait, venions, veniez, venaient]
+      futur_radical: viendr
+    forme: ri
+    gerondif: ri-ni
+    classe: regulier
+    conjugaison:
+      future:          # confirmé : ri-ni porte déjà « venir » → oku yi ri-ni (pas « yi ri-ni ri »)
+        forme: ""
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      future_negative: # serie_02 : iku n'ti ri-ni (ils ne viendront pas)
+        forme: ""
+        personnes: [iku]
+
+  fayinder:
+    fr: regarder
+    francais:            # formes françaises, pour la traduction du corpus
+      auxiliaire: avoir
+      participe: regardé
+      present: [regarde, regardes, regarde, regardons, regardez, regardent]
+      imparfait: [regardais, regardais, regardait, regardions, regardiez, regardaient]
+      futur_radical: regarder
+    forme: faye
+    gerondif: faye-ni    # confirmé : « faye » seul se dit aussi
+    classe: regulier
+
+  sefeer:
+    fr: parler
+    francais:            # formes françaises, pour la traduction du corpus
+      auxiliaire: avoir
+      participe: parlé
+      present: [parle, parles, parle, parlons, parlez, parlent]
+      imparfait: [parlais, parlais, parlait, parlions, parliez, parlaient]
+      futur_radical: parler
+    forme: sefe
+    gerondif: sefe-ne    # serie_03 #11 (corrigé par le locuteur)
+    classe: regulier
+
+  yigeyer:
+    fr: manger
+    francais:            # formes françaises, pour la traduction du corpus
+      auxiliaire: avoir
+      participe: mangé
+      present: [mange, manges, mange, mangeons, mangez, mangent]
+      imparfait: [mangeais, mangeais, mangeait, mangions, mangiez, mangeaient]
+      futur_radical: manger
+    forme: yige
+    gerondif: yige-ne    # serie_02 : ake m'fayi yige-ne watia
+    transitif: true
+    forme_objet: yiga    # avec un objet : ake n'di maro n'yiga
+    classe: regulier
+    # corp1 #28 : « ake n'di maro n'yiga » (il a mangé le riz) — di indique que
+    # l'action s'effectue sur l'objet ; le verbe prend alors la forme yiga.
+
+  mini:                  # infinitif non confirmé : la clé est le radical
+    fr: boire
+    francais:            # formes françaises, pour la traduction du corpus
+      auxiliaire: avoir
+      participe: bu
+      present: [bois, bois, boit, buvons, buvez, boivent]
+      imparfait: [buvais, buvais, buvait, buvions, buviez, buvaient]
+      futur_radical: boir
+    forme: mini
+    gerondif: mini-ni    # confirmé : « mini » seul se dit aussi
+    transitif: true      # ake n'di xati m'mini
+    classe: regulier     # ake m'mini ; avec objet : ake n'di xati m'mini
+
+  wori:                  # infinitif non confirmé : la clé est le radical
+    fr: voir
+    francais:            # formes françaises, pour la traduction du corpus
+      auxiliaire: avoir
+      participe: vu
+      present: [vois, vois, voit, voyons, voyez, voient]
+      imparfait: [voyais, voyais, voyait, voyions, voyiez, voyaient]
+      futur_radical: verr
+    forme: wori
+    gerondif: wori-ni
+    transitif: true      # n di lemine ŋ'wori
+    classe: regulier     # ake ŋ'wori ; avec objet : ake n'di lemine ke ŋ'wori
+
+  wurier:
+    fr: courir
+    francais:            # formes françaises, pour la traduction du corpus
+      auxiliaire: avoir
+      participe: couru
+      present: [cours, cours, court, courons, courez, courent]
+      imparfait: [courais, courais, courait, courions, couriez, couraient]
+      futur_radical: courr
+    forme: wuru
+    gerondif: wuru-nu    # serie_03 : ake m'fayi wuru-nu watia
+    classe: regulier

@@ -1,0 +1,155 @@
+serie: "04"
+titre: Termes et expressions du texte « une journée »
+# Chaque entrée : terme (tel qu'écrit dans le texte), contexte, ce que je crois
+# comprendre (hypothese), et ma question. Le locuteur remplit « Sens » et « Explication ».
+termes:
+  # --- Marqueurs grammaticaux : le plus important ---
+  - {categorie: Marqueur, terme: "na", contexte: "nké na guiri / a na wanqi / o na téré ma saxa",
+     hypothese: "marqueur d'habitude ou de présent (« je me lève », tous les jours)",
+     question: "Quel est le sens exact de « na » ? Est-ce le présent, l'habitude, ou autre chose ?"}
+  - {categorie: Marqueur, terme: "ga", contexte: "kti kiyé ké ga baka / o ga daga-na noqu bé / aga soréné",
+     hypothese: "marque la proposition subordonnée (quand, où, que)",
+     question: "« ga » se place-t-il toujours après le sujet de la subordonnée ?"}
+  - {categorie: Marqueur, terme: "kati … n'ga", contexte: "kati n'ga baka ka ké noxo / kati n'ga xénxé-né",
+     hypothese: "avant de + verbe", question: "Comment se construit « avant de … » ?"}
+  - {categorie: Marqueur, terme: "ké", contexte: "kiyé ké, xoxoné ké, saxa ké",
+     hypothese: "le/la (déjà confirmé)", question: "Confirmes-tu que c'est le même « ke » que dans maro ke ?"}
+  - {categorie: Marqueur, terme: "-ni", contexte: "yokouni, dionko-ni, legume-ni, minuti-ni, devoir-ni, tirindindou",
+     hypothese: "marque du pluriel", question: "« -ni » est-il le pluriel ? Comment fait-on le pluriel d'un nom ?"}
+  - {categorie: Marqueur, terme: "-yi / -nu", contexte: "kiné-yi, xana-nu",
+     hypothese: "autre forme du pluriel", question: "Pourquoi -yi et -nu ici, et -ni ailleurs ?"}
+  - {categorie: Marqueur, terme: "noxo", contexte: "ka ké noxo, butiki ké noxo, cahier noxo",
+     hypothese: "dans / à l'intérieur de", question: "Confirmes-tu ? Se place-t-il toujours après le nom ?"}
+  - {categorie: Marqueur, terme: "m'fallé / fallé", contexte: "locolou m'fallé, yigu-yé m'fallé, minuti-ni dangi fallé",
+     hypothese: "après", question: "Pourquoi parfois « m'fallé » et parfois « fallé » ?"}
+  - {categorie: Marqueur, terme: "m'fallaqé", contexte: "o ka m'fallaqé",
+     hypothese: "devant (la maison)", question: "Quel est le rapport avec « m'fallé » (après) ?"}
+  - {categorie: Marqueur, terme: "do mé / doo mé", contexte: "o na bogou ka ké noxo do mé / on sanga doo mé",
+     hypothese: "ensemble", question: "Comment s'écrit-il exactement ?"}
+  - {categorie: Marqueur, terme: "ma", contexte: "o na téré ma saxa",
+     hypothese: "jusqu'à", question: "« ma » = jusqu'à ? Et « o ma » = notre mère : deux mots différents ?"}
+  - {categorie: Marqueur, terme: "bawoni", contexte: "bawoni on na qawa yokouni",
+     hypothese: "parce que", question: "Confirmes-tu ?"}
+  - {categorie: Marqueur, terme: "kémpalé", contexte: "kémpalé, na yigué…",
+     hypothese: "ensuite, puis", question: "Confirmes-tu ?"}
+  - {categorie: Marqueur, terme: "su", contexte: "suxuba su / séré su",
+     hypothese: "chaque, tout", question: "« su » se place-t-il toujours après le nom ?"}
+  - {categorie: Marqueur, terme: "bé", contexte: "noqu bé, foo bé, boutiki-bé, dimma m'bé",
+     hypothese: "relie une proposition : où, que, quand", question: "Quel est le rôle exact de « bé » ?"}
+  - {categorie: Marqueur, terme: "xadi", contexte: "o yigué xadi en famille", hypothese: "encore, de nouveau",
+     question: "Confirmes-tu ?"}
+  - {categorie: Marqueur, terme: "i / ni / o (possessif)", contexte: "i yiramou, ni suxuba, o ka, o ma, i ka",
+     hypothese: "son, mon, notre : le possessif se place avant le nom",
+     question: "Peux-tu me donner la série complète : mon, ton, son, notre, votre, leur ?"}
+
+  # --- Verbes ---
+  - {categorie: Verbe, terme: "guiri", contexte: "nké na guiri", hypothese: "se lever",
+     question: "Radical et infinitif ? Différence avec « guilli » (se réveiller) ?"}
+  - {categorie: Verbe, terme: "guilli", contexte: "xoxoné ké guilli kati kaané", hypothese: "se réveiller",
+     question: "Radical et infinitif ?"}
+  - {categorie: Verbe, terme: "wanqi", contexte: "nké na wanqi / a di wanqi", hypothese: "laver, se laver",
+     question: "Même verbe pour « se laver » et « laver quelque chose » ?"}
+  - {categorie: Verbe, terme: "debéri / débéri", contexte: "suxuba m'po debéri / n'di devoir-ni débéri",
+     hypothese: "préparer, faire", question: "Radical ? Est-ce le même mot dans les deux phrases ?"}
+  - {categorie: Verbe, terme: "baka / bogou", contexte: "kati kiyé ké ga baka / o na bogou ka ké noxo",
+     hypothese: "sortir ; baka = forme de bogu", question: "Quand dit-on « baka » et quand « bogou » ?"}
+  - {categorie: Verbe, terme: "londi", contexte: "a na i yiramou londi", hypothese: "mettre (un vêtement)",
+     question: "Radical et infinitif ?"}
+  - {categorie: Verbe, terme: "sagata", contexte: "ana ri n'sagata", hypothese: "rejoindre",
+     question: "Radical ? Comment se construit « venir me rejoindre » ?"}
+  - {categorie: Verbe, terme: "téré", contexte: "o na téré ma saxa", hypothese: "marcher", question: "Radical ?"}
+  - {categorie: Verbe, terme: "qawa", contexte: "on na qawa yokouni n'gobo", hypothese: "devoir, falloir",
+     question: "Comment dit-on « nous devons faire quelque chose » ?"}
+  - {categorie: Verbe, terme: "xobo / n'gobo / q'xobo / xobono", contexte: "plusieurs formes dans le texte",
+     hypothese: "acheter", question: "Pourquoi ces quatre formes différentes ?"}
+  - {categorie: Verbe, terme: "tirindi", contexte: "a di o tirindi / n'di xara moxo n'tirindi",
+     hypothese: "demander, poser une question", question: "Radical ? Et « tirindindou » = les questions ?"}
+  - {categorie: Verbe, terme: "ti / nko", contexte: "o ti a daŋa-ni / n'di journé moxo nko",
+     hypothese: "dire, raconter", question: "Quelle est la différence entre « ti » et « nko » ?"}
+  - {categorie: Verbe, terme: "mula", contexte: "o ni mula na xobo maro / foo bé mula", hypothese: "vouloir",
+     question: "Comment se construit « nous voulons acheter » ?"}
+  - {categorie: Verbe, terme: "koyi", contexte: "a di koyi oya boutiki-bé", hypothese: "montrer",
+     question: "Radical ? « oya » = à nous ?"}
+  - {categorie: Verbe, terme: "ro", contexte: "o ro butiki ké noxo", hypothese: "entrer", question: "Radical ?"}
+  - {categorie: Verbe, terme: "m'payi", contexte: "o di yokuni m'payi", hypothese: "regarder (fayi ?)",
+     question: "Est-ce le verbe faye (regarder) avec la particule ?"}
+  - {categorie: Verbe, terme: "bisimilah", contexte: "gaaga-na ké di o bisimilah", hypothese: "accueillir",
+     question: "Est-ce un verbe ou une expression ?"}
+  - {categorie: Verbe, terme: "tuga", contexte: "kémpalé o di tuga", hypothese: "payer", question: "Radical ?"}
+  - {categorie: Verbe, terme: "kini", contexte: "gaaga-na ké di o wetiéti kini o ya", hypothese: "donner",
+     question: "Pourquoi le verbe est-il après l'objet et « o ya » à la fin ?"}
+  - {categorie: Verbe, terme: "nawari", contexte: "odi nawari", hypothese: "remercier", question: "Radical ?"}
+  - {categorie: Verbe, terme: "gui dioofé", contexte: "dimma m'bé o gui dioofé", hypothese: "arriver",
+     question: "Est-ce un seul verbe ou deux mots ?"}
+  - {categorie: Verbe, terme: "soro / soréyé / soréné", contexte: "yéréxaté n'soro / a di soréyé diompa / aga soréné",
+     hypothese: "cuisiner", question: "Que veulent dire « soréyé » et « soréné » ?"}
+  - {categorie: Verbe, terme: "diompa", contexte: "a di soréyé diompa", hypothese: "commencer",
+     question: "Radical ? (joppa dans les livres)"}
+  - {categorie: Verbe, terme: "kutu", contexte: "adi kutu", hypothese: "couper", question: "Radical ?"}
+  - {categorie: Verbe, terme: "sélla", contexte: "xoxoné ké yi bara ké sélla na", hypothese: "balayer",
+     question: "Que fait « yi … na » autour du verbe ?"}
+  - {categorie: Verbe, terme: "rangé-né", contexte: "nké xayi ka ké rangé-né", hypothese: "ranger (emprunt)",
+     question: "Est-ce le français « ranger » ? Et « xayi » = moi aussi / quant à moi ?"}
+  - {categorie: Verbe, terme: "terinka", contexte: "n'di xara moxo n'terinka", hypothese: "écouter",
+     question: "Radical ?"}
+  - {categorie: Verbe, terme: "xara", contexte: "n'di safandé xara / xara moxo", hypothese: "lire, apprendre",
+     question: "Même verbe pour lire et apprendre ?"}
+  - {categorie: Verbe, terme: "safandi / safandé", contexte: "n'safandi cahier noxo / n'di safandé xara",
+     hypothese: "écrire ; safandé = un texte écrit", question: "Confirmes-tu la différence ?"}
+  - {categorie: Verbe, terme: "famou", contexte: "géma famou", hypothese: "comprendre",
+     question: "Comment dit-on « quand je ne comprends pas » ? Que vaut « géma » ?"}
+  - {categorie: Verbe, terme: "jabi", contexte: "n'di tirindindou jabi", hypothese: "répondre", question: "Radical ?"}
+  - {categorie: Verbe, terme: "fatampachi", contexte: "tirindindou xoto fatampachi", hypothese: "expliquer",
+     question: "Radical ? Et « xoto » = les choses difficiles ?"}
+  - {categorie: Verbe, terme: "sanga", contexte: "on sanga doo mé", hypothese: "jouer", question: "Radical ?"}
+  - {categorie: Verbe, terme: "dangi", contexte: "minuti-ni dangi fallé", hypothese: "passer",
+     question: "« après que quelques minutes soient passées » ?"}
+  - {categorie: Verbe, terme: "sirondi", contexte: "n'di moxo sirondi", hypothese: "préparer, arranger",
+     question: "Radical ? Lien avec « siri » ?"}
+  - {categorie: Verbe, terme: "soxu", contexte: "n'soxu, n'xénxé", hypothese: "se coucher", question: "Radical ?"}
+
+  # --- Noms ---
+  - {categorie: Nom, terme: "suxuba", contexte: "suxuba su", hypothese: "matin", question: "Confirmes-tu ?"}
+  - {categorie: Nom, terme: "suxuba m'po", contexte: "ni suxuba m'po debéri", hypothese: "petit-déjeuner",
+     question: "Que veut dire « m'po » ?"}
+  - {categorie: Nom, terme: "kiyé", contexte: "kiyé ké ga baka", hypothese: "soleil", question: "Confirmes-tu ?"}
+  - {categorie: Nom, terme: "dji", contexte: "n'a dji mini", hypothese: "eau", question: "Confirmes-tu ? (dji ou ji ?)"}
+  - {categorie: Nom, terme: "ka", contexte: "ka ké noxo / o ka / i ka", hypothese: "maison",
+     question: "« o ka » = chez nous, « i ka » = chez lui ?"}
+  - {categorie: Nom, terme: "xoxoné", contexte: "xoxoné ké guilli", hypothese: "frère",
+     question: "Grand frère ou frère en général ? Et sœur ?"}
+  - {categorie: Nom, terme: "yiramou", contexte: "a na i yiramou londi", hypothese: "habits", question: "Singulier ?"}
+  - {categorie: Nom, terme: "fo lémané", contexte: "o na fo lémané séfé", hypothese: "quelques minutes / un petit moment",
+     question: "Que veut dire chaque mot ?"}
+  - {categorie: Nom, terme: "yokouni / yokuni", contexte: "yokouni n'gobo / o di yokuni m'payi",
+     hypothese: "des choses, les produits", question: "Singulier ? Rapport avec « fo » (chose) ?"}
+  - {categorie: Nom, terme: "sarano nda", contexte: "ni ya xobono ou sarano nda", hypothese: "pour notre famille",
+     question: "Comment dit-on « famille » ? Et « pour » ?"}
+  - {categorie: Nom, terme: "taxaléma", contexte: "o di o taxaléma n'wori", hypothese: "voisin", question: "Confirmes-tu ?"}
+  - {categorie: Nom, terme: "téh / mbourou / legume-ni / yité-remu", contexte: "liste des courses",
+     hypothese: "thé, pain, légumes, fruits", question: "« yité-remu » = fruits (les enfants de l'arbre) ?"}
+  - {categorie: Nom, terme: "dionko-ni", contexte: "dionko-ni néyé ngueni", hypothese: "les prix",
+     question: "Et comment dit-on « moins cher » ?"}
+  - {categorie: Nom, terme: "gaaga-na ké", contexte: "gaaga-na ké di o bisimilah", hypothese: "le vendeur",
+     question: "« -na » sert-il à former le nom de métier à partir du verbe ?"}
+  - {categorie: Nom, terme: "wetiéti", contexte: "o wetiéti kini o ya", hypothese: "la monnaie", question: "Confirmes-tu ?"}
+  - {categorie: Nom, terme: "xaju", contexte: "o xaju n'ga yéyi", hypothese: "besoin",
+     question: "Comment dit-on « ce dont nous avons besoin » ?"}
+  - {categorie: Nom, terme: "yéréxaté", contexte: "o ma di yéréxaté n'soro", hypothese: "le repas", question: "Confirmes-tu ?"}
+  - {categorie: Nom, terme: "kiné-yi", contexte: "odi yokuni n'kiné-yi", hypothese: "les aliments", question: "Confirmes-tu ?"}
+  - {categorie: Nom, terme: "bara ké", contexte: "xoxoné ké yi bara ké sélla na", hypothese: "la cour",
+     question: "Confirmes-tu ?"}
+  - {categorie: Nom, terme: "dimma", contexte: "dimma m'bé / midi dimma", hypothese: "moment, heure",
+     question: "Rapport avec « kan dimma » (quand) ?"}
+  - {categorie: Nom, terme: "xara moxo", contexte: "n'di xara moxo n'terinka", hypothese: "le professeur",
+     question: "« moxo » = celui qui ? Et « moxo » dans « journé moxo », « moxo sirondi » ?"}
+  - {categorie: Nom, terme: "xana-nu", contexte: "n'di xana-nu ŋ'wori", hypothese: "les amis",
+     question: "Singulier ? Et pourquoi la particule « ŋ' » ici ?"}
+  - {categorie: Nom, terme: "lélé", contexte: "lélé, o yigué xadi", hypothese: "le soir",
+     question: "Et comment dit-on midi, après-midi, nuit ?"}
+  - {categorie: Nom, terme: "séré", contexte: "séré su daga i ka", hypothese: "personne, chacun", question: "Confirmes-tu ?"}
+
+  # --- Emprunts au français ---
+  - {categorie: Emprunt, terme: "locolou, cahier, livrou, devoir-ni, page, minuti-ni, legume-ni, boutiki, midi, en famille, pur",
+     contexte: "dans tout le texte", hypothese: "mots empruntés au français",
+     question: "Ces mots s'écrivent-ils ainsi en soninké ? Existe-t-il un mot soninké pour école, livre, cahier ?"}

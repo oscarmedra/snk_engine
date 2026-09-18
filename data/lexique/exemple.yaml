@@ -1,0 +1,23 @@
+# ⚠ LEXIQUE DE DÉMONSTRATION — les mots « snk » sont des marqueurs factices.
+# Remplace-les par le vrai vocabulaire soninké (un fichier par catégorie conseillé).
+#
+# snk / fr : une chaîne (forme unique) ou un dictionnaire de formes (sg, pl, ...).
+# tags : étiquettes libres utilisables dans les gabarits via {categorie@tag}.
+categories:
+  pronom_sujet:
+    - {id: p1sg, snk: pronom-un, fr: je}
+    - {id: p3sg, snk: pronom-trois, fr: il}
+  marque_tam:
+    - {id: tam_acc, snk: tam-accompli, fr: "", tags: [accompli]}
+  nom:
+    - id: n_a
+      snk: {base: nom-a, pl: nom-a-pluriel}
+      fr: {base: la chose A, pl: les choses A}
+      tags: [objet]
+    - id: n_b
+      snk: {base: nom-b, pl: nom-b-pluriel}
+      fr: {base: la chose B, pl: les choses B}
+      tags: [objet]
+  verbe_transitif:
+    - {id: v_a, snk: action-a, fr: {base: faire-A, passe: a fait A à}}
+    - {id: v_b, snk: action-b, fr: {base: faire-B, passe: a fait B à}}

@@ -1,0 +1,26 @@
+{"id": "marche-01", "snk": "Anké dagana minna ?", "fr": "Bonjour. Où vas-tu ?", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-02", "snk": "nké fayi dagana saxa.", "fr": "Je vais au marché.", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-03", "snk": "mané-ni anké n'ga dagana saxa ?", "fr": "Pourquoi vas-tu au marché ?", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-04", "snk": "bawoni nké na n'xawa maro ado téh n'ya xobono.", "fr": "Parce que je dois acheter du riz et du thé.", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-05", "snk": "anké n'do ko dagana domé ?", "fr": "Avec qui y vas-tu ?", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-06", "snk": "nké do xoxoné n'ya fayi dagana domé.", "fr": "J'y vais avec mon frère.", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-07", "snk": "Est ce que, anké MA ayi ka ké ba ? ou Est ce que, A ma yi ka ké ?", "fr": "Est-ce que ta mère est à la maison ?", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-08", "snk": "Ayi, aké n'ti ka ké. a daga gounné.", "fr": "Non, elle n'est pas à la maison. Elle est partie au champ.", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-09", "snk": "An l'rini kan dimma ?", "fr": "Quand reviendras-tu ?", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-10", "snk": "l'rini lélé", "fr": "Je reviendrai ce soir.", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-11", "snk": "An di mané xobo daru ?", "fr": "Qu'est-ce que tu as acheté hier ?", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-12", "snk": "daru, n'd mburu n'ya xobo. lenki, xalisi n'ti maxa.", "fr": "Hier, j'ai acheté du pain. Aujourd'hui, je n'ai pas d'argent.", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-13", "snk": "Mani-mé ni maro ?", "fr": "Combien coûte le riz ?", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-14", "snk": "maro ké xobéné cinq cents francs.", "fr": "Le riz coûte cinq cents francs.", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-15", "snk": "N 'Ka m'fayi.", "fr": "Voici ma maison.", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-16", "snk": "Nké faba ka n'ya ni.", "fr": "C'est la maison de mon père.", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-17", "snk": "Nké faba xasé n'ya ni, Ma léminé n'yani.", "fr": "Mon père est vieux, ma mère est jeune.", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-18", "snk": "waxi-ni filli yani maxa ado guida naxaru siki.", "fr": "J'ai deux frères et trois sœurs.", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-19", "snk": "N'waxi-ni kou fayi locolou, n'guida niaxaru kou fayi ka.", "fr": "Mes frères sont à l'école, mes sœurs sont à la maison.", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-20", "snk": "O taxa-lémou kou, rémmé nguébé niani maxa.", "fr": "Nos voisins ont beaucoup d'enfants.", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-21", "snk": "I romu kou fayi sangana O bara.", "fr": "Leurs enfants jouent dans notre cour.", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-22", "snk": "yeli yéré ! Taxu", "fr": "Viens ici ! Assieds-toi.", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-23", "snk": "Maro ké yiga, xa maxa yigué siri.", "fr": "Mange le riz, mais ne mange pas trop.", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-24", "snk": "dni kini nké, a nia ti allah.", "fr": "Donne-moi l'eau, s'il te plaît.", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-25", "snk": "maxa daga watia, a wara kati kaané.", "fr": "Ne pars pas maintenant, attends un peu.", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}
+{"id": "marche-26", "snk": "xa guiri, xa terinké, xa maxa moungo do xa cahiers-ni", "fr": "Levez-vous, écoutez bien, n'oubliez pas vos cahiers.", "source": "texte_marche (locuteur, 2026-09-17)", "niveau": "phrase", "orthographe": "origine"}

@@ -1,0 +1,10 @@
+# ⚠ GABARITS DE DÉMONSTRATION.
+# Syntaxe : {categorie[@tag][#n][.forme]} — voir src/snk_engine/templates.py
+templates:
+  - id: sov_accompli
+    snk: "{pronom_sujet} {marque_tam@accompli} {nom} {verbe_transitif}"
+    fr: "{pronom_sujet} {verbe_transitif.passe} {nom}"
+    weight: 2
+  - id: sov_accompli_pluriel
+    snk: "{pronom_sujet} {marque_tam@accompli} {nom.pl} {verbe_transitif}"
+    fr: "{pronom_sujet} {verbe_transitif.passe} {nom.pl}"

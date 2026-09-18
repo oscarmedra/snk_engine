@@ -1,0 +1,12 @@
+# Racine du monorepo : espace de travail uv.
+# Le code vit dans packages/, les données de la langue dans data/, le corpus dans corpus/,
+# la documentation dans docs/ (site MkDocs).
+
+[tool.uv.workspace]
+members = ["packages/*"]
+
+[dependency-groups]
+dev = ["pytest>=8.0", "mkdocs-material>=9.5"]
+
+[tool.pytest.ini_options]
+testpaths = ["packages/snk-engine/tests"]

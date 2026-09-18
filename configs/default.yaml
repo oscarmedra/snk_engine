@@ -1,0 +1,10 @@
+# Fichiers ou dossiers YAML chargés (les dossiers sont parcourus récursivement)
+lexique:
+  - data/lexique
+gabarits:
+  - data/templates
+
+orthographe:
+  # Lettres autorisées en soninké. À AJUSTER selon la norme que tu utilises.
+  # Toute phrase contenant un autre caractère est rejetée.
+  alphabet: "abcdefghijklmnñŋopqrstuwxy"

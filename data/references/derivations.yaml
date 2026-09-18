@@ -1,0 +1,32 @@
+# Fabriquer des noms à partir d'un verbe (donné par le locuteur, 2026-09-17).
+# Pas encore lu par le moteur. La série s'applique à beaucoup de verbes d'action.
+
+suffixes:
+  - {suffixe: "-kompe", sens: "le bâtiment, la pièce",
+     exemples: ["xara-kompe = école", "sore-kompe = cuisine", "gage-kompe = boutique"],
+     note: "confirmé 2026-09-17 : ici la forme employée est celle du verbe cité
+            (sore-ye → sore-kompe, gaaga → gage-kompe), mais yiga-kompe se dit aussi.
+            Pour -moxo et -lexe/-la, c'est simplement le radical."}
+  - {suffixe: "-lexe", sens: "l'endroit où l'on fait l'action",
+     exemples: ["xara-lexe = lieu où l'on étudie", "yiga-lexe = endroit où l'on mange"],
+     note: "confirmé : radical + lexe, sans changement. Écrit « lékhé » → lexe."}
+  - {suffixe: "-moxo", sens: "la façon de faire l'action", regle: "radical + moxo, sans changement",
+     exemples: ["yiga-moxo = façon de manger", "xara-moxo = façon d'étudier"],
+     note: "confirmé : toujours « façon ». Par extension, xara-moxo sert aussi à appeler
+            le professeur — c'est l'origine du mot karamoko."}
+  - {suffixe: "-la", sens: "l'endroit où l'on fait l'action (même sens que -lexe)",
+     exemples: ["xara-la = xara-lexe"], note: "confirmé : les deux suffixes sont équivalents"}
+  - {suffixe: "-na", sens: "la personne qui fait beaucoup l'action",
+     exemples: ["yiga-na = gros mangeur", "gaaga-na = vendeur"]}
+
+pluriel: "confirmé : ces noms prennent -ni (xara-moxo-ni = les façons d'étudier / les professeurs)"
+
+# Le verbe est cité avec un suffixe qui varie : -ye (sore-ye, yige-ye, dangi-ye, diofe-ye,
+# taxu-ye), -ne/-ni (deberi-ni, koyi-ni, kini-ni, safandi-ni), -no (ro-no, kono-no),
+# -na (tuga-na), -ŋe (xara-ŋe), -nde (kutu-nde). C'est cette forme qui donne le radical
+# utilisé dans les noms dérivés.
+
+a_confirmer:
+  - "Le suffixe de citation (-ye, -ni, -no, -na, -ŋe, -nde) suit-il une règle, ou dépend-il du verbe ?"
+  - "Rapport avec la forme en -na du moteur (daga-na, ri-ni, yige-ne, sefe-ne, wuru-nu) ?"
+  - "« moxo » seul : dans le texte, « journe moxo » et « moxo sirondi » — même mot ?"

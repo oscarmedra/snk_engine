@@ -1,0 +1,41 @@
+site_name: Soninké — structure et corpus
+site_description: Description de la langue soninké, moteur de conjugaison et corpus parallèle soninké-français
+docs_dir: docs
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: default
+      primary: teal
+      toggle: {icon: material/weather-night, name: Mode sombre}
+    - scheme: slate
+      primary: teal
+      toggle: {icon: material/weather-sunny, name: Mode clair}
+  features: [navigation.sections, navigation.top, content.code.copy, search.highlight]
+
+nav:
+  - Accueil: index.md
+  - La langue:
+      - L'orthographe: langue/orthographe.md
+      - Les pronoms: langue/pronoms.md
+      - La particule: langue/particule.md
+      - Les temps: langue/temps.md
+      - L'objet et la transitivité: langue/objet.md
+      - Être, avoir, la négation: langue/etre-avoir.md
+      - Les questions: langue/questions.md
+      - Fabriquer des noms: langue/derivation.md
+      - Le lexique: langue/lexique.md
+  - Le corpus: corpus.md
+  - Le moteur: moteur.md
+  - Le projet:
+      - Notes de recherche: projet/recherche.md
+      - Ressources: projet/sources.md
+      - Premier texte: projet/texte_01.md
+      - Texte à traduire (3): projet/texte_03_a_traduire.md
+      - Texte à traduire (4): projet/texte_04_a_traduire.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - toc: {permalink: true}
