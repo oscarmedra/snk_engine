@@ -7,6 +7,18 @@ Il produit aussi un **corpus parallèle soninké-français**, destiné à Huggin
 Le soninké (`snk`) est parlé au Mali, en Mauritanie, au Sénégal et en Gambie. Aucun
 corpus parallèle soninké-français public n'existait au moment où ce projet a commencé.
 
+## En ligne
+
+| | |
+|---|---|
+| 📖 **Documentation** | <https://oscarmedra.github.io/snk_engine/> |
+| 🎛️ **Playground** — conjuguer un verbe dans le navigateur | <https://oscarmedra.github.io/snk_engine/playground/> |
+| 📚 **Le lexique** | <https://oscarmedra.github.io/snk_engine/langue/lexique/> |
+| 🧩 **La particule**, la règle centrale de la langue | <https://oscarmedra.github.io/snk_engine/langue/particule/> |
+
+Le site est publié automatiquement à chaque push sur `main`.
+Pour le consulter en local : `uv run mkdocs serve`, puis <http://127.0.0.1:8000>.
+
 ## Deux principes
 
 1. **Rien n'est inventé.** Une forme n'entre dans le moteur que si le locuteur de

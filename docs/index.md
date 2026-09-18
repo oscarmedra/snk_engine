@@ -23,6 +23,11 @@ phrase incertaine. Les hypothèses tirées de la littérature restent dans
 **Tout est vérifié.** Chaque forme confirmée a son test. Quand une nouvelle règle en
 contredit une ancienne, les tests échouent, et la contradiction est soumise au locuteur.
 
+## Essayer tout de suite
+
+Le [**playground**](playground.md) conjugue n'importe quel verbe du moteur à tous les
+temps confirmés, directement dans le navigateur.
+
 ## Par où commencer
 
 - [L'orthographe](langue/orthographe.md) — comment on écrit
