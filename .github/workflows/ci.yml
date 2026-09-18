@@ -13,10 +13,11 @@ jobs:
       - uses: astral-sh/setup-uv@v5
       - run: uv sync
       - run: uv run pytest -q
-      - name: Le lexique est à jour
+      - name: Le lexique et le playground sont à jour
         run: |
           uv run python scripts/build_lexique.py
-          git diff --exit-code docs/langue/lexique.md
+          uv run python scripts/build_playground.py
+          git diff --exit-code docs/langue/lexique.md docs/playground/data.json
 
   docs:
     needs: tests

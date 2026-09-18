@@ -218,5 +218,35 @@ def generer(
     typer.echo(f"{writer.count:,} phrases → {out} ({len(writer.files)} fichier(s))")
 
 
+@app.command("conjuguer")
+def conjuguer(
+    verbe: str = typer.Argument(..., help="ex. dagaer"),
+    objet: str = typer.Option(None, "--objet", "-o", help="objet pour les temps qui en prennent"),
+):
+    """Affiche la conjugaison complète d'un verbe."""
+    from .conjugation import ConjugationError, default_engine
+
+    engine = default_engine()
+    if verbe not in engine.verbs:
+        typer.echo(f"Verbe inconnu. Verbes disponibles : {', '.join(engine.verbs)}", err=True)
+        raise typer.Exit(code=1)
+    v = engine.verbs[verbe]
+    typer.echo(f"{verbe} — {v.french} (radical {v.form}" + (f", forme en -ni {v.gerund}" if v.gerund else "") + ")")
+    pronouns = list(engine.pronouns)
+    for tense, t in engine.tenses.items():
+        obj = objet or ("maro" if t.object else None)
+        formes = []
+        for p in pronouns:
+            try:
+                formes.append(engine.conjugate(verbe, p, tense, obj))
+            except ConjugationError:
+                continue
+        if not formes:
+            continue
+        typer.echo(f"\n{t.label}" + (f" (objet : {obj})" if obj else ""))
+        for f in formes:
+            typer.echo(f"  {f}")
+
+
 if __name__ == "__main__":
     app()
