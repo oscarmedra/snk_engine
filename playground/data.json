@@ -1,0 +1,594 @@
+{
+ "pronoms": [
+  {
+   "forme": "nke",
+   "personne": "1sg",
+   "fr": "je",
+   "serie": "longue"
+  },
+  {
+   "forme": "anke",
+   "personne": "2sg",
+   "fr": "tu",
+   "serie": "longue"
+  },
+  {
+   "forme": "ake",
+   "personne": "3sg",
+   "fr": "il / elle",
+   "serie": "longue"
+  },
+  {
+   "forme": "oku",
+   "personne": "1pl",
+   "fr": "nous",
+   "serie": "longue"
+  },
+  {
+   "forme": "xaku",
+   "personne": "2pl",
+   "fr": "vous",
+   "serie": "longue"
+  },
+  {
+   "forme": "iku",
+   "personne": "3pl",
+   "fr": "ils / elles",
+   "serie": "longue"
+  },
+  {
+   "forme": "n",
+   "personne": "1sg",
+   "fr": "je",
+   "serie": "diminutif"
+  },
+  {
+   "forme": "an",
+   "personne": "2sg",
+   "fr": "tu",
+   "serie": "diminutif"
+  },
+  {
+   "forme": "a",
+   "personne": "3sg",
+   "fr": "il / elle",
+   "serie": "diminutif"
+  },
+  {
+   "forme": "o",
+   "personne": "1pl",
+   "fr": "nous",
+   "serie": "diminutif"
+  },
+  {
+   "forme": "xa",
+   "personne": "2pl",
+   "fr": "vous",
+   "serie": "diminutif"
+  },
+  {
+   "forme": "i",
+   "personne": "3pl",
+   "fr": "ils / elles",
+   "serie": "diminutif"
+  }
+ ],
+ "temps": {
+  "past": {
+   "nom": "passé / accompli",
+   "marqueur": null,
+   "particule": true
+  },
+  "progressive": {
+   "nom": "présent progressif",
+   "marqueur": "fayi ri-ni",
+   "particule": true
+  },
+  "progressive_watia": {
+   "nom": "présent progressif (watia)",
+   "marqueur": "fayi",
+   "suffixe": "watia",
+   "particule": true
+  },
+  "future": {
+   "nom": "futur",
+   "marqueur": "yi ri-ni",
+   "particule": true
+  },
+  "present": {
+   "nom": "présent (na)",
+   "marqueur": "na"
+  },
+  "present_object": {
+   "nom": "présent avec objet",
+   "marqueur": "na",
+   "objet": true,
+   "particule_verbe": true
+  },
+  "past_object": {
+   "nom": "passé avec objet",
+   "marqueur": "di",
+   "particule": true,
+   "objet": true,
+   "particule_verbe": true
+  },
+  "imperfect": {
+   "nom": "imparfait (action qui durait)",
+   "marqueur": "yi",
+   "particule": true
+  },
+  "past_negative": {
+   "nom": "négation – passé",
+   "marqueur": "maxa"
+  },
+  "future_negative": {
+   "nom": "négation – futur",
+   "marqueur": "n'ti ri-ni"
+  },
+  "future_negative_ntaxa": {
+   "nom": "négation – futur (n'taxa)",
+   "marqueur": "n'taxa ri-ni"
+  }
+ },
+ "particules": {
+  "personnes": [
+   "anke",
+   "ake",
+   "xaku",
+   "iku"
+  ],
+  "par_initiale": {
+   "b": "m'",
+   "f": "m'",
+   "r": "l'",
+   "m": "m'",
+   "w": "ŋ'"
+  },
+  "defaut": "n'",
+  "a_confirmer": [
+   "n",
+   "p",
+   "l"
+  ]
+ },
+ "classes": {
+  "regulier": {
+   "conjugaison": {
+    "past": {
+     "personnes": [
+      "nke",
+      "anke",
+      "ake",
+      "oku",
+      "xaku",
+      "iku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
+     ]
+    },
+    "future": {
+     "personnes": [
+      "nke",
+      "anke",
+      "ake",
+      "oku",
+      "xaku",
+      "iku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
+     ]
+    },
+    "imperfect": {
+     "forme": "{gerondif}",
+     "personnes": [
+      "nke",
+      "anke",
+      "ake",
+      "oku",
+      "xaku",
+      "iku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
+     ]
+    },
+    "present": {
+     "personnes": [
+      "nke",
+      "oku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
+     ]
+    },
+    "present_object": {
+     "personnes": [
+      "nke",
+      "oku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
+     ]
+    },
+    "past_object": {
+     "personnes": [
+      "nke",
+      "anke",
+      "ake",
+      "oku",
+      "xaku",
+      "iku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
+     ]
+    },
+    "past_negative": {
+     "personnes": [
+      "nke",
+      "anke",
+      "ake",
+      "oku",
+      "xaku",
+      "iku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
+     ]
+    },
+    "future_negative": {
+     "personnes": [
+      "nke",
+      "anke"
+     ]
+    },
+    "future_negative_ntaxa": {
+     "personnes": [
+      "anke"
+     ]
+    },
+    "progressive_watia": {
+     "forme": "{gerondif}",
+     "personnes": [
+      "nke",
+      "anke",
+      "ake",
+      "oku"
+     ]
+    }
+   }
+  }
+ },
+ "verbes": {
+  "dagaer": {
+   "fr": "partir",
+   "francais": {
+    "auxiliaire": "etre",
+    "participe": "parti",
+    "present": [
+     "pars",
+     "pars",
+     "part",
+     "partons",
+     "partez",
+     "partent"
+    ],
+    "imparfait": [
+     "partais",
+     "partais",
+     "partait",
+     "partions",
+     "partiez",
+     "partaient"
+    ],
+    "futur_radical": "partir"
+   },
+   "forme": "daga",
+   "gerondif": "daga-na",
+   "classe": "regulier",
+   "conjugaison": {
+    "progressive": {
+     "personnes": [
+      "nke",
+      "anke"
+     ]
+    }
+   }
+  },
+  "rier": {
+   "fr": "venir",
+   "francais": {
+    "auxiliaire": "etre",
+    "participe": "venu",
+    "present": [
+     "viens",
+     "viens",
+     "vient",
+     "venons",
+     "venez",
+     "viennent"
+    ],
+    "imparfait": [
+     "venais",
+     "venais",
+     "venait",
+     "venions",
+     "veniez",
+     "venaient"
+    ],
+    "futur_radical": "viendr"
+   },
+   "forme": "ri",
+   "gerondif": "ri-ni",
+   "classe": "regulier",
+   "conjugaison": {
+    "future": {
+     "forme": "",
+     "personnes": [
+      "nke",
+      "anke",
+      "ake",
+      "oku",
+      "xaku",
+      "iku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
+     ]
+    },
+    "future_negative": {
+     "forme": "",
+     "personnes": [
+      "iku"
+     ]
+    }
+   }
+  },
+  "fayinder": {
+   "fr": "regarder",
+   "francais": {
+    "auxiliaire": "avoir",
+    "participe": "regardé",
+    "present": [
+     "regarde",
+     "regardes",
+     "regarde",
+     "regardons",
+     "regardez",
+     "regardent"
+    ],
+    "imparfait": [
+     "regardais",
+     "regardais",
+     "regardait",
+     "regardions",
+     "regardiez",
+     "regardaient"
+    ],
+    "futur_radical": "regarder"
+   },
+   "forme": "faye",
+   "gerondif": "faye-ni",
+   "classe": "regulier"
+  },
+  "sefeer": {
+   "fr": "parler",
+   "francais": {
+    "auxiliaire": "avoir",
+    "participe": "parlé",
+    "present": [
+     "parle",
+     "parles",
+     "parle",
+     "parlons",
+     "parlez",
+     "parlent"
+    ],
+    "imparfait": [
+     "parlais",
+     "parlais",
+     "parlait",
+     "parlions",
+     "parliez",
+     "parlaient"
+    ],
+    "futur_radical": "parler"
+   },
+   "forme": "sefe",
+   "gerondif": "sefe-ne",
+   "classe": "regulier"
+  },
+  "yigeyer": {
+   "fr": "manger",
+   "francais": {
+    "auxiliaire": "avoir",
+    "participe": "mangé",
+    "present": [
+     "mange",
+     "manges",
+     "mange",
+     "mangeons",
+     "mangez",
+     "mangent"
+    ],
+    "imparfait": [
+     "mangeais",
+     "mangeais",
+     "mangeait",
+     "mangions",
+     "mangiez",
+     "mangeaient"
+    ],
+    "futur_radical": "manger"
+   },
+   "forme": "yige",
+   "gerondif": "yige-ne",
+   "transitif": true,
+   "forme_objet": "yiga",
+   "classe": "regulier"
+  },
+  "mini": {
+   "fr": "boire",
+   "francais": {
+    "auxiliaire": "avoir",
+    "participe": "bu",
+    "present": [
+     "bois",
+     "bois",
+     "boit",
+     "buvons",
+     "buvez",
+     "boivent"
+    ],
+    "imparfait": [
+     "buvais",
+     "buvais",
+     "buvait",
+     "buvions",
+     "buviez",
+     "buvaient"
+    ],
+    "futur_radical": "boir"
+   },
+   "forme": "mini",
+   "gerondif": "mini-ni",
+   "transitif": true,
+   "classe": "regulier"
+  },
+  "wori": {
+   "fr": "voir",
+   "francais": {
+    "auxiliaire": "avoir",
+    "participe": "vu",
+    "present": [
+     "vois",
+     "vois",
+     "voit",
+     "voyons",
+     "voyez",
+     "voient"
+    ],
+    "imparfait": [
+     "voyais",
+     "voyais",
+     "voyait",
+     "voyions",
+     "voyiez",
+     "voyaient"
+    ],
+    "futur_radical": "verr"
+   },
+   "forme": "wori",
+   "gerondif": "wori-ni",
+   "transitif": true,
+   "classe": "regulier"
+  },
+  "wurier": {
+   "fr": "courir",
+   "francais": {
+    "auxiliaire": "avoir",
+    "participe": "couru",
+    "present": [
+     "cours",
+     "cours",
+     "court",
+     "courons",
+     "courez",
+     "courent"
+    ],
+    "imparfait": [
+     "courais",
+     "courais",
+     "courait",
+     "courions",
+     "couriez",
+     "couraient"
+    ],
+    "futur_radical": "courr"
+   },
+   "forme": "wuru",
+   "gerondif": "wuru-nu",
+   "classe": "regulier"
+  }
+ },
+ "objets": [
+  {
+   "snk": "maro",
+   "fr": "du riz",
+   "verbes": [
+    "yigeyer",
+    "wori"
+   ],
+   "source": "corp1 #28"
+  },
+  {
+   "snk": "maro ke",
+   "fr": "le riz",
+   "verbes": [
+    "yigeyer",
+    "wori"
+   ],
+   "source": "serie_03"
+  },
+  {
+   "snk": "xati",
+   "fr": "du lait",
+   "verbes": [
+    "mini",
+    "wori"
+   ],
+   "source": "2026-09-17"
+  },
+  {
+   "snk": "xati ke",
+   "fr": "le lait",
+   "verbes": [
+    "mini",
+    "wori"
+   ],
+   "source": "2026-09-17"
+  },
+  {
+   "snk": "lemine",
+   "fr": "un enfant",
+   "verbes": [
+    "wori"
+   ],
+   "source": "serie_02 #26"
+  },
+  {
+   "snk": "lemine ke",
+   "fr": "l'enfant",
+   "verbes": [
+    "wori"
+   ],
+   "source": "serie_03"
+  }
+ ]
+}
