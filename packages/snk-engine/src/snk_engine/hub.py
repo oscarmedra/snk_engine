@@ -44,6 +44,12 @@ lexique et de gabarits grammaticaux.
 | `template_id` | gabarit ayant produit la phrase |
 | `source` | toujours `synthetic` |
 
+## Citation
+
+> noah-medra (ORCID 0009-0003-6018-9802), « snk_engine — soninké : structure de la langue,
+> moteur de conjugaison et corpus parallèle », 2026.
+> https://github.com/oscarmedra/snk_engine — CC BY 4.0
+
 ## Limites
 
 Les phrases sont produites par combinaison de gabarits : elles sont

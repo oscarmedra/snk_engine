@@ -28,6 +28,7 @@ nav:
   - Playground: playground.md
   - Le corpus: corpus.md
   - Le moteur: moteur.md
+  - Crédits et licences: credits.md
   - Le projet:
       - Notes de recherche: projet/recherche.md
       - Ressources: projet/sources.md

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ce dépôt, ses données ou son corpus, merci de le citer."
+title: "snk_engine — soninké : structure de la langue, moteur de conjugaison et corpus parallèle"
+abstract: >-
+  Description de la structure du soninké (ISO 639-3 : snk) à partir d'un locuteur natif,
+  moteur de conjugaison piloté par les données et vérifié par des tests, et corpus
+  parallèle soninké-français. Aucune forme n'entre dans le moteur sans confirmation du
+  locuteur.
+authors:
+  - name: "noah-medra"
+    orcid: "https://orcid.org/0009-0003-6018-9802"
+    roles: ["Locuteur de référence", "Description linguistique", "Développement"]
+repository-code: "https://github.com/oscarmedra/snk_engine"
+license: MIT
+license-url: "https://github.com/oscarmedra/snk_engine/blob/main/LICENSE-DATA"
+keywords:
+  - soninké
+  - snk
+  - langues mandé
+  - langues africaines
+  - corpus parallèle
+  - langue peu dotée
+  - linguistique
+  - TAL
+date-released: 2026-09-18

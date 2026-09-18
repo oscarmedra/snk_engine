@@ -1,0 +1,27 @@
+Licence des données linguistiques
+=================================
+
+Le code de ce dépôt (packages/, scripts/) est distribué sous licence MIT (voir LICENSE).
+
+Les DONNÉES LINGUISTIQUES sont distribuées sous licence
+Creative Commons Attribution 4.0 International (CC BY 4.0) :
+
+    data/       les règles de la langue, le vocabulaire, les textes sources
+    corpus/     les phrases traduites et alignées
+    docs/       la description de la langue
+
+Texte complet : https://creativecommons.org/licenses/by/4.0/legalcode.fr
+Résumé :        https://creativecommons.org/licenses/by/4.0/deed.fr
+
+Vous êtes libre de partager et d'adapter ces données, y compris pour un usage
+commercial et pour entraîner des modèles de langue, À CONDITION de créditer l'auteur.
+
+Attribution demandée
+--------------------
+
+    noah-medra (ORCID 0009-0003-6018-9802), « snk_engine — soninké : structure de la
+    langue, moteur de conjugaison et corpus parallèle », 2026.
+    https://github.com/oscarmedra/snk_engine — CC BY 4.0
+
+Ces données décrivent le soninké tel qu'il est parlé par le locuteur de référence du
+projet. Elles ne prétendent pas décrire toutes les variétés de la langue.
