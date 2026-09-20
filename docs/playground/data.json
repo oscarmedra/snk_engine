@@ -503,6 +503,21 @@
      "personnes": [
       "iku"
      ]
+    },
+    "imperatif": {
+     "formes": {
+      "an": "yeli"
+     }
+    },
+    "imperatif_negatif": {
+     "formes": {
+      "an": "yeli"
+     }
+    },
+    "imperatif_pluriel": {
+     "formes": {
+      "xa": "yeli"
+     }
     }
    }
   },

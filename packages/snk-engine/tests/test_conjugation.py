@@ -144,8 +144,8 @@ def test_fayi_and_yi_are_interchangeable():
         ("dagaer", "an", "imperatif", None, "daga"),
         ("dagaer", "an", "imperatif_negatif", None, "maxa daga"),
         ("goli", "xa", "imperatif_pluriel", None, "xa goli"),
-        ("rier", "an", "imperatif", None, "yali"),          # et non « ri »
-        ("rier", "xa", "imperatif_pluriel", None, "xa yali"),
+        ("rier", "an", "imperatif", None, "yeli"),          # et non « ri »
+        ("rier", "xa", "imperatif_pluriel", None, "xa yeli"),
     ],
 )
 def test_imperative(verb, subject, tense, obj, expected):
