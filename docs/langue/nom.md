@@ -10,8 +10,14 @@
 | lemine ke (l'enfant) | leminu ku (les enfants) |
 | yite ke (l'arbre) | yitu ku (les arbres) |
 
-Le nom change lui aussi : sa voyelle finale devient `-u` (`lemine` → `leminu`,
-`yite` → `yitu`).
+Le nom change lui aussi. D'après les exemples recueillis :
+
+| Fin du nom | Pluriel | Exemples |
+|---|---|---|
+| en `-e` | la finale devient `-u` | lemine → leminu, yite → yitu |
+| en `-u`, `-a` | on ajoute `-ni` | mburu → mburuni, banana → bananani |
+
+Le nom `ka` (maison) donne `ka ni ku` et `kanu tami` : les deux se rencontrent.
 
 Après un nombre ou une quantité, le nom prend encore une autre forme, en `-a` :
 
@@ -83,7 +89,13 @@ Littéralement : « aucune personne n'est dans la maison », « aucune eau n'est
 | `tamu` — dix | `kanu tami` |
 
 Le nombre change de finale quand il compte quelque chose : `baane` devient `bane`,
-`fillo` devient `filli`, `tamu` devient `tami`.
+`fillo` devient `filli`, `tamu` devient `tami`. Le nom qui précède est au pluriel :
+
+```
+mburuni filli      deux pains
+bananani tami      dix bananes
+leminu sikki       trois enfants
+```
 
 Les ordinaux se forment sur le même radical :
 

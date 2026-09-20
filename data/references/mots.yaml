@@ -241,7 +241,10 @@ noms_systeme:
     - {sg: "ka ke", pl: "ka ni ku", fr: la maison / les maisons}
     - {sg: "lemine ke", pl: "leminu ku", fr: l'enfant / les enfants}
     - {sg: "yite ke", pl: "yitu ku", fr: l'arbre / les arbres}
-    - {note: "confirmé : ke = déterminant singulier, ku = déterminant pluriel ; la voyelle finale du nom devient -u"}
+    - {note: "confirmé : ke = déterminant singulier, ku = déterminant pluriel"}
+    - {sg: mburu, pl: mburuni, fr: pain, exemple: "mburuni filli = deux pains"}
+    - {sg: banana, pl: bananani, fr: banane, exemple: "bananani tami = dix bananes"}
+    - {note: "nom en -e → finale -u (lemine → leminu) ; nom en -u ou -a → + -ni (mburu → mburuni)"}
   compte:
     - {snk: "lemina m'bane", fr: un enfant}
     - {snk: "leminu filli", fr: deux enfants}
