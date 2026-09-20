@@ -234,3 +234,45 @@ texte_travail:
   - {snk: deberi, fr: faire, exemple: "ake ni mane deberini watia ? = qu'est-ce qu'il fait maintenant ?"}
 
   - {snk: ke, fr: "le/la", note: "confirmé : se place avant ou après le nom — ke suxuba = suxuba ke"}
+
+# --- Les noms (2026-09-20) : pluriel, possessifs, il y a, nombres ---
+noms_systeme:
+  pluriel:
+    - {sg: "ka ke", pl: "ka ni ku", fr: la maison / les maisons}
+    - {sg: "lemine ke", pl: "leminu ku", fr: l'enfant / les enfants}
+    - {sg: "yite ke", pl: "yitu ku", fr: l'arbre / les arbres}
+    - {note: "la voyelle finale devient -u et « ku » suit le groupe"}
+  compte:
+    - {snk: "lemina m'bane", fr: un enfant}
+    - {snk: "leminu filli", fr: deux enfants}
+    - {snk: "leminu sikki", fr: trois enfants}
+    - {snk: "kanu tami", fr: dix maisons}
+    - {snk: "lemina n'gobo", fr: beaucoup d'enfants}
+    - {snk: "lemina lamanu", fr: peu d'enfants}
+    - {note: "après un nombre ou une quantité, le nom est en -a (lemina) — à confirmer"}
+  possessifs:
+    - {snk: "n ka / an ka / a ka / o ka / xa ka / i ka", fr: "ma / ta / sa / notre / votre / leur maison"}
+    - {snk: "n'paba ka", fr: la maison de mon père, note: "n + faba → n'paba : f devient p"}
+    - {snk: "lemine ke kaye", fr: le cahier de l'enfant, note: "possesseur + possédé, sans mot de liaison"}
+  il_y_a:
+    - {snk: "lemine yi ka ke noxo", fr: il y a un enfant dans la maison}
+    - {snk: "leminu yi ka ke noxo", fr: il y a des enfants}
+    - {snk: "sere su n'ti ka ke noxo", fr: il n'y a personne dans la maison}
+    - {snk: "dji su n'ti yere", fr: il n'y a pas d'eau}
+  nombres:
+    - {snk: bane, fr: un}
+    - {snk: filli, fr: deux}
+    - {snk: sikki, fr: trois}
+    - {snk: tami, fr: dix}
+    - {snk: fana, fr: premier, note: "m'pana avec la particule"}
+    - {snk: fillandi, fr: deuxième, note: "m'pillandi avec la particule"}
+  demonstratifs:
+    - {snk: "ke kundu", fr: ceci}
+    - {snk: "ke doke", fr: cela}
+    - {snk: "ke ka kundu", fr: cette maison-ci}
+    - {snk: "ke ka doke", fr: cette maison-là}
+  appartenance:
+    - {snk: "ke kitabe ni nke ni ya xale", fr: ce livre est à moi}
+    - {snk: "ke kitabe ni anke ni ya xale", fr: ce livre est à toi}
+    - {snk: kitabe, fr: livre}
+
