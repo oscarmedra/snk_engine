@@ -35,11 +35,17 @@ Voir [La particule](particule.md).
 
 ## Le trait d'union
 
-Le trait d'union sépare le radical de son suffixe, comme dans la littérature :
+La forme en -ni s'écrit **en un seul mot** : `dagana`, `rini`, `yigene`, `sefene`,
+`wurunu`.
+
+On rencontre l'écriture `daga-na` dans les échanges du projet et dans les articles de
+linguistique : le trait d'union y sert à montrer où finit le radical et où commence le
+suffixe. C'est une aide à l'analyse, pas l'orthographe courante.
+
+Le trait d'union reste dans les noms composés et les noms dérivés d'un verbe :
 
 ```
-daga-na     ri-ni     yige-ne     sefe-ne     wuru-nu
-xara-kompe  yiga-moxo  waxi-ni
+xara-kompe (école)   yiga-moxo (façon de manger)   yite-remu (fruits)
 ```
 
 ## Conversion de l'ancienne notation

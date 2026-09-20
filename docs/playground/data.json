@@ -81,7 +81,7 @@
   },
   "imminent": {
    "nom": "sur le point de",
-   "marqueur": "fayi ri-ni",
+   "marqueur": "fayi rini",
    "particule": true
   },
   "progressive_watia": {
@@ -92,7 +92,7 @@
   },
   "future": {
    "nom": "futur",
-   "marqueur": "yi ri-ni",
+   "marqueur": "yi rini",
    "particule": true
   },
   "demande": {
@@ -123,11 +123,11 @@
   },
   "future_negative": {
    "nom": "négation – futur",
-   "marqueur": "n'ti ri-ni"
+   "marqueur": "n'ti rini"
   },
   "future_negative_ntaxa": {
    "nom": "négation – futur (n'taxa)",
-   "marqueur": "n'taxa ri-ni"
+   "marqueur": "n'taxa rini"
   }
  },
  "particules": {
@@ -321,7 +321,7 @@
     ]
    },
    "forme": "daga",
-   "gerondif": "daga-na",
+   "gerondif": "dagana",
    "classe": "regulier",
    "conjugaison": {
     "imminent": {
@@ -370,7 +370,7 @@
     ]
    },
    "forme": "ri",
-   "gerondif": "ri-ni",
+   "gerondif": "rini",
    "classe": "regulier",
    "conjugaison": {
     "future": {
@@ -436,7 +436,7 @@
     ]
    },
    "forme": "faye",
-   "gerondif": "faye-ni",
+   "gerondif": "fayeni",
    "classe": "regulier"
   },
   "sefeer": {
@@ -477,7 +477,7 @@
     ]
    },
    "forme": "sefe",
-   "gerondif": "sefe-ne",
+   "gerondif": "sefene",
    "classe": "regulier"
   },
   "yigeyer": {
@@ -518,7 +518,7 @@
     ]
    },
    "forme": "yige",
-   "gerondif": "yige-ne",
+   "gerondif": "yigene",
    "transitif": true,
    "forme_objet": "yiga",
    "classe": "regulier"
@@ -561,7 +561,7 @@
     ]
    },
    "forme": "mini",
-   "gerondif": "mini-ni",
+   "gerondif": "minini",
    "transitif": true,
    "classe": "regulier"
   },
@@ -603,7 +603,7 @@
     ]
    },
    "forme": "wori",
-   "gerondif": "wori-ni",
+   "gerondif": "worini",
    "transitif": true,
    "classe": "regulier"
   },
@@ -645,7 +645,7 @@
     ]
    },
    "forme": "wuru",
-   "gerondif": "wuru-nu",
+   "gerondif": "wurunu",
    "classe": "regulier"
   }
  },

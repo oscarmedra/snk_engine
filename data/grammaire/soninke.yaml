@@ -5,7 +5,7 @@
 # Orthographe (confirmée, d'après Creissels, Mandenkan) :
 #   x (et non kh), u (et non ou), e (et non é), g (et non gu devant e/i) ;
 #   voyelles écrites comme prononcées (daga, gaaga, taaxu) ; tons non écrits ;
-#   gérondif avec trait d'union (daga-na) ; particules avec apostrophe (n'daga) ;
+#   gérondif avec trait d'union (dagana) ; particules avec apostrophe (n'daga) ;
 #   pronom diminutif de la 1re personne : n.
 
 # Deux séries : longue (nke…) et diminutive (n, an…), la plus utilisée.
@@ -26,7 +26,7 @@ pronoms:
 
 # Temps / constructions. Le marqueur éventuel se place avant le verbe, le suffixe après.
 # particule: true → la particule s'applique à ce temps (voir `particules`).
-# ri-ni est le gérondif de ri (venir) : ce qui est « à venir » ; fayi vient de fayinder (regarder).
+# rini est le gérondif de ri (venir) : ce qui est « à venir » ; fayi vient de fayinder (regarder).
 temps:
   past:
     nom: passé / accompli
@@ -34,16 +34,16 @@ temps:
     particule: true
   imminent:
     nom: sur le point de
-    marqueur: fayi ri-ni  # nke fayi ri-ni daga = je suis sur le point de partir
-    particule: true       # anke m'fayi ri-ni daga
+    marqueur: fayi rini  # nke fayi rini daga = je suis sur le point de partir
+    particule: true       # anke m'fayi rini daga
   progressive_watia:
     nom: présent progressif (watia)
     marqueur: fayi
     suffixe: watia       # watia : insiste sur le moment
-    particule: true      # anke m'fayi daga-na watia
+    particule: true      # anke m'fayi dagana watia
   future:
     nom: futur
-    marqueur: yi ri-ni
+    marqueur: yi rini
     particule: true
   demande:
     nom: demande (na)
@@ -61,25 +61,25 @@ temps:
     particule_verbe: true  # le verbe qui suit l'objet prend aussi la particule
   en_cours:
     nom: action en cours
-    marqueur: yi         # nke yi yige-ne (je mange), a yi tere-ne (il marche)
-    particule: true      # avec les pronoms longs : anke n'yi tere-ne
+    marqueur: yi         # nke yi yigene (je mange), a yi terene (il marche)
+    particule: true      # avec les pronoms longs : anke n'yi terene
     # Dans un récit au passé, la même forme se lit « il était en train de » :
-    # ma-ma yi taxu-nu = elle était assise.
+    # ma-ma yi taxunu = elle était assise.
   past_negative:
     nom: négation – passé
     marqueur: maxa       # « toujours la même chose, on met juste maxa »
   future_negative:
     nom: négation – futur
-    marqueur: "n'ti ri-ni"    # + radical : anke n'ti ri-ni daga
-    # « anke n'ti daga-na » (serie_02) était une erreur, corrigée le 2026-09-17
+    marqueur: "n'ti rini"    # + radical : anke n'ti rini daga
+    # « anke n'ti dagana » (serie_02) était une erreur, corrigée le 2026-09-17
   future_negative_ntaxa:
     nom: négation – futur (n'taxa)
-    marqueur: "n'taxa ri-ni"  # variante confirmée : anke n'taxa ri-ni daga
+    marqueur: "n'taxa rini"  # variante confirmée : anke n'taxa rini daga
 
 # Règles confirmées pour tous les verbes :
 #   A. seuls ces pronoms prennent la particule (jamais nke ni oku) ;
 #   B. elle se colle au mot qui suit le pronom : le verbe au passé (n'daga),
-#      le marqueur au futur (n'yi ri-ni daga) ;
+#      le marqueur au futur (n'yi rini daga) ;
 #   C. sa forme dépend de l'initiale de ce mot.
 particules:
   personnes: [anke, ake, xaku, iku]
@@ -117,7 +117,7 @@ classes:
         personnes: [nke, anke]
       future_negative_ntaxa:  # même construction avec n'taxa
         personnes: [anke]
-      progressive_watia:  # serie_02 : nke fayi daga-na watia, ake m'fayi yige-ne watia
+      progressive_watia:  # serie_02 : nke fayi dagana watia, ake m'fayi yigene watia
         forme: "{gerondif}"
         personnes: [nke, anke, ake, oku]
 
@@ -134,7 +134,7 @@ verbes:
       subjonctif: [parte, partes, parte, partions, partiez, partent]
       imperatif: [pars, partons, partez]   # tu, nous, vous
     forme: daga
-    gerondif: daga-na
+    gerondif: dagana
     classe: regulier
     conjugaison:
       imminent:
@@ -152,13 +152,13 @@ verbes:
       subjonctif: [vienne, viennes, vienne, venions, veniez, viennent]
       imperatif: [viens, venons, venez]   # tu, nous, vous
     forme: ri
-    gerondif: ri-ni
+    gerondif: rini
     classe: regulier
     conjugaison:
-      future:          # confirmé : ri-ni porte déjà « venir » → oku yi ri-ni (pas « yi ri-ni ri »)
+      future:          # confirmé : rini porte déjà « venir » → oku yi rini (pas « yi rini ri »)
         forme: ""
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
-      future_negative: # serie_02 : iku n'ti ri-ni (ils ne viendront pas)
+      future_negative: # serie_02 : iku n'ti rini (ils ne viendront pas)
         forme: ""
         personnes: [iku]
 
@@ -174,7 +174,7 @@ verbes:
       subjonctif: [regarde, regardes, regarde, regardions, regardiez, regardent]
       imperatif: [regarde, regardons, regardez]   # tu, nous, vous
     forme: faye
-    gerondif: faye-ni    # confirmé : « faye » seul se dit aussi
+    gerondif: fayeni    # confirmé : « faye » seul se dit aussi
     classe: regulier
 
   sefeer:
@@ -189,7 +189,7 @@ verbes:
       subjonctif: [parle, parles, parle, parlions, parliez, parlent]
       imperatif: [parle, parlons, parlez]   # tu, nous, vous
     forme: sefe
-    gerondif: sefe-ne    # serie_03 #11 (corrigé par le locuteur)
+    gerondif: sefene    # serie_03 #11 (corrigé par le locuteur)
     classe: regulier
 
   yigeyer:
@@ -204,7 +204,7 @@ verbes:
       subjonctif: [mange, manges, mange, mangions, mangiez, mangent]
       imperatif: [mange, mangeons, mangez]   # tu, nous, vous
     forme: yige
-    gerondif: yige-ne    # serie_02 : ake m'fayi yige-ne watia
+    gerondif: yigene    # serie_02 : ake m'fayi yigene watia
     transitif: true
     forme_objet: yiga    # avec un objet : ake n'di maro n'yiga
     classe: regulier
@@ -223,7 +223,7 @@ verbes:
       subjonctif: [boive, boives, boive, buvions, buviez, boivent]
       imperatif: [bois, buvons, buvez]   # tu, nous, vous
     forme: mini
-    gerondif: mini-ni    # confirmé : « mini » seul se dit aussi
+    gerondif: minini    # confirmé : « mini » seul se dit aussi
     transitif: true      # ake n'di xati m'mini
     classe: regulier     # ake m'mini ; avec objet : ake n'di xati m'mini
 
@@ -239,7 +239,7 @@ verbes:
       subjonctif: [voie, voies, voie, voyions, voyiez, voient]
       imperatif: [vois, voyons, voyez]   # tu, nous, vous
     forme: wori
-    gerondif: wori-ni
+    gerondif: worini
     transitif: true      # n di lemine ŋ'wori
     classe: regulier     # ake ŋ'wori ; avec objet : ake n'di lemine ke ŋ'wori
 
@@ -255,5 +255,5 @@ verbes:
       subjonctif: [coure, coures, coure, courions, couriez, courent]
       imperatif: [cours, courons, courez]   # tu, nous, vous
     forme: wuru
-    gerondif: wuru-nu    # serie_03 : ake m'fayi wuru-nu watia
+    gerondif: wurunu    # serie_03 : ake m'fayi wurunu watia
     classe: regulier

@@ -39,8 +39,8 @@ remme ngebe ni a ni maxa     ils ont beaucoup d'enfants
 |---|---|---|
 | `maxa` | passé | `a maxa daga` — il n'est pas parti |
 | `mi` | passé, forme courte de `maxa` | `ake mi yige` — il n'a pas mangé |
-| `n'ti ri-ni` | futur | `anke n'ti ri-ni daga` — tu ne partiras pas |
-| `n'taxa ri-ni` | futur, variante | `anke n'taxa ri-ni daga` |
+| `n'ti rini` | futur | `anke n'ti rini daga` — tu ne partiras pas |
+| `n'taxa rini` | futur, variante | `anke n'taxa rini daga` |
 | `ti` | avec `yi` | `nke ti mula` — je ne veux pas |
 | `maxa` | ordre négatif | `maxa daga` — ne pars pas |
 

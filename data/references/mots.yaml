@@ -24,7 +24,7 @@ grammaire:
   - {snk: maxa, fr: "négation (passé)", source: "corp1 #20"}
   - {snk: mi, fr: "négation (passé), forme courte de maxa", source: "serie_03 #19-21",
      note: "« mi est un diminutif de maxa, très souvent utilisé »"}
-  - {snk: "n'ti ri-ni / n'taxa ri-ni", fr: "négation (futur)", source: "serie_03, confirmé 2026-09-17",
+  - {snk: "n'ti rini / n'taxa rini", fr: "négation (futur)", source: "serie_03, confirmé 2026-09-17",
      note: "maxa pour le passé, n'ti/n'taxa pour le futur"}
   - {snk: watia, fr: "insiste sur le moment", source: "corp1 #3"}
   - {snk: ya ba, fr: "marque la question (oui/non)", source: "corp1 #24"}
@@ -40,7 +40,7 @@ adverbes:
 texte_journee:
   marqueurs:
     - {snk: na, fr: "présent / habitude (?)", exemple: "nke na guiri"}
-    - {snk: ga, fr: "introduit la subordonnée", exemple: "o ga daga-na noqu be"}
+    - {snk: ga, fr: "introduit la subordonnée", exemple: "o ga dagana noqu be"}
     - {snk: "kati … n'ga", fr: "avant de", exemple: "kati n'ga baka ka ke noxo"}
     - {snk: "-ni / -yi / -nu", fr: "pluriel", exemple: "yoku-ni, kine-yi, xana-nu"}
     - {snk: noxo, fr: "dans", exemple: "ka ke noxo"}
@@ -102,10 +102,10 @@ serie_04:
 # --- texte_marche (2026-09-17) : compris d'après le texte, à confirmer ---
 texte_marche:
   questions:
-    - {snk: minna, fr: où, exemple: "anke daga-na minna ?"}
-    - {snk: "mane-ni", fr: pourquoi, exemple: "mane-ni anke n'ga daga-na saxa ?"}
+    - {snk: minna, fr: où, exemple: "anke dagana minna ?"}
+    - {snk: "mane-ni", fr: pourquoi, exemple: "mane-ni anke n'ga dagana saxa ?"}
     - {snk: mane, fr: quoi, exemple: "an di mane xobo daru ?"}
-    - {snk: ko, fr: qui, exemple: "anke n'do ko daga-na do me ?"}
+    - {snk: ko, fr: qui, exemple: "anke n'do ko dagana do me ?"}
     - {snk: "kan dimma", fr: quand}
     - {snk: "mani-me", fr: combien, exemple: "mani-me ni maro ?"}
     - {snk: ba, fr: "marque la question oui/non (en fin de phrase)"}
@@ -147,14 +147,14 @@ texte_marche:
     - {snk: siri, fr: "pas beaucoup", exemple: "xa maxa yige siri = ne mangez pas beaucoup",
        note: "ailleurs : bien (bien fait)"}
   corrections:
-    - "« nke fayi daga-na saxa » était une erreur : la bonne forme est nke fayi ri-ni daga."
+    - "« nke fayi dagana saxa » était une erreur : la bonne forme est nke fayi rini daga."
     - "« An l'rini kan dimma » était une erreur : les pronoms diminutifs ne prennent pas la particule."
 
 # --- texte_village (2026-09-17) : lecture de Claude, à confirmer ---
 texte_village:
   constructions:
     - {snk: "yi + forme en -nu", fr: "état / action en cours dans le passé",
-       exemple: "ma-ma yi taxu-nu = elle était assise ; nke ni tere-ne = je marchais"}
+       exemple: "ma-ma yi taxunu = elle était assise ; nke ni terene = je marchais"}
     - {snk: "n'gana", fr: "si", exemple: "an n'gana daga watia = si tu pars maintenant"}
     - {snk: "n'ga / ga", fr: "quand", exemple: "kiye n'ga xenu = quand le soleil s'est couché"}
     - {snk: "ti … da", fr: "dire à", exemple: "a ti n'da = elle m'a dit"}
@@ -169,7 +169,7 @@ texte_village:
     - {snk: wure, fr: sous, exemple: "yite xore ŋ'wure = sous le grand arbre"}
     - {snk: moxo, fr: "comment", exemple: "a ma-ma moxo ? = comment va ta grand-mère ?"}
     - {snk: "yi / ti", fr: "est / n'est pas (auxiliaire)", exemple: "nke yi mula = je le veux ; nke ti mula = je ne veux pas",
-       note: "confirmé. Explique sans doute yi ri-ni (futur) et n'ti ri-ni (futur négatif)"}
+       note: "confirmé. Explique sans doute yi rini (futur) et n'ti rini (futur négatif)"}
     - {snk: "n (objet)", fr: "me (avant le verbe)", exemple: "a di ŋ'wori = a di nke wori = elle m'a vu",
        note: "confirmé : les deux formes se disent ; ŋ' est le n assimilé"}
     - {snk: siri, fr: "renforce le mot (longtemps, vite, beaucoup)", note: "confirmé : le sens dépend du contexte"}

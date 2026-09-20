@@ -120,7 +120,7 @@ class Verb:
     form: str | None = None
     conjugation_class: str | None = None
     rules: dict[str, TenseRule] = field(default_factory=dict)
-    gerund: str | None = None      # forme en -nV (daga-na, ri-ni)
+    gerund: str | None = None      # forme en -nV (dagana, rini)
     object_form: str | None = None # forme du verbe quand il a un objet (yiga)
     transitive: bool = False       # le verbe accepte un objet (confirmé)
 

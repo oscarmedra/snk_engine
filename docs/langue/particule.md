@@ -13,9 +13,9 @@ qu'il soit : le verbe, le marqueur de temps, ou le marqueur d'objet.
 
 ```
 ake n'daga              le verbe        il est parti
-ake n'yi ri-ni daga     le marqueur     il partira
+ake n'yi rini daga     le marqueur     il partira
 ake n'di maro n'yiga    l'objet         il a mangé le riz
-anke n'yi wuru-nu       yi              tu courais
+anke n'yi wurunu       yi              tu courais
 ```
 
 **C. Sa forme.** Elle dépend de la première lettre de ce mot.

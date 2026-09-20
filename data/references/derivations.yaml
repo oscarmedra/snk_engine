@@ -22,11 +22,11 @@ suffixes:
 pluriel: "confirmé : ces noms prennent -ni (xara-moxo-ni = les façons d'étudier / les professeurs)"
 
 # Le verbe est cité avec un suffixe qui varie : -ye (sore-ye, yige-ye, dangi-ye, diofe-ye,
-# taxu-ye), -ne/-ni (deberi-ni, koyi-ni, kini-ni, safandi-ni), -no (ro-no, kono-no),
+# taxu-ye), -ne/-ni (deberini, koyi-ni, kini-ni, safandi-ni), -no (ro-no, kono-no),
 # -na (tuga-na), -ŋe (xara-ŋe), -nde (kutu-nde). C'est cette forme qui donne le radical
 # utilisé dans les noms dérivés.
 
 a_confirmer:
   - "Le suffixe de citation (-ye, -ni, -no, -na, -ŋe, -nde) suit-il une règle, ou dépend-il du verbe ?"
-  - "Rapport avec la forme en -na du moteur (daga-na, ri-ni, yige-ne, sefe-ne, wuru-nu) ?"
+  - "Rapport avec la forme en -na du moteur (dagana, rini, yigene, sefene, wurunu) ?"
   - "« moxo » seul : dans le texte, « journe moxo » et « moxo sirondi » — même mot ?"

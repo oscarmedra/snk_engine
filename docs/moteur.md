@@ -21,7 +21,7 @@ une ancienne, les tests échouent : c'est le signal qu'il faut retourner poser l
 ```python
 from snk_engine.conjugation import conjugate, default_engine
 
-conjugate("dagaer", "anke", "future")              # anke n'yi ri-ni daga
+conjugate("dagaer", "anke", "future")              # anke n'yi rini daga
 conjugate("yigeyer", "ake", "past_object", "maro") # ake n'di maro n'yiga
 
 engine = default_engine()
@@ -44,7 +44,7 @@ Dans `data/grammaire/soninke.yaml` :
   wurier:
     fr: courir
     forme: wuru
-    gerondif: wuru-nu
+    gerondif: wurunu
     classe: regulier
     francais:
       auxiliaire: avoir

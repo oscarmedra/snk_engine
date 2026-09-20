@@ -46,8 +46,8 @@ def test_generation_pairs_are_consistent():
     assert len(french_verbs(engine)) == len(engine.verbs)
     snk = {r.snk for r in rows}
     assert len({(r.snk, r.fr) for r in rows}) == len(rows)   # aucune paire en double
-    # « nke yi ri-ni » vaut pour le futur et pour l'action en cours : ambiguïté réelle
-    assert {r.fr for r in rows if r.snk == "nke yi ri-ni"} == {"je viendrai", "je viens en ce moment"}
+    # « nke yi rini » vaut pour le futur et pour l'action en cours : ambiguïté réelle
+    assert {r.fr for r in rows if r.snk == "nke yi rini"} == {"je viendrai", "je viens en ce moment"}
     assert "nke daga saxa" in snk
     assert "ake n'di maro ke n'yiga" in snk
     assert all(r.fr and r.snk for r in rows)

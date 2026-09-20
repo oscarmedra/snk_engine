@@ -8,14 +8,14 @@ Entièrement conjugables : toutes les formes sont confirmées par le locuteur.
 
 | verbe | sens | radical | forme en -ni | avec objet |
 |---|---|---|---|---|
-| `dagaer` | partir | daga | daga-na | — |
-| `rier` | venir | ri | ri-ni | — |
-| `fayinder` | regarder | faye | faye-ni | — |
-| `sefeer` | parler | sefe | sefe-ne | — |
-| `yigeyer` | manger | yige | yige-ne | yiga |
-| `mini` | boire | mini | mini-ni | oui |
-| `wori` | voir | wori | wori-ni | oui |
-| `wurier` | courir | wuru | wuru-nu | — |
+| `dagaer` | partir | daga | dagana | — |
+| `rier` | venir | ri | rini | — |
+| `fayinder` | regarder | faye | fayeni | — |
+| `sefeer` | parler | sefe | sefene | — |
+| `yigeyer` | manger | yige | yigene | yiga |
+| `mini` | boire | mini | minini | oui |
+| `wori` | voir | wori | worini | oui |
+| `wurier` | courir | wuru | wurunu | — |
 
 ## Verbes donnés par le locuteur, pas encore dans le moteur
 
@@ -133,7 +133,7 @@ Sens compris d'après le contexte, confirmés par le locuteur.
 | `di` | marqueur d'objet (passé) |
 | `maxa` | négation (passé) |
 | `mi` | négation (passé), forme courte de maxa |
-| `n'ti ri-ni / n'taxa ri-ni` | négation (futur) |
+| `n'ti rini / n'taxa rini` | négation (futur) |
 | `watia` | insiste sur le moment |
 | `ya ba` | marque la question (oui/non) |
 | `mina` | où |

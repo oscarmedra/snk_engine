@@ -58,7 +58,7 @@ def test_analyse_statuses(tmp_path):
     assert results["T-01"].status == "conforme"
     assert results["T-02"].status == "conforme"
     assert results["T-03"].status == "à vérifier"
-    assert "anke n'yi ri-ni daga" in results["T-03"].expected
+    assert "anke n'yi rini daga" in results["T-03"].expected
     assert results["T-04"].status == "nouveau"
     assert results["T-05"].status == "sans réponse"
 

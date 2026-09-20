@@ -4,11 +4,11 @@
 
 | Mot | Sens | Exemple |
 |---|---|---|
-| `minna` | où | `anke daga-na minna ?` — où vas-tu ? |
-| `mane-ni` | pourquoi | `mane-ni anke n'ga daga-na saxa ?` |
+| `minna` | où | `anke dagana minna ?` — où vas-tu ? |
+| `mane-ni` | pourquoi | `mane-ni anke n'ga dagana saxa ?` |
 | `mane` | quoi | `an di mane xobo daru ?` — qu'as-tu acheté hier ? |
-| `ko` | qui | `anke n'do ko daga-na do me ?` — avec qui y vas-tu ? |
-| `kan dimma` | quand | `an l'ri-ni kan dimma ?` |
+| `ko` | qui | `anke n'do ko dagana do me ?` — avec qui y vas-tu ? |
+| `kan dimma` | quand | `an l'rini kan dimma ?` |
 | `mani-me` | combien | `mani-me ni maro ?` — combien coûte le riz ? |
 | `moxo` | comment | `a ma-ma moxo ?` — comment va ta grand-mère ? |
 
@@ -44,7 +44,7 @@ On la retrouve dans `mane ni anke gi ri ?` (pourquoi es-tu venu ?).
 ```
 kati kiye ke ga baka           avant que le soleil (ne) sorte
 dimma m'be n'ga diofe          quand je suis arrivé
-o ga daga-na noqu be           où nous allons
+o ga dagana noqu be           où nous allons
 ```
 
 `n'gana` marque la condition :

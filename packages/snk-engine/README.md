@@ -25,7 +25,7 @@ qui n'y est pas confirmée, plutôt que de l'inventer.
 ```python
 from snk_engine.conjugation import conjugate
 
-conjugate("dagaer", "anke", "future")      # anke n'yi ri-ni daga
+conjugate("dagaer", "anke", "future")      # anke n'yi rini daga
 ```
 
 ```bash

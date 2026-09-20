@@ -34,7 +34,7 @@ Chaque verbe se cite avec un suffixe, qui varie selon le verbe :
 | Suffixe | Verbes |
 |---|---|
 | `-ye` | sore-ye (cuisiner), yige-ye (manger), dangi-ye (passer), diofe-ye (arriver), taxu-ye (s'asseoir) |
-| `-ni`, `-ne` | deberi-ni (faire), koyi-ni (montrer), kini-ni (donner), safandi-ni (écrire), tere-ne (marcher) |
+| `-ni`, `-ne` | deberini (faire), koyi-ni (montrer), kini-ni (donner), safandi-ni (écrire), terene (marcher) |
 | `-no` | ro-no (entrer), kono-no (dire) |
 | `-na` | tuga-na (payer) |
 | `-ŋe` | xara-ŋe (apprendre) |

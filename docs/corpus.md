@@ -34,10 +34,10 @@ Exemples :
 
 ```
 nke daga saxa                  je suis parti au marché
-anke n'yi wuru-nu              tu courais
+anke n'yi wurunu              tu courais
 ake n'di maro ke n'yiga        il a mangé le riz
 i na xati m'mini               ils boivent du lait
-xaku n'yi ri-ni daga kumbene   vous partirez demain
+xaku n'yi rini daga kumbene   vous partirez demain
 ```
 
 ### Comment les phrases absurdes sont évitées

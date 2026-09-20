@@ -1,6 +1,6 @@
 serie: "03"
 # Série 3 : confirmer ce que les articles laissent prévoir, et compléter les verbes.
-# Nouvelle orthographe : x, u, e, g ; gérondif avec trait d'union (daga-na).
+# Nouvelle orthographe : x, u, e, g ; gérondif avec trait d'union (dagana).
 questions:
   # --- A. Particule devant p, l, n (prédiction : m'p, l'l, n'n) ---
   - {categorie: Particule, fr: "Il a vu l'enfant.", personne: 3sg,
@@ -13,15 +13,15 @@ questions:
 
   # --- B. Forme en -na (gérondif) des verbes connus ---
   - {categorie: Forme en -na, fr: "Tu ne parleras pas.", verbe: sefeer, temps: future_negative, personne: 2sg,
-     indication: "sefe-ne ? (le moteur attend anke n'ti sefe-ne)"}
+     indication: "sefene ? (le moteur attend anke n'ti sefene)"}
   - {categorie: Forme en -na, fr: "Tu ne courras pas.", verbe: wurier, temps: future_negative, personne: 2sg,
-     indication: "wuru-nu ?"}
+     indication: "wurunu ?"}
   - {categorie: Forme en -na, fr: "Tu ne regarderas pas.", verbe: fayinder, temps: future_negative, personne: 2sg,
      indication: "faye-ne ?"}
-  - {categorie: Forme en -na, fr: "Il ne boira pas.", personne: 3sg, indication: "mini : mini-ni ou minni ?"}
-  - {categorie: Forme en -na, fr: "Il ne verra pas.", personne: 3sg, indication: "wori : wori-ni ?"}
+  - {categorie: Forme en -na, fr: "Il ne boira pas.", personne: 3sg, indication: "mini : minini ou minni ?"}
+  - {categorie: Forme en -na, fr: "Il ne verra pas.", personne: 3sg, indication: "wori : worini ?"}
   - {categorie: Forme en -na, fr: "Il parle (en ce moment).", verbe: sefeer, temps: progressive_watia, personne: 3sg,
-     indication: "attendu : ake m'fayi sefe-ne watia"}
+     indication: "attendu : ake m'fayi sefene watia"}
   - {categorie: Forme en -na, fr: "Il court (en ce moment).", verbe: wurier, temps: progressive_watia, personne: 3sg}
 
   # --- C. Phrases avec objet : di, et forme du verbe ---
