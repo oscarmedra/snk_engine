@@ -16,6 +16,7 @@ Entièrement conjugables : toutes les formes sont confirmées par le locuteur.
 | `mini` | boire | mini | minini | oui |
 | `wori` | voir | wori | worini | oui |
 | `safa` | écrire | safa | safana | safa |
+| `wutu` | prendre | wutu | — | wutu |
 | `goli` | travailler | goli | golini | — |
 | `wurier` | courir | wuru | wurunu | — |
 
@@ -341,4 +342,4 @@ Sens compris d'après le contexte, confirmés par le locuteur.
 
 ---
 
-10 verbes conjugables · 41 verbes du locuteur en attente · 120 verbes relevés dans la littérature · environ 219 mots enregistrés.
+11 verbes conjugables · 41 verbes du locuteur en attente · 120 verbes relevés dans la littérature · environ 219 mots enregistrés.

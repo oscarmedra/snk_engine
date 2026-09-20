@@ -85,6 +85,7 @@ class Tense:
     suffix: str | None = None   # placé après le verbe
     object: bool = False        # un objet se place entre le marqueur et le verbe
     verb_particle: bool = False # le verbe qui suit l'objet prend aussi la particule
+    no_subject: bool = False    # l'impératif ne montre pas son sujet
 
 
 @dataclass(frozen=True)
@@ -183,7 +184,10 @@ class ConjugationEngine:
         return bool(v and (v.rules or v.conjugation_class))
 
     def conjugate(self, verb: str, subject: str, tense: str, obj: str | None = None) -> str:
-        return f"{_nfc(subject)} {self.predicate(verb, subject, tense, obj)}"
+        predicate = self.predicate(verb, subject, tense, obj)
+        if tense in self.tenses and self.tenses[tense].no_subject:
+            return predicate
+        return f"{_nfc(subject)} {predicate}"
 
     def predicate(self, verb: str, subject: str, tense: str, obj: str | None = None) -> str:
         """Tout ce qui suit le sujet : particule + marqueur (+ objet) + forme verbale."""
@@ -254,7 +258,8 @@ class ConjugationEngine:
         pronouns = [Pronoun(p["forme"], p["personne"], p["fr"], p.get("serie")) for p in data["pronoms"]]
         tenses = {
             name: Tense(name, t.get("nom", name), t.get("marqueur"), bool(t.get("particule")),
-                        t.get("suffixe"), bool(t.get("objet")), bool(t.get("particule_verbe")))
+                        t.get("suffixe"), bool(t.get("objet")), bool(t.get("particule_verbe")),
+                        bool(t.get("sans_sujet")))
             for name, t in data["temps"].items()
         }
         classes = {

@@ -134,6 +134,26 @@
    "marqueur": "yi",
    "particule": true
   },
+  "imperatif": {
+   "nom": "impératif",
+   "marqueur": null,
+   "sans_sujet": true
+  },
+  "imperatif_objet": {
+   "nom": "impératif avec objet",
+   "marqueur": null,
+   "objet": true,
+   "sans_sujet": true
+  },
+  "imperatif_negatif": {
+   "nom": "impératif négatif",
+   "marqueur": "maxa",
+   "sans_sujet": true
+  },
+  "imperatif_pluriel": {
+   "nom": "impératif pluriel",
+   "marqueur": null
+  },
   "past_negative": {
    "nom": "négation – passé",
    "marqueur": "maxa"
@@ -309,6 +329,26 @@
       "o",
       "xa",
       "i"
+     ]
+    },
+    "imperatif": {
+     "personnes": [
+      "an"
+     ]
+    },
+    "imperatif_objet": {
+     "personnes": [
+      "an"
+     ]
+    },
+    "imperatif_negatif": {
+     "personnes": [
+      "an"
+     ]
+    },
+    "imperatif_pluriel": {
+     "personnes": [
+      "xa"
      ]
     },
     "past_negative": {
@@ -717,6 +757,48 @@
      "écris",
      "écrivons",
      "écrivez"
+    ]
+   }
+  },
+  "wutu": {
+   "fr": "prendre",
+   "forme": "wutu",
+   "transitif": true,
+   "forme_objet": "wutu",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "prendre",
+    "participe": "pris",
+    "present": [
+     "prends",
+     "prends",
+     "prend",
+     "prenons",
+     "prenez",
+     "prennent"
+    ],
+    "imparfait": [
+     "prenais",
+     "prenais",
+     "prenait",
+     "prenions",
+     "preniez",
+     "prenaient"
+    ],
+    "futur_radical": "prendr",
+    "subjonctif": [
+     "prenne",
+     "prennes",
+     "prenne",
+     "prenions",
+     "preniez",
+     "prennent"
+    ],
+    "imperatif": [
+     "prends",
+     "prenons",
+     "prenez"
     ]
    }
   },

@@ -22,6 +22,28 @@ Toutes les phrases ci-dessous sont produites par le moteur.
 | négation du futur | pronom + `n'ti rini` + verbe | `anke n'ti rini daga` | tu ne partiras pas |
 | négation du futur (variante) | pronom + `n'taxa rini` + verbe | `anke n'taxa rini daga` | tu ne partiras pas |
 
+## L'impératif
+
+Il ne montre pas son sujet :
+
+```
+daga                  pars
+taxu                  assieds-toi
+maro ke yiga          mange le riz
+ke kitabe wutu        prends ce livre
+maxa daga             ne pars pas
+```
+
+Au pluriel, `xa` (vous) apparaît devant le verbe :
+
+```
+xa guiri              levez-vous
+xa terinke            écoutez
+xa maxa mungo         n'oubliez pas
+```
+
+Avec un objet, il n'y a **pas** de marqueur `di` : l'objet précède simplement le verbe.
+
 ## Trois zones à ne pas confondre
 
 Le français dit « je mange » pour trois choses que le soninké distingue :

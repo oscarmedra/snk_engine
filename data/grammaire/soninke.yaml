@@ -79,6 +79,22 @@ temps:
     particule: true      # avec les pronoms longs : anke n'yi terene
     # Dans un récit au passé, la même forme se lit « il était en train de » :
     # ma-ma yi taxunu = elle était assise.
+  imperatif:
+    nom: impératif
+    marqueur: null        # taxu = assieds-toi ; maro ke yiga = mange le riz
+    sans_sujet: true
+  imperatif_objet:
+    nom: impératif avec objet
+    marqueur: null        # ke kitabe wutu = prends ce livre
+    objet: true
+    sans_sujet: true
+  imperatif_negatif:
+    nom: impératif négatif
+    marqueur: maxa        # maxa daga = ne pars pas
+    sans_sujet: true
+  imperatif_pluriel:
+    nom: impératif pluriel
+    marqueur: null        # xa guiri = levez-vous
   past_negative:
     nom: négation – passé
     marqueur: maxa       # « toujours la même chose, on met juste maxa »
@@ -134,6 +150,14 @@ classes:
         personnes: [nke, oku, n, an, a, o, xa, i]
       past_object:     # confirmé : ake n'di maro n'yiga, n di lemine n'wori, oku di lemine n'wori
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      imperatif:       # confirmé : taxu, maro ke yiga, maxa daga
+        personnes: [an]
+      imperatif_objet:
+        personnes: [an]
+      imperatif_negatif:
+        personnes: [an]
+      imperatif_pluriel:   # xa guiri, xa terinke
+        personnes: [xa]
       past_negative:   # « toujours la même chose » ; diminutifs : « généralement » (retenu pour le moment)
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
       future_negative:        # confirmé : nke, anke (serie_02 #23, serie_03 #6-7)
@@ -284,6 +308,22 @@ verbes:
       futur_radical: écrir
       subjonctif: [écrive, écrives, écrive, écrivions, écriviez, écrivent]
       imperatif: [écris, écrivons, écrivez]   # tu, nous, vous
+
+  wutu:                  # confirmé : ke kitabe wutu = prends ce livre
+    fr: prendre
+    forme: wutu
+    transitif: true
+    forme_objet: wutu
+    classe: regulier
+    francais:            # formes françaises, pour la traduction du corpus
+      auxiliaire: avoir
+      infinitif: prendre
+      participe: pris
+      present: [prends, prends, prend, prenons, prenez, prennent]
+      imparfait: [prenais, prenais, prenait, prenions, preniez, prenaient]
+      futur_radical: prendr
+      subjonctif: [prenne, prennes, prenne, prenions, preniez, prennent]
+      imperatif: [prends, prenons, prenez]   # tu, nous, vous
 
   goli:                  # cité golini par le locuteur
     fr: travailler

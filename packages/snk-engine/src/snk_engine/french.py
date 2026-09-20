@@ -77,6 +77,14 @@ def conjugate_fr(verb: FrenchVerb, person: str, tense: str, obj: str | None = No
 
     if tense in ("past", "past_object"):
         return _elide(subject, compose) + tail
+    if tense in ("imperatif", "imperatif_objet", "imperatif_pluriel", "imperatif_negatif"):
+        if not verb.imperative:
+            raise FrenchError(f"Pas d'impératif français pour '{verb.infinitive}'")
+        form = verb.imperative[2 if tense == "imperatif_pluriel" else 0]
+        if tense == "imperatif_negatif":
+            return f"ne {form} pas"
+        return form + tail
+
     if tense in ("demande", "demande_objet"):
         # « na » exprime une demande : l'impératif quand le français l'a, sinon « que… »
         if person in IMPERATIVE_SLOTS and verb.imperative:

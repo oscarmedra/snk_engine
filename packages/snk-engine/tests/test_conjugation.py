@@ -136,6 +136,21 @@ def test_fayi_and_yi_are_interchangeable():
     assert e.conjugate("yigeyer", "nke", "en_cours_objet", "maro") == "nke yi maro yigane"
 
 
+@pytest.mark.parametrize(
+    "verb, subject, tense, obj, expected",
+    [
+        ("wutu", "an", "imperatif_objet", "ke kitabe", "ke kitabe wutu"),
+        ("yigeyer", "an", "imperatif_objet", "maro ke", "maro ke yiga"),
+        ("dagaer", "an", "imperatif", None, "daga"),
+        ("dagaer", "an", "imperatif_negatif", None, "maxa daga"),
+        ("goli", "xa", "imperatif_pluriel", None, "xa goli"),
+    ],
+)
+def test_imperative(verb, subject, tense, obj, expected):
+    # l'impératif ne montre pas son sujet, sauf au pluriel (xa)
+    assert default_engine().conjugate(verb, subject, tense, obj) == expected
+
+
 def test_demande_with_object():
     e = default_engine()
     assert e.conjugate("yigeyer", "a", "demande_objet", "maro") == "a na maro n'yiga"
@@ -226,7 +241,7 @@ def test_verbs_are_registered():
     engine = default_engine()
     expected = {"dagaer": "partir", "rier": "venir", "fayinder": "regarder", "sefeer": "parler",
                 "yigeyer": "manger", "mini": "boire", "wori": "voir", "safa": "écrire",
-                "goli": "travailler",
+                "goli": "travailler", "wutu": "prendre",
                 "wurier": "courir"}
     assert {k: v.french for k, v in engine.verbs.items()} == expected
 
