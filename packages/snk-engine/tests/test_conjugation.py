@@ -105,11 +105,23 @@ def test_object_clause(verb, subject, obj, expected):
     assert default_engine().conjugate(verb, subject, "past_object", obj) == expected
 
 
-def test_en_cours_with_object():
-    e = default_engine()
-    assert e.conjugate("yigeyer", "nke", "en_cours_objet", "maro") == "nke yi maro yigane"
-    with pytest.raises(ConjugationNotDefinedError):   # autres pronoms : à confirmer
-        e.conjugate("yigeyer", "ake", "en_cours_objet", "maro")
+@pytest.mark.parametrize(
+    "subject, expected",
+    [
+        ("nke", "nke yi maro yigane"),
+        ("anke", "anke n'yi maro yigane"),
+        ("ake", "ake n'yi maro yigane"),
+        ("oku", "oku yi maro yigane"),
+        ("xaku", "xaku n'yi maro yigane"),
+        ("iku", "iku n'yi maro yigane"),
+        ("n", "n yi maro yigane"),
+        ("a", "a yi maro yigane"),
+        ("i", "i yi maro yigane"),
+    ],
+)
+def test_en_cours_with_object(subject, expected):
+    # la particule se colle à yi ; le verbe après l'objet reste nu (≠ passé avec objet)
+    assert default_engine().conjugate("yigeyer", subject, "en_cours_objet", "maro") == expected
 
 
 def test_demande_with_object():

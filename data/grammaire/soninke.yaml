@@ -107,9 +107,9 @@ classes:
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
       future:
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
-      en_cours_objet:  # confirmé 2026-09-20 : nke yi maro yigane (kootasu = tous les jours)
-        forme: "{gerondif_objet}"
-        personnes: [nke]
+      en_cours_objet:  # confirmé 2026-09-20 : nke yi maro yigane, anke n'yi maro yigane
+        forme: "{gerondif_objet}"   # le verbe après l'objet reste nu à ce temps
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
       en_cours:        # confirmé : diminutifs sans particule, pronoms longs avec (n'yi)
         forme: "{gerondif}"
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
