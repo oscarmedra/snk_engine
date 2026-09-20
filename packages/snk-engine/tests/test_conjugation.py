@@ -128,6 +128,14 @@ def test_en_cours_with_object(subject, expected):
     assert default_engine().conjugate("yigeyer", subject, "en_cours_objet", "maro") == expected
 
 
+def test_fayi_and_yi_are_interchangeable():
+    e = default_engine()
+    assert e.conjugate("safa", "a", "en_cours_fayi") == "a fayi safana"
+    assert e.conjugate("safa", "a", "en_cours") == "a yi safana"
+    assert e.conjugate("yigeyer", "nke", "en_cours_objet_fayi", "maro") == "nke fayi maro yigane"
+    assert e.conjugate("yigeyer", "nke", "en_cours_objet", "maro") == "nke yi maro yigane"
+
+
 def test_demande_with_object():
     e = default_engine()
     assert e.conjugate("yigeyer", "a", "demande_objet", "maro") == "a na maro n'yiga"

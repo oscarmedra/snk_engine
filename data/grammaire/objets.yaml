@@ -20,5 +20,6 @@ complements:
      temps: [past, past_object, demande, demande_objet, en_cours]}
   - {snk: daru, fr: hier, source: "corp1 #29", temps: [past, past_object]}
   - {snk: kumbene, fr: demain, source: "corp1 #30", temps: [future]}
-  - {snk: "koota su", fr: tous les jours, source: "2026-09-20", temps: [en_cours, en_cours_objet]}
-  - {snk: "waxati su", fr: à tout moment, source: "2026-09-20", temps: [en_cours, en_cours_objet]}
+  - {snk: "koota su", fr: tous les jours, source: "2026-09-20", temps: [en_cours, en_cours_objet, en_cours_fayi, en_cours_objet_fayi]}
+  - {snk: "waxati su", fr: à tout moment, source: "2026-09-20",
+     temps: [en_cours, en_cours_objet, en_cours_fayi, en_cours_objet_fayi]}

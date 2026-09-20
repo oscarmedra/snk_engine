@@ -112,6 +112,17 @@
    "objet": true,
    "particule_verbe": true
   },
+  "en_cours_fayi": {
+   "nom": "action en cours (fayi)",
+   "marqueur": "fayi",
+   "particule": true
+  },
+  "en_cours_objet_fayi": {
+   "nom": "action en cours avec objet (fayi)",
+   "marqueur": "fayi",
+   "objet": true,
+   "particule": true
+  },
   "en_cours_objet": {
    "nom": "action en cours, avec objet",
    "marqueur": "yi",
@@ -193,6 +204,40 @@
      ]
     },
     "en_cours_objet": {
+     "forme": "{gerondif_objet}",
+     "personnes": [
+      "nke",
+      "anke",
+      "ake",
+      "oku",
+      "xaku",
+      "iku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
+     ]
+    },
+    "en_cours_fayi": {
+     "forme": "{gerondif}",
+     "personnes": [
+      "nke",
+      "anke",
+      "ake",
+      "oku",
+      "xaku",
+      "iku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
+     ]
+    },
+    "en_cours_objet_fayi": {
      "forme": "{gerondif_objet}",
      "personnes": [
       "nke",

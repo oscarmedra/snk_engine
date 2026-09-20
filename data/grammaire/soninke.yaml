@@ -59,6 +59,15 @@ temps:
     particule: true        # sur di, selon le pronom
     objet: true
     particule_verbe: true  # le verbe qui suit l'objet prend aussi la particule
+  en_cours_fayi:
+    nom: action en cours (fayi)
+    marqueur: fayi        # a fayi safandini = il écrit ; équivaut à « yi »
+    particule: true
+  en_cours_objet_fayi:
+    nom: action en cours avec objet (fayi)
+    marqueur: fayi        # nke fayi maro yigane = nke yi maro yigane
+    objet: true
+    particule: true
   en_cours_objet:
     nom: action en cours, avec objet
     marqueur: yi          # nke yi maro yigane kootasu = je mange du riz tous les jours
@@ -109,6 +118,12 @@ classes:
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
       en_cours_objet:  # confirmé 2026-09-20 : nke yi maro yigane, anke n'yi maro yigane
         forme: "{gerondif_objet}"   # le verbe après l'objet reste nu à ce temps
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      en_cours_fayi:   # confirmé : « fayi » et « yi » sont interchangeables
+        forme: "{gerondif}"
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      en_cours_objet_fayi:
+        forme: "{gerondif_objet}"
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
       en_cours:        # confirmé : diminutifs sans particule, pronoms longs avec (n'yi)
         forme: "{gerondif}"

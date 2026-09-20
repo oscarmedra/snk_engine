@@ -21,7 +21,7 @@ from .french import FrenchError, FrenchVerb, conjugate_fr
 
 # Temps auxquels on peut ajouter un complément de lieu ou de temps (confirmé par corp1/serie_02)
 COMPLEMENT_TENSES = {"past", "past_object", "future", "demande", "demande_objet",
-                     "en_cours", "en_cours_objet"}
+                     "en_cours", "en_cours_objet", "en_cours_fayi", "en_cours_objet_fayi"}
 
 
 @dataclass(frozen=True)

@@ -85,9 +85,9 @@ def conjugate_fr(verb: FrenchVerb, person: str, tense: str, obj: str | None = No
             raise FrenchError(f"Pas de subjonctif français pour '{verb.infinitive}'")
         que = "qu'" if subject.startswith(("il", "el")) else "que "
         return f"{que}{subject} {verb.subjunctive[i]}{tail}"
-    if tense == "en_cours_objet":
+    if tense in ("en_cours_objet", "en_cours_objet_fayi"):
         return _elide(subject, verb.present[i]) + tail
-    if tense == "en_cours":
+    if tense in ("en_cours", "en_cours_fayi"):
         # présent simple : « en ce moment » entrerait en conflit avec « koota su »
         return _elide(subject, verb.present[i]) + tail
     if tense == "imperfect":
