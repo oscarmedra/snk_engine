@@ -34,8 +34,10 @@ grammaire:
 
 adverbes:
   - {snk: siri, fr: "mal (douleur, non tangible)", source: "serie_03 #35"}
-  - {snk: "gobo / gebe", fr: "beaucoup", source: "serie_03, confirmé 2026-09-20",
-     note: "les deux formes disent la même chose ; gabo se rencontre aussi"}
+  - {snk: gobo, fr: "beaucoup (de personnes)", source: "confirmé 2026-09-20",
+     exemple: "lemina n'gobo = beaucoup d'enfants"}
+  - {snk: gebe, fr: "beaucoup (de choses)", source: "confirmé 2026-09-20",
+     exemple: "yite gebe = beaucoup d'arbres", note: "écrit gabo dans texte_journee"}
 
 # --- texte_journee (2026-09-17) : compris à ~96 %, à vérifier un par un ---
 texte_journee:
@@ -224,7 +226,7 @@ texte_travail:
   - {snk: fana, fr: "premier", exemple: "kompe fana ke = la première chambre"}
   - {snk: saxura, fr: lit}
   - {snk: kaye, fr: cahier}
-  - {snk: gabo, fr: beaucoup, exemple: "yite gabo", note: "variante de gobo / gebe"}
+  - {snk: gabo, fr: beaucoup, exemple: "yite gabo", note: "= gebe (pour des choses)"}
   - {snk: tie, fr: viande}
   - {snk: guida, fr: "frère ou sœur plus âgé(e) que moi", note: "confirmé 2026-09-20"}
   - {snk: "guida niaxare", fr: "grande sœur"}

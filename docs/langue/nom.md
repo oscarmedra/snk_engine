@@ -29,7 +29,8 @@ lemina m'bane      un enfant
 leminu filli       deux enfants
 leminu sikki       trois enfants
 kanu tami          dix maisons
-lemina n'gobo      beaucoup d'enfants
+lemina n'gobo      beaucoup d'enfants   (gobo : des personnes)
+yite gebe          beaucoup d'arbres    (gebe : des choses)
 lemina lamanu      peu d'enfants
 ```
 

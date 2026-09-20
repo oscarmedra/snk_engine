@@ -147,7 +147,8 @@ Sens compris d'après le contexte, confirmés par le locuteur.
 | mot | sens |
 |---|---|
 | `siri` | mal (douleur, non tangible) |
-| `gobo / gebe` | beaucoup |
+| `gobo` | beaucoup (de personnes) |
+| `gebe` | beaucoup (de choses) |
 
 ### Précisions du locuteur
 
@@ -340,4 +341,4 @@ Sens compris d'après le contexte, confirmés par le locuteur.
 
 ---
 
-10 verbes conjugables · 41 verbes du locuteur en attente · 120 verbes relevés dans la littérature · environ 218 mots enregistrés.
+10 verbes conjugables · 41 verbes du locuteur en attente · 120 verbes relevés dans la littérature · environ 219 mots enregistrés.
