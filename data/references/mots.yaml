@@ -260,11 +260,17 @@ noms_systeme:
     - {snk: "leminu yi ka ke noxo", fr: il y a des enfants}
     - {snk: "sere su n'ti ka ke noxo", fr: il n'y a personne dans la maison}
     - {snk: "dji su n'ti yere", fr: il n'y a pas d'eau}
-  nombres:
-    - {snk: bane, fr: un}
-    - {snk: filli, fr: deux}
-    - {snk: sikki, fr: trois}
-    - {snk: tami, fr: dix}
+  nombres:            # forme isolée / forme employée devant un nom
+    - {snk: baane, compte: bane, fr: un}
+    - {snk: fillo, compte: filli, fr: deux}
+    - {snk: sikko, compte: sikki, fr: trois}
+    - {snk: naxato, fr: quatre}
+    - {snk: karago, fr: cinq}
+    - {snk: tumu, fr: six}
+    - {snk: nieru, fr: sept}
+    - {snk: seegu, fr: huit}
+    - {snk: koobu, fr: neuf}
+    - {snk: tamu, compte: tami, fr: dix}
     - {snk: fana, fr: premier, note: "m'pana avec la particule"}
     - {snk: fillandi, fr: deuxième, note: "m'pillandi avec la particule"}
   demonstratifs:

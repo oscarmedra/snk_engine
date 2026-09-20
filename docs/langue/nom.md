@@ -69,12 +69,21 @@ Littéralement : « aucune personne n'est dans la maison », « aucune eau n'est
 
 ## Les nombres
 
-| | |
+| Seul | Devant un nom |
 |---|---|
-| `bane` | un |
-| `filli` | deux |
-| `sikki` | trois |
-| `tami` | dix |
+| `baane` — un | `lemina m'bane` |
+| `fillo` — deux | `leminu filli` |
+| `sikko` — trois | `leminu sikki` |
+| `naxato` — quatre | |
+| `karago` — cinq | |
+| `tumu` — six | |
+| `nieru` — sept | |
+| `seegu` — huit | |
+| `koobu` — neuf | |
+| `tamu` — dix | `kanu tami` |
+
+Le nombre change de finale quand il compte quelque chose : `baane` devient `bane`,
+`fillo` devient `filli`, `tamu` devient `tami`.
 
 Les ordinaux se forment sur le même radical :
 
