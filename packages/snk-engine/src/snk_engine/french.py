@@ -92,7 +92,7 @@ def conjugate_fr(verb: FrenchVerb, person: str, tense: str, obj: str | None = No
     if tense == "imminent":
         return _elide(subject, f"{AUX['etre'][i]} sur le point de {verb.french_infinitive}") + tail
     if tense == "progressive_watia":
-        return _elide(subject, verb.present[i]) + tail + " en ce moment"
+        return _elide(subject, f"{AUX['etre'][i]} en train de {verb.french_infinitive}") + tail
     if tense == "future":
         return _elide(subject, future) + tail
     if tense == "past_negative":

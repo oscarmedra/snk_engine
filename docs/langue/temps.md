@@ -16,7 +16,7 @@ Toutes les phrases ci-dessous sont produites par le moteur.
 | demande | pronom + `na` + verbe | `a na yige` | qu'il mange |
 | demande avec objet | pronom + `na` + objet + verbe | `a na maro n'yiga` | qu'il mange le riz |
 | sur le point de | pronom + `fayi rini` + verbe | `nke fayi rini daga` | je suis sur le point de partir |
-| insistance (watia) | pronom + `fayi` + forme en -ni + `watia` | `ake m'fayi yigene watia` | il mange (là, maintenant) |
+| en train de (watia) | pronom + `fayi` + forme en -ni + `watia` | `ake m'fayi yigene watia` | il est en train de manger, là, maintenant |
 | futur | pronom + `yi rini` + verbe | `anke n'yi rini daga` | tu partiras |
 | négation du passé | pronom + `maxa` + verbe | `a maxa daga` | il n'est pas parti |
 | négation du futur | pronom + `n'ti rini` + verbe | `anke n'ti rini daga` | tu ne partiras pas |
@@ -30,6 +30,7 @@ Le français dit « je mange » pour trois choses que le soninké distingue :
 |---|---|---|
 | `nke yi yigene` | je mange | l'action se fait maintenant |
 | `nke fayi rini yige` | je suis sur le point de manger | l'action va commencer |
+| `nke m'fayi yigene watia` | je suis en train de manger | insistance sur le moment |
 | `n na yige` | que je mange | une demande, une invitation |
 
 `na` n'est donc pas un présent : `anke na ri oku ka` veut dire « viens chez nous »,

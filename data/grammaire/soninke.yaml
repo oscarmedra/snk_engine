@@ -37,9 +37,9 @@ temps:
     marqueur: fayi rini  # nke fayi rini daga = je suis sur le point de partir
     particule: true       # anke m'fayi rini daga
   progressive_watia:
-    nom: présent progressif (watia)
+    nom: en train de (watia)
     marqueur: fayi
-    suffixe: watia       # watia : insiste sur le moment
+    suffixe: watia       # insiste sur le moment : « là, maintenant »
     particule: true      # anke m'fayi dagana watia
   future:
     nom: futur

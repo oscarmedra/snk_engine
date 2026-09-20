@@ -25,7 +25,7 @@ VERB = FrenchVerb("yigeyer", "manger", "avoir", "mangé",
         ("3pl", "future", None, "ils mangeront"),
         ("1sg", "past_negative", None, "je n'ai pas mangé"),
         ("2sg", "future_negative", None, "tu ne mangeras pas"),
-        ("3sg", "progressive_watia", None, "il mange en ce moment"),
+        ("3sg", "progressive_watia", None, "il est en train de manger"),
         ("1sg", "imminent", None, "je suis sur le point de manger"),
     ],
 )
