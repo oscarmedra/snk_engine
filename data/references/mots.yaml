@@ -208,3 +208,29 @@ chaque:
   - {snk: dinguira, fr: endroit}
   - {snk: koota, fr: "jour ou heure ?", note: "à confirmer"}
 
+# --- texte_travail (2026-09-20) : lecture de Claude, à confirmer ---
+texte_travail:
+  - {snk: "ni a ni / niani", fr: "il y a", exemple: "yite gabo ni a ni a noxo = il y a beaucoup d'arbres dedans"}
+  - {snk: "ni ya", fr: "facilite la transition entre les mots", exemple: "nke goli ni ya koota su",
+     note: "confirmé : « nke yi golini koota su » est également correct"}
+  - {snk: "watia kundu", fr: "en ce moment"}
+  - {snk: kati, fr: "à (destinataire) et avant", exemple: "kati nke waxi = à mon frère ; kati wuro ke nga roono = avant la nuit",
+     note: "confirmé : c'est le même mot"}
+  - {snk: xa, fr: "où ?", exemple: "an guida xa ?", note: "confirmé : équivaut à minna — « an guida ni minna » se dit aussi"}
+  # « kotaxu » était une faute de frappe pour « kota su »
+  - {snk: gune, fr: champ}
+  - {snk: kompo, fr: chambre, note: "kompe ke = la chambre"}
+  - {snk: fana, fr: "premier", exemple: "kompe fana ke = la première chambre"}
+  - {snk: saxura, fr: lit}
+  - {snk: kaye, fr: cahier}
+  - {snk: gabo, fr: beaucoup, exemple: "yite gabo = beaucoup d'arbres"}
+  - {snk: tie, fr: viande}
+  - {snk: guida, fr: "frère ou sœur plus âgé(e) que moi", note: "confirmé 2026-09-20"}
+  - {snk: "guida niaxare", fr: "grande sœur"}
+  - {snk: "guida n'yigo", fr: "grand frère"}
+  - {snk: "a do … me", fr: "être en train de", exemple: "guida niaxare a do yirame waqinde me = ma sœur est en train de laver les habits"}
+  - {snk: yille, fr: rentrer}
+  - {snk: waqinde, fr: "lavé", note: "wanqi ailleurs"}
+  - {snk: deberi, fr: faire, exemple: "ake ni mane deberini watia ? = qu'est-ce qu'il fait maintenant ?"}
+
+  - {snk: ke, fr: "le/la", note: "confirmé : se place avant ou après le nom — ke suxuba = suxuba ke"}
