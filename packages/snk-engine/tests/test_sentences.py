@@ -21,7 +21,7 @@ VERB = FrenchVerb("yigeyer", "manger", "avoir", "mangé",
         ("3sg", "demande", "le riz", "qu'il mange le riz"),
         ("1sg", "demande", None, "que je mange"),
         ("1sg", "imperfect", None, "je mangeais"),
-        ("1sg", "en_cours", None, "je mange en ce moment"),
+        ("1sg", "en_cours", None, "je mange"),
         ("3pl", "future", None, "ils mangeront"),
         ("1sg", "past_negative", None, "je n'ai pas mangé"),
         ("2sg", "future_negative", None, "tu ne mangeras pas"),
@@ -47,7 +47,7 @@ def test_generation_pairs_are_consistent():
     snk = {r.snk for r in rows}
     assert len({(r.snk, r.fr) for r in rows}) == len(rows)   # aucune paire en double
     # « nke yi rini » vaut pour le futur et pour l'action en cours : ambiguïté réelle
-    assert {r.fr for r in rows if r.snk == "nke yi rini"} == {"je viendrai", "je viens en ce moment"}
+    assert {r.fr for r in rows if r.snk == "nke yi rini"} == {"je viendrai", "je viens"}
     assert "nke daga saxa" in snk
     assert "ake n'di maro ke n'yiga" in snk
     assert all(r.fr and r.snk for r in rows)

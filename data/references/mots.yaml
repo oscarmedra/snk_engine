@@ -196,7 +196,15 @@ texte_village:
     - "« A l'ri ? » était une erreur : la bonne forme est An l'ri (tu es venu)."
 
 # --- 2026-09-20 ---
-habitude:
-  - {snk: kootasu, fr: "tous les jours", note: "sans doute koota (jour) + su (chaque), comme suxuba-su, sere-su"}
-  - {snk: koota, fr: "jour ?", note: "à confirmer : déduit de kootasu"}
+# « su » = chaque : il se place APRÈS le nom et s'écrit séparément (confirmé 2026-09-20)
+chaque:
+  - {snk: "koota su", fr: "chaque jour / tous les jours"}
+  - {snk: "waxati su", fr: "chaque moment"}
+  - {snk: "sere su", fr: "chaque personne"}
+  - {snk: "dinguira su", fr: "chaque endroit"}
+  - {snk: "suxuba su", fr: "chaque matin"}
+  - {snk: "lele su", fr: "chaque soir"}
+  - {snk: waxati, fr: moment}
+  - {snk: dinguira, fr: endroit}
+  - {snk: koota, fr: "jour ou heure ?", note: "à confirmer"}
 

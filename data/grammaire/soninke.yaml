@@ -252,6 +252,39 @@ verbes:
     transitif: true      # n di lemine ŋ'wori
     classe: regulier     # ake ŋ'wori ; avec objet : ake n'di lemine ke ŋ'wori
 
+  safa:                  # infinitif non confirmé : la clé est le radical
+    fr: écrire
+    forme: safa
+    gerondif: safana     # confirmé 2026-09-20
+    transitif: true      # serie_03 : ake n'di lettra n'safa
+    forme_objet: safa
+    gerondif_objet: safana
+    classe: regulier
+    francais:            # formes françaises, pour la traduction du corpus
+      auxiliaire: avoir
+      infinitif: écrire
+      participe: écrit
+      present: [écris, écris, écrit, écrivons, écrivez, écrivent]
+      imparfait: [écrivais, écrivais, écrivait, écrivions, écriviez, écrivaient]
+      futur_radical: écrir
+      subjonctif: [écrive, écrives, écrive, écrivions, écriviez, écrivent]
+      imperatif: [écris, écrivons, écrivez]   # tu, nous, vous
+
+  goli:                  # cité golini par le locuteur
+    fr: travailler
+    forme: goli
+    gerondif: golini     # confirmé 2026-09-20
+    classe: regulier     # serie_02 : ake n'goli
+    francais:            # formes françaises, pour la traduction du corpus
+      auxiliaire: avoir
+      infinitif: travailler
+      participe: travaillé
+      present: [travaille, travailles, travaille, travaillons, travaillez, travaillent]
+      imparfait: [travaillais, travaillais, travaillait, travaillions, travailliez, travaillaient]
+      futur_radical: travailler
+      subjonctif: [travaille, travailles, travaille, travaillions, travailliez, travaillent]
+      imperatif: [travaille, travaillons, travaillez]   # tu, nous, vous
+
   wurier:
     fr: courir
     francais:            # formes françaises, pour la traduction du corpus

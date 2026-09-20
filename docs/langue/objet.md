@@ -48,6 +48,18 @@ maro ke         le riz
 lemine ke       l'enfant
 ```
 
+## « Chaque » : su
+
+`su` se place après le nom, et s'écrit séparément :
+
+```
+koota su        chaque jour
+waxati su       chaque moment
+sere su         chaque personne
+dinguira su     chaque endroit
+suxuba su       chaque matin
+```
+
 ## Le pluriel
 
 Le pluriel du nom se marque par `-ni`, parfois `-mu` :

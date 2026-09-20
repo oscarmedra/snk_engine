@@ -15,6 +15,8 @@ Entièrement conjugables : toutes les formes sont confirmées par le locuteur.
 | `yigeyer` | manger | yige | yigene | yiga |
 | `mini` | boire | mini | minini | oui |
 | `wori` | voir | wori | worini | oui |
+| `safa` | écrire | safa | safana | safa |
+| `goli` | travailler | goli | golini | — |
 | `wurier` | courir | wuru | wurunu | — |
 
 ## Verbes donnés par le locuteur, pas encore dans le moteur
@@ -338,4 +340,4 @@ Sens compris d'après le contexte, confirmés par le locuteur.
 
 ---
 
-8 verbes conjugables · 41 verbes du locuteur en attente · 120 verbes relevés dans la littérature · environ 150 mots enregistrés.
+10 verbes conjugables · 41 verbes du locuteur en attente · 120 verbes relevés dans la littérature · environ 157 mots enregistrés.

@@ -11,6 +11,8 @@ objets:
   - {snk: "xati ke", fr: le lait, verbes: [mini, wori], source: "2026-09-17"}
   - {snk: lemine, fr: un enfant, verbes: [wori], source: "serie_02 #26"}
   - {snk: "lemine ke", fr: l'enfant, verbes: [wori], source: "serie_03"}
+  - {snk: lettra, fr: une lettre, verbes: [safa, wori], source: "serie_03 #16"}
+  - {snk: "lettra ke", fr: la lettre, verbes: [safa, wori], source: "serie_03 #16"}
 
 complements:
   - {snk: saxa, fr: au marché, source: "corp1 #27"}
@@ -18,4 +20,5 @@ complements:
      temps: [past, past_object, demande, demande_objet, en_cours]}
   - {snk: daru, fr: hier, source: "corp1 #29", temps: [past, past_object]}
   - {snk: kumbene, fr: demain, source: "corp1 #30", temps: [future]}
-  - {snk: kootasu, fr: tous les jours, source: "2026-09-20", temps: [en_cours, en_cours_objet]}
+  - {snk: "koota su", fr: tous les jours, source: "2026-09-20", temps: [en_cours, en_cours_objet]}
+  - {snk: "waxati su", fr: à tout moment, source: "2026-09-20", temps: [en_cours, en_cours_objet]}

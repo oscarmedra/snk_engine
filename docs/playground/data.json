@@ -631,6 +631,91 @@
    "transitif": true,
    "classe": "regulier"
   },
+  "safa": {
+   "fr": "écrire",
+   "forme": "safa",
+   "gerondif": "safana",
+   "transitif": true,
+   "forme_objet": "safa",
+   "gerondif_objet": "safana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "écrire",
+    "participe": "écrit",
+    "present": [
+     "écris",
+     "écris",
+     "écrit",
+     "écrivons",
+     "écrivez",
+     "écrivent"
+    ],
+    "imparfait": [
+     "écrivais",
+     "écrivais",
+     "écrivait",
+     "écrivions",
+     "écriviez",
+     "écrivaient"
+    ],
+    "futur_radical": "écrir",
+    "subjonctif": [
+     "écrive",
+     "écrives",
+     "écrive",
+     "écrivions",
+     "écriviez",
+     "écrivent"
+    ],
+    "imperatif": [
+     "écris",
+     "écrivons",
+     "écrivez"
+    ]
+   }
+  },
+  "goli": {
+   "fr": "travailler",
+   "forme": "goli",
+   "gerondif": "golini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "travailler",
+    "participe": "travaillé",
+    "present": [
+     "travaille",
+     "travailles",
+     "travaille",
+     "travaillons",
+     "travaillez",
+     "travaillent"
+    ],
+    "imparfait": [
+     "travaillais",
+     "travaillais",
+     "travaillait",
+     "travaillions",
+     "travailliez",
+     "travaillaient"
+    ],
+    "futur_radical": "travailler",
+    "subjonctif": [
+     "travaille",
+     "travailles",
+     "travaille",
+     "travaillions",
+     "travailliez",
+     "travaillent"
+    ],
+    "imperatif": [
+     "travaille",
+     "travaillons",
+     "travaillez"
+    ]
+   }
+  },
   "wurier": {
    "fr": "courir",
    "francais": {
@@ -725,6 +810,24 @@
     "wori"
    ],
    "source": "serie_03"
+  },
+  {
+   "snk": "lettra",
+   "fr": "une lettre",
+   "verbes": [
+    "safa",
+    "wori"
+   ],
+   "source": "serie_03 #16"
+  },
+  {
+   "snk": "lettra ke",
+   "fr": "la lettre",
+   "verbes": [
+    "safa",
+    "wori"
+   ],
+   "source": "serie_03 #16"
   }
  ]
 }

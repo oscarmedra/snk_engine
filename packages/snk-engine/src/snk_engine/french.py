@@ -88,7 +88,8 @@ def conjugate_fr(verb: FrenchVerb, person: str, tense: str, obj: str | None = No
     if tense == "en_cours_objet":
         return _elide(subject, verb.present[i]) + tail
     if tense == "en_cours":
-        return _elide(subject, verb.present[i]) + tail + " en ce moment"
+        # présent simple : « en ce moment » entrerait en conflit avec « koota su »
+        return _elide(subject, verb.present[i]) + tail
     if tense == "imperfect":
         return _elide(subject, verb.imperfect[i]) + tail
     if tense == "imminent":

@@ -59,6 +59,10 @@ def test_dagaer_confirmed_forms(subject, tense, expected):
         ("fayinder", "ake", "past", "ake m'faye"),
         ("mini", "ake", "past", "ake m'mini"),
         ("wori", "ake", "past", "ake ŋ'wori"),
+        ("safa", "ake", "past", "ake n'safa"),
+        ("safa", "nke", "en_cours", "nke yi safana"),
+        ("goli", "ake", "past", "ake n'goli"),
+        ("goli", "nke", "en_cours", "nke yi golini"),
         ("fayinder", "n", "en_cours", "n yi fayeni"),
         ("mini", "n", "en_cours", "n yi minini"),
         ("wori", "anke", "en_cours", "anke n'yi worini"),
@@ -213,7 +217,9 @@ def test_unconfirmed_forms_are_refused(verb, subject, tense):
 def test_verbs_are_registered():
     engine = default_engine()
     expected = {"dagaer": "partir", "rier": "venir", "fayinder": "regarder", "sefeer": "parler",
-                "yigeyer": "manger", "mini": "boire", "wori": "voir", "wurier": "courir"}
+                "yigeyer": "manger", "mini": "boire", "wori": "voir", "safa": "écrire",
+                "goli": "travailler",
+                "wurier": "courir"}
     assert {k: v.french for k, v in engine.verbs.items()} == expected
 
 
