@@ -14,6 +14,8 @@ locuteur:
   - {radical: xenxe, fr: dormir, exemple: "ake n'xenxe (il a dormi)", source: "serie_02 #25, serie_03 #4", manque: infinitif, note: "« anke xenxe » était une erreur : la particule s'applique"}
   - {radical: mara, fr: "?", exemple: "m'mara", source: "message du 2026-09-16 (maréer)", manque: sens}
   - {radical: "?", fr: arriver, source: "serie_02 #27", manque: tout}
+  - {radical: "?", fr: amener, nom_action: ritinde, source: "2026-09-20",
+     note: "sans doute dérivé de ri (venir) : « faire venir »"}
   - {radical: xobo, fr: acheter, exemple: "ake n'di maro xobo (il a acheté le riz)", source: "serie_03 #15", manque: "infinitif ; forme sans objet"}
   - {radical: safa, fr: écrire, exemple: "ake n'di lettra n'safa (il a écrit la lettre)", source: "serie_03 #16", manque: "infinitif ; forme sans objet"}
 

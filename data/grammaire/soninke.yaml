@@ -79,6 +79,17 @@ temps:
     particule: true      # avec les pronoms longs : anke n'yi terene
     # Dans un récit au passé, la même forme se lit « il était en train de » :
     # ma-ma yi taxunu = elle était assise.
+  en_cours_do:
+    nom: action en cours (do … me)
+    marqueur: do          # nke do yigaye ni ya me = je suis en train de manger
+    suffixe: ni ya me
+    particule: true       # anke n'do …
+  en_cours_objet_do:
+    nom: action en cours avec objet (do … me)
+    marqueur: do          # nke do maro ke yigaye ni ya me
+    objet: true
+    suffixe: ni ya me
+    particule: true
   imperatif:
     nom: impératif
     marqueur: null        # taxu = assieds-toi ; maro ke yiga = mange le riz
@@ -150,6 +161,12 @@ classes:
         personnes: [nke, oku, n, an, a, o, xa, i]
       past_object:     # confirmé : ake n'di maro n'yiga, n di lemine n'wori, oku di lemine n'wori
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      en_cours_do:     # confirmé : les trois façons de dire l'action en cours sont équivalentes
+        forme: "{nom_action}"
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      en_cours_objet_do:
+        forme: "{nom_action}"
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
       imperatif:       # confirmé : taxu, maro ke yiga, maxa daga
         personnes: [an]
       imperatif_objet:
@@ -181,6 +198,7 @@ verbes:
       subjonctif: [parte, partes, parte, partions, partiez, partent]
       imperatif: [pars, partons, partez]   # tu, nous, vous
     forme: daga
+    nom_action: dagaye
     gerondif: dagana
     classe: regulier
     conjugaison:
@@ -199,6 +217,7 @@ verbes:
       subjonctif: [vienne, viennes, vienne, venions, veniez, viennent]
       imperatif: [viens, venons, venez]   # tu, nous, vous
     forme: ri
+    nom_action: riye
     gerondif: rini
     classe: regulier
     conjugaison:
@@ -227,6 +246,7 @@ verbes:
       subjonctif: [regarde, regardes, regarde, regardions, regardiez, regardent]
       imperatif: [regarde, regardons, regardez]   # tu, nous, vous
     forme: faye
+    nom_action: fayinde
     gerondif: fayeni    # confirmé : « faye » seul se dit aussi
     classe: regulier
 
@@ -242,6 +262,7 @@ verbes:
       subjonctif: [parle, parles, parle, parlions, parliez, parlent]
       imperatif: [parle, parlons, parlez]   # tu, nous, vous
     forme: sefe
+    nom_action: sefeye
     gerondif: sefene    # serie_03 #11 (corrigé par le locuteur)
     classe: regulier
 
@@ -257,6 +278,7 @@ verbes:
       subjonctif: [mange, manges, mange, mangions, mangiez, mangent]
       imperatif: [mange, mangeons, mangez]   # tu, nous, vous
     forme: yige
+    nom_action: yigaye
     gerondif: yigene    # serie_02 : ake m'fayi yigene watia
     transitif: true
     forme_objet: yiga    # avec un objet : ake n'di maro n'yiga
@@ -277,6 +299,7 @@ verbes:
       subjonctif: [boive, boives, boive, buvions, buviez, boivent]
       imperatif: [bois, buvons, buvez]   # tu, nous, vous
     forme: mini
+    nom_action: mine
     gerondif: minini    # confirmé : « mini » seul se dit aussi
     transitif: true      # ake n'di xati m'mini
     classe: regulier     # ake m'mini ; avec objet : ake n'di xati m'mini
@@ -293,6 +316,7 @@ verbes:
       subjonctif: [voie, voies, voie, voyions, voyiez, voient]
       imperatif: [vois, voyons, voyez]   # tu, nous, vous
     forme: wori
+    nom_action: woriye
     gerondif: worini
     transitif: true      # n di lemine ŋ'wori
     classe: regulier     # ake ŋ'wori ; avec objet : ake n'di lemine ke ŋ'wori
@@ -300,6 +324,7 @@ verbes:
   safa:                  # infinitif non confirmé : la clé est le radical
     fr: écrire
     forme: safa
+    nom_action: safande
     gerondif: safana     # confirmé 2026-09-20
     transitif: true      # serie_03 : ake n'di lettra n'safa
     forme_objet: safa
@@ -318,6 +343,7 @@ verbes:
   wutu:                  # confirmé : ke kitabe wutu = prends ce livre
     fr: prendre
     forme: wutu
+    nom_action: wutunde
     transitif: true
     forme_objet: wutu
     classe: regulier
@@ -334,6 +360,7 @@ verbes:
   goli:                  # cité golini par le locuteur
     fr: travailler
     forme: goli
+    nom_action: goliye
     gerondif: golini     # confirmé 2026-09-20
     classe: regulier     # serie_02 : ake n'goli
     francais:            # formes françaises, pour la traduction du corpus
@@ -358,5 +385,6 @@ verbes:
       subjonctif: [coure, coures, coure, courions, couriez, courent]
       imperatif: [cours, courons, courez]   # tu, nous, vous
     forme: wuru
+    nom_action: wuruye
     gerondif: wurunu    # serie_03 : ake m'fayi wurunu watia
     classe: regulier

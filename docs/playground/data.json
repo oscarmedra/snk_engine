@@ -134,6 +134,19 @@
    "marqueur": "yi",
    "particule": true
   },
+  "en_cours_do": {
+   "nom": "action en cours (do … me)",
+   "marqueur": "do",
+   "suffixe": "ni ya me",
+   "particule": true
+  },
+  "en_cours_objet_do": {
+   "nom": "action en cours avec objet (do … me)",
+   "marqueur": "do",
+   "objet": true,
+   "suffixe": "ni ya me",
+   "particule": true
+  },
   "imperatif": {
    "nom": "impératif",
    "marqueur": null,
@@ -331,6 +344,40 @@
       "i"
      ]
     },
+    "en_cours_do": {
+     "forme": "{nom_action}",
+     "personnes": [
+      "nke",
+      "anke",
+      "ake",
+      "oku",
+      "xaku",
+      "iku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
+     ]
+    },
+    "en_cours_objet_do": {
+     "forme": "{nom_action}",
+     "personnes": [
+      "nke",
+      "anke",
+      "ake",
+      "oku",
+      "xaku",
+      "iku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
+     ]
+    },
     "imperatif": {
      "personnes": [
       "an"
@@ -429,6 +476,7 @@
     ]
    },
    "forme": "daga",
+   "nom_action": "dagaye",
    "gerondif": "dagana",
    "classe": "regulier",
    "conjugaison": {
@@ -478,6 +526,7 @@
     ]
    },
    "forme": "ri",
+   "nom_action": "riye",
    "gerondif": "rini",
    "classe": "regulier",
    "conjugaison": {
@@ -559,6 +608,7 @@
     ]
    },
    "forme": "faye",
+   "nom_action": "fayinde",
    "gerondif": "fayeni",
    "classe": "regulier"
   },
@@ -600,6 +650,7 @@
     ]
    },
    "forme": "sefe",
+   "nom_action": "sefeye",
    "gerondif": "sefene",
    "classe": "regulier"
   },
@@ -641,6 +692,7 @@
     ]
    },
    "forme": "yige",
+   "nom_action": "yigaye",
    "gerondif": "yigene",
    "transitif": true,
    "forme_objet": "yiga",
@@ -685,6 +737,7 @@
     ]
    },
    "forme": "mini",
+   "nom_action": "mine",
    "gerondif": "minini",
    "transitif": true,
    "classe": "regulier"
@@ -727,6 +780,7 @@
     ]
    },
    "forme": "wori",
+   "nom_action": "woriye",
    "gerondif": "worini",
    "transitif": true,
    "classe": "regulier"
@@ -734,6 +788,7 @@
   "safa": {
    "fr": "écrire",
    "forme": "safa",
+   "nom_action": "safande",
    "gerondif": "safana",
    "transitif": true,
    "forme_objet": "safa",
@@ -778,6 +833,7 @@
   "wutu": {
    "fr": "prendre",
    "forme": "wutu",
+   "nom_action": "wutunde",
    "transitif": true,
    "forme_objet": "wutu",
    "classe": "regulier",
@@ -820,6 +876,7 @@
   "goli": {
    "fr": "travailler",
    "forme": "goli",
+   "nom_action": "goliye",
    "gerondif": "golini",
    "classe": "regulier",
    "francais": {
@@ -896,6 +953,7 @@
     ]
    },
    "forme": "wuru",
+   "nom_action": "wuruye",
    "gerondif": "wurunu",
    "classe": "regulier"
   }

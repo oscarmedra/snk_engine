@@ -128,6 +128,21 @@ def test_en_cours_with_object(subject, expected):
     assert default_engine().conjugate("yigeyer", subject, "en_cours_objet", "maro") == expected
 
 
+@pytest.mark.parametrize(
+    "verb, subject, obj, expected",
+    [
+        ("yigeyer", "nke", None, "nke do yigaye ni ya me"),
+        ("yigeyer", "anke", "maro ke", "anke n'do maro ke yigaye ni ya me"),
+        ("dagaer", "a", None, "a do dagaye ni ya me"),
+        ("wutu", "iku", "kitabe ke", "iku n'do kitabe ke wutunde ni ya me"),
+    ],
+)
+def test_do_me_construction(verb, subject, obj, expected):
+    # troisième façon de dire l'action en cours, avec le nom d'action
+    tense = "en_cours_objet_do" if obj else "en_cours_do"
+    assert default_engine().conjugate(verb, subject, tense, obj) == expected
+
+
 def test_fayi_and_yi_are_interchangeable():
     e = default_engine()
     assert e.conjugate("safa", "a", "en_cours_fayi") == "a fayi safana"

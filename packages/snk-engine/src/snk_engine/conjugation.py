@@ -124,6 +124,7 @@ class Verb:
     gerund: str | None = None      # forme en -nV (dagana, rini)
     object_form: str | None = None # forme du verbe quand il a un objet (yiga)
     object_gerund: str | None = None # forme en -ni de la forme à objet (yigane)
+    action_noun: str | None = None   # nom d'action : yigaye, dagaye
     transitive: bool = False       # le verbe accepte un objet (confirmé)
 
 
@@ -228,7 +229,7 @@ class ConjugationEngine:
                 f"Form not confirmed for verb '{verb}', subject '{subject}', tense '{tense}'"
             )
 
-        if with_object and v.object_form and not any("{gerondif" in (r.form or "") for r in rules):
+        if with_object and v.object_form and not any("{" in (r.form or "") for r in rules):
             return v.object_form
         form = next((r.exceptions[subject] for r in rules if subject in r.exceptions), None)
         if form is None:  # forme vide "" permise : le marqueur suffit (ex. okou yi rini)
@@ -236,7 +237,7 @@ class ConjugationEngine:
         if form is None:
             raise ConjugationNotDefinedError(f"No verb form defined for '{verb}' in tense '{tense}'")
         for placeholder, value in (("{forme}", v.form), ("{gerondif_objet}", v.object_gerund),
-                                   ("{gerondif}", v.gerund)):
+                                   ("{gerondif}", v.gerund), ("{nom_action}", v.action_noun)):
             if placeholder in form:
                 if value is None:
                     raise ConjugationNotDefinedError(f"Verb '{verb}' has no value for '{placeholder}'")
@@ -276,6 +277,7 @@ class ConjugationEngine:
                 gerund=v.get("gerondif"),
                 object_form=v.get("forme_objet"),
                 object_gerund=v.get("gerondif_objet"),
+                action_noun=v.get("nom_action"),
                 transitive=bool(v.get("transitif")),
             )
             for inf, v in data["verbes"].items()
