@@ -59,6 +59,11 @@ temps:
     particule: true        # sur di, selon le pronom
     objet: true
     particule_verbe: true  # le verbe qui suit l'objet prend aussi la particule
+  en_cours_objet:
+    nom: action en cours, avec objet
+    marqueur: yi          # nke yi maro yigane kootasu = je mange du riz tous les jours
+    objet: true
+    particule: true
   en_cours:
     nom: action en cours
     marqueur: yi         # nke yi yigene (je mange), a yi terene (il marche)
@@ -102,6 +107,9 @@ classes:
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
       future:
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      en_cours_objet:  # confirmé 2026-09-20 : nke yi maro yigane (kootasu = tous les jours)
+        forme: "{gerondif_objet}"
+        personnes: [nke]
       en_cours:        # confirmé : diminutifs sans particule, pronoms longs avec (n'yi)
         forme: "{gerondif}"
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
@@ -207,6 +215,7 @@ verbes:
     gerondif: yigene    # serie_02 : ake m'fayi yigene watia
     transitif: true
     forme_objet: yiga    # avec un objet : ake n'di maro n'yiga
+    gerondif_objet: yigane   # forme en -ni de yiga : nke yi maro yigane
     classe: regulier
     # corp1 #28 : « ake n'di maro n'yiga » (il a mangé le riz) — di indique que
     # l'action s'effectue sur l'objet ; le verbe prend alors la forme yiga.

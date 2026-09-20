@@ -105,6 +105,13 @@ def test_object_clause(verb, subject, obj, expected):
     assert default_engine().conjugate(verb, subject, "past_object", obj) == expected
 
 
+def test_en_cours_with_object():
+    e = default_engine()
+    assert e.conjugate("yigeyer", "nke", "en_cours_objet", "maro") == "nke yi maro yigane"
+    with pytest.raises(ConjugationNotDefinedError):   # autres pronoms : à confirmer
+        e.conjugate("yigeyer", "ake", "en_cours_objet", "maro")
+
+
 def test_demande_with_object():
     e = default_engine()
     assert e.conjugate("yigeyer", "a", "demande_objet", "maro") == "a na maro n'yiga"

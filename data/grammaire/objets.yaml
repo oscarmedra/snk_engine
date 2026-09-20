@@ -18,3 +18,4 @@ complements:
      temps: [past, past_object, demande, demande_objet, en_cours]}
   - {snk: daru, fr: hier, source: "corp1 #29", temps: [past, past_object]}
   - {snk: kumbene, fr: demain, source: "corp1 #30", temps: [future]}
+  - {snk: kootasu, fr: tous les jours, source: "2026-09-20", temps: [en_cours, en_cours_objet]}

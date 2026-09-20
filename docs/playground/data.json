@@ -112,6 +112,12 @@
    "objet": true,
    "particule_verbe": true
   },
+  "en_cours_objet": {
+   "nom": "action en cours, avec objet",
+   "marqueur": "yi",
+   "objet": true,
+   "particule": true
+  },
   "en_cours": {
    "nom": "action en cours",
    "marqueur": "yi",
@@ -184,6 +190,12 @@
       "o",
       "xa",
       "i"
+     ]
+    },
+    "en_cours_objet": {
+     "forme": "{gerondif_objet}",
+     "personnes": [
+      "nke"
      ]
     },
     "en_cours": {
@@ -521,6 +533,7 @@
    "gerondif": "yigene",
    "transitif": true,
    "forme_objet": "yiga",
+   "gerondif_objet": "yigane",
    "classe": "regulier"
   },
   "mini": {
