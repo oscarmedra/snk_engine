@@ -290,3 +290,17 @@ noms_systeme:
     - {snk: kitabe, fr: livre}
     - {snk: xale, fr: "marque l'appartenance", exemple: "ke kitabe ni nke ni ya xale = ce livre est à moi"}
 
+# --- 2026-09-20, suite du texte 5 ---
+texte_5_suite:
+  - {snk: "ado", fr: "et", exemple: "maro ado xati = du riz et du lait"}
+  - {snk: "ado na", fr: "et (entre deux ordres)", exemple: "kitabe ke wutu ado na xara = prends le livre et lis-le"}
+  - {snk: yali, fr: "viens (impératif de ri)", note: "écrit yeli dans texte_marche"}
+  - {snk: "ra n'ti", fr: "ne pas pouvoir", exemple: "nke ra n'ti watia = je ne peux pas maintenant"}
+  - {snk: "do … me", fr: "être en train de", exemple: "nke do yigaye ni ya me = je suis en train de manger",
+     note: "même construction que « a do yirame waqinde me »"}
+  - {snk: yigaye, fr: "le fait de manger", note: "nom d'action, comme sore-ye"}
+  - {snk: "nke kuna", fr: "alors (?)", exemple: "nke kuna yigue fina = alors mange d'abord"}
+  - {snk: fina, fr: "d'abord"}
+  - {snk: kempale, fr: "ensuite, après"}
+  - {snk: "an na goli", fr: "et travaille (demande)", note: "« na » dans une suite d'ordres"}
+

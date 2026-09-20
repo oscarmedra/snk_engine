@@ -208,6 +208,12 @@ verbes:
       future_negative: # serie_02 : iku n'ti rini (ils ne viendront pas)
         forme: ""
         personnes: [iku]
+      imperatif:       # confirmé : yali yere = viens ici (et non « ri »)
+        formes: {an: yali}
+      imperatif_negatif:
+        formes: {an: yali}
+      imperatif_pluriel:
+        formes: {xa: yali}
 
   fayinder:
     fr: regarder

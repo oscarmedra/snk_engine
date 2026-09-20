@@ -30,3 +30,7 @@ encore été traduite.
 | Le vendeur nous a donné la monnaie. | gagana ké di oku wétiéti kini oku ya (o ya). |
 | Nous sommes rentrés avant la nuit. | o yillé kati wuro ké nga roono. |
 | Parce que la route est longue. | bawoni, killé ké guillé ni ya. |
+| Viens ici ! Prends ce livre et lis-le. | yali yéré ! kitabé ké wutu ado na xara. |
+| Je ne peux pas maintenant, je suis en train de manger. | nké ra nti watia, nké do yigayé ni ya mé. |
+| Alors mange d'abord, et travaille après. | nké kuna yigué fina, kémpalé an na goli. |
+
