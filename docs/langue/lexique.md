@@ -147,7 +147,7 @@ Sens compris d'après le contexte, confirmés par le locuteur.
 | mot | sens |
 |---|---|
 | `siri` | mal (douleur, non tangible) |
-| `gebe` | mal (chose tangible) |
+| `gobo / gebe` | beaucoup |
 
 ### Précisions du locuteur
 
