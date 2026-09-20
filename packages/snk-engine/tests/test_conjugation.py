@@ -59,21 +59,21 @@ def test_dagaer_confirmed_forms(subject, tense, expected):
         ("fayinder", "ake", "past", "ake m'faye"),
         ("mini", "ake", "past", "ake m'mini"),
         ("wori", "ake", "past", "ake ŋ'wori"),
-        ("fayinder", "n", "imperfect", "n yi faye-ni"),
-        ("mini", "n", "imperfect", "n yi mini-ni"),
-        ("wori", "anke", "imperfect", "anke n'yi wori-ni"),
-        ("dagaer", "nke", "present", "nke na daga"),
-        ("yigeyer", "a", "present", "a na yige"),
-        ("wurier", "o", "present", "o na wuru"),
-        ("wurier", "n", "imperfect", "n yi wuru-nu"),
-        ("wurier", "an", "imperfect", "an yi wuru-nu"),
-        ("wurier", "i", "imperfect", "i yi wuru-nu"),
-        ("dagaer", "a", "imperfect", "a yi daga-na"),
-        ("dagaer", "xa", "imperfect", "xa yi daga-na"),
-        ("wurier", "nke", "imperfect", "nke yi wuru-nu"),
-        ("wurier", "anke", "imperfect", "anke n'yi wuru-nu"),
-        ("wurier", "iku", "imperfect", "iku n'yi wuru-nu"),
-        ("dagaer", "oku", "imperfect", "oku yi daga-na"),
+        ("fayinder", "n", "en_cours", "n yi faye-ni"),
+        ("mini", "n", "en_cours", "n yi mini-ni"),
+        ("wori", "anke", "en_cours", "anke n'yi wori-ni"),
+        ("dagaer", "nke", "demande", "nke na daga"),
+        ("yigeyer", "a", "demande", "a na yige"),
+        ("wurier", "o", "demande", "o na wuru"),
+        ("wurier", "n", "en_cours", "n yi wuru-nu"),
+        ("wurier", "an", "en_cours", "an yi wuru-nu"),
+        ("wurier", "i", "en_cours", "i yi wuru-nu"),
+        ("dagaer", "a", "en_cours", "a yi daga-na"),
+        ("dagaer", "xa", "en_cours", "xa yi daga-na"),
+        ("wurier", "nke", "en_cours", "nke yi wuru-nu"),
+        ("wurier", "anke", "en_cours", "anke n'yi wuru-nu"),
+        ("wurier", "iku", "en_cours", "iku n'yi wuru-nu"),
+        ("dagaer", "oku", "en_cours", "oku yi daga-na"),
         ("rier", "iku", "future_negative", "iku n'ti ri-ni"),
         ("yigeyer", "ake", "progressive_watia", "ake m'fayi yige-ne watia"),
         ("wurier", "ake", "progressive_watia", "ake m'fayi wuru-nu watia"),
@@ -105,12 +105,12 @@ def test_object_clause(verb, subject, obj, expected):
     assert default_engine().conjugate(verb, subject, "past_object", obj) == expected
 
 
-def test_present_with_object():
+def test_demande_with_object():
     e = default_engine()
-    assert e.conjugate("yigeyer", "a", "present_object", "maro") == "a na maro n'yiga"
-    assert e.conjugate("mini", "n", "present_object", "xati") == "n na xati m'mini"
-    with pytest.raises(ConjugationNotDefinedError):   # particule avec ake au présent : à confirmer
-        e.conjugate("yigeyer", "ake", "present")
+    assert e.conjugate("yigeyer", "a", "demande_objet", "maro") == "a na maro n'yiga"
+    assert e.conjugate("mini", "n", "demande_objet", "xati") == "n na xati m'mini"
+    with pytest.raises(ConjugationNotDefinedError):   # particule avec ake : à confirmer
+        e.conjugate("yigeyer", "ake", "demande")
 
 
 def test_object_is_required_and_refused():

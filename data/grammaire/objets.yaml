@@ -15,6 +15,6 @@ objets:
 complements:
   - {snk: saxa, fr: au marché, source: "corp1 #27"}
   - {snk: lenki, fr: aujourd'hui, source: "serie_02 #19",
-     temps: [past, past_object, present, present_object]}
+     temps: [past, past_object, demande, demande_objet, en_cours]}
   - {snk: daru, fr: hier, source: "corp1 #29", temps: [past, past_object]}
   - {snk: kumbene, fr: demain, source: "corp1 #30", temps: [future]}

@@ -20,7 +20,7 @@ from .conjugation import DEFAULT_GRAMMAR, ConjugationEngine, ConjugationError, V
 from .french import FrenchError, FrenchVerb, conjugate_fr
 
 # Temps auxquels on peut ajouter un complément de lieu ou de temps (confirmé par corp1/serie_02)
-COMPLEMENT_TENSES = {"past", "past_object", "future", "present", "present_object"}
+COMPLEMENT_TENSES = {"past", "past_object", "future", "demande", "demande_objet", "en_cours"}
 
 
 @dataclass(frozen=True)

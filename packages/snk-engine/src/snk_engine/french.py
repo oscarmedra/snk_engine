@@ -17,6 +17,7 @@ AUX = {
 }
 FUTURE_ENDINGS = ["ai", "as", "a", "ons", "ez", "ont"]
 PLURAL = {"1pl", "2pl", "3pl"}
+IMPERATIVE_SLOTS = {"2sg": 0, "1pl": 1, "2pl": 2}
 
 
 class FrenchError(ValueError):
@@ -31,12 +32,16 @@ class FrenchVerb:
     present: list[str]
     imperfect: list[str]
     future_stem: str
+    subjunctive: list[str] | None = None
+    imperative: list[str] | None = None   # tu, nous, vous
 
     @classmethod
     def from_data(cls, infinitive: str, data: dict) -> "FrenchVerb":
         try:
             return cls(infinitive, data["auxiliaire"], data["participe"],
-                       list(data["present"]), list(data["imparfait"]), data["futur_radical"])
+                       list(data["present"]), list(data["imparfait"]), data["futur_radical"],
+                       list(data["subjonctif"]) if data.get("subjonctif") else None,
+                       list(data["imperatif"]) if data.get("imperatif") else None)
         except KeyError as exc:
             raise FrenchError(f"Formes françaises incomplètes pour '{infinitive}' : {exc}") from exc
 
@@ -71,8 +76,16 @@ def conjugate_fr(verb: FrenchVerb, person: str, tense: str, obj: str | None = No
 
     if tense in ("past", "past_object"):
         return _elide(subject, compose) + tail
-    if tense in ("present", "present_object"):
-        return _elide(subject, verb.present[i]) + tail
+    if tense in ("demande", "demande_objet"):
+        # « na » exprime une demande : l'impératif quand le français l'a, sinon « que… »
+        if person in IMPERATIVE_SLOTS and verb.imperative:
+            return verb.imperative[IMPERATIVE_SLOTS[person]] + tail
+        if not verb.subjunctive:
+            raise FrenchError(f"Pas de subjonctif français pour '{verb.infinitive}'")
+        que = "qu'" if subject.startswith(("il", "el")) else "que "
+        return f"{que}{subject} {verb.subjunctive[i]}{tail}"
+    if tense == "en_cours":
+        return _elide(subject, verb.present[i]) + tail + " en ce moment"
     if tense == "imperfect":
         return _elide(subject, verb.imperfect[i]) + tail
     if tense in ("progressive", "progressive_watia"):

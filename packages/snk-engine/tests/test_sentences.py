@@ -6,7 +6,9 @@ from snk_engine.sentences import french_verbs, generate
 
 VERB = FrenchVerb("manger", "avoir", "mangé",
                   ["mange", "manges", "mange", "mangeons", "mangez", "mangent"],
-                  ["mangeais", "mangeais", "mangeait", "mangions", "mangiez", "mangeaient"], "manger")
+                  ["mangeais", "mangeais", "mangeait", "mangions", "mangiez", "mangeaient"], "manger",
+                  ["mange", "manges", "mange", "mangions", "mangiez", "mangent"],
+                  ["mange", "mangeons", "mangez"])
 
 
 @pytest.mark.parametrize(
@@ -15,8 +17,11 @@ VERB = FrenchVerb("manger", "avoir", "mangé",
         ("1sg", "past", None, "j'ai mangé"),
         ("3sg", "past", None, "il a mangé"),
         ("1pl", "past_object", "le riz", "nous avons mangé le riz"),
-        ("2sg", "present", None, "tu manges"),
+        ("2sg", "demande", None, "mange"),
+        ("3sg", "demande", "le riz", "qu'il mange le riz"),
+        ("1sg", "demande", None, "que je mange"),
         ("1sg", "imperfect", None, "je mangeais"),
+        ("1sg", "en_cours", None, "je mange en ce moment"),
         ("3pl", "future", None, "ils mangeront"),
         ("1sg", "past_negative", None, "je n'ai pas mangé"),
         ("2sg", "future_negative", None, "tu ne mangeras pas"),
@@ -40,8 +45,8 @@ def test_generation_pairs_are_consistent():
     assert len(french_verbs(engine)) == len(engine.verbs)
     snk = {r.snk for r in rows}
     assert len({(r.snk, r.fr) for r in rows}) == len(rows)   # aucune paire en double
-    # « nke yi ri-ni » vaut pour le futur et l'imparfait de venir : ambiguïté réelle
-    assert {r.fr for r in rows if r.snk == "nke yi ri-ni"} == {"je viendrai", "je venais"}
+    # « nke yi ri-ni » vaut pour le futur et pour l'action en cours : ambiguïté réelle
+    assert {r.fr for r in rows if r.snk == "nke yi ri-ni"} == {"je viendrai", "je viens en ce moment"}
     assert "nke daga saxa" in snk
     assert "ake n'di maro ke n'yiga" in snk
     assert all(r.fr and r.snk for r in rows)

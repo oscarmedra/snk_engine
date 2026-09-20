@@ -45,12 +45,12 @@ temps:
     nom: futur
     marqueur: yi ri-ni
     particule: true
-  present:
-    nom: présent (na)
-    marqueur: na         # nke na daga, a na yige : on explique ce qu'on fait
-  present_object:
-    nom: présent avec objet
-    marqueur: na         # a na maro n'yiga
+  demande:
+    nom: demande (na)
+    marqueur: na         # a na yige = qu'il mange ; anke na n'sefe = parle
+  demande_objet:
+    nom: demande avec objet
+    marqueur: na         # a na maro n'yiga = qu'il mange le riz
     objet: true
     particule_verbe: true
   past_object:
@@ -59,10 +59,12 @@ temps:
     particule: true        # sur di, selon le pronom
     objet: true
     particule_verbe: true  # le verbe qui suit l'objet prend aussi la particule
-  imperfect:
-    nom: imparfait (action qui durait)
-    marqueur: yi         # an yi tere-ne ; avec les pronoms longs : anke n'yi tere-ne
-    particule: true
+  en_cours:
+    nom: action en cours
+    marqueur: yi         # nke yi yige-ne (je mange), a yi tere-ne (il marche)
+    particule: true      # avec les pronoms longs : anke n'yi tere-ne
+    # Dans un récit au passé, la même forme se lit « il était en train de » :
+    # ma-ma yi taxu-nu = elle était assise.
   past_negative:
     nom: négation – passé
     marqueur: maxa       # « toujours la même chose, on met juste maxa »
@@ -100,12 +102,12 @@ classes:
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
       future:
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
-      imperfect:       # confirmé : diminutifs sans particule, pronoms longs avec (n'yi)
+      en_cours:        # confirmé : diminutifs sans particule, pronoms longs avec (n'yi)
         forme: "{gerondif}"
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
-      present:         # confirmé : nke na daga, a na yige (pronoms sans particule)
+      demande:         # confirmé 2026-09-20 : « na » exprime une demande, pas le présent
         personnes: [nke, oku, n, an, a, o, xa, i]
-      present_object:  # confirmé : a na maro n'yiga
+      demande_objet:   # confirmé : a na maro n'yiga
         personnes: [nke, oku, n, an, a, o, xa, i]
       past_object:     # confirmé : ake n'di maro n'yiga, n di lemine n'wori, oku di lemine n'wori
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
@@ -128,6 +130,8 @@ verbes:
       present: [pars, pars, part, partons, partez, partent]
       imparfait: [partais, partais, partait, partions, partiez, partaient]
       futur_radical: partir
+      subjonctif: [parte, partes, parte, partions, partiez, partent]
+      imperatif: [pars, partons, partez]   # tu, nous, vous
     forme: daga
     gerondif: daga-na
     classe: regulier
@@ -143,6 +147,8 @@ verbes:
       present: [viens, viens, vient, venons, venez, viennent]
       imparfait: [venais, venais, venait, venions, veniez, venaient]
       futur_radical: viendr
+      subjonctif: [vienne, viennes, vienne, venions, veniez, viennent]
+      imperatif: [viens, venons, venez]   # tu, nous, vous
     forme: ri
     gerondif: ri-ni
     classe: regulier
@@ -162,6 +168,8 @@ verbes:
       present: [regarde, regardes, regarde, regardons, regardez, regardent]
       imparfait: [regardais, regardais, regardait, regardions, regardiez, regardaient]
       futur_radical: regarder
+      subjonctif: [regarde, regardes, regarde, regardions, regardiez, regardent]
+      imperatif: [regarde, regardons, regardez]   # tu, nous, vous
     forme: faye
     gerondif: faye-ni    # confirmé : « faye » seul se dit aussi
     classe: regulier
@@ -174,6 +182,8 @@ verbes:
       present: [parle, parles, parle, parlons, parlez, parlent]
       imparfait: [parlais, parlais, parlait, parlions, parliez, parlaient]
       futur_radical: parler
+      subjonctif: [parle, parles, parle, parlions, parliez, parlent]
+      imperatif: [parle, parlons, parlez]   # tu, nous, vous
     forme: sefe
     gerondif: sefe-ne    # serie_03 #11 (corrigé par le locuteur)
     classe: regulier
@@ -186,6 +196,8 @@ verbes:
       present: [mange, manges, mange, mangeons, mangez, mangent]
       imparfait: [mangeais, mangeais, mangeait, mangions, mangiez, mangeaient]
       futur_radical: manger
+      subjonctif: [mange, manges, mange, mangions, mangiez, mangent]
+      imperatif: [mange, mangeons, mangez]   # tu, nous, vous
     forme: yige
     gerondif: yige-ne    # serie_02 : ake m'fayi yige-ne watia
     transitif: true
@@ -202,6 +214,8 @@ verbes:
       present: [bois, bois, boit, buvons, buvez, boivent]
       imparfait: [buvais, buvais, buvait, buvions, buviez, buvaient]
       futur_radical: boir
+      subjonctif: [boive, boives, boive, buvions, buviez, boivent]
+      imperatif: [bois, buvons, buvez]   # tu, nous, vous
     forme: mini
     gerondif: mini-ni    # confirmé : « mini » seul se dit aussi
     transitif: true      # ake n'di xati m'mini
@@ -215,6 +229,8 @@ verbes:
       present: [vois, vois, voit, voyons, voyez, voient]
       imparfait: [voyais, voyais, voyait, voyions, voyiez, voyaient]
       futur_radical: verr
+      subjonctif: [voie, voies, voie, voyions, voyiez, voient]
+      imperatif: [vois, voyons, voyez]   # tu, nous, vous
     forme: wori
     gerondif: wori-ni
     transitif: true      # n di lemine ŋ'wori
@@ -228,6 +244,8 @@ verbes:
       present: [cours, cours, court, courons, courez, courent]
       imparfait: [courais, courais, courait, courions, couriez, couraient]
       futur_radical: courr
+      subjonctif: [coure, coures, coure, courions, couriez, courent]
+      imperatif: [cours, courons, courez]   # tu, nous, vous
     forme: wuru
     gerondif: wuru-nu    # serie_03 : ake m'fayi wuru-nu watia
     classe: regulier

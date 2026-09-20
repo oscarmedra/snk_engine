@@ -95,12 +95,12 @@
    "marqueur": "yi ri-ni",
    "particule": true
   },
-  "present": {
-   "nom": "présent (na)",
+  "demande": {
+   "nom": "demande (na)",
    "marqueur": "na"
   },
-  "present_object": {
-   "nom": "présent avec objet",
+  "demande_objet": {
+   "nom": "demande avec objet",
    "marqueur": "na",
    "objet": true,
    "particule_verbe": true
@@ -112,8 +112,8 @@
    "objet": true,
    "particule_verbe": true
   },
-  "imperfect": {
-   "nom": "imparfait (action qui durait)",
+  "en_cours": {
+   "nom": "action en cours",
    "marqueur": "yi",
    "particule": true
   },
@@ -186,7 +186,7 @@
       "i"
      ]
     },
-    "imperfect": {
+    "en_cours": {
      "forme": "{gerondif}",
      "personnes": [
       "nke",
@@ -203,7 +203,7 @@
       "i"
      ]
     },
-    "present": {
+    "demande": {
      "personnes": [
       "nke",
       "oku",
@@ -215,7 +215,7 @@
       "i"
      ]
     },
-    "present_object": {
+    "demande_objet": {
      "personnes": [
       "nke",
       "oku",
@@ -304,7 +304,20 @@
      "partiez",
      "partaient"
     ],
-    "futur_radical": "partir"
+    "futur_radical": "partir",
+    "subjonctif": [
+     "parte",
+     "partes",
+     "parte",
+     "partions",
+     "partiez",
+     "partent"
+    ],
+    "imperatif": [
+     "pars",
+     "partons",
+     "partez"
+    ]
    },
    "forme": "daga",
    "gerondif": "daga-na",
@@ -339,7 +352,20 @@
      "veniez",
      "venaient"
     ],
-    "futur_radical": "viendr"
+    "futur_radical": "viendr",
+    "subjonctif": [
+     "vienne",
+     "viennes",
+     "vienne",
+     "venions",
+     "veniez",
+     "viennent"
+    ],
+    "imperatif": [
+     "viens",
+     "venons",
+     "venez"
+    ]
    },
    "forme": "ri",
    "gerondif": "ri-ni",
@@ -391,7 +417,20 @@
      "regardiez",
      "regardaient"
     ],
-    "futur_radical": "regarder"
+    "futur_radical": "regarder",
+    "subjonctif": [
+     "regarde",
+     "regardes",
+     "regarde",
+     "regardions",
+     "regardiez",
+     "regardent"
+    ],
+    "imperatif": [
+     "regarde",
+     "regardons",
+     "regardez"
+    ]
    },
    "forme": "faye",
    "gerondif": "faye-ni",
@@ -418,7 +457,20 @@
      "parliez",
      "parlaient"
     ],
-    "futur_radical": "parler"
+    "futur_radical": "parler",
+    "subjonctif": [
+     "parle",
+     "parles",
+     "parle",
+     "parlions",
+     "parliez",
+     "parlent"
+    ],
+    "imperatif": [
+     "parle",
+     "parlons",
+     "parlez"
+    ]
    },
    "forme": "sefe",
    "gerondif": "sefe-ne",
@@ -445,7 +497,20 @@
      "mangiez",
      "mangeaient"
     ],
-    "futur_radical": "manger"
+    "futur_radical": "manger",
+    "subjonctif": [
+     "mange",
+     "manges",
+     "mange",
+     "mangions",
+     "mangiez",
+     "mangent"
+    ],
+    "imperatif": [
+     "mange",
+     "mangeons",
+     "mangez"
+    ]
    },
    "forme": "yige",
    "gerondif": "yige-ne",
@@ -474,7 +539,20 @@
      "buviez",
      "buvaient"
     ],
-    "futur_radical": "boir"
+    "futur_radical": "boir",
+    "subjonctif": [
+     "boive",
+     "boives",
+     "boive",
+     "buvions",
+     "buviez",
+     "boivent"
+    ],
+    "imperatif": [
+     "bois",
+     "buvons",
+     "buvez"
+    ]
    },
    "forme": "mini",
    "gerondif": "mini-ni",
@@ -502,7 +580,20 @@
      "voyiez",
      "voyaient"
     ],
-    "futur_radical": "verr"
+    "futur_radical": "verr",
+    "subjonctif": [
+     "voie",
+     "voies",
+     "voie",
+     "voyions",
+     "voyiez",
+     "voient"
+    ],
+    "imperatif": [
+     "vois",
+     "voyons",
+     "voyez"
+    ]
    },
    "forme": "wori",
    "gerondif": "wori-ni",
@@ -530,7 +621,20 @@
      "couriez",
      "couraient"
     ],
-    "futur_radical": "courr"
+    "futur_radical": "courr",
+    "subjonctif": [
+     "coure",
+     "coures",
+     "coure",
+     "courions",
+     "couriez",
+     "courent"
+    ],
+    "imperatif": [
+     "cours",
+     "courons",
+     "courez"
+    ]
    },
    "forme": "wuru",
    "gerondif": "wuru-nu",
