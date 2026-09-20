@@ -338,4 +338,4 @@ Sens compris d'après le contexte, confirmés par le locuteur.
 
 ---
 
-8 verbes conjugables · 41 verbes du locuteur en attente · 120 verbes relevés dans la littérature · environ 148 mots enregistrés.
+8 verbes conjugables · 41 verbes du locuteur en attente · 120 verbes relevés dans la littérature · environ 150 mots enregistrés.

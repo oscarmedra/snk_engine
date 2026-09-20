@@ -194,3 +194,9 @@ texte_village:
     - {snk: "fene fene", fr: tôt}
   corrections_village:
     - "« A l'ri ? » était une erreur : la bonne forme est An l'ri (tu es venu)."
+
+# --- 2026-09-20 ---
+habitude:
+  - {snk: kootasu, fr: "tous les jours", note: "sans doute koota (jour) + su (chaque), comme suxuba-su, sere-su"}
+  - {snk: koota, fr: "jour ?", note: "à confirmer : déduit de kootasu"}
+
