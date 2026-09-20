@@ -62,15 +62,17 @@ suxuba su       chaque matin
 
 ## Le pluriel
 
-Le pluriel du nom se marque par `-ni`, parfois `-mu` :
+Le nom change de finale, et le déterminant passe de `ke` à `ku` :
 
 ```
-maro-ni         les riz
-waxi-ni         les frères
-taxa-lemu       les voisins
+lemine ke → leminu ku     l'enfant → les enfants
+yite ke   → yitu ku       l'arbre → les arbres
 ```
 
-`ku` peut suivre le groupe : `n waxi-ni ku` (mes frères).
+On rencontre aussi `-ni` et `-mu` sur le nom : `maro-ni` (les riz),
+`waxi-ni` (les frères), `taxa-lemu` (les voisins).
+
+Voir [Le nom](nom.md).
 
 ## Verbes confirmés avec objet
 

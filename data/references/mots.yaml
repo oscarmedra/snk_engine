@@ -120,7 +120,7 @@ texte_marche:
     - {snk: fayi, fr: "être (là), être en train de, regarder", exemple: "n waxi-ni ku fayi locolou",
        note: "confirmé : c'est le même mot dans les trois emplois"}
   pluriel_et_determinants:
-    - {snk: ku, fr: "les (pluriel, après le nom)", exemple: "n waxi-ni ku, i remu ku"}
+    - {snk: ku, fr: "les (déterminant pluriel, pendant de ke)", exemple: "leminu ku, n waxi-ni ku"}
     - {snk: "-ni / -mu", fr: "pluriel du nom", exemple: "waxi-ni, taxa-lemu"}
   nombres:
     - {snk: filli, fr: deux}
@@ -241,7 +241,7 @@ noms_systeme:
     - {sg: "ka ke", pl: "ka ni ku", fr: la maison / les maisons}
     - {sg: "lemine ke", pl: "leminu ku", fr: l'enfant / les enfants}
     - {sg: "yite ke", pl: "yitu ku", fr: l'arbre / les arbres}
-    - {note: "la voyelle finale devient -u et « ku » suit le groupe"}
+    - {note: "confirmé : ke = déterminant singulier, ku = déterminant pluriel ; la voyelle finale du nom devient -u"}
   compte:
     - {snk: "lemina m'bane", fr: un enfant}
     - {snk: "leminu filli", fr: deux enfants}

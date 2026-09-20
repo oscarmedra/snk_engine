@@ -251,7 +251,7 @@ Sens compris d'après le contexte, confirmés par le locuteur.
 
 | mot | sens |
 |---|---|
-| `ku` | les (pluriel, après le nom) |
+| `ku` | les (déterminant pluriel, pendant de ke) |
 | `-ni / -mu` | pluriel du nom |
 
 **nombres**

@@ -1,14 +1,17 @@
 # Le nom
 
-## Le pluriel
+## Le déterminant : ke au singulier, ku au pluriel
 
-La voyelle finale du nom devient `-u`, et `ku` suit le groupe :
+`ke` et `ku` sont le même mot : c'est **le déterminant**, qui s'accorde en nombre.
 
 | Singulier | Pluriel |
 |---|---|
 | ka ke (la maison) | ka ni ku (les maisons) |
 | lemine ke (l'enfant) | leminu ku (les enfants) |
 | yite ke (l'arbre) | yitu ku (les arbres) |
+
+Le nom change lui aussi : sa voyelle finale devient `-u` (`lemine` → `leminu`,
+`yite` → `yitu`).
 
 Après un nombre ou une quantité, le nom prend encore une autre forme, en `-a` :
 
