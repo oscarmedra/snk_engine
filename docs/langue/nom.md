@@ -27,12 +27,14 @@ Le possesseur se place **avant** ce qui est possédé, et c'est le pronom diminu
 
 | | |
 |---|---|
-| `n ka` | ma maison |
-| `an ka` | ta maison |
-| `a ka` | sa maison |
-| `o ka` | notre maison |
-| `xa ka` | votre maison |
-| `i ka` | leur maison |
+| `n ka ke` | ma maison |
+| `an ka ke` | ta maison |
+| `a ka ke` | sa maison |
+| `o ka ke` | notre maison |
+| `xa ka ke` | votre maison |
+| `i ka ke` | leur maison |
+
+Le déterminant `ke` reste donc à sa place, après le nom possédé.
 
 Le même ordre vaut entre deux noms, sans aucun mot de liaison :
 

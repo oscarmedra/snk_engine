@@ -26,8 +26,8 @@ Voir [La particule](particule.md).
 Ce sont les pronoms diminutifs, placés **avant** le nom :
 
 ```
-n ka        ma maison
-a ka        sa maison
+n ka ke     ma maison
+a ka ke     sa maison
 o bara      notre cour
 i yiramu    leurs vêtements
 xa cahiers  vos cahiers

@@ -251,7 +251,8 @@ noms_systeme:
     - {snk: "lemina lamanu", fr: peu d'enfants}
     - {note: "après un nombre ou une quantité, le nom est en -a (lemina) — à confirmer"}
   possessifs:
-    - {snk: "n ka / an ka / a ka / o ka / xa ka / i ka", fr: "ma / ta / sa / notre / votre / leur maison"}
+    - {snk: "n ka ke / an ka ke / a ka ke / o ka ke / xa ka ke / i ka ke",
+       fr: "ma / ta / sa / notre / votre / leur maison", note: "corrigé 2026-09-20 : le « ke » est conservé"}
     - {snk: "n'paba ka", fr: la maison de mon père, note: "n + faba → n'paba : f devient p"}
     - {snk: "lemine ke kaye", fr: le cahier de l'enfant, note: "possesseur + possédé, sans mot de liaison"}
   il_y_a:
