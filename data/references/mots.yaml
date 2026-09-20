@@ -238,7 +238,7 @@ texte_travail:
 # --- Les noms (2026-09-20) : pluriel, possessifs, il y a, nombres ---
 noms_systeme:
   pluriel:
-    - {sg: "ka ke", pl: "ka ni ku", fr: la maison / les maisons}
+    - {sg: "ka ke", pl: "kanu ku", fr: la maison / les maisons, note: "« ka ni ku » était une erreur"}
     - {sg: "lemine ke", pl: "leminu ku", fr: l'enfant / les enfants}
     - {sg: "yite ke", pl: "yitu ku", fr: l'arbre / les arbres}
     - {note: "confirmé : ke = déterminant singulier, ku = déterminant pluriel"}
@@ -252,7 +252,7 @@ noms_systeme:
     - {snk: "kanu tami", fr: dix maisons}
     - {snk: "lemina n'gobo", fr: beaucoup d'enfants}
     - {snk: "lemina lamanu", fr: peu d'enfants}
-    - {note: "après un nombre ou une quantité, le nom est en -a (lemina) — à confirmer"}
+    - {note: "confirmé : avec « un » le nom reste au singulier (lemina m'bane) ; à partir de deux il est au pluriel (leminu filli)"}
   possessifs:
     - {snk: "n ka ke / an ka ke / a ka ke / o ka ke / xa ka ke / i ka ke",
        fr: "ma / ta / sa / notre / votre / leur maison", note: "corrigé 2026-09-20 : le « ke » est conservé"}
@@ -285,4 +285,5 @@ noms_systeme:
     - {snk: "ke kitabe ni nke ni ya xale", fr: ce livre est à moi}
     - {snk: "ke kitabe ni anke ni ya xale", fr: ce livre est à toi}
     - {snk: kitabe, fr: livre}
+    - {snk: xale, fr: "marque l'appartenance", exemple: "ke kitabe ni nke ni ya xale = ce livre est à moi"}
 

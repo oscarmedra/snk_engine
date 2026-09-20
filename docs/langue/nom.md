@@ -6,7 +6,7 @@
 
 | Singulier | Pluriel |
 |---|---|
-| ka ke (la maison) | ka ni ku (les maisons) |
+| ka ke (la maison) | kanu ku (les maisons) |
 | lemine ke (l'enfant) | leminu ku (les enfants) |
 | yite ke (l'arbre) | yitu ku (les arbres) |
 
@@ -17,9 +17,12 @@ Le nom change lui aussi. D'après les exemples recueillis :
 | en `-e` | la finale devient `-u` | lemine → leminu, yite → yitu |
 | en `-u`, `-a` | on ajoute `-ni` | mburu → mburuni, banana → bananani |
 
-Le nom `ka` (maison) donne `ka ni ku` et `kanu tami` : les deux se rencontrent.
+Le nom `ka` (maison) fait `kanu` : `kanu ku` (les maisons), `kanu tami` (dix maisons).
 
 Après un nombre ou une quantité, le nom prend encore une autre forme, en `-a` :
+
+Au singulier — avec « un » — le nom reste au singulier ; à partir de deux, il passe
+au pluriel :
 
 ```
 lemina m'bane      un enfant
@@ -114,6 +117,8 @@ ke ka doke           cette maison-là
 ```
 
 ## Appartenance
+
+`xale` marque l'appartenance :
 
 ```
 ke kitabe ni nke ni ya xale      ce livre est à moi
