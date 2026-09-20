@@ -61,15 +61,26 @@ et `o na sanga` « jouons ».
 Dans un récit au passé, `yi` + forme en -ni se lit « était en train de » :
 `ma-ma yi taxunu` = elle était assise. C'est le contexte qui tranche, pas la forme.
 
-## Une autre façon de dire « en train de »
+## Trois façons de dire l'action en cours
+
+Elles sont équivalentes (confirmé par le locuteur) :
+
+| Construction | Exemple |
+|---|---|
+| `yi` + forme en -ni | `nke yi maro ke yigane` |
+| `fayi` + forme en -ni | `nke fayi maro ke yigane` |
+| `do … me` autour du nom d'action | `nke do maro ke yigaye ni ya me` |
+
+`watia` peut s'ajouter aux deux premières pour insister sur le moment :
+`nke fayi yigene watia`.
 
 ```
 guida niaxare a do yirame waqinde me
 ma sœur        est en train de  habits  lavé
 ```
 
-`a do … me` encadre ce qu'on est en train de faire. Cette construction vient du
-texte « au travail » et n'est pas encore dans le moteur.
+Le moteur produit les deux premières. La troisième demande le **nom d'action** de
+chaque verbe (`yigaye` pour manger, `soreye` pour cuisiner), qui reste à recueillir.
 
 ## Le mécanisme commun : yi / ti
 
