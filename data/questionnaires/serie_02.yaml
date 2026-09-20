@@ -3,13 +3,13 @@ serie: "02"
 # (pour comparer la réponse au moteur). « indication » s'affiche dans Description.
 questions:
   # --- Présent progressif (réponses contradictoires dans corp1) ---
-  - {categorie: Progressif, fr: "Je pars (en ce moment).", verbe: dagaer, temps: progressive, personne: 1sg}
-  - {categorie: Progressif, fr: "Tu pars (en ce moment).", verbe: dagaer, temps: progressive, personne: 2sg}
-  - {categorie: Progressif, fr: "Il part (en ce moment).", verbe: dagaer, temps: progressive, personne: 3sg}
-  - {categorie: Progressif, fr: "Nous partons (en ce moment).", verbe: dagaer, temps: progressive, personne: 1pl}
-  - {categorie: Progressif, fr: "Vous partez (en ce moment).", verbe: dagaer, temps: progressive, personne: 2pl}
-  - {categorie: Progressif, fr: "Ils partent (en ce moment).", verbe: dagaer, temps: progressive, personne: 3pl}
-  - {categorie: Progressif, fr: "Il mange (en ce moment).", verbe: yigeyer, temps: progressive, personne: 3sg}
+  - {categorie: Progressif, fr: "Je pars (en ce moment).", verbe: dagaer, temps: imminent, personne: 1sg}
+  - {categorie: Progressif, fr: "Tu pars (en ce moment).", verbe: dagaer, temps: imminent, personne: 2sg}
+  - {categorie: Progressif, fr: "Il part (en ce moment).", verbe: dagaer, temps: imminent, personne: 3sg}
+  - {categorie: Progressif, fr: "Nous partons (en ce moment).", verbe: dagaer, temps: imminent, personne: 1pl}
+  - {categorie: Progressif, fr: "Vous partez (en ce moment).", verbe: dagaer, temps: imminent, personne: 2pl}
+  - {categorie: Progressif, fr: "Ils partent (en ce moment).", verbe: dagaer, temps: imminent, personne: 3pl}
+  - {categorie: Progressif, fr: "Il mange (en ce moment).", verbe: yigeyer, temps: imminent, personne: 3sg}
 
   # --- Négation du futur ---
   - {categorie: Négation futur, fr: "Tu ne partiras pas.", verbe: dagaer, temps: future_negative, personne: 2sg}

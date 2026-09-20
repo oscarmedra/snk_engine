@@ -26,7 +26,8 @@ class FrenchError(ValueError):
 
 @dataclass(frozen=True)
 class FrenchVerb:
-    infinitive: str
+    infinitive: str          # clé du verbe soninké
+    french_infinitive: str
     aux: str
     participle: str
     present: list[str]
@@ -38,7 +39,7 @@ class FrenchVerb:
     @classmethod
     def from_data(cls, infinitive: str, data: dict) -> "FrenchVerb":
         try:
-            return cls(infinitive, data["auxiliaire"], data["participe"],
+            return cls(infinitive, data.get("infinitif", ""), data["auxiliaire"], data["participe"],
                        list(data["present"]), list(data["imparfait"]), data["futur_radical"],
                        list(data["subjonctif"]) if data.get("subjonctif") else None,
                        list(data["imperatif"]) if data.get("imperatif") else None)
@@ -88,7 +89,9 @@ def conjugate_fr(verb: FrenchVerb, person: str, tense: str, obj: str | None = No
         return _elide(subject, verb.present[i]) + tail + " en ce moment"
     if tense == "imperfect":
         return _elide(subject, verb.imperfect[i]) + tail
-    if tense in ("progressive", "progressive_watia"):
+    if tense == "imminent":
+        return _elide(subject, f"{AUX['etre'][i]} sur le point de {verb.french_infinitive}") + tail
+    if tense == "progressive_watia":
         return _elide(subject, verb.present[i]) + tail + " en ce moment"
     if tense == "future":
         return _elide(subject, future) + tail

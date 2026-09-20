@@ -79,8 +79,8 @@
    "marqueur": null,
    "particule": true
   },
-  "progressive": {
-   "nom": "présent progressif",
+  "imminent": {
+   "nom": "sur le point de",
    "marqueur": "fayi ri-ni",
    "particule": true
   },
@@ -287,6 +287,7 @@
    "fr": "partir",
    "francais": {
     "auxiliaire": "etre",
+    "infinitif": "partir",
     "participe": "parti",
     "present": [
      "pars",
@@ -323,7 +324,7 @@
    "gerondif": "daga-na",
    "classe": "regulier",
    "conjugaison": {
-    "progressive": {
+    "imminent": {
      "personnes": [
       "nke",
       "anke"
@@ -335,6 +336,7 @@
    "fr": "venir",
    "francais": {
     "auxiliaire": "etre",
+    "infinitif": "venir",
     "participe": "venu",
     "present": [
      "viens",
@@ -400,6 +402,7 @@
    "fr": "regarder",
    "francais": {
     "auxiliaire": "avoir",
+    "infinitif": "regarder",
     "participe": "regardé",
     "present": [
      "regarde",
@@ -440,6 +443,7 @@
    "fr": "parler",
    "francais": {
     "auxiliaire": "avoir",
+    "infinitif": "parler",
     "participe": "parlé",
     "present": [
      "parle",
@@ -480,6 +484,7 @@
    "fr": "manger",
    "francais": {
     "auxiliaire": "avoir",
+    "infinitif": "manger",
     "participe": "mangé",
     "present": [
      "mange",
@@ -522,6 +527,7 @@
    "fr": "boire",
    "francais": {
     "auxiliaire": "avoir",
+    "infinitif": "boire",
     "participe": "bu",
     "present": [
      "bois",
@@ -563,6 +569,7 @@
    "fr": "voir",
    "francais": {
     "auxiliaire": "avoir",
+    "infinitif": "voir",
     "participe": "vu",
     "present": [
      "vois",
@@ -604,6 +611,7 @@
    "fr": "courir",
    "francais": {
     "auxiliaire": "avoir",
+    "infinitif": "courir",
     "participe": "couru",
     "present": [
      "cours",

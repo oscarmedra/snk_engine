@@ -12,15 +12,31 @@ Toutes les phrases ci-dessous sont produites par le moteur.
 |---|---|---|---|
 | passé | pronom + verbe | `ake n'daga` | il est parti |
 | passé avec objet | pronom + `di` + objet + verbe | `ake n'di maro n'yiga` | il a mangé le riz |
-| présent | pronom + `na` + verbe | `a na yige` | il mange |
-| présent avec objet | pronom + `na` + objet + verbe | `a na maro n'yiga` | il mange le riz |
-| imparfait | pronom + `yi` + forme en -ni | `a yi wuru-nu` | il courait |
-| progressif | pronom + `fayi ri-ni` + verbe | `nke fayi ri-ni daga` | je pars (en ce moment) |
-| progressif (watia) | pronom + `fayi` + forme en -ni + `watia` | `ake m'fayi yige-ne watia` | il mange |
+| action en cours | pronom + `yi` + forme en -ni | `nke yi yige-ne` | je mange |
+| demande | pronom + `na` + verbe | `a na yige` | qu'il mange |
+| demande avec objet | pronom + `na` + objet + verbe | `a na maro n'yiga` | qu'il mange le riz |
+| sur le point de | pronom + `fayi ri-ni` + verbe | `nke fayi ri-ni daga` | je suis sur le point de partir |
+| insistance (watia) | pronom + `fayi` + forme en -ni + `watia` | `ake m'fayi yige-ne watia` | il mange (là, maintenant) |
 | futur | pronom + `yi ri-ni` + verbe | `anke n'yi ri-ni daga` | tu partiras |
 | négation du passé | pronom + `maxa` + verbe | `a maxa daga` | il n'est pas parti |
 | négation du futur | pronom + `n'ti ri-ni` + verbe | `anke n'ti ri-ni daga` | tu ne partiras pas |
 | négation du futur (variante) | pronom + `n'taxa ri-ni` + verbe | `anke n'taxa ri-ni daga` | tu ne partiras pas |
+
+## Trois zones à ne pas confondre
+
+Le français dit « je mange » pour trois choses que le soninké distingue :
+
+| Soninké | Français | Valeur |
+|---|---|---|
+| `nke yi yige-ne` | je mange | l'action se fait maintenant |
+| `nke fayi ri-ni yige` | je suis sur le point de manger | l'action va commencer |
+| `n na yige` | que je mange | une demande, une invitation |
+
+`na` n'est donc pas un présent : `anke na ri oku ka` veut dire « viens chez nous »,
+et `o na sanga` « jouons ».
+
+Dans un récit au passé, `yi` + forme en -ni se lit « était en train de » :
+`ma-ma yi taxu-nu` = elle était assise. C'est le contexte qui tranche, pas la forme.
 
 ## Le mécanisme commun : yi / ti
 
@@ -39,7 +55,7 @@ Tout le système s'en déduit :
 | `n'ti ri-ni daga` | n'est pas à venir partir → il ne partira pas |
 | `fayi ri-ni daga` | est en train de venir partir → il part |
 | `a yi taxu-nu` | il est assis |
-| `a yi wuru-nu` | il était en train de courir |
+| `a yi wuru-nu` | il est en train de courir |
 
 `ri-ni` est la forme en -ni du verbe `ri` (venir) : ce qui est **à venir**.
 `fayi` vient du verbe `faye` (regarder).

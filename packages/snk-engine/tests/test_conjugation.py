@@ -26,8 +26,8 @@ from snk_engine.conjugation import (
         ("oku", "past", "oku daga"),
         ("xaku", "past", "xaku n'daga"),
         ("iku", "past", "iku n'daga"),
-        ("nke", "progressive", "nke fayi ri-ni daga"),
-        ("anke", "progressive", "anke m'fayi ri-ni daga"),
+        ("nke", "imminent", "nke fayi ri-ni daga"),
+        ("anke", "imminent", "anke m'fayi ri-ni daga"),
         ("nke", "progressive_watia", "nke fayi daga-na watia"),
         ("anke", "progressive_watia", "anke m'fayi daga-na watia"),
         ("nke", "future", "nke yi ri-ni daga"),
@@ -179,11 +179,11 @@ def test_particle_never_for_nke_oku():
 @pytest.mark.parametrize(
     "verb, subject, tense",
     [
-        ("dagaer", "xaku", "progressive"),  # particule avec xaku/iku au progressif : à confirmer
+        ("dagaer", "xaku", "imminent"),  # particule avec xaku/iku au progressif : à confirmer
         ("dagaer", "ake", "future_negative"),  # seulement nke et anke confirmés
-        ("sefeer", "nke", "progressive"),
+        ("sefeer", "nke", "imminent"),
         ("dagaer", "iku", "progressive_watia"),  # particule avec iku au progressif : à confirmer
-        ("dagaer", "a", "progressive"),
+        ("dagaer", "a", "imminent"),
     ],
 )
 def test_unconfirmed_forms_are_refused(verb, subject, tense):

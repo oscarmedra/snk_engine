@@ -4,7 +4,7 @@ from snk_engine.conjugation import default_engine
 from snk_engine.french import FrenchVerb, conjugate_fr
 from snk_engine.sentences import french_verbs, generate
 
-VERB = FrenchVerb("manger", "avoir", "mangé",
+VERB = FrenchVerb("yigeyer", "manger", "avoir", "mangé",
                   ["mange", "manges", "mange", "mangeons", "mangez", "mangent"],
                   ["mangeais", "mangeais", "mangeait", "mangions", "mangiez", "mangeaient"], "manger",
                   ["mange", "manges", "mange", "mangions", "mangiez", "mangent"],
@@ -25,7 +25,8 @@ VERB = FrenchVerb("manger", "avoir", "mangé",
         ("3pl", "future", None, "ils mangeront"),
         ("1sg", "past_negative", None, "je n'ai pas mangé"),
         ("2sg", "future_negative", None, "tu ne mangeras pas"),
-        ("3sg", "progressive", None, "il mange en ce moment"),
+        ("3sg", "progressive_watia", None, "il mange en ce moment"),
+        ("1sg", "imminent", None, "je suis sur le point de manger"),
     ],
 )
 def test_french_conjugation(person, tense, obj, expected):
@@ -33,7 +34,7 @@ def test_french_conjugation(person, tense, obj, expected):
 
 
 def test_etre_agreement():
-    partir = FrenchVerb("partir", "etre", "parti", ["pars"] * 6, ["partais"] * 6, "partir")
+    partir = FrenchVerb("dagaer", "partir", "etre", "parti", ["pars"] * 6, ["partais"] * 6, "partir")
     assert conjugate_fr(partir, "1sg", "past") == "je suis parti"
     assert conjugate_fr(partir, "1pl", "past") == "nous sommes partis"
 
