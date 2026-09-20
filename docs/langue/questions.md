@@ -4,7 +4,7 @@
 
 | Mot | Sens | Exemple |
 |---|---|---|
-| `minna` | où | `anke dagana minna ?` — où vas-tu ? |
+| `minna` / `xa` | où | `anke dagana minna ?` ; `an guida xa ?` — où est ton frère ? |
 | `mane-ni` | pourquoi | `mane-ni anke n'ga dagana saxa ?` |
 | `mane` | quoi | `an di mane xobo daru ?` — qu'as-tu acheté hier ? |
 | `ko` | qui | `anke n'do ko dagana do me ?` — avec qui y vas-tu ? |

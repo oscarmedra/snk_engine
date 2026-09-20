@@ -39,6 +39,16 @@ et `o na sanga` « jouons ».
 Dans un récit au passé, `yi` + forme en -ni se lit « était en train de » :
 `ma-ma yi taxunu` = elle était assise. C'est le contexte qui tranche, pas la forme.
 
+## Une autre façon de dire « en train de »
+
+```
+guida niaxare a do yirame waqinde me
+ma sœur        est en train de  habits  lavé
+```
+
+`a do … me` encadre ce qu'on est en train de faire. Cette construction vient du
+texte « au travail » et n'est pas encore dans le moteur.
+
 ## Le mécanisme commun : yi / ti
 
 Le locuteur a donné la clé : **`yi` veut dire « est », `ti` veut dire « n'est pas »**.

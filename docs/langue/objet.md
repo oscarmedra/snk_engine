@@ -40,7 +40,7 @@ ou `-i`, la forme avec objet en `-a`, `-o` ou `-u`.
 
 ## Le déterminant ke
 
-`ke` se place **après** le nom. Il sert à signaler qu'il s'agit de celui dont on parle
+`ke` se place **après** le nom, ou avant (`ke suxuba` = `suxuba ke`). Il sert à signaler qu'il s'agit de celui dont on parle
 déjà — « l'enfant en question ». Il est facultatif, mais habituel dans ce dialecte.
 
 ```
