@@ -1,111 +1,165 @@
 # Comprendre un texte
 
-Le moteur sait maintenant lire dans l'autre sens : partir d'une phrase soninké et
-dire ce qu'elle veut dire en français.
+Écris en soninké : la traduction française apparaît pendant que tu tapes.
 
-Il ne compare pas la phrase à une liste de phrases connues — cela ne serait pas
-comprendre, seulement reconnaître. Il procède en trois étapes, comme un compilateur :
+<div id="snk-comp">
+  <div class="snk-panes">
+    <div class="snk-pane">
+      <div class="snk-head">Soninké</div>
+      <textarea id="snk-input" rows="6" placeholder="Écris une phrase… par exemple : ake n'di maro ke n'yiga" disabled></textarea>
+    </div>
+    <div class="snk-pane">
+      <div class="snk-head">Français <span id="snk-status">chargement du moteur…</span></div>
+      <div id="snk-out" class="snk-result"></div>
+    </div>
+  </div>
+  <div class="snk-controls">
+    <label>Exemple du corpus <select id="snk-ex"><option value="">—</option></select></label>
+    <label><input type="checkbox" id="snk-detail"> voir le détail de l'analyse</label>
+  </div>
+  <div id="snk-detail-out"></div>
+</div>
+
+<style>
+#snk-comp .snk-panes { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+@media (max-width: 700px) { #snk-comp .snk-panes { grid-template-columns: 1fr; } }
+#snk-comp .snk-pane { border: 1px solid var(--md-default-fg-color--lightest); border-radius: 8px;
+  overflow: hidden; display: flex; flex-direction: column; min-height: 11rem; }
+#snk-comp .snk-head { padding: .45rem .8rem; font-size: .8rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: .04em; border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  display: flex; justify-content: space-between; gap: 1rem; }
+#snk-comp #snk-status { font-weight: 400; text-transform: none; letter-spacing: 0; opacity: .7; }
+#snk-comp textarea { flex: 1; border: 0; resize: vertical; padding: .8rem; font-size: 1.15rem;
+  font-family: inherit; background: transparent; color: var(--md-default-fg-color); outline: none; }
+#snk-comp .snk-result { flex: 1; padding: .8rem; font-size: 1.15rem; background: var(--md-code-bg-color); }
+#snk-comp .snk-result p { margin: 0 0 .5rem; }
+#snk-comp .snk-controls { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; margin: .8rem 0; font-size: .85rem; }
+#snk-comp select { max-width: 22rem; }
+#snk-comp .snk-unknown { color: #c62828; }
+#snk-comp .snk-ok { color: #2e7d32; }
+#snk-comp .snk-partial { color: #b26a00; }
+#snk-comp .snk-ref { font-size: .85rem; opacity: .75; }
+#snk-comp .snk-block { margin-bottom: 1.2rem; font-size: .85rem; }
+#snk-comp .snk-note { opacity: .8; margin: .1rem 0; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/pyodide/v0.26.4/full/pyodide.js"></script>
+<script>
+(async function () {
+  const input = document.getElementById('snk-input');
+  const exSel = document.getElementById('snk-ex');
+  const detail = document.getElementById('snk-detail');
+  const out = document.getElementById('snk-out');
+  const detailOut = document.getElementById('snk-detail-out');
+  const status = document.getElementById('snk-status');
+  const esc = s => String(s).replace(/[&<>]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c]));
+  let reference = null;
+
+  const examples = await (await fetch('exemples.json')).json();
+  examples.forEach((e, i) => exSel.add(new Option(`${e.id} — ${e.snk.slice(0, 50)}`, i)));
+
+  // le vrai moteur Python, exécuté dans le navigateur
+  const pyodide = await loadPyodide();
+  await pyodide.loadPackage('pyyaml');
+  const bundle = await (await fetch('bundle.json')).json();
+  for (const [path, content] of Object.entries(bundle)) {
+    const full = '/snk/' + path;
+    pyodide.FS.mkdirTree(full.slice(0, full.lastIndexOf('/')));
+    pyodide.FS.writeFile(full, content);
+  }
+  pyodide.runPython(`
+import sys, json
+sys.path.insert(0, "/snk/packages/snk-engine/src")
+from snk_engine.understand import analyze_text, load_lexicon, AnalysisError
+LEX = load_lexicon()
+
+def comprendre(texte):
+    try:
+        res = analyze_text(texte, LEX)
+    except AnalysisError as exc:
+        return json.dumps({"erreur": str(exc)})
+    return json.dumps([{
+        "snk": a.snk, "fr": a.fr, "confirme": a.confirme, "notes": list(a.notes),
+        "frame": {k: v for k, v in a.frame.items() if v not in (None, [], False)},
+        "mots": [{"mot": t.raw, "tags": list(t.tags)} for t in a.tokens],
+    } for a in res], ensure_ascii=False)
+`);
+  const comprendre = pyodide.globals.get('comprendre');
+  input.disabled = false;
+  status.textContent = '';
+  input.focus();
+
+  function run() {
+    const text = input.value.trim();
+    if (!text) { out.innerHTML = ''; detailOut.innerHTML = ''; status.textContent = ''; return; }
+    const res = JSON.parse(comprendre(text));
+    if (res.erreur) {
+      out.innerHTML = '<p class="snk-unknown">…</p>';
+      status.innerHTML = '<span class="snk-partial">rien de reconnu</span>';
+      detailOut.innerHTML = detail.checked ? `<p class="snk-note">${esc(res.erreur)}</p>` : '';
+      return;
+    }
+    out.innerHTML = res.map(a =>
+      `<p>${esc(a.fr).replace(/unknown/g, '<span class="snk-unknown">unknown</span>')}</p>`).join('')
+      + (reference && res.length === 1 ? `<p class="snk-ref">locuteur : ${esc(reference)}</p>` : '');
+    const all = res.every(a => a.confirme);
+    status.innerHTML = all ? '<span class="snk-ok">✔ entièrement compris</span>'
+                           : '<span class="snk-partial">◐ compréhension partielle</span>';
+    detailOut.innerHTML = !detail.checked ? '' : res.map(a => {
+      let h = `<div class="snk-block"><b>${esc(a.snk)}</b><br>`;
+      h += a.mots.map(m => `<b>${esc(m.mot)}</b> : ${esc(m.tags.join(', ') || 'non reconnu')}`).join(' · ');
+      h += '<table><tbody>' + Object.entries(a.frame).map(([k, v]) =>
+        `<tr><td>${esc(k)}</td><td>${esc(Array.isArray(v) ? v.join(', ') : v)}</td></tr>`).join('') + '</tbody></table>';
+      a.notes.forEach(n => h += `<p class="snk-note">· ${esc(n)}</p>`);
+      return h + '</div>';
+    }).join('');
+  }
+
+  // comme un traducteur en ligne : on traduit pendant la frappe
+  let timer = null;
+  input.addEventListener('input', () => {
+    reference = null;
+    exSel.value = '';
+    clearTimeout(timer);
+    timer = setTimeout(run, 250);
+  });
+  exSel.onchange = () => {
+    const e = examples[exSel.value];
+    if (!e) return;
+    input.value = e.snk;
+    reference = e.fr;
+    run();
+  };
+  detail.onchange = run;
+})();
+</script>
+
+Le moteur met quelques secondes à se charger la première fois : c'est le moteur
+Python lui-même qui tourne dans ton navigateur, pas une imitation. Ce que tu lis
+ici est donc exactement ce que donnerait la commande :
+
+```bash
+uv run snk-engine comprendre "ake n'di maro ke n'yiga" --detail
+```
+
+## Comment il comprend
 
 1. **Segmentation** : la phrase est découpée en mots, et la particule collée
    (`n'`, `m'`, `l'`, `ŋ'`, `q'`) est détachée du mot qu'elle accentue.
 2. **Tagage** : chaque mot reçoit **toutes** ses catégories possibles — pronom,
    déterminant, marqueur de temps, verbe, mot interrogatif, mot du lexique. Un mot
    ambigu comme `xa` (vous / où) garde ses deux étiquettes.
-3. **Assemblage** : les catégories sont replacées dans l'ordre que décrit la
-   grammaire — sujet, marqueur, objet, verbe, compléments — et c'est la position qui
-   tranche les ambiguïtés.
+3. **Assemblage** : les catégories sont replacées dans l'ordre de la grammaire —
+   sujet, marqueur, objet, verbe, compléments — et la position tranche les
+   ambiguïtés. Quand un marqueur ouvre plusieurs temps, le moteur reconjugue chaque
+   candidat et garde celui qui redonne la phrase.
 
-**Un mot qu'aucune donnée ne couvre devient le mot `unknown`** dans la traduction,
-jamais un mot français choisi au hasard. Chaque remplacement est expliqué en note.
-
-## Essayer
-
-```bash
-uv run snk-engine comprendre "ake n'di maro ke n'yiga"
-```
-```bash
-uv run snk-engine comprendre "ake n'daga saxa daru" --detail
-```
-
-En Python :
-
-```python
-from snk_engine.understand import analyze
-
-analyze("ake n'di maro ke n'yiga").fr      # il a mangé le riz
-```
-
-## Sur les phrases du corpus
-
-Le tableau ci-dessous applique l'analyseur aux phrases traduites par le locuteur.
-La colonne « moteur » est ce que l'analyseur comprend ; la colonne « locuteur » est
-la traduction de référence. L'écart entre les deux montre exactement ce qui manque
-encore.
-
-<div id="snk-comp">
-  <div class="snk-controls">
-    <label>Phrase <select id="snk-sent"></select></label>
-    <label><input type="checkbox" id="snk-only-ok"> seulement celles entièrement comprises</label>
-  </div>
-  <div id="snk-out">Chargement…</div>
-</div>
-
-<style>
-#snk-comp .snk-controls { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; margin-bottom: .8rem; }
-#snk-comp select { padding: .3rem .5rem; max-width: 30rem; }
-#snk-comp .snk-line { font-size: 1.1rem; font-weight: 600; margin: .4rem 0; }
-#snk-comp table { width: 100%; }
-#snk-comp .snk-tags { opacity: .7; font-size: .85rem; }
-#snk-comp .snk-note { font-size: .85rem; opacity: .75; }
-#snk-comp .snk-unknown { color: #c62828; font-weight: 600; }
-</style>
-
-<script>
-(async function () {
-  const rows = await (await fetch('data.json')).json();
-  const sel = document.getElementById('snk-sent');
-  const onlyOk = document.getElementById('snk-only-ok');
-  const out = document.getElementById('snk-out');
-
-  const fill = () => {
-    const list = rows.filter(r => !onlyOk.checked || r.confirme);
-    sel.innerHTML = '';
-    list.forEach((r, i) => sel.add(new Option(`${r.id} — ${r.snk.slice(0, 60)}`, rows.indexOf(r))));
-    render();
-  };
-
-  const render = () => {
-    const r = rows[sel.value];
-    if (!r) { out.innerHTML = '<p>Aucune phrase.</p>'; return; }
-    const mark = t => t.replace(/unknown/g, '<span class="snk-unknown">unknown</span>');
-    let html = `<p class="snk-line">${r.snk}</p>`;
-    html += `<table><tbody>
-      <tr><td>moteur</td><td>${r.fr_moteur ? mark(r.fr_moteur) : '<em>' + (r.erreur || '—') + '</em>'}</td></tr>
-      <tr><td>locuteur</td><td>${r.fr_locuteur}</td></tr></tbody></table>`;
-    if (r.mots) {
-      html += '<p class="snk-tags">' + r.mots.map(m =>
-        `<b>${m.mot}</b> : ${(m.tags || []).join(', ') || 'non reconnu'}`).join(' · ') + '</p>';
-    }
-    if (r.frame && Object.keys(r.frame).length) {
-      html += '<table><tbody>' + Object.entries(r.frame).map(([k, v]) =>
-        `<tr><td>${k}</td><td>${Array.isArray(v) ? v.join(', ') : v}</td></tr>`).join('') + '</tbody></table>';
-    }
-    (r.notes || []).forEach(n => html += `<p class="snk-note">· ${n}</p>`);
-    out.innerHTML = html;
-  };
-
-  sel.onchange = render;
-  onlyOk.onchange = fill;
-  fill();
-})();
-</script>
+**Un mot qu'aucune donnée ne couvre devient `unknown`**, jamais un mot français
+choisi au hasard. Chaque remplacement est expliqué dans le détail de l'analyse.
 
 ## Ce qu'il ne sait pas encore faire
 
 - **une phrase simple à la fois** : pas de subordonnée, pas de phrase coordonnée ;
-- **le sens français → soninké** n'est pas construit : le moteur produit des phrases
-  à partir des règles ([le corpus](corpus.md)), mais ne traduit pas un texte français ;
-- **les ambiguïtés** comme `xa` (vous / où) sont tranchées par la position, et
-  signalées en note quand le doute subsiste ;
-- **le vocabulaire limite tout** : la plupart des phrases du corpus contiennent
-  encore des mots absent des données, donc beaucoup d'`unknown`.
+- **le vocabulaire limite tout** : un nom absent des données produit un `unknown` ;
+- **les ambiguïtés** comme `xa` sont tranchées par la position, et signalées ;
+- **le sens français → soninké** n'est pas construit.

@@ -19,7 +19,7 @@ jobs:
           uv run python scripts/build_lexique.py
           uv run python scripts/build_playground.py
           uv run python scripts/build_comprehension.py
-          git diff --exit-code docs/langue/lexique.md docs/playground/data.json docs/comprendre/data.json
+          git diff --exit-code docs/langue/lexique.md docs/playground/data.json docs/comprendre/bundle.json docs/comprendre/exemples.json
 
   build-docs:
     needs: tests

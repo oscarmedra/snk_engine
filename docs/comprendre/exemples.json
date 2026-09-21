@@ -1,0 +1,387 @@
+[
+ {
+  "id": "marche-01",
+  "snk": "Anké dagana minna ?",
+  "fr": "Bonjour. Où vas-tu ?"
+ },
+ {
+  "id": "marche-02",
+  "snk": "nké fayi dagana saxa.",
+  "fr": "Je vais au marché."
+ },
+ {
+  "id": "marche-03",
+  "snk": "mané-ni anké n'ga dagana saxa ?",
+  "fr": "Pourquoi vas-tu au marché ?"
+ },
+ {
+  "id": "marche-04",
+  "snk": "bawoni nké na n'xawa maro ado téh n'ya xobono.",
+  "fr": "Parce que je dois acheter du riz et du thé."
+ },
+ {
+  "id": "marche-05",
+  "snk": "anké n'do ko dagana domé ?",
+  "fr": "Avec qui y vas-tu ?"
+ },
+ {
+  "id": "marche-06",
+  "snk": "nké do xoxoné n'ya fayi dagana domé.",
+  "fr": "J'y vais avec mon frère."
+ },
+ {
+  "id": "marche-07",
+  "snk": "Est ce que, anké MA ayi ka ké ba ? ou Est ce que, A ma yi ka ké ?",
+  "fr": "Est-ce que ta mère est à la maison ?"
+ },
+ {
+  "id": "marche-08",
+  "snk": "Ayi, aké n'ti ka ké. a daga gounné.",
+  "fr": "Non, elle n'est pas à la maison. Elle est partie au champ."
+ },
+ {
+  "id": "marche-09",
+  "snk": "An l'rini kan dimma ?",
+  "fr": "Quand reviendras-tu ?"
+ },
+ {
+  "id": "marche-10",
+  "snk": "l'rini lélé",
+  "fr": "Je reviendrai ce soir."
+ },
+ {
+  "id": "marche-11",
+  "snk": "An di mané xobo daru ?",
+  "fr": "Qu'est-ce que tu as acheté hier ?"
+ },
+ {
+  "id": "marche-12",
+  "snk": "daru, n'd mburu n'ya xobo. lenki, xalisi n'ti maxa.",
+  "fr": "Hier, j'ai acheté du pain. Aujourd'hui, je n'ai pas d'argent."
+ },
+ {
+  "id": "marche-13",
+  "snk": "Mani-mé ni maro ?",
+  "fr": "Combien coûte le riz ?"
+ },
+ {
+  "id": "marche-14",
+  "snk": "maro ké xobéné cinq cents francs.",
+  "fr": "Le riz coûte cinq cents francs."
+ },
+ {
+  "id": "marche-15",
+  "snk": "N 'Ka m'fayi.",
+  "fr": "Voici ma maison."
+ },
+ {
+  "id": "marche-16",
+  "snk": "Nké faba ka n'ya ni.",
+  "fr": "C'est la maison de mon père."
+ },
+ {
+  "id": "marche-17",
+  "snk": "Nké faba xasé n'ya ni, Ma léminé n'yani.",
+  "fr": "Mon père est vieux, ma mère est jeune."
+ },
+ {
+  "id": "marche-18",
+  "snk": "waxi-ni filli yani maxa ado guida naxaru siki.",
+  "fr": "J'ai deux frères et trois sœurs."
+ },
+ {
+  "id": "marche-19",
+  "snk": "N'waxi-ni kou fayi locolou, n'guida niaxaru kou fayi ka.",
+  "fr": "Mes frères sont à l'école, mes sœurs sont à la maison."
+ },
+ {
+  "id": "marche-20",
+  "snk": "O taxa-lémou kou, rémmé nguébé niani maxa.",
+  "fr": "Nos voisins ont beaucoup d'enfants."
+ },
+ {
+  "id": "marche-21",
+  "snk": "I romu kou fayi sangana O bara.",
+  "fr": "Leurs enfants jouent dans notre cour."
+ },
+ {
+  "id": "marche-22",
+  "snk": "yeli yéré ! Taxu",
+  "fr": "Viens ici ! Assieds-toi."
+ },
+ {
+  "id": "marche-23",
+  "snk": "Maro ké yiga, xa maxa yigué siri.",
+  "fr": "Mange le riz, mais ne mange pas trop."
+ },
+ {
+  "id": "marche-24",
+  "snk": "dni kini nké, a nia ti allah.",
+  "fr": "Donne-moi l'eau, s'il te plaît."
+ },
+ {
+  "id": "marche-25",
+  "snk": "maxa daga watia, a wara kati kaané.",
+  "fr": "Ne pars pas maintenant, attends un peu."
+ },
+ {
+  "id": "marche-26",
+  "snk": "xa guiri, xa terinké, xa maxa moungo do xa cahiers-ni",
+  "fr": "Levez-vous, écoutez bien, n'oubliez pas vos cahiers."
+ },
+ {
+  "id": "travail-01",
+  "snk": "Ké suxuba, nké guiri féné.",
+  "fr": "Ce matin, je me suis réveillé tôt."
+ },
+ {
+  "id": "travail-02",
+  "snk": "nké faba daga guné.",
+  "fr": "Mon père était déjà parti au champ."
+ },
+ {
+  "id": "travail-03",
+  "snk": "Nké goli ni ya (koota su).",
+  "fr": "Je travaille tous les jours."
+ },
+ {
+  "id": "travail-04",
+  "snk": "Watia kundu, nké fayi létra n'ya safa kati nké waxi.",
+  "fr": "En ce moment, j'écris une lettre à mon frère."
+ },
+ {
+  "id": "travail-05",
+  "snk": "Guida niaxaré a do yiramé waqindé niaani mé.",
+  "fr": "Ma sœur est en train de laver les habits."
+ },
+ {
+  "id": "travail-06",
+  "snk": "Nké ma fayi yéréxaté n'sorono.",
+  "fr": "Ma mère prépare le repas."
+ },
+ {
+  "id": "travail-07",
+  "snk": "A fayi ké rini daga saxa.",
+  "fr": "Elle est sur le point de partir au marché."
+ },
+ {
+  "id": "travail-08",
+  "snk": "An guida xa ?",
+  "fr": "Où est ton frère ?"
+ },
+ {
+  "id": "travail-09",
+  "snk": "A fayi locolou.",
+  "fr": "Il est à l'école."
+ },
+ {
+  "id": "travail-10",
+  "snk": "A xarana kotaxu.",
+  "fr": "Il étudie tous les jours."
+ },
+ {
+  "id": "travail-11",
+  "snk": "Aké ni mané débérini watia ?",
+  "fr": "Qu'est-ce qu'il fait maintenant ?"
+ },
+ {
+  "id": "travail-12",
+  "snk": "a fayi safandini i kayé noxo.",
+  "fr": "Il écrit dans son cahier."
+ },
+ {
+  "id": "travail-13",
+  "snk": "O ka a lamané ni ya.",
+  "fr": "Notre maison est petite."
+ },
+ {
+  "id": "travail-14",
+  "snk": "xa yité gabo niani a noxo.",
+  "fr": "Mais il y a beaucoup d'arbres dans la cour."
+ },
+ {
+  "id": "travail-15",
+  "snk": "kompo siki ya ni a noxo.",
+  "fr": "Il y a trois chambres."
+ },
+ {
+  "id": "travail-16",
+  "snk": "nké saxura ké fayi kompé fana ké noxo.",
+  "fr": "Mon lit est dans la première chambre."
+ },
+ {
+  "id": "travail-17",
+  "snk": "Daru, nké do ma daga saxa.",
+  "fr": "Hier, je suis allé au marché avec ma mère."
+ },
+ {
+  "id": "travail-18",
+  "snk": "O di maro ado téh ado xati ado tié qobo.",
+  "fr": "Nous avons acheté du riz, du thé, du lait et de la viande."
+ },
+ {
+  "id": "travail-19",
+  "snk": "gagana ké di oku wétiéti kini oku ya (o ya).",
+  "fr": "Le vendeur nous a donné la monnaie."
+ },
+ {
+  "id": "travail-20",
+  "snk": "o yillé kati wuro ké nga roono.",
+  "fr": "Nous sommes rentrés avant la nuit."
+ },
+ {
+  "id": "travail-21",
+  "snk": "bawoni, killé ké guillé ni ya.",
+  "fr": "Parce que la route est longue."
+ },
+ {
+  "id": "travail-22",
+  "snk": "yali yéré ! kitabé ké wutu ado na xara.",
+  "fr": "Viens ici ! Prends ce livre et lis-le."
+ },
+ {
+  "id": "travail-23",
+  "snk": "nké ra nti watia, nké do yigayé ni ya mé.",
+  "fr": "Je ne peux pas maintenant, je suis en train de manger."
+ },
+ {
+  "id": "travail-24",
+  "snk": "nké kuna yigué fina, kémpalé an na goli.",
+  "fr": "Alors mange d'abord, et travaille après."
+ },
+ {
+  "id": "village-01",
+  "snk": "Daru suxuba, N'daga ma débé ké ya.",
+  "fr": "Hier matin, je suis allé au village de ma grand-mère."
+ },
+ {
+  "id": "village-02",
+  "snk": "N'daga féné féné, kati kiyé ké ga baka.",
+  "fr": "Je suis parti tôt, avant le lever du soleil."
+ },
+ {
+  "id": "village-03",
+  "snk": "killé ké gillo.",
+  "fr": "La route était longue."
+ },
+ {
+  "id": "village-04",
+  "snk": "Dimma m'bé n'gui dioofé, Ma-ma yi taxu-nu i ka noxo.",
+  "fr": "Quand je suis arrivé, ma grand-mère était assise devant sa maison."
+ },
+ {
+  "id": "village-05",
+  "snk": "A di ŋ'wori, a guiri.",
+  "fr": "Elle m'a vu et elle s'est levée."
+ },
+ {
+  "id": "village-06",
+  "snk": "A ti n'da : « An l'ri ! »",
+  "fr": "Elle m'a dit : « Tu es venu ! »"
+ },
+ {
+  "id": "village-07",
+  "snk": "A di dji kini nké ya.",
+  "fr": "Elle m'a donné de l'eau."
+ },
+ {
+  "id": "village-08",
+  "snk": "kémpalé, a di tirindi MA xibaru.",
+  "fr": "Ensuite, elle m'a demandé des nouvelles de ma mère."
+ },
+ {
+  "id": "village-09",
+  "snk": "N'di diabi ti a yi diomou ya.",
+  "fr": "Je lui ai répondu que ma mère allait bien."
+ },
+ {
+  "id": "village-10",
+  "snk": "A ti n'daŋa-ni kawu towoyinté ni ya, a daga débé xoooré.",
+  "fr": "Elle m'a dit que mon oncle était malade et qu'il était parti à la ville."
+ },
+ {
+  "id": "village-11",
+  "snk": "O séfé siri.",
+  "fr": "Nous avons parlé longtemps."
+ },
+ {
+  "id": "village-12",
+  "snk": "A di yéréxaté n'soro.",
+  "fr": "Elle a préparé le repas."
+ },
+ {
+  "id": "village-13",
+  "snk": "O yigué domé yité xoré ŋ'wuré.",
+  "fr": "Nous avons mangé ensemble sous le grand arbre."
+ },
+ {
+  "id": "village-14",
+  "snk": "A ka ké lamané ni ya dinan-ti o ka.",
+  "fr": "Sa maison est plus petite que la nôtre."
+ },
+ {
+  "id": "village-15",
+  "snk": "xa a bara ké xoré ni ya.",
+  "fr": "Mais sa cour est plus grande."
+ },
+ {
+  "id": "village-16",
+  "snk": "yéraxaté mpallé, N'touma fonné.",
+  "fr": "Après le repas, je me suis reposé un peu."
+ },
+ {
+  "id": "village-17",
+  "snk": "yigu-xoso yogo ri, A yi moulla i ni kissima wori.",
+  "fr": "Un vieil homme est venu ; il voulait voir mon grand-père."
+ },
+ {
+  "id": "village-18",
+  "snk": "n'ti a da, kissima n'ti yéré.",
+  "fr": "Je lui ai dit que mon grand-père n'était pas là."
+ },
+ {
+  "id": "village-19",
+  "snk": "« An n'gana daga watia, An dioofé-né wuro ni ya. »",
+  "fr": "« Si tu pars maintenant, tu arriveras dans la nuit. »"
+ },
+ {
+  "id": "village-20",
+  "snk": "« An n'gana toxo yéré, an na daga xumbéné. »",
+  "fr": "« Si tu restes ici, tu partiras demain matin. »"
+ },
+ {
+  "id": "village-21",
+  "snk": "N'ti a da nanti nké daga na ya.",
+  "fr": "Je lui ai répondu que je devais rentrer."
+ },
+ {
+  "id": "village-22",
+  "snk": "bawoni, goli ni ya xumbéné.",
+  "fr": "Parce que je travaille demain."
+ },
+ {
+  "id": "village-23",
+  "snk": "Nké daga kiyé n'gui xénu.",
+  "fr": "Je suis reparti quand le soleil s'est couché."
+ },
+ {
+  "id": "village-24",
+  "snk": "Nké ni téréné siri, bawoni nké ti mula na lélé.",
+  "fr": "Je marchais vite, parce que je ne voulais pas arriver trop tard."
+ },
+ {
+  "id": "village-25",
+  "snk": "N'dioofé ka wuro ké kaané.",
+  "fr": "Je suis arrivé à la maison avant la nuit."
+ },
+ {
+  "id": "village-26",
+  "snk": "Ma a di tirindi : « A ma-ma moxo ? »",
+  "fr": "Ma mère m'a demandé : « Comment va ta grand-mère ? »"
+ },
+ {
+  "id": "village-27",
+  "snk": "N'ti a da nanti aké n'yi diomou, a kawu ya n'towoyi.",
+  "fr": "Je lui ai dit qu'elle allait bien, et que son oncle était malade."
+ }
+]
