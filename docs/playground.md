@@ -25,7 +25,7 @@ Les règles appliquées ici sont exactement celles du moteur, exportées depuis
 
 <script>
 (async function () {
-  const D = await (await fetch('data.json')).json();
+  const D = await (await fetch('data.json', {cache: 'no-cache'})).json();
   const verbSel = document.getElementById('snk-verb');
   const objSel = document.getElementById('snk-obj');
   const out = document.getElementById('snk-out');

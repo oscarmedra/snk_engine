@@ -69,13 +69,13 @@ Le bouton ⇄ inverse le sens.
   const esc = s => String(s).replace(/[&<>]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c]));
   let reference = null;
 
-  const examples = await (await fetch('exemples.json')).json();
+  const examples = await (await fetch('exemples.json', {cache: 'no-cache'})).json();
   examples.forEach((e, i) => exSel.add(new Option(`${e.id} — ${e.snk.slice(0, 50)}`, i)));
 
   // le vrai moteur Python, exécuté dans le navigateur
   const pyodide = await loadPyodide();
   await pyodide.loadPackage('pyyaml');
-  const bundle = await (await fetch('bundle.json')).json();
+  const bundle = await (await fetch('bundle.json', {cache: 'no-cache'})).json();
   for (const [path, content] of Object.entries(bundle)) {
     const full = '/snk/' + path;
     pyodide.FS.mkdirTree(full.slice(0, full.lastIndexOf('/')));
