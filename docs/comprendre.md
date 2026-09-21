@@ -70,19 +70,16 @@
   pyodide.runPython(`
 import sys, json
 sys.path.insert(0, "/snk/packages/snk-engine/src")
-from snk_engine.understand import analyze_text, load_lexicon, AnalysisError
+from snk_engine.understand import analyze_text, load_lexicon, render
 LEX = load_lexicon()
 
 def comprendre(texte):
-    try:
-        res = analyze_text(texte, LEX)
-    except AnalysisError as exc:
-        return json.dumps({"erreur": str(exc)})
-    return json.dumps([{
+    res = analyze_text(texte, LEX)
+    return json.dumps({"traduction": render(res), "propositions": [{
         "snk": a.snk, "fr": a.fr, "confirme": a.confirme, "notes": list(a.notes),
         "frame": {k: v for k, v in a.frame.items() if v not in (None, [], False)},
         "mots": [{"mot": t.raw, "tags": list(t.tags)} for t in a.tokens],
-    } for a in res], ensure_ascii=False)
+    } for a in res]}, ensure_ascii=False)
 `);
   const comprendre = pyodide.globals.get('comprendre');
   input.disabled = false;
@@ -92,16 +89,10 @@ def comprendre(texte):
   function run() {
     const text = input.value.trim();
     if (!text) { out.innerHTML = ''; detailOut.innerHTML = ''; status.textContent = ''; return; }
-    const res = JSON.parse(comprendre(text));
-    if (res.erreur) {
-      out.innerHTML = '<p class="snk-unknown">…</p>';
-      status.innerHTML = '<span class="snk-partial">rien de reconnu</span>';
-      detailOut.innerHTML = detail.checked ? `<p class="snk-note">${esc(res.erreur)}</p>` : '';
-      return;
-    }
-    out.innerHTML = res.map(a =>
-      `<p>${esc(a.fr).replace(/unknown/g, '<span class="snk-unknown">unknown</span>')}</p>`).join('')
-      + (reference && res.length === 1 ? `<p class="snk-ref">locuteur : ${esc(reference)}</p>` : '');
+    const data = JSON.parse(comprendre(text));
+    const res = data.propositions;
+    out.innerHTML = `<p>${esc(data.traduction).replace(/\[unknown\]/g, '<span class="snk-unknown">[unknown]</span>')}</p>`
+      + (reference ? `<p class="snk-ref">locuteur : ${esc(reference)}</p>` : '');
     const all = res.every(a => a.confirme);
     status.innerHTML = all ? '<span class="snk-ok">✔ entièrement compris</span>'
                            : '<span class="snk-partial">◐ compréhension partielle</span>';
@@ -154,12 +145,18 @@ uv run snk-engine comprendre "ake n'di maro ke n'yiga" --detail
    ambiguïtés. Quand un marqueur ouvre plusieurs temps, le moteur reconjugue chaque
    candidat et garde celui qui redonne la phrase.
 
-**Un mot qu'aucune donnée ne couvre devient `unknown`**, jamais un mot français
-choisi au hasard. Chaque remplacement est expliqué dans le détail de l'analyse.
+**Le moteur tente toujours une traduction**, quel que soit le texte. Ce qu'aucune
+donnée ne couvre devient `[unknown]` — jamais un mot français choisi au hasard —
+et plusieurs mots incompris d'affilée ne donnent qu'une seule marque. Chaque
+remplacement est expliqué dans le détail de l'analyse.
+
+Le texte est découpé en phrases, puis en propositions sur les virgules, les
+points-virgules et les deux-points : chaque proposition est analysée séparément.
+Si aucune structure n'y est reconnue, elle est traduite mot à mot.
 
 ## Ce qu'il ne sait pas encore faire
 
-- **une phrase simple à la fois** : pas de subordonnée, pas de phrase coordonnée ;
+- **pas de subordonnée** : les propositions sont traduites l'une après l'autre ;
 - **le vocabulaire limite tout** : un nom absent des données produit un `unknown` ;
 - **les ambiguïtés** comme `xa` sont tranchées par la position, et signalées ;
 - **le sens français → soninké** n'est pas construit.

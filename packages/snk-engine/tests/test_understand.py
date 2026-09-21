@@ -9,6 +9,7 @@ from snk_engine.understand import (
     analyze,
     analyze_text,
     load_lexicon,
+    render,
     tag,
     tokenize,
 )
@@ -117,14 +118,32 @@ def test_literature_verbs_are_not_used(lex):
 
 def test_unknown_word_becomes_unknown(lex):
     a = analyze("ake n'daga zzzz", lex)
-    assert a.fr == "il est parti unknown"
+    assert a.fr == "il est parti [unknown]"
     assert any("zzzz" in n for n in a.notes)
     assert not a.confirme
 
 
-def test_nothing_recognised_raises(lex):
+def test_nothing_recognised_raises_for_a_single_clause(lex):
     with pytest.raises(AnalysisError):
         analyze("zzzz qqqq", lex)
+
+
+def test_any_text_gets_a_translation(lex):
+    # un texte qui n'est pas du soninké : aucune erreur, tout devient [unknown]
+    text = ("Le moteur met quelques secondes à se charger : c'est le moteur Python lui-même, "
+            "pas une imitation. Ce que tu lis ici est la commande")
+    assert render(analyze_text(text, lex)) == "[unknown]: [unknown], [unknown]. [unknown]"
+
+
+def test_consecutive_unknowns_are_collapsed(lex):
+    a = analyze("ake n'daga zzzz qqqq", lex)
+    assert a.fr == "il est parti [unknown]"
+
+
+def test_clauses_are_analysed_separately(lex):
+    res = analyze_text("ake n'daga saxa, ake n'di maro ke n'yiga.", lex)
+    assert [a.fr for a in res] == ["il est parti au marché", "il a mangé le riz"]
+    assert render(res) == "il est parti au marché, il a mangé le riz."
 
 
 # --- Ambiguïtés ----------------------------------------------------------------

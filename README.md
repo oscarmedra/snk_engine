@@ -55,8 +55,9 @@ uv run snk-engine comprendre "ake n'daga saxa daru" --detail    # + le détail d
 
 L'analyse se fait en trois étapes — segmentation, tagage de chaque mot par catégorie,
 puis assemblage dans l'ordre de la grammaire — et non par comparaison avec des phrases
-déjà connues. **Un mot absent des données devient le mot `unknown`** dans la traduction,
-jamais un mot français deviné ; chaque remplacement est expliqué.
+déjà connues. **Un mot absent des données devient `[unknown]`** dans la traduction,
+jamais un mot français deviné ; chaque remplacement est expliqué. Le moteur tente
+toujours une traduction : tout ce qu'il ne comprend pas est marqué `[unknown]`.
 
 Ses limites aujourd'hui : une phrase simple à la fois, pas de subordonnée ; les
 ambiguïtés comme `xa` (vous / où) sont tranchées par la position et signalées en note ;

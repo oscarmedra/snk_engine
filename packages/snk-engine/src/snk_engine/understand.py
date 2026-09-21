@@ -28,9 +28,10 @@ from .conjugation import DATA_DIR, ConjugationEngine, ConjugationError, default_
 from .french import PERSONS, SUBJECTS, FrenchError, FrenchVerb, conjugate_fr
 from .orthography import modernize
 
-UNKNOWN = "unknown"
+UNKNOWN = "[unknown]"
 PARTICLES = ("n'", "m'", "l'", "ŋ'", "q'")
 SENTENCE_SPLIT = re.compile(r"(?<=[.!?])\s+")
+CLAUSE_SPLIT = re.compile(r"\s*([,;:])\s*")
 PUNCTUATION = "…,;:.!?«»\"()"
 
 # Mots interrogatifs confirmés (docs/langue/questions.md)
@@ -61,6 +62,7 @@ class Analysis:
     frame: dict
     notes: tuple[str, ...] = ()
     tokens: tuple[Token, ...] = ()
+    ponctuation: str = ""   # ce qui suivait la proposition dans le texte (, ; : . ? !)
 
 
 # --- Les données, lues une fois -------------------------------------------------
@@ -376,17 +378,65 @@ def to_french(frame: dict, lex: Lexicon, notes: list[str]) -> str:
     return phrase
 
 
+def collapse_unknowns(text: str) -> str:
+    """« [unknown] [unknown] [unknown] » → « [unknown] » : une seule marque par passage."""
+    return re.sub(rf"(?:{re.escape(UNKNOWN)}\s*)+", UNKNOWN + " ", text).strip()
+
+
 # --- Entrée publique ------------------------------------------------------------
 
 def analyze(sentence: str, lex: Lexicon | None = None) -> Analysis:
+    """Analyse une proposition. Lève AnalysisError si rien n'y est reconnu."""
     lex = lex or load_lexicon()
     tokens = tag(tokenize(sentence), lex)
     frame, notes = assemble(tokens, lex)
-    french = to_french(frame, lex, notes)
+    french = collapse_unknowns(to_french(frame, lex, notes))
     confirmed = bool(frame["verbe_confirme"] and frame["temps"]) and UNKNOWN not in french
     return Analysis(sentence.strip(), french, confirmed, frame, tuple(notes), tuple(tokens))
 
 
+def _word_by_word(clause: str, lex: Lexicon) -> Analysis:
+    """Dernier recours : aucune structure reconnue, on traduit mot à mot ce qui peut l'être."""
+    tokens = tag(tokenize(clause), lex)
+    notes: list[str] = ["aucune structure de phrase reconnue : traduction mot à mot"]
+    words = []
+    for t in tokens:
+        key = _key(t.word)
+        if key in lex.glossary:
+            words.append(lex.glossary[key])
+        else:
+            words.append(UNKNOWN)
+            notes.append(f"« {t.raw} » : non reconnu → {UNKNOWN}")
+    return Analysis(clause.strip(), collapse_unknowns(" ".join(words)), False, {}, tuple(notes), tuple(tokens))
+
+
 def analyze_text(text: str, lex: Lexicon | None = None) -> list[Analysis]:
+    """Traduit n'importe quel texte, sans jamais échouer.
+
+    Le texte est découpé en phrases, puis en propositions (sur , ; :). Chaque
+    proposition est analysée ; si rien n'y est reconnu, elle est traduite mot à mot,
+    et tout ce qui n'est pas compris devient [unknown].
+    """
     lex = lex or load_lexicon()
-    return [analyze(s, lex) for s in split_sentences(text)]
+    results: list[Analysis] = []
+    for sentence in split_sentences(text):
+        end = sentence[-1] if sentence[-1] in ".!?" else ""
+        parts = CLAUSE_SPLIT.split(sentence.rstrip(".!?").strip())
+        clauses = [(parts[i], parts[i + 1] if i + 1 < len(parts) else end) for i in range(0, len(parts), 2)]
+        for clause, punct in clauses:
+            if not _clean(clause):
+                continue
+            try:
+                a = analyze(clause, lex)
+            except AnalysisError:
+                a = _word_by_word(clause, lex)
+            results.append(Analysis(a.snk, a.fr, a.confirme, a.frame, a.notes, a.tokens, punct))
+    return results
+
+
+def render(analyses: list[Analysis]) -> str:
+    """Recompose la traduction d'un texte, avec sa ponctuation."""
+    out = ""
+    for a in analyses:
+        out += a.fr + (a.ponctuation if a.ponctuation in ".!?" else a.ponctuation) + " "
+    return re.sub(r"\s+([,;:.!?])", r"\1", out).strip()
