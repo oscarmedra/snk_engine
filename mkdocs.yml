@@ -27,6 +27,7 @@ nav:
       - Fabriquer des noms: langue/derivation.md
       - Le lexique: langue/lexique.md
   - Playground: playground.md
+  - Comprendre un texte: comprendre.md
   - Le corpus: corpus.md
   - Le moteur: moteur.md
   - Crédits et licences: credits.md

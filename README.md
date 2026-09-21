@@ -12,6 +12,7 @@ corpus parallèle soninké-français public n'existait au moment où ce projet a
 | | |
 |---|---|
 | 📖 **Documentation** | <https://oscarmedra.github.io/snk_engine/> |
+| 🔎 **Comprendre un texte** — soninké → français | <https://oscarmedra.github.io/snk_engine/comprendre/> |
 | 🎛️ **Playground** — conjuguer un verbe dans le navigateur | <https://oscarmedra.github.io/snk_engine/playground/> |
 | 📚 **Le lexique** | <https://oscarmedra.github.io/snk_engine/langue/lexique/> |
 | 🧩 **La particule**, la règle centrale de la langue | <https://oscarmedra.github.io/snk_engine/langue/particule/> |
@@ -41,6 +42,27 @@ data/questionnaires/   les séries de questions posées au locuteur
 corpus/valide/         les phrases traduites, alignées, une par ligne JSON
 scripts/               régénération du lexique documenté
 ```
+
+## Comprendre un texte soninké
+
+Le moteur lit aussi dans l'autre sens : il analyse une phrase soninké et la traduit
+en français.
+
+```bash
+uv run snk-engine comprendre "ake n'di maro ke n'yiga"          # il a mangé le riz
+uv run snk-engine comprendre "ake n'daga saxa daru" --detail    # + le détail de l'analyse
+```
+
+L'analyse se fait en trois étapes — segmentation, tagage de chaque mot par catégorie,
+puis assemblage dans l'ordre de la grammaire — et non par comparaison avec des phrases
+déjà connues. **Un mot absent des données devient le mot `unknown`** dans la traduction,
+jamais un mot français deviné ; chaque remplacement est expliqué.
+
+Ses limites aujourd'hui : une phrase simple à la fois, pas de subordonnée ; les
+ambiguïtés comme `xa` (vous / où) sont tranchées par la position et signalées en note ;
+le vocabulaire confirmé reste petit, donc beaucoup de phrases contiennent des `unknown`.
+Le sens inverse — traduire un texte français en soninké — n'est pas construit : le
+moteur produit des phrases à partir des règles, mais ne traduit pas du français.
 
 ## Démarrer
 

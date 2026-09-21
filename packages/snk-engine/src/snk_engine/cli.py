@@ -248,5 +248,40 @@ def conjuguer(
             typer.echo(f"  {f}")
 
 
+@app.command("comprendre")
+def comprendre(
+    texte: str = typer.Argument(..., help="phrase ou texte soninké"),
+    detail: bool = typer.Option(False, "--detail", help="montre le tagage et l'assemblage"),
+):
+    """Traduit un texte soninké en français, en n'affirmant que ce qui est reconnu."""
+    from .understand import AnalysisError, analyze_text, load_lexicon
+
+    lex = load_lexicon()
+    try:
+        analyses = analyze_text(texte, lex)
+    except AnalysisError as exc:
+        typer.echo(f"Rien n'a pu être identifié : {exc}", err=True)
+        raise typer.Exit(code=1)
+
+    for a in analyses:
+        typer.echo(f"{a.snk}\n→ {a.fr}")
+        if detail:
+            typer.echo("  mots :")
+            for t in a.tokens:
+                tags = ", ".join(t.tags) or "non reconnu"
+                particule = f" (particule {t.particle})" if t.particle else ""
+                typer.echo(f"    {t.raw:<16} {tags}{particule}")
+            f = a.frame
+            typer.echo("  phrase :")
+            typer.echo(f"    sujet       {f['sujet'] or '—'}" + (f" ({f['personne']})" if f['personne'] else ""))
+            typer.echo(f"    temps       {f['temps'] or '—'}")
+            typer.echo(f"    objet       {f['objet'] or '—'}")
+            typer.echo(f"    verbe       {f['verbe'] or '—'}" + ("" if f["verbe_confirme"] else " (non confirmé)"))
+            typer.echo(f"    compléments {', '.join(f['complements']) or '—'}")
+            for note in a.notes:
+                typer.echo(f"  · {note}")
+        typer.echo("")
+
+
 if __name__ == "__main__":
     app()
