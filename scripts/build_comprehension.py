@@ -13,7 +13,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MODULES = ["__init__.py", "conjugation.py", "french.py", "orthography.py", "understand.py"]
+MODULES = ["__init__.py", "conjugation.py", "french.py", "orthography.py", "understand.py", "translate_fr.py"]
 DATA = ["grammaire/soninke.yaml", "grammaire/objets.yaml",
         "references/verbes.yaml", "references/mots.yaml"]
 

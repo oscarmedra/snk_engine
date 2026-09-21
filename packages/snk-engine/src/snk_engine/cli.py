@@ -282,5 +282,29 @@ def comprendre(
         typer.echo("")
 
 
+@app.command("traduire")
+def traduire(
+    texte: str = typer.Argument(..., help="texte français"),
+    detail: bool = typer.Option(False, "--detail", help="montre le verbe, le temps et l'objet reconnus"),
+):
+    """Traduit un texte français en soninké, en n'affirmant que ce qui est reconnu."""
+    from .translate_fr import render, translate_text
+    from .understand import load_lexicon
+
+    results = translate_text(texte, load_lexicon())
+    typer.echo(render(results))
+    if not detail:
+        return
+    typer.echo("")
+    for t in results:
+        typer.echo(f"{t.fr}\n→ {t.snk}")
+        for key, value in t.frame.items():
+            if value:
+                typer.echo(f"    {key:<12} {', '.join(value) if isinstance(value, list) else value}")
+        for note in t.notes:
+            typer.echo(f"  · {note}")
+        typer.echo("")
+
+
 if __name__ == "__main__":
     app()

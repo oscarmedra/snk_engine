@@ -12,7 +12,7 @@ corpus parallèle soninké-français public n'existait au moment où ce projet a
 | | |
 |---|---|
 | 📖 **Documentation** | <https://oscarmedra.github.io/snk_engine/> |
-| 🔎 **Comprendre un texte** — soninké → français | <https://oscarmedra.github.io/snk_engine/comprendre/> |
+| 🔎 **Traduire** — soninké ⇄ français, pendant la frappe | <https://oscarmedra.github.io/snk_engine/comprendre/> |
 | 🎛️ **Playground** — conjuguer un verbe dans le navigateur | <https://oscarmedra.github.io/snk_engine/playground/> |
 | 📚 **Le lexique** | <https://oscarmedra.github.io/snk_engine/langue/lexique/> |
 | 🧩 **La particule**, la règle centrale de la langue | <https://oscarmedra.github.io/snk_engine/langue/particule/> |
@@ -43,7 +43,7 @@ corpus/valide/         les phrases traduites, alignées, une par ligne JSON
 scripts/               régénération du lexique documenté
 ```
 
-## Comprendre un texte soninké
+## Traduire : soninké ⇄ français
 
 Le moteur lit aussi dans l'autre sens : il analyse une phrase soninké et la traduit
 en français.
@@ -62,8 +62,13 @@ toujours une traduction : tout ce qu'il ne comprend pas est marqué `[unknown]`.
 Ses limites aujourd'hui : une phrase simple à la fois, pas de subordonnée ; les
 ambiguïtés comme `xa` (vous / où) sont tranchées par la position et signalées en note ;
 le vocabulaire confirmé reste petit, donc beaucoup de phrases contiennent des `unknown`.
-Le sens inverse — traduire un texte français en soninké — n'est pas construit : le
-moteur produit des phrases à partir des règles, mais ne traduit pas du français.
+Le sens français → soninké existe aussi : le moteur reconnaît le verbe conjugué grâce
+à l'index inverse de son propre générateur français, puis produit le soninké avec le
+moteur de conjugaison. Les deux sens se vérifient l'un l'autre (aller-retour testé).
+
+```bash
+uv run snk-engine traduire "il a mangé le riz"                   # ake n'di maro ke n'yiga
+```
 
 ## Démarrer
 
