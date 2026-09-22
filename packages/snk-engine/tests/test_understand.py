@@ -130,8 +130,10 @@ def test_nothing_recognised_raises_for_a_single_clause(lex):
 
 def test_any_text_gets_a_translation(lex):
     # un texte qui n'est pas du soninké : aucune erreur, tout devient [unknown]
+    # (quelques mots courts coïncident entre les deux langues — « tu » veut dire
+    # « savoir » en soninké — l'analyseur ne devine pas la langue du texte)
     text = ("Le moteur met quelques secondes à se charger : c'est le moteur Python lui-même, "
-            "pas une imitation. Ce que tu lis ici est la commande")
+            "pas une imitation. Voici la commande")
     assert render(analyze_text(text, lex)) == "[unknown]: [unknown], [unknown]. [unknown]"
 
 

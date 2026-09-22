@@ -305,3 +305,51 @@ texte_5_suite:
   - {snk: kempale, fr: "ensuite, après"}
   - {snk: "an na goli", fr: "et travaille (demande)", note: "« na » dans une suite d'ordres"}
 
+# --- texte_pluies (2026-09-22) : lecture de Claude, à confirmer ---
+texte_pluies:
+  grammaire:
+    - {snk: wa, fr: "marqueur : action à venir ou qui dure",
+       exemple: "kame ke wa rini = la pluie va revenir ; lomunu ku wa sangana = les enfants jouaient"}
+    - {snk: da, fr: "marqueur d'objet", note: "variante de di : m'paba da kari ti guma"}
+    - {snk: gana, fr: "si", exemple: "ke ke gana taxe siri = si la pluie tombe bien"}
+    - {snk: muma, fr: "tout, entier", exemple: "wuro ke muma = toute la nuit ; sine ke muma = toute l'année"}
+    - {snk: ti, fr: "avec (instrument) ?", exemple: "kari ti guma = tué avec un bâton"}
+  meteo:
+    - {snk: xaaxo, fr: "saison des pluies"}
+    - {snk: kame, fr: pluie}
+    - {snk: kamu, fr: ciel}
+    - {snk: taxe, fr: "tomber (pluie)"}
+    - {snk: tobulu, fr: nuages}
+    - {snk: "kiyi mbaka", fr: "l'est", note: "littéralement : là où le soleil sort"}
+    - {snk: "kiyi nsiga", fr: midi, note: "littéralement : le soleil au milieu"}
+    - {snk: du, fr: "frais, froid ?"}
+  champs:
+    - {snk: siine, fr: année}
+    - {snk: tongue, fr: houe}
+    - {snk: soxo, fr: "cultiver, semer"}
+    - {snk: maka, fr: maïs}
+    - {snk: tiga, fr: arachide}
+    - {snk: soxampo, fr: récolte}
+    - {snk: soke, fr: herbe}
+  animaux:
+    - {snk: seliŋu, fr: poules}
+    - {snk: naa, fr: vache}
+    - {snk: katchite, fr: serpent}
+    - {snk: sugu, fr: chèvres}
+    - {snk: galle, fr: enclos}
+  verbes_et_corps:
+    - {snk: xamu, fr: traire}
+    - {snk: tu, fr: savoir, exemple: "ke n'ti tu = je ne sais pas"}
+    - {snk: diawondi, fr: "se dépêcher"}
+    - {snk: deni, fr: apporter}
+    - {snk: tampi, fr: fatigué}
+    - {snk: xodo, fr: dos}
+    - {snk: konu, fr: "avoir peur"}
+    - {snk: xaru, fr: crier}
+    - {snk: kari, fr: tuer}
+    - {snk: guma, fr: bâton}
+    - {snk: yanqana, fr: "rentrer ?"}
+    - {snk: yigande, fr: nourriture, note: "de yiga : ce qu'on mange"}
+    - {snk: liŋe, fr: "bon (au goût) ?"}
+    - {snk: taye, fr: "chaud ?"}
+

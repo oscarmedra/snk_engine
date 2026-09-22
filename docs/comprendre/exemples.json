@@ -130,6 +130,141 @@
   "fr": "Levez-vous, écoutez bien, n'oubliez pas vos cahiers."
  },
  {
+  "id": "pluies-01",
+  "snk": "Xaaxo dimma",
+  "fr": "La saison des pluies"
+ },
+ {
+  "id": "pluies-02",
+  "snk": "Daru lélé, a di wuro ké muma késu taxa.",
+  "fr": "Hier soir, il a plu toute la nuit."
+ },
+ {
+  "id": "pluies-03",
+  "snk": "Lenki suxuba, kamu ké di fina, mullé xa yi du.",
+  "fr": "Ce matin, le ciel est encore gris et il fait frais."
+ },
+ {
+  "id": "pluies-04",
+  "snk": "Nké faba giri féné.",
+  "fr": "Mon père s'est levé tôt."
+ },
+ {
+  "id": "pluies-05",
+  "snk": "A di i tongué wutu.",
+  "fr": "Il a pris sa houe."
+ },
+ {
+  "id": "pluies-06",
+  "snk": "a do xoxono n'daga gouné.",
+  "fr": "Il est parti au champ avec mes frères."
+ },
+ {
+  "id": "pluies-07",
+  "snk": "ké siiné, o ni yillé ni ya soxono ado maka ado tiga.",
+  "fr": "Cette année, nous allons semer du mil, du maïs et des arachides."
+ },
+ {
+  "id": "pluies-08",
+  "snk": "N'ma nké m'faye ka.",
+  "fr": "Ma mère est restée à la maison."
+ },
+ {
+  "id": "pluies-09",
+  "snk": "a di yigandé kini seliŋu.",
+  "fr": "Elle a donné à manger aux poules."
+ },
+ {
+  "id": "pluies-10",
+  "snk": "ado na naa ké xamu.",
+  "fr": "Et elle a trait la vache."
+ },
+ {
+  "id": "pluies-11",
+  "snk": "xati ké tayé ni a liŋé xa ni.",
+  "fr": "Le lait est chaud et il est très bon."
+ },
+ {
+  "id": "pluies-12",
+  "snk": "Kamé ké wa rini xadi lenki ?",
+  "fr": "Est-ce que la pluie va revenir aujourd'hui ?"
+ },
+ {
+  "id": "pluies-13",
+  "snk": "Ké n'ti tu.",
+  "fr": "Je ne sais pas."
+ },
+ {
+  "id": "pluies-14",
+  "snk": "kamu ké faye : tobulu ku wa ti kiyi mbaka.",
+  "fr": "Regarde le ciel : les nuages arrivent de l'est."
+ },
+ {
+  "id": "pluies-15",
+  "snk": "Kenkuna o na diawondi.",
+  "fr": "Alors il faut se dépêcher."
+ },
+ {
+  "id": "pluies-16",
+  "snk": "Kiyi nsiga, nké di yéréxaté deni guné.",
+  "fr": "À midi, j'ai apporté le repas au champ."
+ },
+ {
+  "id": "pluies-17",
+  "snk": "M'paba a tampi, xodo ké wa mama n.",
+  "fr": "Mon père était fatigué, il avait mal au dos."
+ },
+ {
+  "id": "pluies-18",
+  "snk": "o taxu yité ŋ'wuré.",
+  "fr": "Nous nous sommes assis sous un arbre."
+ },
+ {
+  "id": "pluies-19",
+  "snk": "o yigué domé.",
+  "fr": "Nous avons mangé ensemble."
+ },
+ {
+  "id": "pluies-20",
+  "snk": "xoxoné ké da katchité ŋ'wori soké noxo.",
+  "fr": "Mon petit frère a vu un serpent dans l'herbe."
+ },
+ {
+  "id": "pluies-21",
+  "snk": "a konu, a xaru.",
+  "fr": "Il a eu peur et il a crié."
+ },
+ {
+  "id": "pluies-22",
+  "snk": "m'paba da kari ti guma.",
+  "fr": "Mon père l'a tué avec un bâton."
+ },
+ {
+  "id": "pluies-23",
+  "snk": "Lélé, dima bé o ga yanqana, kamé ké taxé xadi.",
+  "fr": "Le soir, quand nous sommes rentrés, il pleuvait de nouveau."
+ },
+ {
+  "id": "pluies-24",
+  "snk": "lomunu ku wa sangana dji ké noxo.",
+  "fr": "Les enfants jouaient dans l'eau."
+ },
+ {
+  "id": "pluies-25",
+  "snk": "sugu ku wa gallé ké noxo.",
+  "fr": "Et les chèvres restaient dans l'enclos."
+ },
+ {
+  "id": "pluies-26",
+  "snk": "Ké ké gana taxé siri ké siiné, soxampo ké wa siro no.",
+  "fr": "Si la pluie tombe bien cette année, la récolte sera bonne."
+ },
+ {
+  "id": "pluies-27",
+  "snk": "o wa biradi n'kitana siné ké muma.",
+  "fr": "Et nous aurons assez de nourriture pour toute l'année."
+ },
+ {
   "id": "travail-01",
   "snk": "Ké suxuba, nké guiri féné.",
   "fr": "Ce matin, je me suis réveillé tôt."
