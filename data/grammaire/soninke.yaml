@@ -435,3 +435,5117 @@ verbes:
     nom_action: wuruye
     gerondif: wurunu    # serie_03 : ake m'fayi wurunu watia
     classe: regulier
+
+  # --- verbes de la liste du locuteur (formes en -ni validées 2026-09-25) ---
+  diambe:
+    fr: abandonner
+    forme: diambe
+    nom_action: diambe-ye
+    gerondif: diambene
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: abandonner
+      participe: abandonné
+      present:
+      - abandonne
+      - abandonnes
+      - abandonne
+      - abandonnons
+      - abandonnez
+      - abandonnent
+      imparfait:
+      - abandonnais
+      - abandonnais
+      - abandonnait
+      - abandonnions
+      - abandonniez
+      - abandonnaient
+      futur_radical: abandonner
+      subjonctif:
+      - abandonne
+      - abandonnes
+      - abandonne
+      - abandonnions
+      - abandonniez
+      - abandonnent
+      imperatif:
+      - abandonne
+      - abandonnons
+      - abandonnez
+  duŋe:
+    fr: accepter
+    forme: duŋe
+    nom_action: duŋe-ye
+    gerondif: duŋene
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: accepter
+      participe: accepté
+      present:
+      - accepte
+      - acceptes
+      - accepte
+      - acceptons
+      - acceptez
+      - acceptent
+      imparfait:
+      - acceptais
+      - acceptais
+      - acceptait
+      - acceptions
+      - acceptiez
+      - acceptaient
+      futur_radical: accepter
+      subjonctif:
+      - accepte
+      - acceptes
+      - accepte
+      - acceptions
+      - acceptiez
+      - acceptent
+      imperatif:
+      - accepte
+      - acceptons
+      - acceptez
+  tuntchi:
+    fr: accompagner
+    forme: tuntchi
+    nom_action: tuntchi-nde
+    gerondif: tuntchini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: accompagner
+      participe: accompagné
+      present:
+      - accompagne
+      - accompagnes
+      - accompagne
+      - accompagnons
+      - accompagnez
+      - accompagnent
+      imparfait:
+      - accompagnais
+      - accompagnais
+      - accompagnait
+      - accompagnions
+      - accompagniez
+      - accompagnaient
+      futur_radical: accompagner
+      subjonctif:
+      - accompagne
+      - accompagnes
+      - accompagne
+      - accompagnions
+      - accompagniez
+      - accompagnent
+      imperatif:
+      - accompagne
+      - accompagnons
+      - accompagnez
+  tifin:
+    fr: accuser
+    forme: tifin
+    nom_action: tifin-nde
+    gerondif: tifinni
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: accuser
+      participe: accusé
+      present:
+      - accuse
+      - accuses
+      - accuse
+      - accusons
+      - accusez
+      - accusent
+      imparfait:
+      - accusais
+      - accusais
+      - accusait
+      - accusions
+      - accusiez
+      - accusaient
+      futur_radical: accuser
+      subjonctif:
+      - accuse
+      - accuses
+      - accuse
+      - accusions
+      - accusiez
+      - accusent
+      imperatif:
+      - accuse
+      - accusons
+      - accusez
+  kafuma:
+    fr: additionner
+    forme: kafuma
+    nom_action: kafuma-nde
+    gerondif: kafumana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: additionner
+      participe: additionné
+      present:
+      - additionne
+      - additionnes
+      - additionne
+      - additionnons
+      - additionnez
+      - additionnent
+      imparfait:
+      - additionnais
+      - additionnais
+      - additionnait
+      - additionnions
+      - additionniez
+      - additionnaient
+      futur_radical: additionner
+      subjonctif:
+      - additionne
+      - additionnes
+      - additionne
+      - additionnions
+      - additionniez
+      - additionnent
+      imperatif:
+      - additionne
+      - additionnons
+      - additionnez
+  dema:
+    fr: aider
+    forme: dema
+    nom_action: dema-nde
+    gerondif: demana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: aider
+      participe: aidé
+      present:
+      - aide
+      - aides
+      - aide
+      - aidons
+      - aidez
+      - aident
+      imparfait:
+      - aidais
+      - aidais
+      - aidait
+      - aidions
+      - aidiez
+      - aidaient
+      futur_radical: aider
+      subjonctif:
+      - aide
+      - aides
+      - aide
+      - aidions
+      - aidiez
+      - aident
+      imperatif:
+      - aide
+      - aidons
+      - aidez
+  xanu:
+    fr: aimer
+    forme: xanu
+    nom_action: xanu-ye
+    gerondif: xanunu
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: aimer
+      participe: aimé
+      present:
+      - aime
+      - aimes
+      - aime
+      - aimons
+      - aimez
+      - aiment
+      imparfait:
+      - aimais
+      - aimais
+      - aimait
+      - aimions
+      - aimiez
+      - aimaient
+      futur_radical: aimer
+      subjonctif:
+      - aime
+      - aimes
+      - aime
+      - aimions
+      - aimiez
+      - aiment
+      imperatif:
+      - aime
+      - aimons
+      - aimez
+  kumu:
+    fr: allumer
+    forme: kumu
+    nom_action: kumu-nde
+    gerondif: kumunu
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: allumer
+      participe: allumé
+      present:
+      - allume
+      - allumes
+      - allume
+      - allumons
+      - allumez
+      - allument
+      imparfait:
+      - allumais
+      - allumais
+      - allumait
+      - allumions
+      - allumiez
+      - allumaient
+      futur_radical: allumer
+      subjonctif:
+      - allume
+      - allumes
+      - allume
+      - allumions
+      - allumiez
+      - allument
+      imperatif:
+      - allume
+      - allumons
+      - allumez
+  dantaxi:
+    fr: annoncer
+    forme: dantaxi
+    nom_action: dantaxi-nde
+    gerondif: dantaxini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: annoncer
+      participe: annoncé
+      present:
+      - annonce
+      - annonces
+      - annonce
+      - annonçons
+      - annoncez
+      - annoncent
+      imparfait:
+      - annonçais
+      - annonçais
+      - annonçait
+      - annoncions
+      - annonciez
+      - annonçaient
+      futur_radical: annoncer
+      subjonctif:
+      - annonce
+      - annonces
+      - annonce
+      - annoncions
+      - annonciez
+      - annoncent
+      imperatif:
+      - annonce
+      - annonçons
+      - annoncez
+  xiri:
+    fr: appeler
+    forme: xiri
+    nom_action: xiri-nde
+    gerondif: xirini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: appeler
+      participe: appelé
+      present:
+      - appele
+      - appeles
+      - appele
+      - appelons
+      - appelez
+      - appelent
+      imparfait:
+      - appelais
+      - appelais
+      - appelait
+      - appelions
+      - appeliez
+      - appelaient
+      futur_radical: appeler
+      subjonctif:
+      - appele
+      - appeles
+      - appele
+      - appelions
+      - appeliez
+      - appelent
+      imperatif:
+      - appele
+      - appelons
+      - appelez
+  riti:
+    fr: apporter
+    forme: riti
+    nom_action: riti-nde
+    gerondif: ritini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: apporter
+      participe: apporté
+      present:
+      - apporte
+      - apportes
+      - apporte
+      - apportons
+      - apportez
+      - apportent
+      imparfait:
+      - apportais
+      - apportais
+      - apportait
+      - apportions
+      - apportiez
+      - apportaient
+      futur_radical: apporter
+      subjonctif:
+      - apporte
+      - apportes
+      - apporte
+      - apportions
+      - apportiez
+      - apportent
+      imperatif:
+      - apporte
+      - apportons
+      - apportez
+  tinto:
+    fr: approcher
+    forme: tinto
+    nom_action: tinto-ye
+    gerondif: tintono
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: approcher
+      participe: approché
+      present:
+      - approche
+      - approches
+      - approche
+      - approchons
+      - approchez
+      - approchent
+      imparfait:
+      - approchais
+      - approchais
+      - approchait
+      - approchions
+      - approchiez
+      - approchaient
+      futur_radical: approcher
+      subjonctif:
+      - approche
+      - approches
+      - approche
+      - approchions
+      - approchiez
+      - approchent
+      imperatif:
+      - approche
+      - approchons
+      - approchez
+  fatampantchi:
+    fr: argumenter
+    forme: fatampantchi
+    nom_action: fatampantchi-nde
+    gerondif: fatampantchini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: argumenter
+      participe: argumenté
+      present:
+      - argumente
+      - argumentes
+      - argumente
+      - argumentons
+      - argumentez
+      - argumentent
+      imparfait:
+      - argumentais
+      - argumentais
+      - argumentait
+      - argumentions
+      - argumentiez
+      - argumentaient
+      futur_radical: argumenter
+      subjonctif:
+      - argumente
+      - argumentes
+      - argumente
+      - argumentions
+      - argumentiez
+      - argumentent
+      imperatif:
+      - argumente
+      - argumentons
+      - argumentez
+  dioofe:
+    fr: arriver
+    forme: dioofe
+    nom_action: dioofe-ye
+    gerondif: dioofene
+    classe: regulier
+    francais:
+      auxiliaire: etre
+      infinitif: arriver
+      participe: arrivé
+      present:
+      - arrive
+      - arrives
+      - arrive
+      - arrivons
+      - arrivez
+      - arrivent
+      imparfait:
+      - arrivais
+      - arrivais
+      - arrivait
+      - arrivions
+      - arriviez
+      - arrivaient
+      futur_radical: arriver
+      subjonctif:
+      - arrive
+      - arrives
+      - arrive
+      - arrivions
+      - arriviez
+      - arrivent
+      imperatif:
+      - arrive
+      - arrivons
+      - arrivez
+  tewe:
+    fr: assister
+    forme: tewe
+    nom_action: tewe-ye
+    gerondif: tewene
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: assister
+      participe: assisté
+      present:
+      - assiste
+      - assistes
+      - assiste
+      - assistons
+      - assistez
+      - assistent
+      imparfait:
+      - assistais
+      - assistais
+      - assistait
+      - assistions
+      - assistiez
+      - assistaient
+      futur_radical: assister
+      subjonctif:
+      - assiste
+      - assistes
+      - assiste
+      - assistions
+      - assistiez
+      - assistent
+      imperatif:
+      - assiste
+      - assistons
+      - assistez
+  xenni:
+    fr: attaquer
+    forme: xenni
+    nom_action: xenni-ye
+    gerondif: xennini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: attaquer
+      participe: attaqué
+      present:
+      - attaque
+      - attaques
+      - attaque
+      - attaquons
+      - attaquez
+      - attaquent
+      imparfait:
+      - attaquais
+      - attaquais
+      - attaquait
+      - attaquions
+      - attaquiez
+      - attaquaient
+      futur_radical: attaquer
+      subjonctif:
+      - attaque
+      - attaques
+      - attaque
+      - attaquions
+      - attaquiez
+      - attaquent
+      imperatif:
+      - attaque
+      - attaquons
+      - attaquez
+  raga:
+    fr: attraper
+    forme: raga
+    nom_action: raga-nde
+    gerondif: ragana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: attraper
+      participe: attrapé
+      present:
+      - attrape
+      - attrapes
+      - attrape
+      - attrapons
+      - attrapez
+      - attrapent
+      imparfait:
+      - attrapais
+      - attrapais
+      - attrapait
+      - attrapions
+      - attrapiez
+      - attrapaient
+      futur_radical: attraper
+      subjonctif:
+      - attrape
+      - attrapes
+      - attrape
+      - attrapions
+      - attrapiez
+      - attrapent
+      imperatif:
+      - attrape
+      - attrapons
+      - attrapez
+  xanemaxawara:
+    fr: autoriser
+    forme: xanemaxawara
+    nom_action: xanemaxawara-nde
+    gerondif: xanemaxawarana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: autoriser
+      participe: autorisé
+      present:
+      - autorise
+      - autorises
+      - autorise
+      - autorisons
+      - autorisez
+      - autorisent
+      imparfait:
+      - autorisais
+      - autorisais
+      - autorisait
+      - autorisions
+      - autorisiez
+      - autorisaient
+      futur_radical: autoriser
+      subjonctif:
+      - autorise
+      - autorises
+      - autorise
+      - autorisions
+      - autorisiez
+      - autorisent
+      imperatif:
+      - autorise
+      - autorisons
+      - autorisez
+  gongo:
+    fr: avertir
+    forme: gongo
+    nom_action: gongo-nde
+    gerondif: gongono
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: avertir
+      participe: averti
+      present:
+      - avertis
+      - avertis
+      - avertit
+      - avertissons
+      - avertissez
+      - avertissent
+      imparfait:
+      - avertissais
+      - avertissais
+      - avertissait
+      - avertissions
+      - avertissiez
+      - avertissaient
+      futur_radical: avertir
+      subjonctif:
+      - avertisse
+      - avertisses
+      - avertisse
+      - avertissions
+      - avertissiez
+      - avertissent
+      imperatif:
+      - avertis
+      - avertissons
+      - avertissez
+  sooti:
+    fr: brancher
+    forme: sooti
+    nom_action: sooti-nde
+    gerondif: sootini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: brancher
+      participe: branché
+      present:
+      - branche
+      - branches
+      - branche
+      - branchons
+      - branchez
+      - branchent
+      imparfait:
+      - branchais
+      - branchais
+      - branchait
+      - branchions
+      - branchiez
+      - branchaient
+      futur_radical: brancher
+      subjonctif:
+      - branche
+      - branches
+      - branche
+      - branchions
+      - branchiez
+      - branchent
+      imperatif:
+      - branche
+      - branchons
+      - branchez
+  biyi:
+    fr: brûler
+    forme: biyi
+    nom_action: biyi-nde
+    gerondif: biyini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: brûler
+      participe: brûlé
+      present:
+      - brûle
+      - brûles
+      - brûle
+      - brûlons
+      - brûlez
+      - brûlent
+      imparfait:
+      - brûlais
+      - brûlais
+      - brûlait
+      - brûlions
+      - brûliez
+      - brûlaient
+      futur_radical: brûler
+      subjonctif:
+      - brûle
+      - brûles
+      - brûle
+      - brûlions
+      - brûliez
+      - brûlent
+      imperatif:
+      - brûle
+      - brûlons
+      - brûlez
+  taga:
+    fr: bâtir
+    forme: taga
+    nom_action: taga-nde
+    gerondif: tagana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: bâtir
+      participe: bâti
+      present:
+      - bâtis
+      - bâtis
+      - bâtit
+      - bâtissons
+      - bâtissez
+      - bâtissent
+      imparfait:
+      - bâtissais
+      - bâtissais
+      - bâtissait
+      - bâtissions
+      - bâtissiez
+      - bâtissaient
+      futur_radical: bâtir
+      subjonctif:
+      - bâtisse
+      - bâtisses
+      - bâtisse
+      - bâtissions
+      - bâtissiez
+      - bâtissent
+      imperatif:
+      - bâtis
+      - bâtissons
+      - bâtissez
+  muxu:
+    fr: cacher
+    forme: muxu
+    nom_action: muxu-nde
+    gerondif: muxunu
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: cacher
+      participe: caché
+      present:
+      - cache
+      - caches
+      - cache
+      - cachons
+      - cachez
+      - cachent
+      imparfait:
+      - cachais
+      - cachais
+      - cachait
+      - cachions
+      - cachiez
+      - cachaient
+      futur_radical: cacher
+      subjonctif:
+      - cache
+      - caches
+      - cache
+      - cachions
+      - cachiez
+      - cachent
+      imperatif:
+      - cache
+      - cachons
+      - cachez
+  mooso:
+    fr: caresser
+    forme: mooso
+    nom_action: mooso-nde
+    gerondif: moosono
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: caresser
+      participe: caressé
+      present:
+      - caresse
+      - caresses
+      - caresse
+      - caressons
+      - caressez
+      - caressent
+      imparfait:
+      - caressais
+      - caressais
+      - caressait
+      - caressions
+      - caressiez
+      - caressaient
+      futur_radical: caresser
+      subjonctif:
+      - caresse
+      - caresses
+      - caresse
+      - caressions
+      - caressiez
+      - caressent
+      imperatif:
+      - caresse
+      - caressons
+      - caressez
+  kara:
+    fr: casser
+    forme: kara
+    nom_action: kara-nde
+    gerondif: karana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: casser
+      participe: cassé
+      present:
+      - casse
+      - casses
+      - casse
+      - cassons
+      - cassez
+      - cassent
+      imparfait:
+      - cassais
+      - cassais
+      - cassait
+      - cassions
+      - cassiez
+      - cassaient
+      futur_radical: casser
+      subjonctif:
+      - casse
+      - casses
+      - casse
+      - cassions
+      - cassiez
+      - cassent
+      imperatif:
+      - casse
+      - cassons
+      - cassez
+  faraxu:
+    fr: changer
+    forme: faraxu
+    nom_action: faraxu-nde
+    gerondif: faraxunu
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: changer
+      participe: changé
+      present:
+      - change
+      - changes
+      - change
+      - changeons
+      - changez
+      - changent
+      imparfait:
+      - changeais
+      - changeais
+      - changeait
+      - changions
+      - changiez
+      - changeaient
+      futur_radical: changer
+      subjonctif:
+      - change
+      - changes
+      - change
+      - changions
+      - changiez
+      - changent
+      imperatif:
+      - change
+      - changeons
+      - changez
+  suge:
+    fr: chanter
+    forme: suge
+    nom_action: suge-ye
+    gerondif: sugene
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: chanter
+      participe: chanté
+      present:
+      - chante
+      - chantes
+      - chante
+      - chantons
+      - chantez
+      - chantent
+      imparfait:
+      - chantais
+      - chantais
+      - chantait
+      - chantions
+      - chantiez
+      - chantaient
+      futur_radical: chanter
+      subjonctif:
+      - chante
+      - chantes
+      - chante
+      - chantions
+      - chantiez
+      - chantent
+      imperatif:
+      - chante
+      - chantons
+      - chantez
+  muru:
+    fr: chercher
+    forme: muru
+    nom_action: muru-nde
+    gerondif: murunu
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: chercher
+      participe: cherché
+      present:
+      - cherche
+      - cherches
+      - cherche
+      - cherchons
+      - cherchez
+      - cherchent
+      imparfait:
+      - cherchais
+      - cherchais
+      - cherchait
+      - cherchions
+      - cherchiez
+      - cherchaient
+      futur_radical: chercher
+      subjonctif:
+      - cherche
+      - cherches
+      - cherche
+      - cherchions
+      - cherchiez
+      - cherchent
+      imperatif:
+      - cherche
+      - cherchons
+      - cherchez
+  sugandi:
+    fr: choisir
+    forme: sugandi
+    nom_action: sugandi-nde
+    gerondif: sugandini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: choisir
+      participe: choisi
+      present:
+      - choisis
+      - choisis
+      - choisit
+      - choisissons
+      - choisissez
+      - choisissent
+      imparfait:
+      - choisissais
+      - choisissais
+      - choisissait
+      - choisissions
+      - choisissiez
+      - choisissaient
+      futur_radical: choisir
+      subjonctif:
+      - choisisse
+      - choisisses
+      - choisisse
+      - choisissions
+      - choisissiez
+      - choisissent
+      imperatif:
+      - choisis
+      - choisissons
+      - choisissez
+  siyi:
+    fr: coiffer
+    forme: siyi
+    nom_action: siyi-ye
+    gerondif: siyini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: coiffer
+      participe: coiffé
+      present:
+      - coiffe
+      - coiffes
+      - coiffe
+      - coiffons
+      - coiffez
+      - coiffent
+      imparfait:
+      - coiffais
+      - coiffais
+      - coiffait
+      - coiffions
+      - coiffiez
+      - coiffaient
+      futur_radical: coiffer
+      subjonctif:
+      - coiffe
+      - coiffes
+      - coiffe
+      - coiffions
+      - coiffiez
+      - coiffent
+      imperatif:
+      - coiffe
+      - coiffons
+      - coiffez
+  tuka:
+    fr: coller
+    forme: tuka
+    nom_action: tuka-nde
+    gerondif: tukana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: coller
+      participe: collé
+      present:
+      - colle
+      - colles
+      - colle
+      - collons
+      - collez
+      - collent
+      imparfait:
+      - collais
+      - collais
+      - collait
+      - collions
+      - colliez
+      - collaient
+      futur_radical: coller
+      subjonctif:
+      - colle
+      - colles
+      - colle
+      - collions
+      - colliez
+      - collent
+      imperatif:
+      - colle
+      - collons
+      - collez
+  yinkutundi:
+    fr: commander
+    forme: yinkutundi
+    nom_action: yinkutundi-nde
+    gerondif: yinkutundini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: commander
+      participe: commandé
+      present:
+      - commande
+      - commandes
+      - commande
+      - commandons
+      - commandez
+      - commandent
+      imparfait:
+      - commandais
+      - commandais
+      - commandait
+      - commandions
+      - commandiez
+      - commandaient
+      futur_radical: commander
+      subjonctif:
+      - commande
+      - commandes
+      - commande
+      - commandions
+      - commandiez
+      - commandent
+      imperatif:
+      - commande
+      - commandons
+      - commandez
+  diopandi:
+    fr: commencer
+    forme: diopandi
+    nom_action: diopandi-nde
+    gerondif: diopandini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: commencer
+      participe: commencé
+      present:
+      - commence
+      - commences
+      - commence
+      - commençons
+      - commencez
+      - commencent
+      imparfait:
+      - commençais
+      - commençais
+      - commençait
+      - commencions
+      - commenciez
+      - commençaient
+      futur_radical: commencer
+      subjonctif:
+      - commence
+      - commences
+      - commence
+      - commencions
+      - commenciez
+      - commencent
+      imperatif:
+      - commence
+      - commençons
+      - commencez
+  contan:
+    fr: compter
+    forme: contan
+    nom_action: contan-nde
+    gerondif: contanni
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: compter
+      participe: compté
+      present:
+      - compte
+      - comptes
+      - compte
+      - comptons
+      - comptez
+      - comptent
+      imparfait:
+      - comptais
+      - comptais
+      - comptait
+      - comptions
+      - comptiez
+      - comptaient
+      futur_radical: compter
+      subjonctif:
+      - compte
+      - comptes
+      - compte
+      - comptions
+      - comptiez
+      - comptent
+      imperatif:
+      - compte
+      - comptons
+      - comptez
+  me-wutu:
+    fr: coordonner
+    forme: me-wutu
+    nom_action: me-wutu-nde
+    gerondif: me-wutunu
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: coordonner
+      participe: coordonné
+      present:
+      - coordonne
+      - coordonnes
+      - coordonne
+      - coordonnons
+      - coordonnez
+      - coordonnent
+      imparfait:
+      - coordonnais
+      - coordonnais
+      - coordonnait
+      - coordonnions
+      - coordonniez
+      - coordonnaient
+      futur_radical: coordonner
+      subjonctif:
+      - coordonne
+      - coordonnes
+      - coordonne
+      - coordonnions
+      - coordonniez
+      - coordonnent
+      imperatif:
+      - coordonne
+      - coordonnons
+      - coordonnez
+  saqe:
+    fr: coucher
+    forme: saqe
+    nom_action: saqe-ye
+    gerondif: saqene
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: coucher
+      participe: couché
+      present:
+      - couche
+      - couches
+      - couche
+      - couchons
+      - couchez
+      - couchent
+      imparfait:
+      - couchais
+      - couchais
+      - couchait
+      - couchions
+      - couchiez
+      - couchaient
+      futur_radical: coucher
+      subjonctif:
+      - couche
+      - couches
+      - couche
+      - couchions
+      - couchiez
+      - couchent
+      imperatif:
+      - couche
+      - couchons
+      - couchez
+  dioxi:
+    fr: couler
+    forme: dioxi
+    nom_action: dioxi-ye
+    gerondif: dioxini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: couler
+      participe: coulé
+      present:
+      - coule
+      - coules
+      - coule
+      - coulons
+      - coulez
+      - coulent
+      imparfait:
+      - coulais
+      - coulais
+      - coulait
+      - coulions
+      - couliez
+      - coulaient
+      futur_radical: couler
+      subjonctif:
+      - coule
+      - coules
+      - coule
+      - coulions
+      - couliez
+      - coulent
+      imperatif:
+      - coule
+      - coulons
+      - coulez
+  xaru:
+    fr: crier
+    forme: xaru
+    nom_action: xaru-ye
+    gerondif: xarunu
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: crier
+      participe: crié
+      present:
+      - crie
+      - cries
+      - crie
+      - crions
+      - criez
+      - crient
+      imparfait:
+      - criais
+      - criais
+      - criait
+      - criions
+      - criiez
+      - criaient
+      futur_radical: crier
+      subjonctif:
+      - crie
+      - cries
+      - crie
+      - criions
+      - criiez
+      - crient
+      imperatif:
+      - crie
+      - crions
+      - criez
+  xadiafi:
+    fr: critiquer
+    forme: xadiafi
+    nom_action: xadiafi-nde
+    gerondif: xadiafini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: critiquer
+      participe: critiqué
+      present:
+      - critique
+      - critiques
+      - critique
+      - critiquons
+      - critiquez
+      - critiquent
+      imparfait:
+      - critiquais
+      - critiquais
+      - critiquait
+      - critiquions
+      - critiquiez
+      - critiquaient
+      futur_radical: critiquer
+      subjonctif:
+      - critique
+      - critiques
+      - critique
+      - critiquions
+      - critiquiez
+      - critiquent
+      imperatif:
+      - critique
+      - critiquons
+      - critiquez
+  tagandi:
+    fr: créer
+    forme: tagandi
+    nom_action: tagandi-nde
+    gerondif: tagandini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: créer
+      participe: créé
+      present:
+      - crée
+      - crées
+      - crée
+      - créons
+      - créez
+      - créent
+      imparfait:
+      - créais
+      - créais
+      - créait
+      - créions
+      - créiez
+      - créaient
+      futur_radical: créer
+      subjonctif:
+      - crée
+      - crées
+      - crée
+      - créions
+      - créiez
+      - créent
+      imperatif:
+      - crée
+      - créons
+      - créez
+  sore:
+    fr: cuisiner
+    forme: sore
+    nom_action: sore-ye
+    gerondif: sorene
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: cuisiner
+      participe: cuisiné
+      present:
+      - cuisine
+      - cuisines
+      - cuisine
+      - cuisinons
+      - cuisinez
+      - cuisinent
+      imparfait:
+      - cuisinais
+      - cuisinais
+      - cuisinait
+      - cuisinions
+      - cuisiniez
+      - cuisinaient
+      futur_radical: cuisiner
+      subjonctif:
+      - cuisine
+      - cuisines
+      - cuisine
+      - cuisinions
+      - cuisiniez
+      - cuisinent
+      imperatif:
+      - cuisine
+      - cuisinons
+      - cuisinez
+  tari:
+    fr: célébrer
+    forme: tari
+    nom_action: tari-nde
+    gerondif: tarini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: célébrer
+      participe: célébré
+      present:
+      - célébre
+      - célébres
+      - célébre
+      - célébrons
+      - célébrez
+      - célébrent
+      imparfait:
+      - célébrais
+      - célébrais
+      - célébrait
+      - célébrions
+      - célébriez
+      - célébraient
+      futur_radical: célébrer
+      subjonctif:
+      - célébre
+      - célébres
+      - célébre
+      - célébrions
+      - célébriez
+      - célébrent
+      imperatif:
+      - célébre
+      - célébrons
+      - célébrez
+  rege:
+    fr: danser
+    forme: rege
+    nom_action: rege-ye
+    gerondif: regene
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: danser
+      participe: dansé
+      present:
+      - danse
+      - danses
+      - danse
+      - dansons
+      - dansez
+      - dansent
+      imparfait:
+      - dansais
+      - dansais
+      - dansait
+      - dansions
+      - dansiez
+      - dansaient
+      futur_radical: danser
+      subjonctif:
+      - danse
+      - danses
+      - danse
+      - dansions
+      - dansiez
+      - dansent
+      imperatif:
+      - danse
+      - dansons
+      - dansez
+  kanewutu:
+    fr: devancer
+    forme: kanewutu
+    nom_action: kanewutu-nde
+    gerondif: kanewutunu
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: devancer
+      participe: devancé
+      present:
+      - devance
+      - devances
+      - devance
+      - devançons
+      - devancez
+      - devancent
+      imparfait:
+      - devançais
+      - devançais
+      - devançait
+      - devancions
+      - devanciez
+      - devançaient
+      futur_radical: devancer
+      subjonctif:
+      - devance
+      - devances
+      - devance
+      - devancions
+      - devanciez
+      - devancent
+      imperatif:
+      - devance
+      - devançons
+      - devancez
+  kaanemaxawutu:
+    fr: diriger
+    forme: kaanemaxawutu
+    nom_action: kaanemaxawutu-nde
+    gerondif: kaanemaxawutunu
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: diriger
+      participe: dirigé
+      present:
+      - dirige
+      - diriges
+      - dirige
+      - dirigeons
+      - dirigez
+      - dirigent
+      imparfait:
+      - dirigeais
+      - dirigeais
+      - dirigeait
+      - dirigions
+      - dirigiez
+      - dirigeaient
+      futur_radical: diriger
+      subjonctif:
+      - dirige
+      - diriges
+      - dirige
+      - dirigions
+      - dirigiez
+      - dirigent
+      imperatif:
+      - dirige
+      - dirigeons
+      - dirigez
+  fiwarame:
+    fr: disputer
+    forme: fiwarame
+    nom_action: fiwarame-nde
+    gerondif: fiwaramene
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: disputer
+      participe: disputé
+      present:
+      - dispute
+      - disputes
+      - dispute
+      - disputons
+      - disputez
+      - disputent
+      imparfait:
+      - disputais
+      - disputais
+      - disputait
+      - disputions
+      - disputiez
+      - disputaient
+      futur_radical: disputer
+      subjonctif:
+      - dispute
+      - disputes
+      - dispute
+      - disputions
+      - disputiez
+      - disputent
+      imperatif:
+      - dispute
+      - disputons
+      - disputez
+  bakuman:
+    fr: distinguer
+    forme: bakuman
+    nom_action: bakuman-nde
+    gerondif: bakumanni
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: distinguer
+      participe: distingué
+      present:
+      - distingue
+      - distingues
+      - distingue
+      - distinguons
+      - distinguez
+      - distinguent
+      imparfait:
+      - distinguais
+      - distinguais
+      - distinguait
+      - distinguions
+      - distinguiez
+      - distinguaient
+      futur_radical: distinguer
+      subjonctif:
+      - distingue
+      - distingues
+      - distingue
+      - distinguions
+      - distinguiez
+      - distinguent
+      imperatif:
+      - distingue
+      - distinguons
+      - distinguez
+  boxu:
+    fr: déchirer
+    forme: boxu
+    nom_action: boxu-nde
+    gerondif: boxunu
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: déchirer
+      participe: déchiré
+      present:
+      - déchire
+      - déchires
+      - déchire
+      - déchirons
+      - déchirez
+      - déchirent
+      imparfait:
+      - déchirais
+      - déchirais
+      - déchirait
+      - déchirions
+      - déchiriez
+      - déchiraient
+      futur_radical: déchirer
+      subjonctif:
+      - déchire
+      - déchires
+      - déchire
+      - déchirions
+      - déchiriez
+      - déchirent
+      imperatif:
+      - déchire
+      - déchirons
+      - déchirez
+  finsaanindi:
+    fr: décider
+    forme: finsaanindi
+    nom_action: finsaanindi-nde
+    gerondif: finsaanindini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: décider
+      participe: décidé
+      present:
+      - décide
+      - décides
+      - décide
+      - décidons
+      - décidez
+      - décident
+      imparfait:
+      - décidais
+      - décidais
+      - décidait
+      - décidions
+      - décidiez
+      - décidaient
+      futur_radical: décider
+      subjonctif:
+      - décide
+      - décides
+      - décide
+      - décidions
+      - décidiez
+      - décident
+      imperatif:
+      - décide
+      - décidons
+      - décidez
+  wunii:
+    fr: déverrouiller
+    forme: wunii
+    nom_action: wunii-nde
+    gerondif: wuniini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: déverrouiller
+      participe: déverrouillé
+      present:
+      - déverrouille
+      - déverrouilles
+      - déverrouille
+      - déverrouillons
+      - déverrouillez
+      - déverrouillent
+      imparfait:
+      - déverrouillais
+      - déverrouillais
+      - déverrouillait
+      - déverrouillions
+      - déverrouilliez
+      - déverrouillaient
+      futur_radical: déverrouiller
+      subjonctif:
+      - déverrouille
+      - déverrouilles
+      - déverrouille
+      - déverrouillions
+      - déverrouilliez
+      - déverrouillent
+      imperatif:
+      - déverrouille
+      - déverrouillons
+      - déverrouillez
+  konun:
+    fr: effrayer
+    forme: konun
+    nom_action: konun-nde
+    gerondif: konunni
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: effrayer
+      participe: effrayé
+      present:
+      - effraye
+      - effrayes
+      - effraye
+      - effrayons
+      - effrayez
+      - effrayent
+      imparfait:
+      - effrayais
+      - effrayais
+      - effrayait
+      - effrayions
+      - effrayiez
+      - effrayaient
+      futur_radical: effrayer
+      subjonctif:
+      - effraye
+      - effrayes
+      - effraye
+      - effrayions
+      - effrayiez
+      - effrayent
+      imperatif:
+      - effraye
+      - effrayons
+      - effrayez
+  yagu:
+    fr: embarrasser
+    forme: yagu
+    nom_action: yagu-nde
+    gerondif: yagunu
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: embarrasser
+      participe: embarrassé
+      present:
+      - embarrasse
+      - embarrasses
+      - embarrasse
+      - embarrassons
+      - embarrassez
+      - embarrassent
+      imparfait:
+      - embarrassais
+      - embarrassais
+      - embarrassait
+      - embarrassions
+      - embarrassiez
+      - embarrassaient
+      futur_radical: embarrasser
+      subjonctif:
+      - embarrasse
+      - embarrasses
+      - embarrasse
+      - embarrassions
+      - embarrassiez
+      - embarrassent
+      imperatif:
+      - embarrasse
+      - embarrassons
+      - embarrassez
+  fixorondi:
+    fr: empirer
+    forme: fixorondi
+    nom_action: fixorondi-nde
+    gerondif: fixorondini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: empirer
+      participe: empiré
+      present:
+      - empire
+      - empires
+      - empire
+      - empirons
+      - empirez
+      - empirent
+      imparfait:
+      - empirais
+      - empirais
+      - empirait
+      - empirions
+      - empiriez
+      - empiraient
+      futur_radical: empirer
+      subjonctif:
+      - empire
+      - empires
+      - empire
+      - empirions
+      - empiriez
+      - empirent
+      imperatif:
+      - empire
+      - empirons
+      - empirez
+  tuyi:
+    fr: informer
+    forme: tuyi
+    nom_action: tuyi-nde
+    gerondif: tuyini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: informer
+      participe: informé
+      present:
+      - informe
+      - informes
+      - informe
+      - informons
+      - informez
+      - informent
+      imparfait:
+      - informais
+      - informais
+      - informait
+      - informions
+      - informiez
+      - informaient
+      futur_radical: informer
+      subjonctif:
+      - informe
+      - informes
+      - informe
+      - informions
+      - informiez
+      - informent
+      imperatif:
+      - informe
+      - informons
+      - informez
+  suxe:
+    fr: jalouser
+    forme: suxe
+    nom_action: suxe-ye
+    gerondif: suxene
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: jalouser
+      participe: jalousé
+      present:
+      - jalouse
+      - jalouses
+      - jalouse
+      - jalousons
+      - jalousez
+      - jalousent
+      imparfait:
+      - jalousais
+      - jalousais
+      - jalousait
+      - jalousions
+      - jalousiez
+      - jalousaient
+      futur_radical: jalouser
+      subjonctif:
+      - jalouse
+      - jalouses
+      - jalouse
+      - jalousions
+      - jalousiez
+      - jalousent
+      imperatif:
+      - jalouse
+      - jalousons
+      - jalousez
+  fita:
+    fr: jeter
+    forme: fita
+    nom_action: fita-nde
+    gerondif: fitana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: jeter
+      participe: jeté
+      present:
+      - jete
+      - jetes
+      - jete
+      - jetons
+      - jetez
+      - jetent
+      imparfait:
+      - jetais
+      - jetais
+      - jetait
+      - jetions
+      - jetiez
+      - jetaient
+      futur_radical: jeter
+      subjonctif:
+      - jete
+      - jetes
+      - jete
+      - jetions
+      - jetiez
+      - jetent
+      imperatif:
+      - jete
+      - jetons
+      - jetez
+  wara:
+    fr: laisser
+    forme: wara
+    nom_action: wara-nde
+    gerondif: warana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: laisser
+      participe: laissé
+      present:
+      - laisse
+      - laisses
+      - laisse
+      - laissons
+      - laissez
+      - laissent
+      imparfait:
+      - laissais
+      - laissais
+      - laissait
+      - laissions
+      - laissiez
+      - laissaient
+      futur_radical: laisser
+      subjonctif:
+      - laisse
+      - laisses
+      - laisse
+      - laissions
+      - laissiez
+      - laissent
+      imperatif:
+      - laisse
+      - laissons
+      - laissez
+  fitta:
+    fr: lancer
+    forme: fitta
+    nom_action: fitta-nde
+    gerondif: fittana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: lancer
+      participe: lancé
+      present:
+      - lance
+      - lances
+      - lance
+      - lançons
+      - lancez
+      - lancent
+      imparfait:
+      - lançais
+      - lançais
+      - lançait
+      - lancions
+      - lanciez
+      - lançaient
+      futur_radical: lancer
+      subjonctif:
+      - lance
+      - lances
+      - lance
+      - lancions
+      - lanciez
+      - lancent
+      imperatif:
+      - lance
+      - lançons
+      - lancez
+  fanqe:
+    fr: lutter
+    forme: fanqe
+    nom_action: fanqe-ye
+    gerondif: fanqene
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: lutter
+      participe: lutté
+      present:
+      - lutte
+      - luttes
+      - lutte
+      - luttons
+      - luttez
+      - luttent
+      imparfait:
+      - luttais
+      - luttais
+      - luttait
+      - luttions
+      - luttiez
+      - luttaient
+      futur_radical: lutter
+      subjonctif:
+      - lutte
+      - luttes
+      - lutte
+      - luttions
+      - luttiez
+      - luttent
+      imperatif:
+      - lutte
+      - luttons
+      - luttez
+  waran:
+    fr: lâcher
+    forme: waran
+    nom_action: waran-nde
+    gerondif: waranni
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: lâcher
+      participe: lâché
+      present:
+      - lâche
+      - lâches
+      - lâche
+      - lâchons
+      - lâchez
+      - lâchent
+      imparfait:
+      - lâchais
+      - lâchais
+      - lâchait
+      - lâchions
+      - lâchiez
+      - lâchaient
+      futur_radical: lâcher
+      subjonctif:
+      - lâche
+      - lâches
+      - lâche
+      - lâchions
+      - lâchiez
+      - lâchent
+      imperatif:
+      - lâche
+      - lâchons
+      - lâchez
+  yexi:
+    fr: marier
+    forme: yexi
+    nom_action: yexi-ye
+    gerondif: yexini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: marier
+      participe: marié
+      present:
+      - marie
+      - maries
+      - marie
+      - marions
+      - mariez
+      - marient
+      imparfait:
+      - mariais
+      - mariais
+      - mariait
+      - mariions
+      - mariiez
+      - mariaient
+      futur_radical: marier
+      subjonctif:
+      - marie
+      - maries
+      - marie
+      - mariions
+      - mariiez
+      - marient
+      imperatif:
+      - marie
+      - marions
+      - mariez
+  xentie:
+    fr: mesurer
+    forme: xentie
+    nom_action: xentie-nde
+    gerondif: xentiene
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: mesurer
+      participe: mesuré
+      present:
+      - mesure
+      - mesures
+      - mesure
+      - mesurons
+      - mesurez
+      - mesurent
+      imparfait:
+      - mesurais
+      - mesurais
+      - mesurait
+      - mesurions
+      - mesuriez
+      - mesuraient
+      futur_radical: mesurer
+      subjonctif:
+      - mesure
+      - mesures
+      - mesure
+      - mesurions
+      - mesuriez
+      - mesurent
+      imperatif:
+      - mesure
+      - mesurons
+      - mesurez
+  sege:
+    fr: monter
+    forme: sege
+    nom_action: sege-ye
+    gerondif: segene
+    classe: regulier
+    francais:
+      auxiliaire: etre
+      infinitif: monter
+      participe: monté
+      present:
+      - monte
+      - montes
+      - monte
+      - montons
+      - montez
+      - montent
+      imparfait:
+      - montais
+      - montais
+      - montait
+      - montions
+      - montiez
+      - montaient
+      futur_radical: monter
+      subjonctif:
+      - monte
+      - montes
+      - monte
+      - montions
+      - montiez
+      - montent
+      imperatif:
+      - monte
+      - montons
+      - montez
+  koyin:
+    fr: montrer
+    forme: koyin
+    nom_action: koyin-nde
+    gerondif: koyinni
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: montrer
+      participe: montré
+      present:
+      - montre
+      - montres
+      - montre
+      - montrons
+      - montrez
+      - montrent
+      imparfait:
+      - montrais
+      - montrais
+      - montrait
+      - montrions
+      - montriez
+      - montraient
+      futur_radical: montrer
+      subjonctif:
+      - montre
+      - montres
+      - montre
+      - montrions
+      - montriez
+      - montrent
+      imperatif:
+      - montre
+      - montrons
+      - montrez
+  xenyi:
+    fr: nager
+    forme: xenyi
+    nom_action: xenyi-ye
+    gerondif: xenyini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: nager
+      participe: nagé
+      present:
+      - nage
+      - nages
+      - nage
+      - nageons
+      - nagez
+      - nagent
+      imparfait:
+      - nageais
+      - nageais
+      - nageait
+      - nagions
+      - nagiez
+      - nageaient
+      futur_radical: nager
+      subjonctif:
+      - nage
+      - nages
+      - nage
+      - nagions
+      - nagiez
+      - nagent
+      imperatif:
+      - nage
+      - nageons
+      - nagez
+  waqi:
+    fr: nettoyer
+    forme: waqi
+    nom_action: waqi-nde
+    gerondif: waqini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: nettoyer
+      participe: nettoyé
+      present:
+      - nettoye
+      - nettoyes
+      - nettoye
+      - nettoyons
+      - nettoyez
+      - nettoyent
+      imparfait:
+      - nettoyais
+      - nettoyais
+      - nettoyait
+      - nettoyions
+      - nettoyiez
+      - nettoyaient
+      futur_radical: nettoyer
+      subjonctif:
+      - nettoye
+      - nettoyes
+      - nettoye
+      - nettoyions
+      - nettoyiez
+      - nettoyent
+      imperatif:
+      - nettoye
+      - nettoyons
+      - nettoyez
+  batu:
+    fr: obéir
+    forme: batu
+    nom_action: batu-nde
+    gerondif: batunu
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: obéir
+      participe: obéi
+      present:
+      - obéis
+      - obéis
+      - obéit
+      - obéissons
+      - obéissez
+      - obéissent
+      imparfait:
+      - obéissais
+      - obéissais
+      - obéissait
+      - obéissions
+      - obéissiez
+      - obéissaient
+      futur_radical: obéir
+      subjonctif:
+      - obéisse
+      - obéisses
+      - obéisse
+      - obéissions
+      - obéissiez
+      - obéissent
+      imperatif:
+      - obéis
+      - obéissons
+      - obéissez
+  mungu:
+    fr: oublier
+    forme: mungu
+    nom_action: mungu-ye
+    gerondif: mungunu
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: oublier
+      participe: oublié
+      present:
+      - oublie
+      - oublies
+      - oublie
+      - oublions
+      - oubliez
+      - oublient
+      imparfait:
+      - oubliais
+      - oubliais
+      - oubliait
+      - oubliions
+      - oubliiez
+      - oubliaient
+      futur_radical: oublier
+      subjonctif:
+      - oublie
+      - oublies
+      - oublie
+      - oubliions
+      - oubliiez
+      - oublient
+      imperatif:
+      - oublie
+      - oublions
+      - oubliez
+  yampa:
+    fr: pardonner
+    forme: yampa
+    nom_action: yampa-ye
+    gerondif: yampana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: pardonner
+      participe: pardonné
+      present:
+      - pardonne
+      - pardonnes
+      - pardonne
+      - pardonnons
+      - pardonnez
+      - pardonnent
+      imparfait:
+      - pardonnais
+      - pardonnais
+      - pardonnait
+      - pardonnions
+      - pardonniez
+      - pardonnaient
+      futur_radical: pardonner
+      subjonctif:
+      - pardonne
+      - pardonnes
+      - pardonne
+      - pardonnions
+      - pardonniez
+      - pardonnent
+      imperatif:
+      - pardonne
+      - pardonnons
+      - pardonnez
+  simme:
+    fr: penser
+    forme: simme
+    nom_action: simme-ye
+    gerondif: simmene
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: penser
+      participe: pensé
+      present:
+      - pense
+      - penses
+      - pense
+      - pensons
+      - pensez
+      - pensent
+      imparfait:
+      - pensais
+      - pensais
+      - pensait
+      - pensions
+      - pensiez
+      - pensaient
+      futur_radical: penser
+      subjonctif:
+      - pense
+      - penses
+      - pense
+      - pensions
+      - pensiez
+      - pensent
+      imperatif:
+      - pense
+      - pensons
+      - pensez
+  wu:
+    fr: pleurer
+    forme: wu
+    nom_action: wu-ye
+    gerondif: wunu
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: pleurer
+      participe: pleuré
+      present:
+      - pleure
+      - pleures
+      - pleure
+      - pleurons
+      - pleurez
+      - pleurent
+      imparfait:
+      - pleurais
+      - pleurais
+      - pleurait
+      - pleurions
+      - pleuriez
+      - pleuraient
+      futur_radical: pleurer
+      subjonctif:
+      - pleure
+      - pleures
+      - pleure
+      - pleurions
+      - pleuriez
+      - pleurent
+      imperatif:
+      - pleure
+      - pleurons
+      - pleurez
+  gunudi:
+    fr: plier
+    forme: gunudi
+    nom_action: gunudi-nde
+    gerondif: gunudini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: plier
+      participe: plié
+      present:
+      - plie
+      - plies
+      - plie
+      - plions
+      - pliez
+      - plient
+      imparfait:
+      - pliais
+      - pliais
+      - pliait
+      - pliions
+      - pliiez
+      - pliaient
+      futur_radical: plier
+      subjonctif:
+      - plie
+      - plies
+      - plie
+      - pliions
+      - pliiez
+      - plient
+      imperatif:
+      - plie
+      - plions
+      - pliez
+  dufintandi:
+    fr: plonger
+    forme: dufintandi
+    nom_action: dufintandi-nde
+    gerondif: dufintandini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: plonger
+      participe: plongé
+      present:
+      - plonge
+      - plonges
+      - plonge
+      - plongeons
+      - plongez
+      - plongent
+      imparfait:
+      - plongeais
+      - plongeais
+      - plongeait
+      - plongions
+      - plongiez
+      - plongeaient
+      futur_radical: plonger
+      subjonctif:
+      - plonge
+      - plonges
+      - plonge
+      - plongions
+      - plongiez
+      - plongent
+      imperatif:
+      - plonge
+      - plongeons
+      - plongez
+  wutundi:
+    fr: porter
+    forme: wutundi
+    nom_action: wutundi-nde
+    gerondif: wutundini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: porter
+      participe: porté
+      present:
+      - porte
+      - portes
+      - porte
+      - portons
+      - portez
+      - portent
+      imparfait:
+      - portais
+      - portais
+      - portait
+      - portions
+      - portiez
+      - portaient
+      futur_radical: porter
+      subjonctif:
+      - porte
+      - portes
+      - porte
+      - portions
+      - portiez
+      - portent
+      imperatif:
+      - porte
+      - portons
+      - portez
+  yonto:
+    fr: pousser
+    forme: yonto
+    nom_action: yonto-nde
+    gerondif: yontono
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: pousser
+      participe: poussé
+      present:
+      - pousse
+      - pousses
+      - pousse
+      - poussons
+      - poussez
+      - poussent
+      imparfait:
+      - poussais
+      - poussais
+      - poussait
+      - poussions
+      - poussiez
+      - poussaient
+      futur_radical: pousser
+      subjonctif:
+      - pousse
+      - pousses
+      - pousse
+      - poussions
+      - poussiez
+      - poussent
+      imperatif:
+      - pousse
+      - poussons
+      - poussez
+  fimaxagomundi:
+    fr: préparer
+    forme: fimaxagomundi
+    nom_action: fimaxagomundi-nde
+    gerondif: fimaxagomundini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: préparer
+      participe: préparé
+      present:
+      - prépare
+      - prépares
+      - prépare
+      - préparons
+      - préparez
+      - préparent
+      imparfait:
+      - préparais
+      - préparais
+      - préparait
+      - préparions
+      - prépariez
+      - préparaient
+      futur_radical: préparer
+      subjonctif:
+      - prépare
+      - prépares
+      - prépare
+      - préparions
+      - prépariez
+      - préparent
+      imperatif:
+      - prépare
+      - préparons
+      - préparez
+  finkoyindi:
+    fr: présenter
+    forme: finkoyindi
+    nom_action: finkoyindi-nde
+    gerondif: finkoyindini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: présenter
+      participe: présenté
+      present:
+      - présente
+      - présentes
+      - présente
+      - présentons
+      - présentez
+      - présentent
+      imparfait:
+      - présentais
+      - présentais
+      - présentait
+      - présentions
+      - présentiez
+      - présentaient
+      futur_radical: présenter
+      subjonctif:
+      - présente
+      - présentes
+      - présente
+      - présentions
+      - présentiez
+      - présentent
+      imperatif:
+      - présente
+      - présentons
+      - présentez
+  roxo:
+    fr: prêter
+    forme: roxo
+    nom_action: roxo-nde
+    gerondif: roxono
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: prêter
+      participe: prêté
+      present:
+      - prête
+      - prêtes
+      - prête
+      - prêtons
+      - prêtez
+      - prêtent
+      imparfait:
+      - prêtais
+      - prêtais
+      - prêtait
+      - prêtions
+      - prêtiez
+      - prêtaient
+      futur_radical: prêter
+      subjonctif:
+      - prête
+      - prêtes
+      - prête
+      - prêtions
+      - prêtiez
+      - prêtent
+      imperatif:
+      - prête
+      - prêtons
+      - prêtez
+  maxankutondi:
+    fr: raconter
+    forme: maxankutondi
+    nom_action: maxankutondi-nde
+    gerondif: maxankutondini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: raconter
+      participe: raconté
+      present:
+      - raconte
+      - racontes
+      - raconte
+      - racontons
+      - racontez
+      - racontent
+      imparfait:
+      - racontais
+      - racontais
+      - racontait
+      - racontions
+      - racontiez
+      - racontaient
+      futur_radical: raconter
+      subjonctif:
+      - raconte
+      - racontes
+      - raconte
+      - racontions
+      - racontiez
+      - racontent
+      imperatif:
+      - raconte
+      - racontons
+      - racontez
+  si:
+    fr: raser
+    forme: si
+    nom_action: si-ye
+    gerondif: sini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: raser
+      participe: rasé
+      present:
+      - rase
+      - rases
+      - rase
+      - rasons
+      - rasez
+      - rasent
+      imparfait:
+      - rasais
+      - rasais
+      - rasait
+      - rasions
+      - rasiez
+      - rasaient
+      futur_radical: raser
+      subjonctif:
+      - rase
+      - rases
+      - rase
+      - rasions
+      - rasiez
+      - rasent
+      imperatif:
+      - rase
+      - rasons
+      - rasez
+  fallanyille:
+    fr: reculer
+    forme: fallanyille
+    nom_action: fallanyille-ye
+    gerondif: fallanyillene
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: reculer
+      participe: reculé
+      present:
+      - recule
+      - recules
+      - recule
+      - reculons
+      - reculez
+      - reculent
+      imparfait:
+      - reculais
+      - reculais
+      - reculait
+      - reculions
+      - reculiez
+      - reculaient
+      futur_radical: reculer
+      subjonctif:
+      - recule
+      - recules
+      - recule
+      - reculions
+      - reculiez
+      - reculent
+      imperatif:
+      - recule
+      - reculons
+      - reculez
+  bara:
+    fr: refuser
+    forme: bara
+    nom_action: bara-ye
+    gerondif: barana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: refuser
+      participe: refusé
+      present:
+      - refuse
+      - refuses
+      - refuse
+      - refusons
+      - refusez
+      - refusent
+      imparfait:
+      - refusais
+      - refusais
+      - refusait
+      - refusions
+      - refusiez
+      - refusaient
+      futur_radical: refuser
+      subjonctif:
+      - refuse
+      - refuses
+      - refuse
+      - refusions
+      - refusiez
+      - refusent
+      imperatif:
+      - refuse
+      - refusons
+      - refusez
+  fayi:
+    fr: regarder
+    forme: fayi
+    nom_action: fayi-nde
+    gerondif: fayini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: regarder
+      participe: regardé
+      present:
+      - regarde
+      - regardes
+      - regarde
+      - regardons
+      - regardez
+      - regardent
+      imparfait:
+      - regardais
+      - regardais
+      - regardait
+      - regardions
+      - regardiez
+      - regardaient
+      futur_radical: regarder
+      subjonctif:
+      - regarde
+      - regardes
+      - regarde
+      - regardions
+      - regardiez
+      - regardent
+      imperatif:
+      - regarde
+      - regardons
+      - regardez
+  mekitandi:
+    fr: relier
+    forme: mekitandi
+    nom_action: mekitandi-nde
+    gerondif: mekitandini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: relier
+      participe: relié
+      present:
+      - relie
+      - relies
+      - relie
+      - relions
+      - reliez
+      - relient
+      imparfait:
+      - reliais
+      - reliais
+      - reliait
+      - reliions
+      - reliiez
+      - reliaient
+      futur_radical: relier
+      subjonctif:
+      - relie
+      - relies
+      - relie
+      - reliions
+      - reliiez
+      - relient
+      imperatif:
+      - relie
+      - relions
+      - reliez
+  tambotuga:
+    fr: rembourser
+    forme: tambotuga
+    nom_action: tambotuga-nde
+    gerondif: tambotugana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: rembourser
+      participe: remboursé
+      present:
+      - rembourse
+      - rembourses
+      - rembourse
+      - remboursons
+      - remboursez
+      - remboursent
+      imparfait:
+      - remboursais
+      - remboursais
+      - remboursait
+      - remboursions
+      - remboursiez
+      - remboursaient
+      futur_radical: rembourser
+      subjonctif:
+      - rembourse
+      - rembourses
+      - rembourse
+      - remboursions
+      - remboursiez
+      - remboursent
+      imperatif:
+      - rembourse
+      - remboursons
+      - remboursez
+  tuma:
+    fr: reposer
+    forme: tuma
+    nom_action: tuma-ye
+    gerondif: tumana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: reposer
+      participe: reposé
+      present:
+      - repose
+      - reposes
+      - repose
+      - reposons
+      - reposez
+      - reposent
+      imparfait:
+      - reposais
+      - reposais
+      - reposait
+      - reposions
+      - reposiez
+      - reposaient
+      futur_radical: reposer
+      subjonctif:
+      - repose
+      - reposes
+      - repose
+      - reposions
+      - reposiez
+      - reposent
+      imperatif:
+      - repose
+      - reposons
+      - reposez
+  doron:
+    fr: respecter
+    forme: doron
+    nom_action: doron-nde
+    gerondif: doronni
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: respecter
+      participe: respecté
+      present:
+      - respecte
+      - respectes
+      - respecte
+      - respectons
+      - respectez
+      - respectent
+      imparfait:
+      - respectais
+      - respectais
+      - respectait
+      - respections
+      - respectiez
+      - respectaient
+      futur_radical: respecter
+      subjonctif:
+      - respecte
+      - respectes
+      - respecte
+      - respections
+      - respectiez
+      - respectent
+      imperatif:
+      - respecte
+      - respectons
+      - respectez
+  fufe:
+    fr: respirer
+    forme: fufe
+    nom_action: fufe-ye
+    gerondif: fufene
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: respirer
+      participe: respiré
+      present:
+      - respire
+      - respires
+      - respire
+      - respirons
+      - respirez
+      - respirent
+      imparfait:
+      - respirais
+      - respirais
+      - respirait
+      - respirions
+      - respiriez
+      - respiraient
+      futur_radical: respirer
+      subjonctif:
+      - respire
+      - respires
+      - respire
+      - respirions
+      - respiriez
+      - respirent
+      imperatif:
+      - respire
+      - respirons
+      - respirez
+  baano:
+    fr: ressembler
+    forme: baano
+    nom_action: baano-ye
+    gerondif: baanono
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: ressembler
+      participe: ressemblé
+      present:
+      - ressemble
+      - ressembles
+      - ressemble
+      - ressemblons
+      - ressemblez
+      - ressemblent
+      imparfait:
+      - ressemblais
+      - ressemblais
+      - ressemblait
+      - ressemblions
+      - ressembliez
+      - ressemblaient
+      futur_radical: ressembler
+      subjonctif:
+      - ressemble
+      - ressembles
+      - ressemble
+      - ressemblions
+      - ressembliez
+      - ressemblent
+      imperatif:
+      - ressemble
+      - ressemblons
+      - ressemblez
+  finsirondi:
+    fr: réconcilier
+    forme: finsirondi
+    nom_action: finsirondi-nde
+    gerondif: finsirondini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: réconcilier
+      participe: réconcilié
+      present:
+      - réconcilie
+      - réconcilies
+      - réconcilie
+      - réconcilions
+      - réconciliez
+      - réconcilient
+      imparfait:
+      - réconciliais
+      - réconciliais
+      - réconciliait
+      - réconciliions
+      - réconciliiez
+      - réconciliaient
+      futur_radical: réconcilier
+      subjonctif:
+      - réconcilie
+      - réconcilies
+      - réconcilie
+      - réconciliions
+      - réconciliiez
+      - réconcilient
+      imperatif:
+      - réconcilie
+      - réconcilions
+      - réconciliez
+  gomundi:
+    fr: réparer
+    forme: gomundi
+    nom_action: gomundi-nde
+    gerondif: gomundini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: réparer
+      participe: réparé
+      present:
+      - répare
+      - répares
+      - répare
+      - réparons
+      - réparez
+      - réparent
+      imparfait:
+      - réparais
+      - réparais
+      - réparait
+      - réparions
+      - répariez
+      - réparaient
+      futur_radical: réparer
+      subjonctif:
+      - répare
+      - répares
+      - répare
+      - réparions
+      - répariez
+      - réparent
+      imperatif:
+      - répare
+      - réparons
+      - réparez
+  yaxawunyi-yen xedie:
+    fr: réveiller
+    forme: yaxawunyi-yen xedie
+    nom_action: yaxawunyi-yen xedie-ye
+    gerondif: yaxawunyi-yen xediene
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: réveiller
+      participe: réveillé
+      present:
+      - réveille
+      - réveilles
+      - réveille
+      - réveillons
+      - réveillez
+      - réveillent
+      imparfait:
+      - réveillais
+      - réveillais
+      - réveillait
+      - réveillions
+      - réveilliez
+      - réveillaient
+      futur_radical: réveiller
+      subjonctif:
+      - réveille
+      - réveilles
+      - réveille
+      - réveillions
+      - réveilliez
+      - réveillent
+      imperatif:
+      - réveille
+      - réveillons
+      - réveillez
+  kuyi:
+    fr: rêver
+    forme: kuyi
+    nom_action: kuyi-ye
+    gerondif: kuyini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: rêver
+      participe: rêvé
+      present:
+      - rêve
+      - rêves
+      - rêve
+      - rêvons
+      - rêvez
+      - rêvent
+      imparfait:
+      - rêvais
+      - rêvais
+      - rêvait
+      - rêvions
+      - rêviez
+      - rêvaient
+      futur_radical: rêver
+      subjonctif:
+      - rêve
+      - rêves
+      - rêve
+      - rêvions
+      - rêviez
+      - rêvent
+      imperatif:
+      - rêve
+      - rêvons
+      - rêvez
+  mexindi:
+    fr: salir
+    forme: mexindi
+    nom_action: mexindi-nde
+    gerondif: mexindini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: salir
+      participe: sali
+      present:
+      - salis
+      - salis
+      - salit
+      - salissons
+      - salissez
+      - salissent
+      imparfait:
+      - salissais
+      - salissais
+      - salissait
+      - salissions
+      - salissiez
+      - salissaient
+      futur_radical: salir
+      subjonctif:
+      - salisse
+      - salisses
+      - salisse
+      - salissions
+      - salissiez
+      - salissent
+      imperatif:
+      - salis
+      - salissons
+      - salissez
+  kunyi:
+    fr: saluer
+    forme: kunyi
+    nom_action: kunyi-nde
+    gerondif: kunyini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: saluer
+      participe: salué
+      present:
+      - salue
+      - salues
+      - salue
+      - saluons
+      - saluez
+      - saluent
+      imparfait:
+      - saluais
+      - saluais
+      - saluait
+      - saluions
+      - saluiez
+      - saluaient
+      futur_radical: saluer
+      subjonctif:
+      - salue
+      - salues
+      - salue
+      - saluions
+      - saluiez
+      - saluent
+      imperatif:
+      - salue
+      - saluons
+      - saluez
+  bonte:
+    fr: sauter
+    forme: bonte
+    nom_action: bonte-ye
+    gerondif: bontene
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: sauter
+      participe: sauté
+      present:
+      - saute
+      - sautes
+      - saute
+      - sautons
+      - sautez
+      - sautent
+      imparfait:
+      - sautais
+      - sautais
+      - sautait
+      - sautions
+      - sautiez
+      - sautaient
+      futur_radical: sauter
+      subjonctif:
+      - saute
+      - sautes
+      - saute
+      - sautions
+      - sautiez
+      - sautent
+      imperatif:
+      - saute
+      - sautons
+      - sautez
+  xithi:
+    fr: serrer
+    forme: xithi
+    nom_action: xithi-nde
+    gerondif: xithini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: serrer
+      participe: serré
+      present:
+      - serre
+      - serres
+      - serre
+      - serrons
+      - serrez
+      - serrent
+      imparfait:
+      - serrais
+      - serrais
+      - serrait
+      - serrions
+      - serriez
+      - serraient
+      futur_radical: serrer
+      subjonctif:
+      - serre
+      - serres
+      - serre
+      - serrions
+      - serriez
+      - serrent
+      imperatif:
+      - serre
+      - serrons
+      - serrez
+  tuyindi:
+    fr: signaler
+    forme: tuyindi
+    nom_action: tuyindi-nde
+    gerondif: tuyindini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: signaler
+      participe: signalé
+      present:
+      - signale
+      - signales
+      - signale
+      - signalons
+      - signalez
+      - signalent
+      imparfait:
+      - signalais
+      - signalais
+      - signalait
+      - signalions
+      - signaliez
+      - signalaient
+      futur_radical: signaler
+      subjonctif:
+      - signale
+      - signales
+      - signale
+      - signalions
+      - signaliez
+      - signalent
+      imperatif:
+      - signale
+      - signalons
+      - signalez
+  korosin:
+    fr: surveiller
+    forme: korosin
+    nom_action: korosin-nde
+    gerondif: korosinni
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: surveiller
+      participe: surveillé
+      present:
+      - surveille
+      - surveilles
+      - surveille
+      - surveillons
+      - surveillez
+      - surveillent
+      imparfait:
+      - surveillais
+      - surveillais
+      - surveillait
+      - surveillions
+      - surveilliez
+      - surveillaient
+      futur_radical: surveiller
+      subjonctif:
+      - surveille
+      - surveilles
+      - surveille
+      - surveillions
+      - surveilliez
+      - surveillent
+      imperatif:
+      - surveille
+      - surveillons
+      - surveillez
+  boguman:
+    fr: séparer
+    forme: boguman
+    nom_action: boguman-nde
+    gerondif: bogumanni
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: séparer
+      participe: séparé
+      present:
+      - sépare
+      - sépares
+      - sépare
+      - séparons
+      - séparez
+      - séparent
+      imparfait:
+      - séparais
+      - séparais
+      - séparait
+      - séparions
+      - sépariez
+      - séparaient
+      futur_radical: séparer
+      subjonctif:
+      - sépare
+      - sépares
+      - sépare
+      - séparions
+      - sépariez
+      - séparent
+      imperatif:
+      - sépare
+      - séparons
+      - séparez
+  duguta:
+    fr: terminer
+    forme: duguta
+    nom_action: duguta-ye
+    gerondif: dugutana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: terminer
+      participe: terminé
+      present:
+      - termine
+      - termines
+      - termine
+      - terminons
+      - terminez
+      - terminent
+      imparfait:
+      - terminais
+      - terminais
+      - terminait
+      - terminions
+      - terminiez
+      - terminaient
+      futur_radical: terminer
+      subjonctif:
+      - termine
+      - termines
+      - termine
+      - terminions
+      - terminiez
+      - terminent
+      imperatif:
+      - termine
+      - terminons
+      - terminez
+  fuutu:
+    fr: tirer
+    forme: fuutu
+    nom_action: fuutu-nde
+    gerondif: fuutunu
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: tirer
+      participe: tiré
+      present:
+      - tire
+      - tires
+      - tire
+      - tirons
+      - tirez
+      - tirent
+      imparfait:
+      - tirais
+      - tirais
+      - tirait
+      - tirions
+      - tiriez
+      - tiraient
+      futur_radical: tirer
+      subjonctif:
+      - tire
+      - tires
+      - tire
+      - tirions
+      - tiriez
+      - tirent
+      imperatif:
+      - tire
+      - tirons
+      - tirez
+  sonundi:
+    fr: tisser
+    forme: sonundi
+    nom_action: sonundi-nde
+    gerondif: sonundini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: tisser
+      participe: tissé
+      present:
+      - tisse
+      - tisses
+      - tisse
+      - tissons
+      - tissez
+      - tissent
+      imparfait:
+      - tissais
+      - tissais
+      - tissait
+      - tissions
+      - tissiez
+      - tissaient
+      futur_radical: tisser
+      subjonctif:
+      - tisse
+      - tisses
+      - tisse
+      - tissions
+      - tissiez
+      - tissent
+      imperatif:
+      - tisse
+      - tissons
+      - tissez
+  xenu:
+    fr: tomber
+    forme: xenu
+    nom_action: xenu-ye
+    gerondif: xenunu
+    classe: regulier
+    francais:
+      auxiliaire: etre
+      infinitif: tomber
+      participe: tombé
+      present:
+      - tombe
+      - tombes
+      - tombe
+      - tombons
+      - tombez
+      - tombent
+      imparfait:
+      - tombais
+      - tombais
+      - tombait
+      - tombions
+      - tombiez
+      - tombaient
+      futur_radical: tomber
+      subjonctif:
+      - tombe
+      - tombes
+      - tombe
+      - tombions
+      - tombiez
+      - tombent
+      imperatif:
+      - tombe
+      - tombons
+      - tombez
+  keti:
+    fr: toucher
+    forme: keti
+    nom_action: keti-ye
+    gerondif: ketini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: toucher
+      participe: touché
+      present:
+      - touche
+      - touches
+      - touche
+      - touchons
+      - touchez
+      - touchent
+      imparfait:
+      - touchais
+      - touchais
+      - touchait
+      - touchions
+      - touchiez
+      - touchaient
+      futur_radical: toucher
+      subjonctif:
+      - touche
+      - touches
+      - touche
+      - touchions
+      - touchiez
+      - touchent
+      imperatif:
+      - touche
+      - touchons
+      - touchez
+  niaŋundi:
+    fr: transformer
+    forme: niaŋundi
+    nom_action: niaŋundi-nde
+    gerondif: niaŋundini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: transformer
+      participe: transformé
+      present:
+      - transforme
+      - transformes
+      - transforme
+      - transformons
+      - transformez
+      - transforment
+      imparfait:
+      - transformais
+      - transformais
+      - transformait
+      - transformions
+      - transformiez
+      - transformaient
+      futur_radical: transformer
+      subjonctif:
+      - transforme
+      - transformes
+      - transforme
+      - transformions
+      - transformiez
+      - transforment
+      imperatif:
+      - transforme
+      - transformons
+      - transformez
+  golinia:
+    fr: travailler
+    forme: golinia
+    nom_action: golinia-ŋe
+    gerondif: goliniana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: travailler
+      participe: travaillé
+      present:
+      - travaille
+      - travailles
+      - travaille
+      - travaillons
+      - travaillez
+      - travaillent
+      imparfait:
+      - travaillais
+      - travaillais
+      - travaillait
+      - travaillions
+      - travailliez
+      - travaillaient
+      futur_radical: travailler
+      subjonctif:
+      - travaille
+      - travailles
+      - travaille
+      - travaillions
+      - travailliez
+      - travaillent
+      imperatif:
+      - travaille
+      - travaillons
+      - travaillez
+  koroosa:
+    fr: tricoter
+    forme: koroosa
+    nom_action: koroosa-nde
+    gerondif: koroosana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: tricoter
+      participe: tricoté
+      present:
+      - tricote
+      - tricotes
+      - tricote
+      - tricotons
+      - tricotez
+      - tricotent
+      imparfait:
+      - tricotais
+      - tricotais
+      - tricotait
+      - tricotions
+      - tricotiez
+      - tricotaient
+      futur_radical: tricoter
+      subjonctif:
+      - tricote
+      - tricotes
+      - tricote
+      - tricotions
+      - tricotiez
+      - tricotent
+      imperatif:
+      - tricote
+      - tricotons
+      - tricotez
+  wari:
+    fr: trouver
+    forme: wari
+    nom_action: wari-nde
+    gerondif: warini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: trouver
+      participe: trouvé
+      present:
+      - trouve
+      - trouves
+      - trouve
+      - trouvons
+      - trouvez
+      - trouvent
+      imparfait:
+      - trouvais
+      - trouvais
+      - trouvait
+      - trouvions
+      - trouviez
+      - trouvaient
+      futur_radical: trouver
+      subjonctif:
+      - trouve
+      - trouves
+      - trouve
+      - trouvions
+      - trouviez
+      - trouvent
+      imperatif:
+      - trouve
+      - trouvons
+      - trouvez
+  kari:
+    fr: tuer
+    forme: kari
+    nom_action: kari-nde
+    gerondif: karini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: tuer
+      participe: tué
+      present:
+      - tue
+      - tues
+      - tue
+      - tuons
+      - tuez
+      - tuent
+      imparfait:
+      - tuais
+      - tuais
+      - tuait
+      - tuions
+      - tuiez
+      - tuaient
+      futur_radical: tuer
+      subjonctif:
+      - tue
+      - tues
+      - tue
+      - tuions
+      - tuiez
+      - tuent
+      imperatif:
+      - tue
+      - tuons
+      - tuez
+  kofuma:
+    fr: unir
+    forme: kofuma
+    nom_action: kofuma-nde
+    gerondif: kofumana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: unir
+      participe: uni
+      present:
+      - unis
+      - unis
+      - unit
+      - unissons
+      - unissez
+      - unissent
+      imparfait:
+      - unissais
+      - unissais
+      - unissait
+      - unissions
+      - unissiez
+      - unissaient
+      futur_radical: unir
+      subjonctif:
+      - unisse
+      - unisses
+      - unisse
+      - unissions
+      - unissiez
+      - unissent
+      imperatif:
+      - unis
+      - unissons
+      - unissez
+  soxondi:
+    fr: verrouiller
+    forme: soxondi
+    nom_action: soxondi-nde
+    gerondif: soxondini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: verrouiller
+      participe: verrouillé
+      present:
+      - verrouille
+      - verrouilles
+      - verrouille
+      - verrouillons
+      - verrouillez
+      - verrouillent
+      imparfait:
+      - verrouillais
+      - verrouillais
+      - verrouillait
+      - verrouillions
+      - verrouilliez
+      - verrouillaient
+      futur_radical: verrouiller
+      subjonctif:
+      - verrouille
+      - verrouilles
+      - verrouille
+      - verrouillions
+      - verrouilliez
+      - verrouillent
+      imperatif:
+      - verrouille
+      - verrouillons
+      - verrouillez
+  xaso:
+    fr: vieillir
+    forme: xaso
+    nom_action: xaso-ye
+    gerondif: xasono
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: vieillir
+      participe: vieilli
+      present:
+      - vieillis
+      - vieillis
+      - vieillit
+      - vieillissons
+      - vieillissez
+      - vieillissent
+      imparfait:
+      - vieillissais
+      - vieillissais
+      - vieillissait
+      - vieillissions
+      - vieillissiez
+      - vieillissaient
+      futur_radical: vieillir
+      subjonctif:
+      - vieillisse
+      - vieillisses
+      - vieillisse
+      - vieillissions
+      - vieillissiez
+      - vieillissent
+      imperatif:
+      - vieillis
+      - vieillissons
+      - vieillissez
+  xenne:
+    fr: violer
+    forme: xenne
+    nom_action: xenne-ne
+    gerondif: xennene
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: violer
+      participe: violé
+      present:
+      - viole
+      - violes
+      - viole
+      - violons
+      - violez
+      - violent
+      imparfait:
+      - violais
+      - violais
+      - violait
+      - violions
+      - violiez
+      - violaient
+      futur_radical: violer
+      subjonctif:
+      - viole
+      - violes
+      - viole
+      - violions
+      - violiez
+      - violent
+      imperatif:
+      - viole
+      - violons
+      - violez
+  tarandi:
+    fr: visiter
+    forme: tarandi
+    nom_action: tarandi-nde
+    gerondif: tarandini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: visiter
+      participe: visité
+      present:
+      - visite
+      - visites
+      - visite
+      - visitons
+      - visitez
+      - visitent
+      imparfait:
+      - visitais
+      - visitais
+      - visitait
+      - visitions
+      - visitiez
+      - visitaient
+      futur_radical: visiter
+      subjonctif:
+      - visite
+      - visites
+      - visite
+      - visitions
+      - visitiez
+      - visitent
+      imperatif:
+      - visite
+      - visitons
+      - visitez
+  sakundi:
+    fr: égarer
+    forme: sakundi
+    nom_action: sakundi-nde
+    gerondif: sakundini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: égarer
+      participe: égaré
+      present:
+      - égare
+      - égares
+      - égare
+      - égarons
+      - égarez
+      - égarent
+      imparfait:
+      - égarais
+      - égarais
+      - égarait
+      - égarions
+      - égariez
+      - égaraient
+      futur_radical: égarer
+      subjonctif:
+      - égare
+      - égares
+      - égare
+      - égarions
+      - égariez
+      - égarent
+      imperatif:
+      - égare
+      - égarons
+      - égarez
+  laaton:
+    fr: éloigner
+    forme: laaton
+    nom_action: laaton-nde
+    gerondif: laatonni
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: éloigner
+      participe: éloigné
+      present:
+      - éloigne
+      - éloignes
+      - éloigne
+      - éloignons
+      - éloignez
+      - éloignent
+      imparfait:
+      - éloignais
+      - éloignais
+      - éloignait
+      - éloignions
+      - éloigniez
+      - éloignaient
+      futur_radical: éloigner
+      subjonctif:
+      - éloigne
+      - éloignes
+      - éloigne
+      - éloignions
+      - éloigniez
+      - éloignent
+      imperatif:
+      - éloigne
+      - éloignons
+      - éloignez
+  maaman:
+    fr: énerver
+    forme: maaman
+    nom_action: maaman-de
+    gerondif: maamanni
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: énerver
+      participe: énervé
+      present:
+      - énerve
+      - énerves
+      - énerve
+      - énervons
+      - énervez
+      - énervent
+      imparfait:
+      - énervais
+      - énervais
+      - énervait
+      - énervions
+      - énerviez
+      - énervaient
+      futur_radical: énerver
+      subjonctif:
+      - énerve
+      - énerves
+      - énerve
+      - énervions
+      - énerviez
+      - énervent
+      imperatif:
+      - énerve
+      - énervons
+      - énervez
+  kawafi:
+    fr: étonner
+    forme: kawafi
+    nom_action: kawafi-nde
+    gerondif: kawafini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: étonner
+      participe: étonné
+      present:
+      - étonne
+      - étonnes
+      - étonne
+      - étonnons
+      - étonnez
+      - étonnent
+      imparfait:
+      - étonnais
+      - étonnais
+      - étonnait
+      - étonnions
+      - étonniez
+      - étonnaient
+      futur_radical: étonner
+      subjonctif:
+      - étonne
+      - étonnes
+      - étonne
+      - étonnions
+      - étonniez
+      - étonnent
+      imperatif:
+      - étonne
+      - étonnons
+      - étonnez
+  bante:
+    fr: absenter
+    forme: bante
+    nom_action: bante-ye
+    gerondif: bantene
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: absenter
+      participe: absenté
+      present:
+      - absente
+      - absentes
+      - absente
+      - absentons
+      - absentez
+      - absentent
+      imparfait:
+      - absentais
+      - absentais
+      - absentait
+      - absentions
+      - absentiez
+      - absentaient
+      futur_radical: absenter
+      subjonctif:
+      - absente
+      - absentes
+      - absente
+      - absentions
+      - absentiez
+      - absentent
+      imperatif:
+      - absente
+      - absentons
+      - absentez
+  xemparadangi:
+    fr: abuser
+    forme: xemparadangi
+    nom_action: xemparadangi-ye
+    gerondif: xemparadangini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: abuser
+      participe: abusé
+      present:
+      - abuse
+      - abuses
+      - abuse
+      - abusons
+      - abusez
+      - abusent
+      imparfait:
+      - abusais
+      - abusais
+      - abusait
+      - abusions
+      - abusiez
+      - abusaient
+      futur_radical: abuser
+      subjonctif:
+      - abuse
+      - abuses
+      - abuse
+      - abusions
+      - abusiez
+      - abusent
+      imperatif:
+      - abuse
+      - abusons
+      - abusez
+  xoraxu:
+    fr: affranchir
+    forme: xoraxu
+    nom_action: xoraxu-nde
+    gerondif: xoraxunu
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: affranchir
+      participe: affranchi
+      present:
+      - affranchis
+      - affranchis
+      - affranchit
+      - affranchissons
+      - affranchissez
+      - affranchissent
+      imparfait:
+      - affranchissais
+      - affranchissais
+      - affranchissait
+      - affranchissions
+      - affranchissiez
+      - affranchissaient
+      futur_radical: affranchir
+      subjonctif:
+      - affranchisse
+      - affranchisses
+      - affranchisse
+      - affranchissions
+      - affranchissiez
+      - affranchissent
+      imperatif:
+      - affranchis
+      - affranchissons
+      - affranchissez
+  suruba:
+    fr: aspirer
+    forme: suruba
+    nom_action: suruba-nde
+    gerondif: surubana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: aspirer
+      participe: aspiré
+      present:
+      - aspire
+      - aspires
+      - aspire
+      - aspirons
+      - aspirez
+      - aspirent
+      imparfait:
+      - aspirais
+      - aspirais
+      - aspirait
+      - aspirions
+      - aspiriez
+      - aspiraient
+      futur_radical: aspirer
+      subjonctif:
+      - aspire
+      - aspires
+      - aspire
+      - aspirions
+      - aspiriez
+      - aspirent
+      imperatif:
+      - aspire
+      - aspirons
+      - aspirez
+  sangalu:
+    fr: clôturer
+    forme: sangalu
+    nom_action: sangalu-nde
+    gerondif: sangalunu
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: clôturer
+      participe: clôturé
+      present:
+      - clôture
+      - clôtures
+      - clôture
+      - clôturons
+      - clôturez
+      - clôturent
+      imparfait:
+      - clôturais
+      - clôturais
+      - clôturait
+      - clôturions
+      - clôturiez
+      - clôturaient
+      futur_radical: clôturer
+      subjonctif:
+      - clôture
+      - clôtures
+      - clôture
+      - clôturions
+      - clôturiez
+      - clôturent
+      imperatif:
+      - clôture
+      - clôturons
+      - clôturez
+  sukandi:
+    fr: cocher
+    forme: sukandi
+    nom_action: sukandi-nde
+    gerondif: sukandini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: cocher
+      participe: coché
+      present:
+      - coche
+      - coches
+      - coche
+      - cochons
+      - cochez
+      - cochent
+      imparfait:
+      - cochais
+      - cochais
+      - cochait
+      - cochions
+      - cochiez
+      - cochaient
+      futur_radical: cocher
+      subjonctif:
+      - coche
+      - coches
+      - coche
+      - cochions
+      - cochiez
+      - cochent
+      imperatif:
+      - coche
+      - cochons
+      - cochez
+  sameti:
+    fr: confier
+    forme: sameti
+    nom_action: sameti-nde
+    gerondif: sametini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: confier
+      participe: confié
+      present:
+      - confie
+      - confies
+      - confie
+      - confions
+      - confiez
+      - confient
+      imparfait:
+      - confiais
+      - confiais
+      - confiait
+      - confiions
+      - confiiez
+      - confiaient
+      futur_radical: confier
+      subjonctif:
+      - confie
+      - confies
+      - confie
+      - confiions
+      - confiiez
+      - confient
+      imperatif:
+      - confie
+      - confions
+      - confiez
+  maxage:
+    fr: cordonner
+    forme: maxage
+    nom_action: maxage-me
+    gerondif: maxagene
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: cordonner
+      participe: cordonné
+      present:
+      - cordonne
+      - cordonnes
+      - cordonne
+      - cordonnons
+      - cordonnez
+      - cordonnent
+      imparfait:
+      - cordonnais
+      - cordonnais
+      - cordonnait
+      - cordonnions
+      - cordonniez
+      - cordonnaient
+      futur_radical: cordonner
+      subjonctif:
+      - cordonne
+      - cordonnes
+      - cordonne
+      - cordonnions
+      - cordonniez
+      - cordonnent
+      imperatif:
+      - cordonne
+      - cordonnons
+      - cordonnez
+  misso:
+    fr: saboter
+    forme: misso
+    nom_action: misso-ye
+    gerondif: missono
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: saboter
+      participe: saboté
+      present:
+      - sabote
+      - sabotes
+      - sabote
+      - sabotons
+      - sabotez
+      - sabotent
+      imparfait:
+      - sabotais
+      - sabotais
+      - sabotait
+      - sabotions
+      - sabotiez
+      - sabotaient
+      futur_radical: saboter
+      subjonctif:
+      - sabote
+      - sabotes
+      - sabote
+      - sabotions
+      - sabotiez
+      - sabotent
+      imperatif:
+      - sabote
+      - sabotons
+      - sabotez
+  bulxa:
+    fr: effacer
+    forme: bulxa
+    nom_action: bulxa-nde
+    gerondif: bulxana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: effacer
+      participe: effacé
+      present:
+      - efface
+      - effaces
+      - efface
+      - effaçons
+      - effacez
+      - effacent
+      imparfait:
+      - effaçais
+      - effaçais
+      - effaçait
+      - effacions
+      - effaciez
+      - effaçaient
+      futur_radical: effacer
+      subjonctif:
+      - efface
+      - effaces
+      - efface
+      - effacions
+      - effaciez
+      - effacent
+      imperatif:
+      - efface
+      - effaçons
+      - effacez
+  simandi:
+    fr: en rappeler
+    forme: simandi
+    nom_action: simandi-nde
+    gerondif: simandini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: en rappeler
+      participe: en rappelé
+      present:
+      - en rappele
+      - en rappeles
+      - en rappele
+      - en rappelons
+      - en rappelez
+      - en rappelent
+      imparfait:
+      - en rappelais
+      - en rappelais
+      - en rappelait
+      - en rappelions
+      - en rappeliez
+      - en rappelaient
+      futur_radical: en rappeler
+      subjonctif:
+      - en rappele
+      - en rappeles
+      - en rappele
+      - en rappelions
+      - en rappeliez
+      - en rappelent
+      imperatif:
+      - en rappele
+      - en rappelons
+      - en rappelez
+  mulondi:
+    fr: froidir
+    forme: mulondi
+    nom_action: mulondi-nde
+    gerondif: mulondini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: froidir
+      participe: froidi
+      present:
+      - froidis
+      - froidis
+      - froidit
+      - froidissons
+      - froidissez
+      - froidissent
+      imparfait:
+      - froidissais
+      - froidissais
+      - froidissait
+      - froidissions
+      - froidissiez
+      - froidissaient
+      futur_radical: froidir
+      subjonctif:
+      - froidisse
+      - froidisses
+      - froidisse
+      - froidissions
+      - froidissiez
+      - froidissent
+      imperatif:
+      - froidis
+      - froidissons
+      - froidissez
+  besin:
+    fr: frotter
+    forme: besin
+    nom_action: besin-nde
+    gerondif: besinni
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: frotter
+      participe: frotté
+      present:
+      - frotte
+      - frottes
+      - frotte
+      - frottons
+      - frottez
+      - frottent
+      imparfait:
+      - frottais
+      - frottais
+      - frottait
+      - frottions
+      - frottiez
+      - frottaient
+      futur_radical: frotter
+      subjonctif:
+      - frotte
+      - frottes
+      - frotte
+      - frottions
+      - frottiez
+      - frottent
+      imperatif:
+      - frotte
+      - frottons
+      - frottez
+  mugni:
+    fr: impatienter
+    forme: mugni
+    nom_action: mugni-ye
+    gerondif: mugnini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: impatienter
+      participe: impatienté
+      present:
+      - impatiente
+      - impatientes
+      - impatiente
+      - impatientons
+      - impatientez
+      - impatientent
+      imparfait:
+      - impatientais
+      - impatientais
+      - impatientait
+      - impatientions
+      - impatientiez
+      - impatientaient
+      futur_radical: impatienter
+      subjonctif:
+      - impatiente
+      - impatientes
+      - impatiente
+      - impatientions
+      - impatientiez
+      - impatientent
+      imperatif:
+      - impatiente
+      - impatientons
+      - impatientez
+  sumba:
+    fr: souquer
+    forme: sumba
+    nom_action: sumba-nde
+    gerondif: sumbana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: souquer
+      participe: souqué
+      present:
+      - souque
+      - souques
+      - souque
+      - souquons
+      - souquez
+      - souquent
+      imparfait:
+      - souquais
+      - souquais
+      - souquait
+      - souquions
+      - souquiez
+      - souquaient
+      futur_radical: souquer
+      subjonctif:
+      - souque
+      - souques
+      - souque
+      - souquions
+      - souquiez
+      - souquent
+      imperatif:
+      - souque
+      - souquons
+      - souquez
+  sigi:
+    fr: stopper
+    forme: sigi
+    nom_action: sigi-nde
+    gerondif: sigini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: stopper
+      participe: stoppé
+      present:
+      - stoppe
+      - stoppes
+      - stoppe
+      - stoppons
+      - stoppez
+      - stoppent
+      imparfait:
+      - stoppais
+      - stoppais
+      - stoppait
+      - stoppions
+      - stoppiez
+      - stoppaient
+      futur_radical: stopper
+      subjonctif:
+      - stoppe
+      - stoppes
+      - stoppe
+      - stoppions
+      - stoppiez
+      - stoppent
+      imperatif:
+      - stoppe
+      - stoppons
+      - stoppez
+  tilifi:
+    fr: torturer
+    forme: tilifi
+    nom_action: tilifi-nde
+    gerondif: tilifini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: torturer
+      participe: torturé
+      present:
+      - torture
+      - tortures
+      - torture
+      - torturons
+      - torturez
+      - torturent
+      imparfait:
+      - torturais
+      - torturais
+      - torturait
+      - torturions
+      - torturiez
+      - torturaient
+      futur_radical: torturer
+      subjonctif:
+      - torture
+      - tortures
+      - torture
+      - torturions
+      - torturiez
+      - torturent
+      imperatif:
+      - torture
+      - torturons
+      - torturez
+  filinka:
+    fr: tourner
+    forme: filinka
+    nom_action: filinka-nde
+    gerondif: filinkana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: tourner
+      participe: tourné
+      present:
+      - tourne
+      - tournes
+      - tourne
+      - tournons
+      - tournez
+      - tournent
+      imparfait:
+      - tournais
+      - tournais
+      - tournait
+      - tournions
+      - tourniez
+      - tournaient
+      futur_radical: tourner
+      subjonctif:
+      - tourne
+      - tournes
+      - tourne
+      - tournions
+      - tourniez
+      - tournent
+      imperatif:
+      - tourne
+      - tournons
+      - tournez
+  noni:
+    fr: tracer
+    forme: noni
+    nom_action: noni-nde
+    gerondif: nonini
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: tracer
+      participe: tracé
+      present:
+      - trace
+      - traces
+      - trace
+      - traçons
+      - tracez
+      - tracent
+      imparfait:
+      - traçais
+      - traçais
+      - traçait
+      - tracions
+      - traciez
+      - traçaient
+      futur_radical: tracer
+      subjonctif:
+      - trace
+      - traces
+      - trace
+      - tracions
+      - traciez
+      - tracent
+      imperatif:
+      - trace
+      - traçons
+      - tracez
+  diamba:
+    fr: trahir
+    forme: diamba
+    nom_action: diamba-nde
+    gerondif: diambana
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: trahir
+      participe: trahi
+      present:
+      - trahis
+      - trahis
+      - trahit
+      - trahissons
+      - trahissez
+      - trahissent
+      imparfait:
+      - trahissais
+      - trahissais
+      - trahissait
+      - trahissions
+      - trahissiez
+      - trahissaient
+      futur_radical: trahir
+      subjonctif:
+      - trahisse
+      - trahisses
+      - trahisse
+      - trahissions
+      - trahissiez
+      - trahissent
+      imperatif:
+      - trahis
+      - trahissons
+      - trahissez
+  tulu:
+    fr: tresser
+    forme: tulu
+    nom_action: tulu-nde
+    gerondif: tulunu
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: tresser
+      participe: tressé
+      present:
+      - tresse
+      - tresses
+      - tresse
+      - tressons
+      - tressez
+      - tressent
+      imparfait:
+      - tressais
+      - tressais
+      - tressait
+      - tressions
+      - tressiez
+      - tressaient
+      futur_radical: tresser
+      subjonctif:
+      - tresse
+      - tresses
+      - tresse
+      - tressions
+      - tressiez
+      - tressent
+      imperatif:
+      - tresse
+      - tressons
+      - tressez
+  bexin:
+    fr: zipper
+    forme: bexin
+    nom_action: bexin-nde
+    gerondif: bexinni
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: zipper
+      participe: zippé
+      present:
+      - zippe
+      - zippes
+      - zippe
+      - zippons
+      - zippez
+      - zippent
+      imparfait:
+      - zippais
+      - zippais
+      - zippait
+      - zippions
+      - zippiez
+      - zippaient
+      futur_radical: zipper
+      subjonctif:
+      - zippe
+      - zippes
+      - zippe
+      - zippions
+      - zippiez
+      - zippent
+      imperatif:
+      - zippe
+      - zippons
+      - zippez
+  dufuutu:
+    fr: étirer
+    forme: dufuutu
+    nom_action: dufuutu-nde
+    gerondif: dufuutunu
+    classe: regulier
+    francais:
+      auxiliaire: avoir
+      infinitif: étirer
+      participe: étiré
+      present:
+      - étire
+      - étires
+      - étire
+      - étirons
+      - étirez
+      - étirent
+      imparfait:
+      - étirais
+      - étirais
+      - étirait
+      - étirions
+      - étiriez
+      - étiraient
+      futur_radical: étirer
+      subjonctif:
+      - étire
+      - étires
+      - étire
+      - étirions
+      - étiriez
+      - étirent
+      imperatif:
+      - étire
+      - étirons
+      - étirez

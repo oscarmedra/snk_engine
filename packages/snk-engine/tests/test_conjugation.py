@@ -277,11 +277,14 @@ def test_unconfirmed_forms_are_refused(verb, subject, tense):
 
 def test_verbs_are_registered():
     engine = default_engine()
-    expected = {"dagaer": "partir", "rier": "venir", "fayinder": "regarder", "sefeer": "parler",
-                "yigeyer": "manger", "mini": "boire", "wori": "voir", "safa": "écrire",
-                "goli": "travailler", "wutu": "prendre",
-                "wurier": "courir"}
-    assert {k: v.french for k, v in engine.verbs.items()} == expected
+    # les onze premiers verbes, confirmés phrase par phrase avec le locuteur
+    coeur = {"dagaer": "partir", "rier": "venir", "fayinder": "regarder", "sefeer": "parler",
+             "yigeyer": "manger", "mini": "boire", "wori": "voir", "safa": "écrire",
+             "goli": "travailler", "wutu": "prendre", "wurier": "courir"}
+    assert coeur.items() <= {k: v.french for k, v in engine.verbs.items()}.items()
+    # puis ceux de la liste du locuteur, entrés avec leur forme en -ni
+    assert len(engine.verbs) > 100
+    assert engine.verbs["dema"].french == "aider" and engine.verbs["dema"].gerund == "demana"
 
 
 def test_unknown_inputs():
