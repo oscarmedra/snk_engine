@@ -143,6 +143,14 @@ def test_do_me_construction(verb, subject, obj, expected):
     assert default_engine().conjugate(verb, subject, tense, obj) == expected
 
 
+def test_wa_and_da_variants():
+    # confirmé : « wa » s'emploie comme « yi », « da » comme « di » (variantes de dialecte)
+    e = default_engine()
+    assert e.conjugate("wurier", "nke", "en_cours_wa") == "nke wa wurunu"
+    assert e.conjugate("yigeyer", "oku", "en_cours_objet_wa", "maro ke") == "oku wa maro ke yigane"
+    assert e.conjugate("yigeyer", "oku", "past_object_da", "maro ke") == "oku da maro ke n'yiga"
+
+
 def test_fayi_and_yi_are_interchangeable():
     e = default_engine()
     assert e.conjugate("safa", "a", "en_cours_fayi") == "a fayi safana"

@@ -30,6 +30,8 @@ Entièrement conjugables : toutes les formes sont confirmées par le locuteur.
 | xenxe | dormir | infinitif |
 | mara | ? | sens |
 | ? | arriver | tout |
+| mama | faire mal |  |
+| kita | avoir |  |
 | ? | amener | sans doute dérivé de ri (venir) : « faire venir » |
 | xobo | acheter | infinitif ; forme sans objet |
 | safa | écrire | infinitif ; forme sans objet |
@@ -222,7 +224,7 @@ Sens compris d'après le contexte, confirmés par le locuteur.
 | `sere` | personne |
 | `mburu` | pain |
 | `yite-remu` | fruits |
-| `teh` | thé |
+| `teh` | huile |
 
 ### Relevés du texte « au marché »
 
@@ -343,4 +345,4 @@ Sens compris d'après le contexte, confirmés par le locuteur.
 
 ---
 
-11 verbes conjugables · 42 verbes du locuteur en attente · 120 verbes relevés dans la littérature · environ 268 mots enregistrés.
+11 verbes conjugables · 44 verbes du locuteur en attente · 120 verbes relevés dans la littérature · environ 305 mots enregistrés.

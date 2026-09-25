@@ -27,13 +27,15 @@ CLAUSE_SPLIT = re.compile(r"\s*([,;:])\s*")
 
 # Quand plusieurs temps donnent le même français, on préfère le plus courant.
 TENSE_PREFERENCE = [
-    "past", "past_object", "en_cours", "en_cours_objet", "future", "past_negative",
+    "past", "past_object", "past_object_da", "en_cours", "en_cours_objet", "future", "past_negative",
     "future_negative", "imperatif", "imperatif_objet", "imperatif_negatif",
     "imperatif_pluriel", "demande", "demande_objet", "imminent", "en_cours_do",
     "en_cours_objet_do", "progressive_watia", "en_cours_fayi", "en_cours_objet_fayi",
+    "en_cours_wa", "en_cours_objet_wa",
     "future_negative_ntaxa",
 ]
 WITH_OBJECT = {"past": "past_object", "en_cours": "en_cours_objet", "demande": "demande_objet",
+               "en_cours_wa": "en_cours_objet_wa",
                "imperatif": "imperatif_objet", "en_cours_fayi": "en_cours_objet_fayi",
                "en_cours_do": "en_cours_objet_do"}
 SUBJECT_ALIASES = {"elle": "il", "elles": "ils", "on": "nous"}

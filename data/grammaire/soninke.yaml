@@ -59,6 +59,30 @@ temps:
     particule: true        # sur di, selon le pronom
     objet: true
     particule_verbe: true  # le verbe qui suit l'objet prend aussi la particule
+  en_cours_wa:
+    nom: action en cours (wa)
+    marqueur: wa          # confirmé : « wa » et « yi » s'emploient l'un pour l'autre
+    particule: true
+  en_cours_objet_wa:
+    nom: action en cours avec objet (wa)
+    marqueur: wa
+    objet: true
+    particule: true
+  past_object_da:
+    nom: passé avec objet (da)
+    marqueur: da          # confirmé : « da » et « di » s'emploient l'un pour l'autre
+    particule: true
+    objet: true
+    particule_verbe: true
+  en_cours_wa:
+    nom: action en cours (wa)
+    marqueur: wa          # xoxone ke wa yigene ; équivaut à yi et fayi
+    particule: true
+  en_cours_objet_wa:
+    nom: action en cours avec objet (wa)
+    marqueur: wa          # n'ma wa xollo ku wanqini
+    objet: true
+    particule: true
   en_cours_fayi:
     nom: action en cours (fayi)
     marqueur: fayi        # a fayi safandini = il écrit ; équivaut à « yi »
@@ -145,6 +169,20 @@ classes:
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
       en_cours_objet:  # confirmé 2026-09-20 : nke yi maro yigane, anke n'yi maro yigane
         forme: "{gerondif_objet}"   # le verbe après l'objet reste nu à ce temps
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      en_cours_wa:     # confirmé : « wa » s'emploie comme « yi » (variante de dialecte)
+        forme: "{gerondif}"
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      en_cours_objet_wa:
+        forme: "{gerondif_objet}"
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      past_object_da:  # confirmé : « da » s'emploie comme « di »
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      en_cours_wa:     # confirmé 2026-09-25 : wa, yi et fayi sont interchangeables
+        forme: "{gerondif}"
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      en_cours_objet_wa:
+        forme: "{gerondif_objet}"
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
       en_cours_fayi:   # confirmé : « fayi » et « yi » sont interchangeables
         forme: "{gerondif}"

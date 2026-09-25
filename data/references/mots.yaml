@@ -81,7 +81,7 @@ texte_journee:
     - {snk: sere, fr: personne}
     - {snk: mburu, fr: pain}
     - {snk: "yite-remu", fr: fruits}
-    - {snk: teh, fr: thé}
+    - {snk: teh, fr: "huile", note: "corrigé 2026-09-25 : teh = huile, le thé est hataye"}
 
 # --- Précisions du locuteur (serie_04_termes, 2026-09-17) ---
 serie_04:
@@ -228,7 +228,7 @@ texte_travail:
   - {snk: kaye, fr: cahier}
   - {snk: gabo, fr: beaucoup, exemple: "yite gabo", note: "= gebe (pour des choses)"}
   - {snk: tie, fr: viande}
-  - {snk: guida, fr: "frère ou sœur plus âgé(e) que moi", note: "confirmé 2026-09-20"}
+  - {snk: guida, fr: frère, note: "confirmé 2026-09-25 ; guida niaxare = sœur"}
   - {snk: "guida niaxare", fr: "grande sœur"}
   - {snk: "guida n'yigo", fr: "grand frère"}
   - {snk: "a do … me", fr: "être en train de", exemple: "guida niaxare a do yirame waqinde me = ma sœur est en train de laver les habits"}
@@ -308,9 +308,9 @@ texte_5_suite:
 # --- texte_pluies (2026-09-22) : lecture de Claude, à confirmer ---
 texte_pluies:
   grammaire:
-    - {snk: wa, fr: "marqueur : action à venir ou qui dure",
-       exemple: "kame ke wa rini = la pluie va revenir ; lomunu ku wa sangana = les enfants jouaient"}
-    - {snk: da, fr: "marqueur d'objet", note: "variante de di : m'paba da kari ti guma"}
+    - {snk: wa, fr: "marqueur : action en cours", note: "confirmé : s'emploie comme « yi », selon le dialecte",
+       exemple: "kame ke wa rini ; lomunu ku wa sangana = les enfants jouaient"}
+    - {snk: da, fr: "marqueur d'objet", note: "confirmé : s'emploie comme « di »"}
     - {snk: gana, fr: "si", exemple: "ke ke gana taxe siri = si la pluie tombe bien"}
     - {snk: muma, fr: "tout, entier", exemple: "wuro ke muma = toute la nuit ; sine ke muma = toute l'année"}
     - {snk: ti, fr: "avec (instrument) ?", exemple: "kari ti guma = tué avec un bâton"}
@@ -323,6 +323,7 @@ texte_pluies:
     - {snk: "kiyi mbaka", fr: "l'est", note: "littéralement : là où le soleil sort"}
     - {snk: "kiyi nsiga", fr: midi, note: "littéralement : le soleil au milieu"}
     - {snk: du, fr: "frais, froid ?"}
+    - {snk: fina, fr: "sombre", note: "confirmé : « le ciel est sombre », et non gris"}
   champs:
     - {snk: siine, fr: année}
     - {snk: tongue, fr: houe}
@@ -349,7 +350,50 @@ texte_pluies:
     - {snk: kari, fr: tuer}
     - {snk: guma, fr: bâton}
     - {snk: yanqana, fr: "rentrer ?"}
+    - {snk: yille, fr: "les céréales (riz, maïs, sorgho)", note: "nom familier ; mil = nieleko"}
+    - {snk: nieleko, fr: mil}
+    - {snk: faye, fr: "regarder, et aussi rester", exemple: "n ma nke m'faye ka = ma mère est restée à la maison"}
+    - {snk: biradi, fr: vivre}
     - {snk: yigande, fr: nourriture, note: "de yiga : ce qu'on mange"}
     - {snk: liŋe, fr: "bon (au goût) ?"}
     - {snk: taye, fr: "chaud ?"}
+
+# --- texte_repas (2026-09-25) : lecture de Claude, à confirmer ---
+texte_repas:
+  cuisine:
+    - {snk: yimbe, fr: feu}
+    - {snk: barama, fr: marmite}
+    - {snk: bassalu, fr: oignons, note: "bassalu ku = les oignons"}
+    - {snk: tamau, fr: tomates}
+    - {snk: sape, fr: sel}
+    - {snk: kudu, fr: cuillère}
+    - {snk: xollo, fr: assiette, note: "xollo ku = les assiettes"}
+    - {snk: yagande, fr: plat}
+    - {snk: yigande, fr: nourriture, note: "formé sur yiga (manger)"}
+    - {snk: hataye, fr: thé}
+    - {snk: nioŋono, fr: "aller puiser de l'eau"}
+    - {snk: gede, fr: "puits ?", note: "reste à confirmer"}
+    - {snk: suwa, fr: bois, note: "confirmé : suwaŋana = chercher du bois"}
+    - {snk: kitu, fr: main}
+  verbes:
+    - {snk: kumu, fr: allumer}
+    - {snk: taxundi, fr: "poser, mettre", note: "taxu (s'asseoir) + ndi : « faire asseoir »"}
+    - {snk: xiri, fr: appeler}
+    - {snk: dema, fr: aider}
+    - {snk: soxu, fr: dormir, note: "se coucher ailleurs"}
+  etats:
+    - {snk: tayeni, fr: chaud}
+    - {snk: liŋeni, fr: bon}
+    - {snk: tampinte, fr: fatigué}
+    - {snk: mule, fr: froid}
+    - {snk: duguta, fr: prêt}
+    - {snk: dulle, fr: faim, exemple: "dulle ni a ka ŋa = il a faim"}
+  grammaire:
+    - {snk: wa, fr: "action en cours", note: "confirmé : interchangeable avec yi et fayi"}
+    - {snk: kara, fr: "à côté de"}
+    - {snk: kama, fr: "autour de, sur"}
+    - {snk: "o su", fr: "tout le monde, nous tous"}
+    - {snk: sella, fr: dehors, note: "confirmé ; « sellana » (balayer) reste à départager"}
+    - {snk: yampimaxa, fr: "s'il te plaît"}
+    - {snk: buru, fr: trop, note: "confirmé : quantité excessive"}
 

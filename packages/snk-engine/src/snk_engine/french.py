@@ -75,7 +75,7 @@ def conjugate_fr(verb: FrenchVerb, person: str, tense: str, obj: str | None = No
     future = verb.future_stem + FUTURE_ENDINGS[i]
     tail = f" {obj}" if obj else ""
 
-    if tense in ("past", "past_object"):
+    if tense in ("past", "past_object", "past_object_da"):
         return _elide(subject, compose) + tail
     if tense in ("imperatif", "imperatif_objet", "imperatif_pluriel", "imperatif_negatif"):
         if not verb.imperative:
@@ -95,9 +95,9 @@ def conjugate_fr(verb: FrenchVerb, person: str, tense: str, obj: str | None = No
         return f"{que}{subject} {verb.subjunctive[i]}{tail}"
     if tense in ("en_cours_do", "en_cours_objet_do"):
         return _elide(subject, f"{AUX['etre'][i]} en train de {verb.french_infinitive}") + tail
-    if tense in ("en_cours_objet", "en_cours_objet_fayi"):
+    if tense in ("en_cours_objet", "en_cours_objet_fayi", "en_cours_objet_wa"):
         return _elide(subject, verb.present[i]) + tail
-    if tense in ("en_cours", "en_cours_fayi"):
+    if tense in ("en_cours", "en_cours_fayi", "en_cours_wa"):
         # présent simple : « en ce moment » entrerait en conflit avec « koota su »
         return _elide(subject, verb.present[i]) + tail
     if tense == "imperfect":
