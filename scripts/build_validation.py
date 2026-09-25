@@ -3,7 +3,7 @@
 Les phrases sont réparties sur tous les temps et tous les verbes, pour que la
 relecture couvre l'ensemble des règles plutôt qu'une seule construction.
 
-    uv run python scripts/build_validation.py [nombre]
+    uv run python scripts/build_validation.py [nombre] [nom du fichier]
 """
 
 import random
@@ -32,9 +32,23 @@ HELP = [
 ]
 
 
-def main(count: int = 200) -> None:
+def already_validated() -> set[str]:
+    """Phrases déjà relues : on ne les redonne pas à valider."""
+    import json
+    seen = set()
+    for path in (ROOT / "corpus" / "valide").glob("*.jsonl"):
+        for line in path.open(encoding="utf-8"):
+            entry = json.loads(line)
+            seen.add(entry["snk"].strip().lower())
+            if entry.get("snk_moteur"):
+                seen.add(entry["snk_moteur"].strip().lower())
+    return seen
+
+
+def main(count: int = 200, name: str = "validation_01") -> None:
     engine = default_engine()
-    rows = list(generate(engine))
+    seen = already_validated()
+    rows = [s for s in generate(engine) if s.snk.strip().lower() not in seen]
     buckets: dict[tuple[str, str], list] = defaultdict(list)
     for s in rows:
         buckets[(s.verb, s.tense)].append(s)
@@ -80,7 +94,7 @@ def main(count: int = 200) -> None:
     for line in HELP:
         help_ws.append([line])
 
-    out = ROOT / "data" / "questionnaires" / "validation_01.xlsx"
+    out = ROOT / "data" / "questionnaires" / f"{name}.xlsx"
     out.parent.mkdir(parents=True, exist_ok=True)
     wb.save(out)
     verbs = len({s.verb for s in sample})
@@ -89,4 +103,5 @@ def main(count: int = 200) -> None:
 
 
 if __name__ == "__main__":
-    main(int(sys.argv[1]) if len(sys.argv) > 1 else 200)
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    main(int(args[0]) if args else 200, args[1] if len(args) > 1 else "validation_01")
