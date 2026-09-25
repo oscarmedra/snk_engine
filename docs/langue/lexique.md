@@ -101,7 +101,6 @@ Entièrement conjugables : toutes les formes sont confirmées par le locuteur.
 | `si` | raser | si | sini | — |
 | `fallanyille` | reculer | fallanyille | fallanyillene | — |
 | `bara` | refuser | bara | barana | — |
-| `fayi` | regarder | fayi | fayini | — |
 | `mekitandi` | relier | mekitandi | mekitandini | — |
 | `tambotuga` | rembourser | tambotuga | tambotugana | — |
 | `tuma` | reposer | tuma | tumana | — |
@@ -125,7 +124,6 @@ Entièrement conjugables : toutes les formes sont confirmées par le locuteur.
 | `xenu` | tomber | xenu | xenunu | — |
 | `keti` | toucher | keti | ketini | — |
 | `niaŋundi` | transformer | niaŋundi | niaŋundini | — |
-| `golinia` | travailler | golinia | goliniana | — |
 | `koroosa` | tricoter | koroosa | koroosana | — |
 | `wari` | trouver | wari | warini | — |
 | `kari` | tuer | kari | karini | — |
@@ -161,6 +159,37 @@ Entièrement conjugables : toutes les formes sont confirmées par le locuteur.
 | `tulu` | tresser | tulu | tulunu | — |
 | `bexin` | zipper | bexin | bexinni | — |
 | `dufuutu` | étirer | dufuutu | dufuutunu | — |
+| `bisimilahi` | accueillir | bisimilahi | bisimilahini | — |
+| `sane` | apparaître | sane | sanene | — |
+| `taxu` | asseoir | taxu | taxunu | — |
+| `dugu` | attendre | dugu | dugunu | — |
+| `katu` | battre | katu | katunu | — |
+| `gadia` | combattre | gadia | gadiana | — |
+| `faamu` | comprendre | faamu | faamunu | — |
+| `tu` | connaître | tu | tunu | — |
+| `xandio` | convaincre | xandio | xandiono | — |
+| `lifi` | coudre | lifi | lifini | — |
+| `yanqa` | descendre | yanqa | yanqana | — |
+| `nia` | devenir | nia | niana | — |
+| `ko` | dire | ko | kono | — |
+| `sanku` | disparaître | sanku | sankunu | — |
+| `djikeranxoso` | décevoir | djikeranxoso | djikeranxosono | — |
+| `kaban` | interdire | kaban | kabanni | — |
+| `gara` | mentir | gara | garana | — |
+| `rondi` | mettre | rondi | rondini | — |
+| `saare` | naître | saare | saarene | — |
+| `ku` | offrir | ku | kunu | — |
+| `wunyi` | ouvrir | wunyi | wunyini | — |
+| `konti` | perdre | konti | kontini | — |
+| `laydurangandi` | promettre | laydurangandi | laydurangandini | — |
+| `soyi` | rire | soyi | soyini | — |
+| `diabi` | répondre | diabi | diabini | — |
+| `kanalaga` | sentir | kanalaga | kanalagana | — |
+| `bagu` | sortir | bagu | bagunu | — |
+| `gage` | vendre | gage | gagene | — |
+| `bire` | vivre | bire | birene | — |
+| `kerin` | éteindre | kerin | kerinni | — |
+| `wurebandi` | traduire | wurebandi | wurebandini | — |
 
 ## Verbes donnés par le locuteur, pas encore dans le moteur
 
@@ -487,4 +516,4 @@ Sens compris d'après le contexte, confirmés par le locuteur.
 
 ---
 
-153 verbes conjugables · 44 verbes du locuteur en attente · 120 verbes relevés dans la littérature · environ 305 mots enregistrés.
+182 verbes conjugables · 44 verbes du locuteur en attente · 120 verbes relevés dans la littérature · environ 305 mots enregistrés.

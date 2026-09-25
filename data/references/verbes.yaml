@@ -167,206 +167,28 @@ locuteur:
 - radical: bisimilah
   fr: accueillir
   source: texte_journee
-liste:
-- radical: bisimilahi
-  fr: accueillir
-  nom_action: bisimilahi-nde
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: sane
-  fr: apparaître
-  nom_action: sane-ye
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: taxu
-  fr: asseoir
-  nom_action: taxu-ye
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: dugu
-  fr: attendre
-  nom_action: dugu-nde
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: katu
-  fr: battre
-  nom_action: katu-nde
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: mine
-  fr: boire
-  nom_action: mine-ne
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: gadia
-  fr: combattre
-  nom_action: gadia-ŋe
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: faamu
-  fr: comprendre
-  nom_action: faamu-nde
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: tu
-  fr: connaître
-  nom_action: tu-ye
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: xandio
-  fr: convaincre
-  nom_action: xandio-nde
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: lifi
-  fr: coudre
-  nom_action: lifi-nde
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: yanqa
-  fr: descendre
-  nom_action: yanqa-nde
-  source: liste du locuteur (2026-09-25)
-  note: corrigé par le locuteur le 2026-09-25 (yanga → yanqa)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: nia
-  fr: devenir
-  nom_action: nia-ŋe
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: ko
-  fr: dire
-  nom_action: ko-ŋe
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: sanku
-  fr: disparaître
-  nom_action: sanku-ye
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: djikeranxoso
-  fr: décevoir
-  nom_action: djikeranxoso-nde
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: kaban
-  fr: interdire
-  nom_action: kaban-nde
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: gara
-  fr: mentir
-  nom_action: gara-nde
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: rondi
-  fr: mettre
-  nom_action: rondi-nde
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: saare
-  fr: naître
-  nom_action: saare-ye
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: ku
-  fr: offrir
-  nom_action: ku-ye
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: wunyi
-  fr: ouvrir
-  nom_action: wunyi-nde
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: konti
-  fr: perdre
-  nom_action: konti-ye
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: laydurangandi
-  fr: promettre
-  nom_action: laydurangandi-nde
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: soyi
-  fr: rire
-  nom_action: soyi-ye
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: diabi
-  fr: répondre
-  nom_action: diabi-nde
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: kanalaga
-  fr: sentir
-  nom_action: kanalaga-nde
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: bagu
-  fr: sortir
-  nom_action: bagu-ye
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: gage
-  fr: vendre
-  nom_action: gage-ye
-  source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
+liste: []
+variantes:
 - radical: riyi
   fr: venir
   nom_action: riyi-ye
+  note: variante de « ri », confirmé en conversation ; à départager
   source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: bire
-  fr: vivre
-  nom_action: bire-ye
+- radical: fayi
+  fr: regarder
+  nom_action: fayi-nde
+  note: variante de « faye », confirmé en conversation ; à départager
   source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: kerin
-  fr: éteindre
-  nom_action: kerin-nde
+- radical: mine
+  fr: boire
+  nom_action: mine-ne
+  note: variante de « mini », confirmé en conversation ; à départager
   source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
-- radical: wurebandi
-  fr: traduire
-  nom_action: wurebandi-nde
+- radical: golinia
+  fr: travailler
+  nom_action: golinia-ŋe
+  note: variante de « goli », confirmé en conversation ; à départager
   source: liste du locuteur (2026-09-25)
-  manque: forme en -ni ; transitivité
-  groupe_fr: 3e
 sources:
 - radical: daga
   fr: partir
