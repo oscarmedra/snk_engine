@@ -14,6 +14,11 @@ Les règles appliquées ici sont exactement celles du moteur, exportées depuis
       placeholder="manger, daga, écrire…" size="24"></label>
     <datalist id="snk-verbs"></datalist>
     <label>Objet <select id="snk-obj"></select></label>
+    <label>Pronoms <select id="snk-serie">
+      <option value="tous">les deux séries</option>
+      <option value="longue">longs (nke, anke…)</option>
+      <option value="diminutif">diminutifs (n, an…)</option>
+    </select></label>
   </div>
   <p id="snk-about"></p>
   <div id="snk-out">Chargement…</div>
@@ -37,6 +42,7 @@ Les règles appliquées ici sont exactement celles du moteur, exportées depuis
   const D = await (await fetch('data.json', {cache: 'no-cache'})).json();
   const verbSel = document.getElementById('snk-verb');
   const objSel = document.getElementById('snk-obj');
+  const serieSel = document.getElementById('snk-serie');
   const out = document.getElementById('snk-out');
   const about = document.getElementById('snk-about');
 
@@ -95,7 +101,9 @@ Les règles appliquées ici sont exactement celles du moteur, exportées depuis
   };
 
   // --- affichage ----------------------------------------------------------
-  const pronouns = D.pronoms.map(p => p.forme).filter((v, i, a) => a.indexOf(v) === i);
+  const pronounsOf = serie => D.pronoms
+    .filter(p => serie === 'tous' || p.serie === serie)
+    .map(p => p.forme).filter((v, i, a) => a.indexOf(v) === i);
 
   // la saisie accepte le français comme le soninké
   const list = document.getElementById('snk-verbs');
@@ -150,7 +158,7 @@ Les règles appliquées ici sont exactement celles du moteur, exportées depuis
 
     let html = '';
     for (const [tense, t] of Object.entries(D.temps)) {
-      const rows = pronouns.map(p => [p, conjugate(verb, p, tense, obj)]);
+      const rows = pronounsOf(serieSel.value).map(p => [p, conjugate(verb, p, tense, obj)]);
       if (!rows.some(r => r[1])) continue;
       html += `<h3>${t.nom}</h3><table><tbody>` + rows.map(([p, f]) =>
         `<tr><td>${p}</td><td class="${!f ? 'snk-none' : f.confirme ? 'snk-form' : 'snk-propose'}">` +
@@ -160,6 +168,7 @@ Les règles appliquées ici sont exactement celles du moteur, exportées depuis
     out.innerHTML = html || '<p>Aucune forme confirmée pour ce verbe.</p>';
   };
 
+  serieSel.onchange = render;
   verbSel.oninput = render;
   verbSel.onchange = render;
   objSel.onchange = render;
