@@ -234,10 +234,11 @@ liste:
   source: liste du locuteur (2026-09-25)
   manque: forme en -ni ; transitivité
   groupe_fr: 3e
-- radical: yanga
+- radical: yanqa
   fr: descendre
-  nom_action: yanga-nde
+  nom_action: yanqa-nde
   source: liste du locuteur (2026-09-25)
+  note: corrigé par le locuteur le 2026-09-25 (yanga → yanqa)
   manque: forme en -ni ; transitivité
   groupe_fr: 3e
 - radical: nia
