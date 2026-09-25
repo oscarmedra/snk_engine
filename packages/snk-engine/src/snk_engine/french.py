@@ -16,6 +16,8 @@ AUX = {
     "etre": ["suis", "es", "est", "sommes", "êtes", "sont"],
 }
 FUTURE_ENDINGS = ["ai", "as", "a", "ons", "ez", "ont"]
+# « yi rini » est un futur proche : le français le rend par aller + infinitif
+ALLER = ["vais", "vas", "va", "allons", "allez", "vont"]
 PLURAL = {"1pl", "2pl", "3pl"}
 IMPERATIVE_SLOTS = {"2sg": 0, "1pl": 1, "2pl": 2}
 
@@ -107,9 +109,9 @@ def conjugate_fr(verb: FrenchVerb, person: str, tense: str, obj: str | None = No
     if tense == "progressive_watia":
         return _elide(subject, f"{AUX['etre'][i]} en train de {verb.french_infinitive}") + tail
     if tense == "future":
-        return _elide(subject, future) + tail
+        return _elide(subject, f"{ALLER[i]} {verb.french_infinitive}") + tail
     if tense == "past_negative":
         return _negate(subject, AUX[verb.aux][i], f"{participle}{tail}")
     if tense in ("future_negative", "future_negative_ntaxa"):
-        return _negate(subject, future, tail.strip())
+        return _negate(subject, ALLER[i], f"{verb.french_infinitive}{tail}")
     raise FrenchError(f"Temps sans traduction française : '{tense}'")

@@ -265,6 +265,116 @@
   "fr": "Et nous aurons assez de nourriture pour toute l'année."
  },
  {
+  "id": "repas-01",
+  "snk": "Ké lélé, n'ma yi yerexaté ké sorono.",
+  "fr": "Ce soir, ma mère prépare le repas."
+ },
+ {
+  "id": "repas-02",
+  "snk": "a yi sorékompé noxo.",
+  "fr": "Elle est dans la cuisine."
+ },
+ {
+  "id": "repas-03",
+  "snk": "A di yimbé kumu.",
+  "fr": "Elle allume le feu."
+ },
+ {
+  "id": "repas-04",
+  "snk": "A di barama taxundi, adi dji l'ro a noxo.",
+  "fr": "Elle met la marmite sur le feu et verse de l'eau dedans."
+ },
+ {
+  "id": "repas-05",
+  "snk": "a di maro ké wanqi, kémpalé adi bassalou ku kutu, ado tamau n'do tieh.",
+  "fr": "Elle lave le riz, puis elle coupe les oignons, les tomates et la viande."
+ },
+ {
+  "id": "repas-06",
+  "snk": "xoxoné yaxané ké yi bara ké sellana.",
+  "fr": "Ma petite sœur balaie la maison."
+ },
+ {
+  "id": "repas-07",
+  "snk": "nké yi nioŋono gédé.",
+  "fr": "Moi, j'apporte l'eau du puits."
+ },
+ {
+  "id": "repas-08",
+  "snk": "ngui yi suwaŋana.",
+  "fr": "Mon frère cherche du bois."
+ },
+ {
+  "id": "repas-09",
+  "snk": "Sapé ké na mina ?",
+  "fr": "Où est le sel ?"
+ },
+ {
+  "id": "repas-10",
+  "snk": "a faye sorékompé noxo, téh ké kara.",
+  "fr": "Il est dans la cuisine, à côté de l'huile."
+ },
+ {
+  "id": "repas-11",
+  "snk": "kudu xa kini ŋa, yampimaxa.",
+  "fr": "Donne-moi aussi une cuillère, s'il te plaît."
+ },
+ {
+  "id": "repas-12",
+  "snk": "yigandé ké duguta.",
+  "fr": "La nourriture est prête."
+ },
+ {
+  "id": "repas-13",
+  "snk": "n'ma di o su xiri.",
+  "fr": "Ma mère appelle tout le monde."
+ },
+ {
+  "id": "repas-14",
+  "snk": "o di o kitu wanqi, kempalé o taxu yagandé ké kama.",
+  "fr": "Nous nous lavons les mains, puis nous nous asseyons autour du plat."
+ },
+ {
+  "id": "repas-15",
+  "snk": "maro ké tayéni, a liŋéni.",
+  "fr": "Le riz est chaud. Il est bon."
+ },
+ {
+  "id": "repas-16",
+  "snk": "xoxoné ké wa yigené buru, dullé ni a ka ŋa.",
+  "fr": "Mon petit frère mange beaucoup ; il a très faim."
+ },
+ {
+  "id": "repas-17",
+  "snk": "n'paba du fo lémané ya yiga, bawoni a tampinté ni ya.",
+  "fr": "Mon père mange peu, parce qu'il est fatigué."
+ },
+ {
+  "id": "repas-18",
+  "snk": "yerexaté ké fallé, o di hatayé mini.",
+  "fr": "Après le repas, nous buvons du thé."
+ },
+ {
+  "id": "repas-19",
+  "snk": "n'ma wa xollo ku wanqini, nké wa déma na.",
+  "fr": "Ma mère lave les assiettes et je l'aide."
+ },
+ {
+  "id": "repas-20",
+  "snk": "n'guida ti ké dagana soxu féné, bawoni a goli ni ya xumbéné.",
+  "fr": "Mon frère dit qu'il ira dormir tôt, parce qu'il travaille demain matin."
+ },
+ {
+  "id": "repas-21",
+  "snk": "wuro l'ro, lomunu ku xénxé.",
+  "fr": "La nuit est venue, les enfants dorment déjà."
+ },
+ {
+  "id": "repas-22",
+  "snk": "sélla ké, mulé ni ya.",
+  "fr": "Dehors, il fait froid."
+ },
+ {
   "id": "travail-01",
   "snk": "Ké suxuba, nké guiri féné.",
   "fr": "Ce matin, je me suis réveillé tôt."

@@ -91,7 +91,7 @@
    "particule": true
   },
   "future": {
-   "nom": "futur",
+   "nom": "futur proche",
    "marqueur": "yi rini",
    "particule": true
   },
@@ -108,6 +108,24 @@
   "past_object": {
    "nom": "passé avec objet",
    "marqueur": "di",
+   "particule": true,
+   "objet": true,
+   "particule_verbe": true
+  },
+  "en_cours_wa": {
+   "nom": "action en cours (wa)",
+   "marqueur": "wa",
+   "particule": true
+  },
+  "en_cours_objet_wa": {
+   "nom": "action en cours avec objet (wa)",
+   "marqueur": "wa",
+   "objet": true,
+   "particule": true
+  },
+  "past_object_da": {
+   "nom": "passé avec objet (da)",
+   "marqueur": "da",
    "particule": true,
    "objet": true,
    "particule_verbe": true
@@ -172,11 +190,11 @@
    "marqueur": "maxa"
   },
   "future_negative": {
-   "nom": "négation – futur",
+   "nom": "négation – futur proche",
    "marqueur": "n'ti rini"
   },
   "future_negative_ntaxa": {
-   "nom": "négation – futur (n'taxa)",
+   "nom": "négation – futur proche (n'taxa)",
    "marqueur": "n'taxa rini"
   }
  },
@@ -238,6 +256,56 @@
     },
     "en_cours_objet": {
      "forme": "{gerondif_objet}",
+     "personnes": [
+      "nke",
+      "anke",
+      "ake",
+      "oku",
+      "xaku",
+      "iku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
+     ]
+    },
+    "en_cours_wa": {
+     "forme": "{gerondif}",
+     "personnes": [
+      "nke",
+      "anke",
+      "ake",
+      "oku",
+      "xaku",
+      "iku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
+     ]
+    },
+    "en_cours_objet_wa": {
+     "forme": "{gerondif_objet}",
+     "personnes": [
+      "nke",
+      "anke",
+      "ake",
+      "oku",
+      "xaku",
+      "iku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
+     ]
+    },
+    "past_object_da": {
      "personnes": [
       "nke",
       "anke",

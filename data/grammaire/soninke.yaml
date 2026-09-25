@@ -42,7 +42,7 @@ temps:
     suffixe: watia       # insiste sur le moment : « là, maintenant »
     particule: true      # anke m'fayi dagana watia
   future:
-    nom: futur
+    nom: futur proche     # « yi rini » : l'action est imminente, pas lointaine
     marqueur: yi rini
     particule: true
   demande:
@@ -134,11 +134,11 @@ temps:
     nom: négation – passé
     marqueur: maxa       # « toujours la même chose, on met juste maxa »
   future_negative:
-    nom: négation – futur
+    nom: négation – futur proche
     marqueur: "n'ti rini"    # + radical : anke n'ti rini daga
     # « anke n'ti dagana » (serie_02) était une erreur, corrigée le 2026-09-17
   future_negative_ntaxa:
-    nom: négation – futur (n'taxa)
+    nom: négation – futur proche (n'taxa)
     marqueur: "n'taxa rini"  # variante confirmée : anke n'taxa rini daga
 
 # Règles confirmées pour tous les verbes :

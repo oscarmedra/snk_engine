@@ -21,7 +21,7 @@ def fr2snk(text, lex):
         ("il a mangé le riz", "ake n'di maro ke n'yiga"),
         ("elle a bu le lait", "ake n'di xati ke m'mini"),
         ("je mange du riz tous les jours", "nke yi maro yigane koota su"),
-        ("tu partiras demain", "anke n'yi rini daga kumbene"),
+        ("tu vas partir demain", "anke n'yi rini daga kumbene"),
         ("nous ne sommes pas partis", "oku maxa daga"),
         ("mange le riz", "maro ke yiga"),          # l'impératif, pas la demande
         ("ne pars pas", "maxa daga"),
