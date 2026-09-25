@@ -199,10 +199,10 @@ classes:
       en_cours:        # confirmé : diminutifs sans particule, pronoms longs avec (n'yi)
         forme: "{gerondif}"
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
-      demande:         # confirmé 2026-09-20 : « na » exprime une demande, pas le présent
-        personnes: [nke, oku, n, an, a, o, xa, i]
-      demande_objet:   # confirmé : a na maro n'yiga
-        personnes: [nke, oku, n, an, a, o, xa, i]
+      demande:         # « na » exprime une demande ; les douze pronoms validés 2026-09-25
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      demande_objet:
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
       past_object:     # confirmé : ake n'di maro n'yiga, n di lemine n'wori, oku di lemine n'wori
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
       en_cours_do:     # confirmé : les trois façons de dire l'action en cours sont équivalentes
@@ -221,13 +221,15 @@ classes:
         personnes: [xa]
       past_negative:   # « toujours la même chose » ; diminutifs : « généralement » (retenu pour le moment)
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
-      future_negative:        # confirmé : nke, anke (serie_02 #23, serie_03 #6-7)
-        personnes: [nke, anke]
+      future_negative:        # les douze pronoms validés 2026-09-25
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
       future_negative_ntaxa:  # même construction avec n'taxa
-        personnes: [anke]
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      imminent:               # les douze pronoms validés 2026-09-25
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
       progressive_watia:  # serie_02 : nke fayi dagana watia, ake m'fayi yigene watia
         forme: "{gerondif}"
-        personnes: [nke, anke, ake, oku]
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
 
 verbes:
   dagaer:
@@ -246,8 +248,6 @@ verbes:
     gerondif: dagana
     classe: regulier
     conjugaison:
-      imminent:
-        personnes: [nke, anke]
 
   rier:
     fr: venir

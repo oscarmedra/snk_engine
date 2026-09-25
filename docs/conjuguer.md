@@ -10,7 +10,9 @@ Les règles appliquées ici sont exactement celles du moteur, exportées depuis
 
 <div id="snk-app">
   <div class="snk-controls">
-    <label>Verbe <select id="snk-verb"></select></label>
+    <label>Verbe <input id="snk-verb" list="snk-verbs" autocomplete="off"
+      placeholder="manger, daga, écrire…" size="24"></label>
+    <datalist id="snk-verbs"></datalist>
     <label>Objet <select id="snk-obj"></select></label>
   </div>
   <p id="snk-about"></p>
@@ -19,7 +21,9 @@ Les règles appliquées ici sont exactement celles du moteur, exportées depuis
 
 <style>
 #snk-app .snk-controls { display: flex; gap: 1.5rem; flex-wrap: wrap; margin-bottom: .5rem; }
-#snk-app select { padding: .3rem .5rem; }
+#snk-app select, #snk-app input { padding: .3rem .5rem; font: inherit; }
+#snk-app .snk-absent { color: #c62828; }
+#snk-app .snk-inventaire { color: #b26a00; }
 #snk-app h3 { margin: 1.2rem 0 .3rem; font-size: .95rem; text-transform: uppercase; letter-spacing: .04em; opacity: .75; }
 #snk-app table { width: 100%; }
 #snk-app td.snk-form { font-weight: 600; }
@@ -93,13 +97,43 @@ Les règles appliquées ici sont exactement celles du moteur, exportées depuis
   // --- affichage ----------------------------------------------------------
   const pronouns = D.pronoms.map(p => p.forme).filter((v, i, a) => a.indexOf(v) === i);
 
-  Object.entries(D.verbes).forEach(([name, v]) =>
-    verbSel.add(new Option(`${name} — ${v.fr}`, name)));
+  // la saisie accepte le français comme le soninké
+  const list = document.getElementById('snk-verbs');
+  const entries = Object.entries(D.verbes);
+  entries.forEach(([name, v]) => {
+    list.appendChild(Object.assign(document.createElement('option'),
+      {value: v.fr, label: `${v.fr} — ${v.forme}`}));
+    list.appendChild(Object.assign(document.createElement('option'), {value: v.forme, label: `${v.forme} — ${v.fr}`}));
+  });
+  const norm = t => (t || '').trim().toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const findVerb = text => {
+    const q = norm(text);
+    if (!q) return null;
+    const exact = entries.find(([name, v]) => [name, v.forme, v.fr].some(x => norm(x) === q));
+    if (exact) return exact[0];
+    const partial = entries.find(([name, v]) => [name, v.forme, v.fr].some(x => norm(x).startsWith(q)));
+    return partial ? partial[0] : null;
+  };
+  const inInventory = text => (D.inventaire || []).find(v =>
+    [v.radical, v.fr].some(x => norm(x) === norm(text)));
+  verbSel.value = entries[0][1].fr;
   objSel.add(new Option('(aucun)', ''));
   D.objets.forEach(o => objSel.add(new Option(`${o.snk} — ${o.fr}`, o.snk)));
 
   const render = () => {
-    const verb = verbSel.value;
+    const verb = findVerb(verbSel.value);
+    if (!verb) {
+      const known = inInventory(verbSel.value);
+      about.innerHTML = '';
+      out.innerHTML = known
+        ? `<p class="snk-inventaire"><b>${known.radical}</b> (${known.fr}) est connu du projet, mais pas encore
+           conjugable : il manque ${known.manque || 'des formes'}. Il apparaît dans le lexique, pas dans le moteur.</p>`
+        : `<p class="snk-absent">« ${verbSel.value} » est inconnu du moteur.</p>
+           <p>Écris un verbe en français (manger) ou son radical soninké (yige). La liste déroulante
+           propose les ${entries.length} verbes connus.</p>`;
+      return;
+    }
     const v = D.verbes[verb];
     const objOptions = D.objets.filter(o => !o.verbes || o.verbes.includes(verb));
     const current = objSel.value;
@@ -126,6 +160,7 @@ Les règles appliquées ici sont exactement celles du moteur, exportées depuis
     out.innerHTML = html || '<p>Aucune forme confirmée pour ce verbe.</p>';
   };
 
+  verbSel.oninput = render;
   verbSel.onchange = render;
   objSel.onchange = render;
   render();

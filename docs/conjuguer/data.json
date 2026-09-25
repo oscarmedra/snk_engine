@@ -396,7 +396,11 @@
     "demande": {
      "personnes": [
       "nke",
+      "anke",
+      "ake",
       "oku",
+      "xaku",
+      "iku",
       "n",
       "an",
       "a",
@@ -408,7 +412,11 @@
     "demande_objet": {
      "personnes": [
       "nke",
+      "anke",
+      "ake",
       "oku",
+      "xaku",
+      "iku",
       "n",
       "an",
       "a",
@@ -506,12 +514,49 @@
     "future_negative": {
      "personnes": [
       "nke",
-      "anke"
+      "anke",
+      "ake",
+      "oku",
+      "xaku",
+      "iku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
      ]
     },
     "future_negative_ntaxa": {
      "personnes": [
-      "anke"
+      "nke",
+      "anke",
+      "ake",
+      "oku",
+      "xaku",
+      "iku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
+     ]
+    },
+    "imminent": {
+     "personnes": [
+      "nke",
+      "anke",
+      "ake",
+      "oku",
+      "xaku",
+      "iku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
      ]
     },
     "progressive_watia": {
@@ -520,7 +565,15 @@
       "nke",
       "anke",
       "ake",
-      "oku"
+      "oku",
+      "xaku",
+      "iku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
      ]
     }
    }
@@ -568,14 +621,7 @@
    "nom_action": "dagaye",
    "gerondif": "dagana",
    "classe": "regulier",
-   "conjugaison": {
-    "imminent": {
-     "personnes": [
-      "nke",
-      "anke"
-     ]
-    }
-   }
+   "conjugaison": null
   },
   "rier": {
    "fr": "venir",
@@ -8316,6 +8362,238 @@
     "wori"
    ],
    "source": "serie_03 #16"
+  }
+ ],
+ "inventaire": [
+  {
+   "radical": "mini",
+   "fr": "boire",
+   "manque": "infinitif"
+  },
+  {
+   "radical": "goli",
+   "fr": "travailler",
+   "manque": "infinitif ; variante ake n'golinia ?"
+  },
+  {
+   "radical": "wori",
+   "fr": "voir",
+   "manque": "infinitif"
+  },
+  {
+   "radical": "xenxe",
+   "fr": "dormir",
+   "manque": "infinitif"
+  },
+  {
+   "radical": "mara",
+   "fr": "?",
+   "manque": "sens"
+  },
+  {
+   "radical": "mama",
+   "fr": "faire mal",
+   "manque": ""
+  },
+  {
+   "radical": "kita",
+   "fr": "avoir",
+   "manque": ""
+  },
+  {
+   "radical": "xobo",
+   "fr": "acheter",
+   "manque": "infinitif ; forme sans objet"
+  },
+  {
+   "radical": "safa",
+   "fr": "écrire",
+   "manque": "infinitif ; forme sans objet"
+  },
+  {
+   "radical": "guiri",
+   "fr": "se lever",
+   "manque": ""
+  },
+  {
+   "radical": "guilli",
+   "fr": "se réveiller",
+   "manque": ""
+  },
+  {
+   "radical": "wanqi",
+   "fr": "laver / se laver",
+   "manque": ""
+  },
+  {
+   "radical": "deberi",
+   "fr": "préparer / faire",
+   "manque": ""
+  },
+  {
+   "radical": "baka",
+   "fr": "sortir",
+   "manque": ""
+  },
+  {
+   "radical": "londi",
+   "fr": "mettre (un vêtement)",
+   "manque": ""
+  },
+  {
+   "radical": "sagata",
+   "fr": "rejoindre",
+   "manque": ""
+  },
+  {
+   "radical": "tere",
+   "fr": "marcher",
+   "manque": ""
+  },
+  {
+   "radical": "qawa",
+   "fr": "devoir / falloir",
+   "manque": ""
+  },
+  {
+   "radical": "xobo",
+   "fr": "acheter",
+   "manque": ""
+  },
+  {
+   "radical": "tirindi",
+   "fr": "demander",
+   "manque": ""
+  },
+  {
+   "radical": "ti",
+   "fr": "dire",
+   "manque": ""
+  },
+  {
+   "radical": "nko",
+   "fr": "raconter / dire",
+   "manque": ""
+  },
+  {
+   "radical": "mula",
+   "fr": "vouloir",
+   "manque": ""
+  },
+  {
+   "radical": "koyi",
+   "fr": "montrer",
+   "manque": ""
+  },
+  {
+   "radical": "ro",
+   "fr": "entrer",
+   "manque": ""
+  },
+  {
+   "radical": "tuga",
+   "fr": "payer",
+   "manque": ""
+  },
+  {
+   "radical": "kini",
+   "fr": "donner",
+   "manque": ""
+  },
+  {
+   "radical": "nawari",
+   "fr": "remercier",
+   "manque": ""
+  },
+  {
+   "radical": "soro",
+   "fr": "cuisiner",
+   "manque": ""
+  },
+  {
+   "radical": "diompa",
+   "fr": "commencer",
+   "manque": ""
+  },
+  {
+   "radical": "sella",
+   "fr": "balayer",
+   "manque": ""
+  },
+  {
+   "radical": "terinka",
+   "fr": "écouter",
+   "manque": ""
+  },
+  {
+   "radical": "xara",
+   "fr": "lire / apprendre",
+   "manque": ""
+  },
+  {
+   "radical": "safandi",
+   "fr": "écrire",
+   "manque": ""
+  },
+  {
+   "radical": "famu",
+   "fr": "comprendre",
+   "manque": ""
+  },
+  {
+   "radical": "jabi",
+   "fr": "répondre",
+   "manque": ""
+  },
+  {
+   "radical": "fatampachi",
+   "fr": "expliquer",
+   "manque": ""
+  },
+  {
+   "radical": "sanga",
+   "fr": "jouer",
+   "manque": ""
+  },
+  {
+   "radical": "dangi",
+   "fr": "passer",
+   "manque": ""
+  },
+  {
+   "radical": "sirondi",
+   "fr": "préparer / arranger",
+   "manque": ""
+  },
+  {
+   "radical": "soxu",
+   "fr": "se coucher",
+   "manque": ""
+  },
+  {
+   "radical": "bisimilah",
+   "fr": "accueillir",
+   "manque": ""
+  },
+  {
+   "radical": "riyi",
+   "fr": "venir",
+   "manque": ""
+  },
+  {
+   "radical": "fayi",
+   "fr": "regarder",
+   "manque": ""
+  },
+  {
+   "radical": "mine",
+   "fr": "boire",
+   "manque": ""
+  },
+  {
+   "radical": "golinia",
+   "fr": "travailler",
+   "manque": ""
   }
  ]
 }

@@ -180,8 +180,8 @@ def test_demande_with_object():
     e = default_engine()
     assert e.conjugate("yigeyer", "a", "demande_objet", "maro") == "a na maro n'yiga"
     assert e.conjugate("mini", "n", "demande_objet", "xati") == "n na xati m'mini"
-    with pytest.raises(ConjugationNotDefinedError):   # particule avec ake : à confirmer
-        e.conjugate("yigeyer", "ake", "demande")
+    # « na » ne prend pas la particule : validé tel quel le 2026-09-25
+    assert e.conjugate("yigeyer", "ake", "demande") == "ake na yige"
 
 
 def test_object_is_required_and_refused():
@@ -263,11 +263,11 @@ def test_particle_never_for_nke_oku():
 @pytest.mark.parametrize(
     "verb, subject, tense",
     [
-        ("dagaer", "xaku", "imminent"),  # particule avec xaku/iku au progressif : à confirmer
-        ("dagaer", "ake", "future_negative"),  # seulement nke et anke confirmés
-        ("sefeer", "nke", "imminent"),
-        ("dagaer", "iku", "progressive_watia"),  # particule avec iku au progressif : à confirmer
-        ("dagaer", "a", "imminent"),
+        ("wutu", "nke", "en_cours"),          # « wutu » n'a pas encore de forme en -ni
+        ("dagaer", "nke", "en_cours_objet"),  # « daga » n'a pas de forme à objet
+        ("sefeer", "nke", "en_cours_objet"),
+        ("yigeyer", "nke", "imperatif_pluriel"),   # l'impératif pluriel n'a que « xa »
+        ("dagaer", "ake", "imperatif"),            # l'impératif n'a pas de sujet
     ],
 )
 def test_unconfirmed_forms_are_refused(verb, subject, tense):

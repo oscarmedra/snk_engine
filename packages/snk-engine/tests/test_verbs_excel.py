@@ -24,7 +24,8 @@ def test_export_contains_full_predicates(tmp_path):
         "n": "daga", "an": "daga", "a": "daga", "o": "daga", "xa": "daga", "i": "daga",
     }
     assert verbs["dagaer"]["conjugaison"]["future"]["formes"]["anke"] == "n'yi rini daga"
-    assert verbs["dagaer"]["conjugaison"]["imminent"]["formes"] == {"nke": "fayi rini daga", "anke": "m'fayi rini daga"}
+    imminent = verbs["dagaer"]["conjugaison"]["imminent"]["formes"]
+    assert imminent["nke"] == "fayi rini daga" and imminent["ake"] == "m'fayi rini daga"
     assert verbs["rier"]["conjugaison"]["past"]["formes"]["xaku"] == "l'ri"
 
 

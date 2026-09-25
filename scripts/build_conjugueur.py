@@ -21,6 +21,14 @@ def main() -> None:
             "classes": grammaire["classes"],
             "verbes": grammaire["verbes"],
             "objets": objets.get("objets", []),
+            # verbes connus mais pas encore conjugables : pour que la saisie sache les nommer
+            "inventaire": [
+                {"radical": v.get("radical"), "fr": v.get("fr"), "manque": v.get("manque", "")}
+                for section in ("locuteur", "liste", "variantes")
+                for v in (yaml.safe_load((ROOT / "data/references/verbes.yaml").read_text(encoding="utf-8"))
+                          .get(section) or [])
+                if v.get("radical") and v.get("radical") != "?"
+            ],
         }, ensure_ascii=False, indent=1),
         encoding="utf-8",
     )
