@@ -13,7 +13,7 @@ corpus parallèle soninké-français public n'existait au moment où ce projet a
 |---|---|
 | 📖 **Documentation** | <https://oscarmedra.github.io/snk_engine/> |
 | 🔎 **Traduire** — soninké ⇄ français, pendant la frappe | <https://oscarmedra.github.io/snk_engine/comprendre/> |
-| 🎛️ **Playground** — conjuguer un verbe dans le navigateur | <https://oscarmedra.github.io/snk_engine/playground/> |
+| 🎛️ **Conjuguer** — conjuguer un verbe dans le navigateur | <https://oscarmedra.github.io/snk_engine/conjuguer/> |
 | 📚 **Le lexique** | <https://oscarmedra.github.io/snk_engine/langue/lexique/> |
 | 🧩 **La particule**, la règle centrale de la langue | <https://oscarmedra.github.io/snk_engine/langue/particule/> |
 

@@ -184,13 +184,26 @@ class ConjugationEngine:
         v = self.verbs.get(_nfc(verb))
         return bool(v and (v.rules or v.conjugation_class))
 
-    def conjugate(self, verb: str, subject: str, tense: str, obj: str | None = None) -> str:
-        predicate = self.predicate(verb, subject, tense, obj)
+    def conjugate(self, verb: str, subject: str, tense: str, obj: str | None = None,
+                  strict: bool = True) -> str:
+        predicate = self.predicate(verb, subject, tense, obj, strict)
         if tense in self.tenses and self.tenses[tense].no_subject:
             return predicate
         return f"{_nfc(subject)} {predicate}"
 
-    def predicate(self, verb: str, subject: str, tense: str, obj: str | None = None) -> str:
+    def propose(self, verb: str, subject: str, tense: str, obj: str | None = None) -> tuple[str, bool]:
+        """Forme confirmée si elle existe ; sinon la forme que les règles prévoient.
+
+        Le second élément dit si la forme est confirmée. Une proposition n'entre
+        jamais dans le corpus : elle sert à être soumise au locuteur.
+        """
+        try:
+            return self.conjugate(verb, subject, tense, obj), True
+        except ConjugationNotDefinedError:
+            return self.conjugate(verb, subject, tense, obj, strict=False), False
+
+    def predicate(self, verb: str, subject: str, tense: str, obj: str | None = None,
+                  strict: bool = True) -> str:
         """Tout ce qui suit le sujet : particule + marqueur (+ objet) + forme verbale."""
         subject = _nfc(subject)
         t = self.tenses[tense] if tense in self.tenses else None
@@ -199,7 +212,7 @@ class ConjugationEngine:
                 raise ConjugationNotDefinedError(f"Le temps '{tense}' demande un objet")
             if obj is not None and not t.object:
                 raise ConjugationNotDefinedError(f"Le temps '{tense}' ne prend pas d'objet")
-        form = self.verb_form(verb, subject, tense, obj is not None)
+        form = self.verb_form(verb, subject, tense, obj is not None, strict)
         t = self.tenses[tense]
         if t.verb_particle:
             form = self.particle(form) + form
@@ -208,7 +221,8 @@ class ConjugationEngine:
             words = self.particle(words) + words
         return words
 
-    def verb_form(self, verb: str, subject: str, tense: str, with_object: bool = False) -> str:
+    def verb_form(self, verb: str, subject: str, tense: str, with_object: bool = False,
+                  strict: bool = True) -> str:
         """Forme verbale seule, sans sujet ni marqueur de temps."""
         verb, subject = _nfc(verb), _nfc(subject)
         v = self.verbs.get(verb)
@@ -224,7 +238,7 @@ class ConjugationEngine:
         rules = self._rules(v, tense)
         if not rules:
             raise ConjugationNotDefinedError(f"Conjugation rule not defined for verb '{verb}' in tense '{tense}'")
-        if not any(subject in r.persons for r in rules):
+        if strict and not any(subject in r.persons for r in rules):
             raise ConjugationNotDefinedError(
                 f"Form not confirmed for verb '{verb}', subject '{subject}', tense '{tense}'"
             )

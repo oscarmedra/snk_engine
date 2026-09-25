@@ -1,8 +1,12 @@
-# Playground
+# Conjuguer un verbe
 
-Choisis un verbe : le tableau donne sa conjugaison à tous les temps confirmés.
+Choisis un verbe : le tableau donne sa conjugaison à tous les temps.
+
+Les formes **confirmées** par le locuteur sont en gras ; les **propositions**, que les
+règles produisent mais que personne n'a encore validées, sont en orange. Elles n'entrent
+pas dans le corpus tant qu'elles n'ont pas été relues.
 Les règles appliquées ici sont exactement celles du moteur, exportées depuis
-`data/grammaire/` (`scripts/build_playground.py`).
+`data/grammaire/` (`scripts/build_conjugueur.py`).
 
 <div id="snk-app">
   <div class="snk-controls">
@@ -19,6 +23,7 @@ Les règles appliquées ici sont exactement celles du moteur, exportées depuis
 #snk-app h3 { margin: 1.2rem 0 .3rem; font-size: .95rem; text-transform: uppercase; letter-spacing: .04em; opacity: .75; }
 #snk-app table { width: 100%; }
 #snk-app td.snk-form { font-weight: 600; }
+#snk-app td.snk-propose { color: #b26a00; font-weight: 400; }
 #snk-app td.snk-none { opacity: .45; font-style: italic; font-weight: 400; }
 #snk-app .snk-note { font-size: .85rem; opacity: .7; }
 </style>
@@ -54,7 +59,7 @@ Les règles appliquées ici sont exactement celles du moteur, exportées depuis
     const rules = rulesFor(verb, tense);
     if (!rules.length) return null;
     const persons = new Set(rules.flatMap(r => (r.personnes || []).concat(Object.keys(r.formes || {}))));
-    if (!persons.has(pronoun)) return null;
+    const confirmed = persons.has(pronoun);   // sinon : la règle propose, sans confirmation
     if (t.objet && !obj) return null;
 
     let form = null;
@@ -82,7 +87,7 @@ Les règles appliquées ici sont exactement celles du moteur, exportées depuis
       if (p === null) return null;
       words = p + words;
     }
-    return `${pronoun} ${words}`;
+    return {forme: `${pronoun} ${words}`, confirme: confirmed};
   };
 
   // --- affichage ----------------------------------------------------------
@@ -114,7 +119,8 @@ Les règles appliquées ici sont exactement celles du moteur, exportées depuis
       const rows = pronouns.map(p => [p, conjugate(verb, p, tense, obj)]);
       if (!rows.some(r => r[1])) continue;
       html += `<h3>${t.nom}</h3><table><tbody>` + rows.map(([p, f]) =>
-        `<tr><td>${p}</td><td class="${f ? 'snk-form' : 'snk-none'}">${f || 'non confirmé'}</td></tr>`
+        `<tr><td>${p}</td><td class="${!f ? 'snk-none' : f.confirme ? 'snk-form' : 'snk-propose'}">` +
+        `${f ? f.forme : 'forme inconnue'}${f && !f.confirme ? ' <small>(proposition)</small>' : ''}</td></tr>`
       ).join('') + '</tbody></table>';
     }
     out.innerHTML = html || '<p>Aucune forme confirmée pour ce verbe.</p>';
@@ -126,7 +132,12 @@ Les règles appliquées ici sont exactement celles du moteur, exportées depuis
 })();
 </script>
 
-!!! note "Pourquoi certaines cases disent « non confirmé »"
-    Le moteur ne produit que ce que le locuteur a validé. Une case vide n'est pas un
-    oubli : c'est une forme qu'on n'a pas encore recueillie, et qu'il serait faux
-    d'inventer.
+!!! note "Confirmé, proposé, inconnu"
+    **En gras** : la forme vient d'une phrase donnée par le locuteur, ou d'une règle
+    qu'il a validée.
+
+    **En orange** : la règle prévoit cette forme, mais personne ne l'a encore vérifiée.
+    C'est une proposition à corriger, pas une affirmation — et elle reste hors du corpus.
+
+    **Vide** : même les règles ne suffisent pas, faute d'une forme du verbe (par exemple
+    sa forme en -ni) ou d'une particule confirmée pour cette initiale.

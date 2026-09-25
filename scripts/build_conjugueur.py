@@ -1,4 +1,4 @@
-"""Exporte les règles du moteur en JSON pour le playground web (docs/playground/)."""
+"""Exporte les règles du moteur en JSON pour le conjuguer web (docs/conjuguer/)."""
 
 import json
 from pathlib import Path
@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def main() -> None:
     grammaire = yaml.safe_load((ROOT / "data/grammaire/soninke.yaml").read_text(encoding="utf-8"))
     objets = yaml.safe_load((ROOT / "data/grammaire/objets.yaml").read_text(encoding="utf-8"))
-    out = ROOT / "docs" / "playground"
+    out = ROOT / "docs" / "conjuguer"
     out.mkdir(parents=True, exist_ok=True)
     (out / "data.json").write_text(
         json.dumps({

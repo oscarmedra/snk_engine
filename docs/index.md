@@ -25,7 +25,7 @@ contredit une ancienne, les tests échouent, et la contradiction est soumise au 
 
 ## Essayer tout de suite
 
-Le [**playground**](playground.md) conjugue n'importe quel verbe du moteur à tous les
+Le [**conjuguer**](conjuguer.md) conjugue n'importe quel verbe du moteur à tous les
 temps confirmés, directement dans le navigateur.
 
 ## Par où commencer
