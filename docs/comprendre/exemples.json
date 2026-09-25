@@ -1628,5 +1628,1005 @@
   "id": "v-200",
   "snk": "a yi golini lenki",
   "fr": "il travaille aujourd'hui"
+ },
+ {
+  "id": "v-001",
+  "snk": "o na daga lenki",
+  "fr": "partons aujourd'hui"
+ },
+ {
+  "id": "v-002",
+  "snk": "xaku n'yi dagana waxati su",
+  "fr": "vous partez à tout moment"
+ },
+ {
+  "id": "v-003",
+  "snk": "n do dagaye ni ya me",
+  "fr": "je suis en train de partir"
+ },
+ {
+  "id": "v-004",
+  "snk": "a fayi dagana",
+  "fr": "il part"
+ },
+ {
+  "id": "v-005",
+  "snk": "xa wa dagana saxa",
+  "fr": "vous partez au marché"
+ },
+ {
+  "id": "v-006",
+  "snk": "iku n'yi rini daga",
+  "fr": "ils vont partir"
+ },
+ {
+  "id": "v-007",
+  "snk": "i rini daga",
+  "fr": "ils partiront"
+ },
+ {
+  "id": "v-008",
+  "snk": "a daga",
+  "fr": "il est parti"
+ },
+ {
+  "id": "v-009",
+  "snk": "a maxa daga",
+  "fr": "il n'est pas parti"
+ },
+ {
+  "id": "v-010",
+  "snk": "nke fayi dagana watia",
+  "fr": "je suis en train de partir"
+ },
+ {
+  "id": "v-011",
+  "snk": "nke na faye saxa",
+  "fr": "que je regarde au marché"
+ },
+ {
+  "id": "v-012",
+  "snk": "o yi fayeni",
+  "fr": "nous regardons"
+ },
+ {
+  "id": "v-013",
+  "snk": "ake n'do fayinde ni ya me",
+  "fr": "il est en train de regarder"
+ },
+ {
+  "id": "v-014",
+  "snk": "o fayi fayeni",
+  "fr": "nous regardons"
+ },
+ {
+  "id": "v-015",
+  "snk": "nke wa fayeni",
+  "fr": "je regarde"
+ },
+ {
+  "id": "v-016",
+  "snk": "o yi rini faye",
+  "fr": "nous allons regarder"
+ },
+ {
+  "id": "v-017",
+  "snk": "xaku l'rini faye",
+  "fr": "vous regarderez"
+ },
+ {
+  "id": "v-018",
+  "snk": "n faye",
+  "fr": "j'ai regardé"
+ },
+ {
+  "id": "v-019",
+  "snk": "oku maxa faye",
+  "fr": "nous n'avons pas regardé"
+ },
+ {
+  "id": "v-020",
+  "snk": "anke m'fayi fayeni watia",
+  "fr": "tu es en train de regarder"
+ },
+ {
+  "id": "v-021",
+  "snk": "o na goli",
+  "fr": "travaillons"
+ },
+ {
+  "id": "v-022",
+  "snk": "n yi golini koota su",
+  "fr": "je travaille tous les jours"
+ },
+ {
+  "id": "v-023",
+  "snk": "xaku n'do goliye ni ya me",
+  "fr": "vous êtes en train de travailler"
+ },
+ {
+  "id": "v-024",
+  "snk": "an fayi golini koota su",
+  "fr": "tu travailles tous les jours"
+ },
+ {
+  "id": "v-025",
+  "snk": "a wa golini saxa",
+  "fr": "il travaille au marché"
+ },
+ {
+  "id": "v-026",
+  "snk": "an yi rini goli kumbene",
+  "fr": "tu vas travailler demain"
+ },
+ {
+  "id": "v-027",
+  "snk": "n rini goli saxa",
+  "fr": "je travaillerai au marché"
+ },
+ {
+  "id": "v-028",
+  "snk": "nke n'ti rini goli",
+  "fr": "je ne vais pas travailler"
+ },
+ {
+  "id": "v-029",
+  "snk": "an goli saxa",
+  "fr": "tu as travaillé au marché"
+ },
+ {
+  "id": "v-030",
+  "snk": "iku maxa goli",
+  "fr": "ils n'ont pas travaillé"
+ },
+ {
+  "id": "v-031",
+  "snk": "nke fayi golini watia",
+  "fr": "je suis en train de travailler"
+ },
+ {
+  "id": "v-032",
+  "snk": "o na mini",
+  "fr": "buvons"
+ },
+ {
+  "id": "v-033",
+  "snk": "o na xati ke m'mini lenki",
+  "fr": "buvons le lait aujourd'hui"
+ },
+ {
+  "id": "v-034",
+  "snk": "anke n'yi minini saxa",
+  "fr": "tu bois au marché"
+ },
+ {
+  "id": "v-035",
+  "snk": "xa do mine ni ya me",
+  "fr": "vous êtes en train de boire"
+ },
+ {
+  "id": "v-036",
+  "snk": "anke m'fayi minini waxati su",
+  "fr": "tu bois à tout moment"
+ },
+ {
+  "id": "v-037",
+  "snk": "anke n'do xati ke mine ni ya me",
+  "fr": "tu es en train de boire le lait"
+ },
+ {
+  "id": "v-038",
+  "snk": "xa wa minini",
+  "fr": "vous buvez"
+ },
+ {
+  "id": "v-039",
+  "snk": "oku yi rini mini",
+  "fr": "nous allons boire"
+ },
+ {
+  "id": "v-040",
+  "snk": "ake l'rini mini",
+  "fr": "il boira"
+ },
+ {
+  "id": "v-041",
+  "snk": "nke n'ti rini mini",
+  "fr": "je ne vais pas boire"
+ },
+ {
+  "id": "v-042",
+  "snk": "xati mini",
+  "fr": "bois du lait"
+ },
+ {
+  "id": "v-043",
+  "snk": "iku m'mini daru",
+  "fr": "ils ont bu hier"
+ },
+ {
+  "id": "v-044",
+  "snk": "a maxa mini",
+  "fr": "il n'a pas bu"
+ },
+ {
+  "id": "v-045",
+  "snk": "oku di xati ke m'mini",
+  "fr": "nous avons bu le lait"
+ },
+ {
+  "id": "v-046",
+  "snk": "ake n'da xati m'mini saxa",
+  "fr": "il a bu du lait au marché"
+ },
+ {
+  "id": "v-047",
+  "snk": "oku fayi minini watia",
+  "fr": "nous sommes en train de boire"
+ },
+ {
+  "id": "v-048",
+  "snk": "a na ri saxa",
+  "fr": "qu'il vienne au marché"
+ },
+ {
+  "id": "v-049",
+  "snk": "anke n'yi rini lenki",
+  "fr": "tu viens aujourd'hui"
+ },
+ {
+  "id": "v-050",
+  "snk": "xaku n'do riye ni ya me saxa",
+  "fr": "vous êtes en train de venir au marché"
+ },
+ {
+  "id": "v-051",
+  "snk": "anke m'fayi rini koota su",
+  "fr": "tu viens tous les jours"
+ },
+ {
+  "id": "v-052",
+  "snk": "n wa rini saxa",
+  "fr": "je viens au marché"
+ },
+ {
+  "id": "v-053",
+  "snk": "oku yi rini saxa",
+  "fr": "nous allons venir au marché"
+ },
+ {
+  "id": "v-054",
+  "snk": "n rini riya",
+  "fr": "je viendrai"
+ },
+ {
+  "id": "v-055",
+  "snk": "iku n'ti rini",
+  "fr": "ils ne vont pas venir"
+ },
+ {
+  "id": "v-056",
+  "snk": "a ri lenki",
+  "fr": "il est venu aujourd'hui"
+ },
+ {
+  "id": "v-057",
+  "snk": "o maxa ri",
+  "fr": "nous ne sommes pas venus"
+ },
+ {
+  "id": "v-058",
+  "snk": "anke m'fayi rini watia",
+  "fr": "tu es en train de venir"
+ },
+ {
+  "id": "v-059",
+  "snk": "i na safa saxa",
+  "fr": "qu'ils écrivent au marché"
+ },
+ {
+  "id": "v-060",
+  "snk": "a na lettra n'safa",
+  "fr": "qu'il écrive une lettre"
+ },
+ {
+  "id": "v-061",
+  "snk": "a yi safana",
+  "fr": "il écrit"
+ },
+ {
+  "id": "v-062",
+  "snk": "iku n'do safande ni ya me saxa",
+  "fr": "ils sont en train de écrire au marché"
+ },
+ {
+  "id": "v-063",
+  "snk": "ake m'fayi safana waxati su",
+  "fr": "il écrit à tout moment"
+ },
+ {
+  "id": "v-064",
+  "snk": "i yi lettra safana saxa",
+  "fr": "ils écrivent une lettre au marché"
+ },
+ {
+  "id": "v-065",
+  "snk": "iku n'do lettra safande ni ya me",
+  "fr": "ils sont en train de écrire une lettre"
+ },
+ {
+  "id": "v-066",
+  "snk": "o fayi lettra safana",
+  "fr": "nous écrivons une lettre"
+ },
+ {
+  "id": "v-067",
+  "snk": "n wa lettra safana",
+  "fr": "j'écris une lettre"
+ },
+ {
+  "id": "v-068",
+  "snk": "ake ŋ'wa safana saxa",
+  "fr": "il écrit au marché"
+ },
+ {
+  "id": "v-069",
+  "snk": "iku n'yi rini safa saxa",
+  "fr": "ils vont écrire au marché"
+ },
+ {
+  "id": "v-070",
+  "snk": "xa rini safa saxa",
+  "fr": "vous écrirez au marché"
+ },
+ {
+  "id": "v-071",
+  "snk": "anke n'ti rini safa",
+  "fr": "tu ne vas pas écrire"
+ },
+ {
+  "id": "v-072",
+  "snk": "lettra safa",
+  "fr": "écris une lettre"
+ },
+ {
+  "id": "v-073",
+  "snk": "i safa saxa",
+  "fr": "ils ont écrit au marché"
+ },
+ {
+  "id": "v-074",
+  "snk": "o maxa safa",
+  "fr": "nous n'avons pas écrit"
+ },
+ {
+  "id": "v-075",
+  "snk": "a di lettra ke n'safa lenki",
+  "fr": "il a écrit la lettre aujourd'hui"
+ },
+ {
+  "id": "v-076",
+  "snk": "ake n'da lettra ke n'safa saxa",
+  "fr": "il a écrit la lettre au marché"
+ },
+ {
+  "id": "v-077",
+  "snk": "ake m'fayi safana watia",
+  "fr": "il est en train de écrire"
+ },
+ {
+  "id": "v-078",
+  "snk": "n na sefe lenki",
+  "fr": "que je parle aujourd'hui"
+ },
+ {
+  "id": "v-079",
+  "snk": "n yi sefene waxati su",
+  "fr": "je parle à tout moment"
+ },
+ {
+  "id": "v-080",
+  "snk": "a do sefeye ni ya me saxa",
+  "fr": "il est en train de parler au marché"
+ },
+ {
+  "id": "v-081",
+  "snk": "nke fayi sefene waxati su",
+  "fr": "je parle à tout moment"
+ },
+ {
+  "id": "v-082",
+  "snk": "ake ŋ'wa sefene saxa",
+  "fr": "il parle au marché"
+ },
+ {
+  "id": "v-083",
+  "snk": "n yi rini sefe saxa",
+  "fr": "je vais parler au marché"
+ },
+ {
+  "id": "v-084",
+  "snk": "an rini sefe saxa",
+  "fr": "tu parleras au marché"
+ },
+ {
+  "id": "v-085",
+  "snk": "anke n'ti rini sefe",
+  "fr": "tu ne vas pas parler"
+ },
+ {
+  "id": "v-086",
+  "snk": "n sefe saxa",
+  "fr": "j'ai parlé au marché"
+ },
+ {
+  "id": "v-087",
+  "snk": "n maxa sefe",
+  "fr": "je n'ai pas parlé"
+ },
+ {
+  "id": "v-088",
+  "snk": "anke m'fayi sefene watia",
+  "fr": "tu es en train de parler"
+ },
+ {
+  "id": "v-089",
+  "snk": "i na wori lenki",
+  "fr": "qu'ils voient aujourd'hui"
+ },
+ {
+  "id": "v-090",
+  "snk": "a na maro ke ŋ'wori",
+  "fr": "qu'il voie le riz"
+ },
+ {
+  "id": "v-091",
+  "snk": "n yi worini",
+  "fr": "je vois"
+ },
+ {
+  "id": "v-092",
+  "snk": "oku do woriye ni ya me saxa",
+  "fr": "nous sommes en train de voir au marché"
+ },
+ {
+  "id": "v-093",
+  "snk": "xa fayi worini",
+  "fr": "vous voyez"
+ },
+ {
+  "id": "v-094",
+  "snk": "n do maro ke woriye ni ya me saxa",
+  "fr": "je suis en train de voir le riz au marché"
+ },
+ {
+  "id": "v-095",
+  "snk": "i wa worini saxa",
+  "fr": "ils voient au marché"
+ },
+ {
+  "id": "v-096",
+  "snk": "oku yi rini wori kumbene",
+  "fr": "nous allons voir demain"
+ },
+ {
+  "id": "v-097",
+  "snk": "o rini wori",
+  "fr": "nous verrons"
+ },
+ {
+  "id": "v-098",
+  "snk": "nke n'ti rini wori",
+  "fr": "je ne vais pas voir"
+ },
+ {
+  "id": "v-099",
+  "snk": "lemine ke wori",
+  "fr": "vois l'enfant"
+ },
+ {
+  "id": "v-100",
+  "snk": "ake ŋ'wori saxa",
+  "fr": "il a vu au marché"
+ },
+ {
+  "id": "v-101",
+  "snk": "oku maxa wori",
+  "fr": "nous n'avons pas vu"
+ },
+ {
+  "id": "v-102",
+  "snk": "ake n'di lettra ke ŋ'wori daru",
+  "fr": "il a vu la lettre hier"
+ },
+ {
+  "id": "v-103",
+  "snk": "xa da lettra ŋ'wori saxa",
+  "fr": "vous avez vu une lettre au marché"
+ },
+ {
+  "id": "v-104",
+  "snk": "ake m'fayi worini watia",
+  "fr": "il est en train de voir"
+ },
+ {
+  "id": "v-105",
+  "snk": "oku na wuru lenki",
+  "fr": "courons aujourd'hui"
+ },
+ {
+  "id": "v-106",
+  "snk": "xaku n'yi wurunu",
+  "fr": "vous courez"
+ },
+ {
+  "id": "v-107",
+  "snk": "xaku n'do wuruye ni ya me saxa",
+  "fr": "vous êtes en train de courir au marché"
+ },
+ {
+  "id": "v-108",
+  "snk": "xa fayi wurunu",
+  "fr": "vous courez"
+ },
+ {
+  "id": "v-109",
+  "snk": "xa wa wurunu saxa",
+  "fr": "vous courez au marché"
+ },
+ {
+  "id": "v-110",
+  "snk": "xa yi rini wuru saxa",
+  "fr": "vous allez courir au marché"
+ },
+ {
+  "id": "v-111",
+  "snk": "an rini wuru saxa",
+  "fr": "tu courras au marché"
+ },
+ {
+  "id": "v-112",
+  "snk": "nke n'ti rini wuru",
+  "fr": "je ne vais pas courir"
+ },
+ {
+  "id": "v-113",
+  "snk": "ake ŋ'wuru daru",
+  "fr": "il a couru hier"
+ },
+ {
+  "id": "v-114",
+  "snk": "n maxa wuru",
+  "fr": "je n'ai pas couru"
+ },
+ {
+  "id": "v-115",
+  "snk": "anke m'fayi wurunu watia",
+  "fr": "tu es en train de courir"
+ },
+ {
+  "id": "v-116",
+  "snk": "oku na wutu lenki",
+  "fr": "prenons aujourd'hui"
+ },
+ {
+  "id": "v-117",
+  "snk": "oku do wutunde ni ya me",
+  "fr": "nous sommes en train de prendre"
+ },
+ {
+  "id": "v-118",
+  "snk": "iku n'yi rini wutu saxa",
+  "fr": "ils vont prendre au marché"
+ },
+ {
+  "id": "v-119",
+  "snk": "xa rini wutu",
+  "fr": "vous prendrez"
+ },
+ {
+  "id": "v-120",
+  "snk": "nke n'ti rini wutu",
+  "fr": "je ne vais pas prendre"
+ },
+ {
+  "id": "v-121",
+  "snk": "o wutu lenki",
+  "fr": "nous avons pris aujourd'hui"
+ },
+ {
+  "id": "v-122",
+  "snk": "oku maxa wutu",
+  "fr": "nous n'avons pas pris"
+ },
+ {
+  "id": "v-123",
+  "snk": "i na yige lenki",
+  "fr": "qu'ils mangent aujourd'hui"
+ },
+ {
+  "id": "v-124",
+  "snk": "oku na maro n'yiga lenki",
+  "fr": "mangeons du riz aujourd'hui"
+ },
+ {
+  "id": "v-125",
+  "snk": "iku n'yi yigene koota su",
+  "fr": "ils mangent tous les jours"
+ },
+ {
+  "id": "v-126",
+  "snk": "xa do yigaye ni ya me",
+  "fr": "vous êtes en train de manger"
+ },
+ {
+  "id": "v-127",
+  "snk": "xa fayi yigene waxati su",
+  "fr": "vous mangez à tout moment"
+ },
+ {
+  "id": "v-128",
+  "snk": "ake n'yi maro yigane saxa",
+  "fr": "il mange du riz au marché"
+ },
+ {
+  "id": "v-129",
+  "snk": "ake n'do maro yigaye ni ya me",
+  "fr": "il est en train de manger du riz"
+ },
+ {
+  "id": "v-130",
+  "snk": "an fayi maro ke yigane",
+  "fr": "tu manges le riz"
+ },
+ {
+  "id": "v-131",
+  "snk": "iku ŋ'wa maro ke yigane",
+  "fr": "ils mangent le riz"
+ },
+ {
+  "id": "v-132",
+  "snk": "nke wa yigene saxa",
+  "fr": "je mange au marché"
+ },
+ {
+  "id": "v-133",
+  "snk": "an yi rini yige kumbene",
+  "fr": "tu vas manger demain"
+ },
+ {
+  "id": "v-134",
+  "snk": "xaku l'rini yige saxa",
+  "fr": "vous mangerez au marché"
+ },
+ {
+  "id": "v-135",
+  "snk": "nke n'ti rini yige",
+  "fr": "je ne vais pas manger"
+ },
+ {
+  "id": "v-136",
+  "snk": "maro ke yiga",
+  "fr": "mange le riz"
+ },
+ {
+  "id": "v-137",
+  "snk": "a yige",
+  "fr": "il a mangé"
+ },
+ {
+  "id": "v-138",
+  "snk": "i maxa yige",
+  "fr": "ils n'ont pas mangé"
+ },
+ {
+  "id": "v-139",
+  "snk": "an di maro n'yiga lenki",
+  "fr": "tu as mangé du riz aujourd'hui"
+ },
+ {
+  "id": "v-140",
+  "snk": "a da maro ke n'yiga",
+  "fr": "il a mangé le riz"
+ },
+ {
+  "id": "v-141",
+  "snk": "anke m'fayi yigene watia",
+  "fr": "tu es en train de manger"
+ },
+ {
+  "id": "v-142",
+  "snk": "a na daga saxa",
+  "fr": "qu'il parte au marché"
+ },
+ {
+  "id": "v-143",
+  "snk": "a yi dagana lenki",
+  "fr": "il part aujourd'hui"
+ },
+ {
+  "id": "v-144",
+  "snk": "anke n'do dagaye ni ya me saxa",
+  "fr": "tu es en train de partir au marché"
+ },
+ {
+  "id": "v-145",
+  "snk": "xa fayi dagana koota su",
+  "fr": "vous partez tous les jours"
+ },
+ {
+  "id": "v-146",
+  "snk": "nke wa dagana",
+  "fr": "je pars"
+ },
+ {
+  "id": "v-147",
+  "snk": "an yi rini daga",
+  "fr": "tu vas partir"
+ },
+ {
+  "id": "v-148",
+  "snk": "nke rini daga saxa",
+  "fr": "je partirai au marché"
+ },
+ {
+  "id": "v-149",
+  "snk": "xaku n'daga lenki",
+  "fr": "vous êtes partis aujourd'hui"
+ },
+ {
+  "id": "v-150",
+  "snk": "xa maxa daga",
+  "fr": "vous n'êtes pas partis"
+ },
+ {
+  "id": "v-151",
+  "snk": "anke m'fayi dagana watia",
+  "fr": "tu es en train de partir"
+ },
+ {
+  "id": "v-152",
+  "snk": "oku na faye",
+  "fr": "regardons"
+ },
+ {
+  "id": "v-153",
+  "snk": "n yi fayeni saxa",
+  "fr": "je regarde au marché"
+ },
+ {
+  "id": "v-154",
+  "snk": "a do fayinde ni ya me",
+  "fr": "il est en train de regarder"
+ },
+ {
+  "id": "v-155",
+  "snk": "a fayi fayeni waxati su",
+  "fr": "il regarde à tout moment"
+ },
+ {
+  "id": "v-156",
+  "snk": "iku ŋ'wa fayeni",
+  "fr": "ils regardent"
+ },
+ {
+  "id": "v-157",
+  "snk": "nke yi rini faye",
+  "fr": "je vais regarder"
+ },
+ {
+  "id": "v-158",
+  "snk": "nke rini faye saxa",
+  "fr": "je regarderai au marché"
+ },
+ {
+  "id": "v-159",
+  "snk": "i faye lenki",
+  "fr": "ils ont regardé aujourd'hui"
+ },
+ {
+  "id": "v-160",
+  "snk": "n maxa faye",
+  "fr": "je n'ai pas regardé"
+ },
+ {
+  "id": "v-161",
+  "snk": "oku fayi fayeni watia",
+  "fr": "nous sommes en train de regarder"
+ },
+ {
+  "id": "v-162",
+  "snk": "oku na goli lenki",
+  "fr": "travaillons aujourd'hui"
+ },
+ {
+  "id": "v-163",
+  "snk": "anke n'yi golini lenki",
+  "fr": "tu travailles aujourd'hui"
+ },
+ {
+  "id": "v-164",
+  "snk": "nke do goliye ni ya me",
+  "fr": "je suis en train de travailler"
+ },
+ {
+  "id": "v-165",
+  "snk": "xaku m'fayi golini koota su",
+  "fr": "vous travaillez tous les jours"
+ },
+ {
+  "id": "v-166",
+  "snk": "oku wa golini saxa",
+  "fr": "nous travaillons au marché"
+ },
+ {
+  "id": "v-167",
+  "snk": "an yi rini goli",
+  "fr": "tu vas travailler"
+ },
+ {
+  "id": "v-168",
+  "snk": "a rini goli",
+  "fr": "il travaillera"
+ },
+ {
+  "id": "v-169",
+  "snk": "a goli saxa",
+  "fr": "il a travaillé au marché"
+ },
+ {
+  "id": "v-170",
+  "snk": "i maxa goli",
+  "fr": "ils n'ont pas travaillé"
+ },
+ {
+  "id": "v-171",
+  "snk": "ake m'fayi golini watia",
+  "fr": "il est en train de travailler"
+ },
+ {
+  "id": "v-172",
+  "snk": "an na mini lenki",
+  "fr": "bois aujourd'hui"
+ },
+ {
+  "id": "v-173",
+  "snk": "n na xati ke m'mini saxa",
+  "fr": "que je boive le lait au marché"
+ },
+ {
+  "id": "v-174",
+  "snk": "nke yi minini waxati su",
+  "fr": "je bois à tout moment"
+ },
+ {
+  "id": "v-175",
+  "snk": "a do mine ni ya me saxa",
+  "fr": "il est en train de boire au marché"
+ },
+ {
+  "id": "v-176",
+  "snk": "iku m'fayi minini saxa",
+  "fr": "ils boivent au marché"
+ },
+ {
+  "id": "v-177",
+  "snk": "nke do xati ke mine ni ya me saxa",
+  "fr": "je suis en train de boire le lait au marché"
+ },
+ {
+  "id": "v-178",
+  "snk": "n wa minini",
+  "fr": "je bois"
+ },
+ {
+  "id": "v-179",
+  "snk": "n yi rini mini saxa",
+  "fr": "je vais boire au marché"
+ },
+ {
+  "id": "v-180",
+  "snk": "anke l'rini mini",
+  "fr": "tu boiras"
+ },
+ {
+  "id": "v-181",
+  "snk": "xaku m'mini",
+  "fr": "vous avez bu"
+ },
+ {
+  "id": "v-182",
+  "snk": "nke maxa mini",
+  "fr": "je n'ai pas bu"
+ },
+ {
+  "id": "v-183",
+  "snk": "xa di xati ke m'mini lenki",
+  "fr": "vous avez bu le lait aujourd'hui"
+ },
+ {
+  "id": "v-184",
+  "snk": "a da xati m'mini",
+  "fr": "il a bu du lait"
+ },
+ {
+  "id": "v-185",
+  "snk": "ake m'fayi minini watia",
+  "fr": "il est en train de boire"
+ },
+ {
+  "id": "v-186",
+  "snk": "o na ri saxa",
+  "fr": "venons au marché"
+ },
+ {
+  "id": "v-187",
+  "snk": "o yi rini waxati su",
+  "fr": "nous venons à tout moment"
+ },
+ {
+  "id": "v-188",
+  "snk": "xa do riye ni ya me saxa",
+  "fr": "vous êtes en train de venir au marché"
+ },
+ {
+  "id": "v-189",
+  "snk": "xa fayi rini koota su",
+  "fr": "vous venez tous les jours"
+ },
+ {
+  "id": "v-190",
+  "snk": "anke ŋ'wa rini",
+  "fr": "tu viens"
+ },
+ {
+  "id": "v-191",
+  "snk": "xaku n'yi rini",
+  "fr": "vous allez venir"
+ },
+ {
+  "id": "v-192",
+  "snk": "ake l'rini riya saxa",
+  "fr": "il viendra au marché"
+ },
+ {
+  "id": "v-193",
+  "snk": "i ri",
+  "fr": "ils sont venus"
+ },
+ {
+  "id": "v-194",
+  "snk": "xa maxa ri",
+  "fr": "vous n'êtes pas venus"
+ },
+ {
+  "id": "v-195",
+  "snk": "oku fayi rini watia",
+  "fr": "nous sommes en train de venir"
+ },
+ {
+  "id": "v-196",
+  "snk": "n na safa lenki",
+  "fr": "que je écrive aujourd'hui"
+ },
+ {
+  "id": "v-197",
+  "snk": "oku na lettra ke n'safa lenki",
+  "fr": "écrivons la lettre aujourd'hui"
+ },
+ {
+  "id": "v-198",
+  "snk": "anke n'yi safana koota su",
+  "fr": "tu écris tous les jours"
+ },
+ {
+  "id": "v-199",
+  "snk": "an do safande ni ya me",
+  "fr": "tu es en train de écrire"
+ },
+ {
+  "id": "v-200",
+  "snk": "oku fayi safana saxa",
+  "fr": "nous écrivons au marché"
  }
 ]

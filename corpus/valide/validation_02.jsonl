@@ -1,0 +1,200 @@
+{"id": "v-001", "snk": "o na daga lenki", "fr": "partons aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-002", "snk": "xaku n'yi dagana waxati su", "fr": "vous partez à tout moment", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-003", "snk": "n do dagaye ni ya me", "fr": "je suis en train de partir", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-004", "snk": "a fayi dagana", "fr": "il part", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-005", "snk": "xa wa dagana saxa", "fr": "vous partez au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-006", "snk": "iku n'yi rini daga", "fr": "ils vont partir", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-007", "snk": "i rini daga", "fr": "ils partiront", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-008", "snk": "a daga", "fr": "il est parti", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-009", "snk": "a maxa daga", "fr": "il n'est pas parti", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-010", "snk": "nke fayi dagana watia", "fr": "je suis en train de partir", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-011", "snk": "nke na faye saxa", "fr": "que je regarde au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-012", "snk": "o yi fayeni", "fr": "nous regardons", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-013", "snk": "ake n'do fayinde ni ya me", "fr": "il est en train de regarder", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-014", "snk": "o fayi fayeni", "fr": "nous regardons", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-015", "snk": "nke wa fayeni", "fr": "je regarde", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-016", "snk": "o yi rini faye", "fr": "nous allons regarder", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-017", "snk": "xaku l'rini faye", "fr": "vous regarderez", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-018", "snk": "n faye", "fr": "j'ai regardé", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-019", "snk": "oku maxa faye", "fr": "nous n'avons pas regardé", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-020", "snk": "anke m'fayi fayeni watia", "fr": "tu es en train de regarder", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-021", "snk": "o na goli", "fr": "travaillons", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-022", "snk": "n yi golini koota su", "fr": "je travaille tous les jours", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-023", "snk": "xaku n'do goliye ni ya me", "fr": "vous êtes en train de travailler", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-024", "snk": "an fayi golini koota su", "fr": "tu travailles tous les jours", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-025", "snk": "a wa golini saxa", "fr": "il travaille au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-026", "snk": "an yi rini goli kumbene", "fr": "tu vas travailler demain", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-027", "snk": "n rini goli saxa", "fr": "je travaillerai au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-028", "snk": "nke n'ti rini goli", "fr": "je ne vais pas travailler", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-029", "snk": "an goli saxa", "fr": "tu as travaillé au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-030", "snk": "iku maxa goli", "fr": "ils n'ont pas travaillé", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-031", "snk": "nke fayi golini watia", "fr": "je suis en train de travailler", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-032", "snk": "o na mini", "fr": "buvons", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-033", "snk": "o na xati ke m'mini lenki", "fr": "buvons le lait aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-034", "snk": "anke n'yi minini saxa", "fr": "tu bois au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-035", "snk": "xa do mine ni ya me", "fr": "vous êtes en train de boire", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-036", "snk": "anke m'fayi minini waxati su", "fr": "tu bois à tout moment", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-037", "snk": "anke n'do xati ke mine ni ya me", "fr": "tu es en train de boire le lait", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-038", "snk": "xa wa minini", "fr": "vous buvez", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-039", "snk": "oku yi rini mini", "fr": "nous allons boire", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-040", "snk": "ake l'rini mini", "fr": "il boira", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-041", "snk": "nke n'ti rini mini", "fr": "je ne vais pas boire", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-042", "snk": "xati mini", "fr": "bois du lait", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-043", "snk": "iku m'mini daru", "fr": "ils ont bu hier", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-044", "snk": "a maxa mini", "fr": "il n'a pas bu", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-045", "snk": "oku di xati ke m'mini", "fr": "nous avons bu le lait", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-046", "snk": "ake n'da xati m'mini saxa", "fr": "il a bu du lait au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-047", "snk": "oku fayi minini watia", "fr": "nous sommes en train de boire", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-048", "snk": "a na ri saxa", "fr": "qu'il vienne au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-049", "snk": "anke n'yi rini lenki", "fr": "tu viens aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-050", "snk": "xaku n'do riye ni ya me saxa", "fr": "vous êtes en train de venir au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-051", "snk": "anke m'fayi rini koota su", "fr": "tu viens tous les jours", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-052", "snk": "n wa rini saxa", "fr": "je viens au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-053", "snk": "oku yi rini saxa", "fr": "nous allons venir au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-054", "snk": "n rini riya", "fr": "je viendrai", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-055", "snk": "iku n'ti rini", "fr": "ils ne vont pas venir", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-056", "snk": "a ri lenki", "fr": "il est venu aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-057", "snk": "o maxa ri", "fr": "nous ne sommes pas venus", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-058", "snk": "anke m'fayi rini watia", "fr": "tu es en train de venir", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-059", "snk": "i na safa saxa", "fr": "qu'ils écrivent au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-060", "snk": "a na lettra n'safa", "fr": "qu'il écrive une lettre", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-061", "snk": "a yi safana", "fr": "il écrit", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-062", "snk": "iku n'do safande ni ya me saxa", "fr": "ils sont en train de écrire au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-063", "snk": "ake m'fayi safana waxati su", "fr": "il écrit à tout moment", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-064", "snk": "i yi lettra safana saxa", "fr": "ils écrivent une lettre au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-065", "snk": "iku n'do lettra safande ni ya me", "fr": "ils sont en train de écrire une lettre", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-066", "snk": "o fayi lettra safana", "fr": "nous écrivons une lettre", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-067", "snk": "n wa lettra safana", "fr": "j'écris une lettre", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-068", "snk": "ake ŋ'wa safana saxa", "fr": "il écrit au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-069", "snk": "iku n'yi rini safa saxa", "fr": "ils vont écrire au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-070", "snk": "xa rini safa saxa", "fr": "vous écrirez au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-071", "snk": "anke n'ti rini safa", "fr": "tu ne vas pas écrire", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-072", "snk": "lettra safa", "fr": "écris une lettre", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-073", "snk": "i safa saxa", "fr": "ils ont écrit au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-074", "snk": "o maxa safa", "fr": "nous n'avons pas écrit", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-075", "snk": "a di lettra ke n'safa lenki", "fr": "il a écrit la lettre aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-076", "snk": "ake n'da lettra ke n'safa saxa", "fr": "il a écrit la lettre au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-077", "snk": "ake m'fayi safana watia", "fr": "il est en train de écrire", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-078", "snk": "n na sefe lenki", "fr": "que je parle aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-079", "snk": "n yi sefene waxati su", "fr": "je parle à tout moment", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-080", "snk": "a do sefeye ni ya me saxa", "fr": "il est en train de parler au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-081", "snk": "nke fayi sefene waxati su", "fr": "je parle à tout moment", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-082", "snk": "ake ŋ'wa sefene saxa", "fr": "il parle au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-083", "snk": "n yi rini sefe saxa", "fr": "je vais parler au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-084", "snk": "an rini sefe saxa", "fr": "tu parleras au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-085", "snk": "anke n'ti rini sefe", "fr": "tu ne vas pas parler", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-086", "snk": "n sefe saxa", "fr": "j'ai parlé au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-087", "snk": "n maxa sefe", "fr": "je n'ai pas parlé", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-088", "snk": "anke m'fayi sefene watia", "fr": "tu es en train de parler", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-089", "snk": "i na wori lenki", "fr": "qu'ils voient aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-090", "snk": "a na maro ke ŋ'wori", "fr": "qu'il voie le riz", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-091", "snk": "n yi worini", "fr": "je vois", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-092", "snk": "oku do woriye ni ya me saxa", "fr": "nous sommes en train de voir au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-093", "snk": "xa fayi worini", "fr": "vous voyez", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-094", "snk": "n do maro ke woriye ni ya me saxa", "fr": "je suis en train de voir le riz au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-095", "snk": "i wa worini saxa", "fr": "ils voient au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-096", "snk": "oku yi rini wori kumbene", "fr": "nous allons voir demain", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-097", "snk": "o rini wori", "fr": "nous verrons", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-098", "snk": "nke n'ti rini wori", "fr": "je ne vais pas voir", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-099", "snk": "lemine ke wori", "fr": "vois l'enfant", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-100", "snk": "ake ŋ'wori saxa", "fr": "il a vu au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-101", "snk": "oku maxa wori", "fr": "nous n'avons pas vu", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-102", "snk": "ake n'di lettra ke ŋ'wori daru", "fr": "il a vu la lettre hier", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-103", "snk": "xa da lettra ŋ'wori saxa", "fr": "vous avez vu une lettre au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-104", "snk": "ake m'fayi worini watia", "fr": "il est en train de voir", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-105", "snk": "oku na wuru lenki", "fr": "courons aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-106", "snk": "xaku n'yi wurunu", "fr": "vous courez", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-107", "snk": "xaku n'do wuruye ni ya me saxa", "fr": "vous êtes en train de courir au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-108", "snk": "xa fayi wurunu", "fr": "vous courez", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-109", "snk": "xa wa wurunu saxa", "fr": "vous courez au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-110", "snk": "xa yi rini wuru saxa", "fr": "vous allez courir au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-111", "snk": "an rini wuru saxa", "fr": "tu courras au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-112", "snk": "nke n'ti rini wuru", "fr": "je ne vais pas courir", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-113", "snk": "ake ŋ'wuru daru", "fr": "il a couru hier", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-114", "snk": "n maxa wuru", "fr": "je n'ai pas couru", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-115", "snk": "anke m'fayi wurunu watia", "fr": "tu es en train de courir", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-116", "snk": "oku na wutu lenki", "fr": "prenons aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-117", "snk": "oku do wutunde ni ya me", "fr": "nous sommes en train de prendre", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-118", "snk": "iku n'yi rini wutu saxa", "fr": "ils vont prendre au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-119", "snk": "xa rini wutu", "fr": "vous prendrez", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-120", "snk": "nke n'ti rini wutu", "fr": "je ne vais pas prendre", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-121", "snk": "o wutu lenki", "fr": "nous avons pris aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-122", "snk": "oku maxa wutu", "fr": "nous n'avons pas pris", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-123", "snk": "i na yige lenki", "fr": "qu'ils mangent aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-124", "snk": "oku na maro n'yiga lenki", "fr": "mangeons du riz aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-125", "snk": "iku n'yi yigene koota su", "fr": "ils mangent tous les jours", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-126", "snk": "xa do yigaye ni ya me", "fr": "vous êtes en train de manger", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-127", "snk": "xa fayi yigene waxati su", "fr": "vous mangez à tout moment", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-128", "snk": "ake n'yi maro yigane saxa", "fr": "il mange du riz au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-129", "snk": "ake n'do maro yigaye ni ya me", "fr": "il est en train de manger du riz", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-130", "snk": "an fayi maro ke yigane", "fr": "tu manges le riz", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-131", "snk": "iku ŋ'wa maro ke yigane", "fr": "ils mangent le riz", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-132", "snk": "nke wa yigene saxa", "fr": "je mange au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-133", "snk": "an yi rini yige kumbene", "fr": "tu vas manger demain", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-134", "snk": "xaku l'rini yige saxa", "fr": "vous mangerez au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-135", "snk": "nke n'ti rini yige", "fr": "je ne vais pas manger", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-136", "snk": "maro ke yiga", "fr": "mange le riz", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-137", "snk": "a yige", "fr": "il a mangé", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-138", "snk": "i maxa yige", "fr": "ils n'ont pas mangé", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-139", "snk": "an di maro n'yiga lenki", "fr": "tu as mangé du riz aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-140", "snk": "a da maro ke n'yiga", "fr": "il a mangé le riz", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-141", "snk": "anke m'fayi yigene watia", "fr": "tu es en train de manger", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-142", "snk": "a na daga saxa", "fr": "qu'il parte au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-143", "snk": "a yi dagana lenki", "fr": "il part aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-144", "snk": "anke n'do dagaye ni ya me saxa", "fr": "tu es en train de partir au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-145", "snk": "xa fayi dagana koota su", "fr": "vous partez tous les jours", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-146", "snk": "nke wa dagana", "fr": "je pars", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-147", "snk": "an yi rini daga", "fr": "tu vas partir", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-148", "snk": "nke rini daga saxa", "fr": "je partirai au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-149", "snk": "xaku n'daga lenki", "fr": "vous êtes partis aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-150", "snk": "xa maxa daga", "fr": "vous n'êtes pas partis", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-151", "snk": "anke m'fayi dagana watia", "fr": "tu es en train de partir", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-152", "snk": "oku na faye", "fr": "regardons", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-153", "snk": "n yi fayeni saxa", "fr": "je regarde au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-154", "snk": "a do fayinde ni ya me", "fr": "il est en train de regarder", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-155", "snk": "a fayi fayeni waxati su", "fr": "il regarde à tout moment", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-156", "snk": "iku ŋ'wa fayeni", "fr": "ils regardent", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-157", "snk": "nke yi rini faye", "fr": "je vais regarder", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-158", "snk": "nke rini faye saxa", "fr": "je regarderai au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-159", "snk": "i faye lenki", "fr": "ils ont regardé aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-160", "snk": "n maxa faye", "fr": "je n'ai pas regardé", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-161", "snk": "oku fayi fayeni watia", "fr": "nous sommes en train de regarder", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-162", "snk": "oku na goli lenki", "fr": "travaillons aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-163", "snk": "anke n'yi golini lenki", "fr": "tu travailles aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-164", "snk": "nke do goliye ni ya me", "fr": "je suis en train de travailler", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-165", "snk": "xaku m'fayi golini koota su", "fr": "vous travaillez tous les jours", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-166", "snk": "oku wa golini saxa", "fr": "nous travaillons au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-167", "snk": "an yi rini goli", "fr": "tu vas travailler", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-168", "snk": "a rini goli", "fr": "il travaillera", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-169", "snk": "a goli saxa", "fr": "il a travaillé au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-170", "snk": "i maxa goli", "fr": "ils n'ont pas travaillé", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-171", "snk": "ake m'fayi golini watia", "fr": "il est en train de travailler", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-172", "snk": "an na mini lenki", "fr": "bois aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-173", "snk": "n na xati ke m'mini saxa", "fr": "que je boive le lait au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-174", "snk": "nke yi minini waxati su", "fr": "je bois à tout moment", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-175", "snk": "a do mine ni ya me saxa", "fr": "il est en train de boire au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-176", "snk": "iku m'fayi minini saxa", "fr": "ils boivent au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-177", "snk": "nke do xati ke mine ni ya me saxa", "fr": "je suis en train de boire le lait au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-178", "snk": "n wa minini", "fr": "je bois", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-179", "snk": "n yi rini mini saxa", "fr": "je vais boire au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-180", "snk": "anke l'rini mini", "fr": "tu boiras", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-181", "snk": "xaku m'mini", "fr": "vous avez bu", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-182", "snk": "nke maxa mini", "fr": "je n'ai pas bu", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-183", "snk": "xa di xati ke m'mini lenki", "fr": "vous avez bu le lait aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-184", "snk": "a da xati m'mini", "fr": "il a bu du lait", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-185", "snk": "ake m'fayi minini watia", "fr": "il est en train de boire", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-186", "snk": "o na ri saxa", "fr": "venons au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-187", "snk": "o yi rini waxati su", "fr": "nous venons à tout moment", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-188", "snk": "xa do riye ni ya me saxa", "fr": "vous êtes en train de venir au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-189", "snk": "xa fayi rini koota su", "fr": "vous venez tous les jours", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-190", "snk": "anke ŋ'wa rini", "fr": "tu viens", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-191", "snk": "xaku n'yi rini", "fr": "vous allez venir", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-192", "snk": "ake l'rini riya saxa", "fr": "il viendra au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-193", "snk": "i ri", "fr": "ils sont venus", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-194", "snk": "xa maxa ri", "fr": "vous n'êtes pas venus", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-195", "snk": "oku fayi rini watia", "fr": "nous sommes en train de venir", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-196", "snk": "n na safa lenki", "fr": "que je écrive aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-197", "snk": "oku na lettra ke n'safa lenki", "fr": "écrivons la lettre aujourd'hui", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-198", "snk": "anke n'yi safana koota su", "fr": "tu écris tous les jours", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-199", "snk": "an do safande ni ya me", "fr": "tu es en train de écrire", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
+{"id": "v-200", "snk": "oku fayi safana saxa", "fr": "nous écrivons au marché", "source": "validation_02.xlsx (relu par le locuteur)", "niveau": "phrase", "orthographe": "projet", "origine": "moteur"}
