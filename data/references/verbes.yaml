@@ -8,183 +8,1718 @@
 #            Champs : radical, fr, gerondif (inaccompli), intransitif (-i), antipassif (-ndi), ref.
 
 locuteur:
-  - {radical: mini, fr: boire, exemple: "ake m'mini (il a bu)", source: "serie_02 #24", manque: infinitif}
-  - {radical: goli, fr: travailler, exemple: "ake n'goli (il a travaillé)", source: "serie_02 #28, serie_03 #3", manque: "infinitif ; variante ake n'golinia ?"}
-  - {radical: wori, fr: voir, exemple: "ake n'di lemine n'wori (il a vu l'enfant)", source: "serie_02 #26", manque: infinitif}
-  - {radical: xenxe, fr: dormir, exemple: "ake n'xenxe (il a dormi)", source: "serie_02 #25, serie_03 #4", manque: infinitif, note: "« anke xenxe » était une erreur : la particule s'applique"}
-  - {radical: mara, fr: "?", exemple: "m'mara", source: "message du 2026-09-16 (maréer)", manque: sens}
-  - {radical: "?", fr: arriver, source: "serie_02 #27", manque: tout}
-  - {radical: mama, fr: faire mal, nom_action: mamande, source: "texte_pluies (2026-09-22)"}
-  - {radical: kita, fr: avoir, obtenir, nom_action: kitande, source: "texte_pluies (2026-09-22)"}
-  - {radical: "?", fr: amener, nom_action: ritinde, source: "2026-09-20",
-     note: "sans doute dérivé de ri (venir) : « faire venir »"}
-  - {radical: xobo, fr: acheter, exemple: "ake n'di maro xobo (il a acheté le riz)", source: "serie_03 #15", manque: "infinitif ; forme sans objet"}
-  - {radical: safa, fr: écrire, exemple: "ake n'di lettra n'safa (il a écrit la lettre)", source: "serie_03 #16", manque: "infinitif ; forme sans objet"}
-
-  # --- texte_journee (2026-09-17) : sens compris à ~96 % d'après le locuteur,
-  # à vérifier un par un avant d'entrer dans le moteur. Orthographe du texte.
-  - {radical: guiri, fr: se lever, source: texte_journee}
-  - {radical: guilli, fr: se réveiller, source: texte_journee}
-  - {radical: wanqi, fr: laver / se laver, source: texte_journee}
-  - {radical: deberi, fr: préparer / faire, source: texte_journee}
-  - {radical: baka, fr: sortir, source: texte_journee, note: "variante bogu"}
-  - {radical: londi, fr: mettre (un vêtement), source: texte_journee}
-  - {radical: sagata, fr: rejoindre, source: texte_journee}
-  - {radical: tere, fr: marcher, source: texte_journee}
-  - {radical: qawa, fr: devoir / falloir, source: texte_journee}
-  - {radical: xobo, fr: acheter, source: texte_journee, note: "formes vues : xobo, n'gobo, q'xobo, xobono"}
-  - {radical: tirindi, fr: demander, source: texte_journee, note: "tirindindu = les questions"}
-  - {radical: ti, fr: dire, source: texte_journee}
-  - {radical: nko, fr: raconter / dire, source: texte_journee}
-  - {radical: mula, fr: vouloir, source: texte_journee}
-  - {radical: koyi, fr: montrer, source: texte_journee}
-  - {radical: ro, fr: entrer, source: texte_journee}
-  - {radical: tuga, fr: payer, source: texte_journee}
-  - {radical: kini, fr: donner, source: texte_journee}
-  - {radical: nawari, fr: remercier, source: texte_journee}
-  - {radical: soro, fr: cuisiner, source: texte_journee, note: "soreye, sorene"}
-  - {radical: diompa, fr: commencer, source: texte_journee, note: "joppa dans la littérature"}
-  - {radical: sella, fr: balayer, source: texte_journee}
-  - {radical: terinka, fr: écouter, source: texte_journee}
-  - {radical: xara, fr: lire / apprendre, source: texte_journee}
-  - {radical: safandi, fr: écrire, source: texte_journee, note: "safande = un texte écrit"}
-  - {radical: famu, fr: comprendre, source: texte_journee}
-  - {radical: jabi, fr: répondre, source: texte_journee}
-  - {radical: fatampachi, fr: expliquer, source: texte_journee}
-  - {radical: sanga, fr: jouer, source: texte_journee}
-  - {radical: dangi, fr: passer, source: texte_journee}
-  - {radical: sirondi, fr: préparer / arranger, source: texte_journee}
-  - {radical: soxu, fr: se coucher, source: texte_journee}
-  - {radical: bisimilah, fr: accueillir, source: texte_journee}
-
-# Références :
-#   K2018 = Creissels 2018, verbes statifs, soninké du Kingi — https://journals.openedition.org/mandenkan/1271
-#   B2013 = Creissels & Diagne 2013, Transitivity in Bakel Soninke (Mandenkan 50)
-#   G1979 = Grégoire, accompli/inaccompli (Mandenkan 1), d'après Galtier 1971 et le Manuel CRES 1977
-# Tons retirés ; orthographe des sources conservée (x, q, ñ, ŋ).
+- radical: mini
+  fr: boire
+  exemple: ake m'mini (il a bu)
+  source: 'serie_02 #24'
+  manque: infinitif
+- radical: goli
+  fr: travailler
+  exemple: ake n'goli (il a travaillé)
+  source: 'serie_02 #28, serie_03 #3'
+  manque: infinitif ; variante ake n'golinia ?
+- radical: wori
+  fr: voir
+  exemple: ake n'di lemine n'wori (il a vu l'enfant)
+  source: 'serie_02 #26'
+  manque: infinitif
+- radical: xenxe
+  fr: dormir
+  exemple: ake n'xenxe (il a dormi)
+  source: 'serie_02 #25, serie_03 #4'
+  manque: infinitif
+  note: '« anke xenxe » était une erreur : la particule s''applique'
+- radical: mara
+  fr: '?'
+  exemple: m'mara
+  source: message du 2026-09-16 (maréer)
+  manque: sens
+- radical: '?'
+  fr: arriver
+  source: 'serie_02 #27'
+  manque: tout
+- radical: mama
+  fr: faire mal
+  nom_action: mamande
+  source: texte_pluies (2026-09-22)
+- radical: kita
+  fr: avoir
+  obtenir: null
+  nom_action: kitande
+  source: texte_pluies (2026-09-22)
+- radical: '?'
+  fr: amener
+  nom_action: ritinde
+  source: '2026-09-20'
+  note: 'sans doute dérivé de ri (venir) : « faire venir »'
+- radical: xobo
+  fr: acheter
+  exemple: ake n'di maro xobo (il a acheté le riz)
+  source: 'serie_03 #15'
+  manque: infinitif ; forme sans objet
+- radical: safa
+  fr: écrire
+  exemple: ake n'di lettra n'safa (il a écrit la lettre)
+  source: 'serie_03 #16'
+  manque: infinitif ; forme sans objet
+- radical: guiri
+  fr: se lever
+  source: texte_journee
+- radical: guilli
+  fr: se réveiller
+  source: texte_journee
+- radical: wanqi
+  fr: laver / se laver
+  source: texte_journee
+- radical: deberi
+  fr: préparer / faire
+  source: texte_journee
+- radical: baka
+  fr: sortir
+  source: texte_journee
+  note: variante bogu
+- radical: londi
+  fr: mettre (un vêtement)
+  source: texte_journee
+- radical: sagata
+  fr: rejoindre
+  source: texte_journee
+- radical: tere
+  fr: marcher
+  source: texte_journee
+- radical: qawa
+  fr: devoir / falloir
+  source: texte_journee
+- radical: xobo
+  fr: acheter
+  source: texte_journee
+  note: 'formes vues : xobo, n''gobo, q''xobo, xobono'
+- radical: tirindi
+  fr: demander
+  source: texte_journee
+  note: tirindindu = les questions
+- radical: ti
+  fr: dire
+  source: texte_journee
+- radical: nko
+  fr: raconter / dire
+  source: texte_journee
+- radical: mula
+  fr: vouloir
+  source: texte_journee
+- radical: koyi
+  fr: montrer
+  source: texte_journee
+- radical: ro
+  fr: entrer
+  source: texte_journee
+- radical: tuga
+  fr: payer
+  source: texte_journee
+- radical: kini
+  fr: donner
+  source: texte_journee
+- radical: nawari
+  fr: remercier
+  source: texte_journee
+- radical: soro
+  fr: cuisiner
+  source: texte_journee
+  note: soreye, sorene
+- radical: diompa
+  fr: commencer
+  source: texte_journee
+  note: joppa dans la littérature
+- radical: sella
+  fr: balayer
+  source: texte_journee
+- radical: terinka
+  fr: écouter
+  source: texte_journee
+- radical: xara
+  fr: lire / apprendre
+  source: texte_journee
+- radical: safandi
+  fr: écrire
+  source: texte_journee
+  note: safande = un texte écrit
+- radical: famu
+  fr: comprendre
+  source: texte_journee
+- radical: jabi
+  fr: répondre
+  source: texte_journee
+- radical: fatampachi
+  fr: expliquer
+  source: texte_journee
+- radical: sanga
+  fr: jouer
+  source: texte_journee
+- radical: dangi
+  fr: passer
+  source: texte_journee
+- radical: sirondi
+  fr: préparer / arranger
+  source: texte_journee
+- radical: soxu
+  fr: se coucher
+  source: texte_journee
+- radical: bisimilah
+  fr: accueillir
+  source: texte_journee
+liste:
+- radical: diambe
+  fr: abandonner
+  nom_action: diambe-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: duŋe
+  fr: accepter
+  nom_action: duŋe-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: tuntchi
+  fr: accompagner
+  nom_action: tuntchi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: bisimilahi
+  fr: accueillir
+  nom_action: bisimilahi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: tifin
+  fr: accuser
+  nom_action: tifin-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: kafuma
+  fr: additionner
+  nom_action: kafuma-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: dema
+  fr: aider
+  nom_action: dema-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: xanu
+  fr: aimer
+  nom_action: xanu-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: kumu
+  fr: allumer
+  nom_action: kumu-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: dantaxi
+  fr: annoncer
+  nom_action: dantaxi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: sane
+  fr: apparaître
+  nom_action: sane-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: xiri
+  fr: appeler
+  nom_action: xiri-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: riti
+  fr: apporter
+  nom_action: riti-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: tinto
+  fr: approcher
+  nom_action: tinto-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: fatampantchi
+  fr: argumenter
+  nom_action: fatampantchi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: dioofe
+  fr: arriver
+  nom_action: dioofe-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: taxu
+  fr: asseoir
+  nom_action: taxu-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: tewe
+  fr: assister
+  nom_action: tewe-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: xenni
+  fr: attaquer
+  nom_action: xenni-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: dugu
+  fr: attendre
+  nom_action: dugu-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: raga
+  fr: attraper
+  nom_action: raga-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: xanemaxawara
+  fr: autoriser
+  nom_action: xanemaxawara-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: gongo
+  fr: avertir
+  nom_action: gongo-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 2e
+- radical: katu
+  fr: battre
+  nom_action: katu-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: mine
+  fr: boire
+  nom_action: mine-ne
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: sooti
+  fr: brancher
+  nom_action: sooti-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: biyi
+  fr: brûler
+  nom_action: biyi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: taga
+  fr: bâtir
+  nom_action: taga-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 2e
+- radical: muxu
+  fr: cacher
+  nom_action: muxu-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: mooso
+  fr: caresser
+  nom_action: mooso-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: kara
+  fr: casser
+  nom_action: kara-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: faraxu
+  fr: changer
+  nom_action: faraxu-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: suge
+  fr: chanter
+  nom_action: suge-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: muru
+  fr: chercher
+  nom_action: muru-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: sugandi
+  fr: choisir
+  nom_action: sugandi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 2e
+- radical: siyi
+  fr: coiffer
+  nom_action: siyi-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: tuka
+  fr: coller
+  nom_action: tuka-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: gadia
+  fr: combattre
+  nom_action: gadia-ŋe
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: yinkutundi
+  fr: commander
+  nom_action: yinkutundi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: diopandi
+  fr: commencer
+  nom_action: diopandi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: faamu
+  fr: comprendre
+  nom_action: faamu-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: contan
+  fr: compter
+  nom_action: contan-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: tu
+  fr: connaître
+  nom_action: tu-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: xandio
+  fr: convaincre
+  nom_action: xandio-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: me-wutu
+  fr: coordonner
+  nom_action: me-wutu-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: saqe
+  fr: coucher
+  nom_action: saqe-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: lifi
+  fr: coudre
+  nom_action: lifi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: dioxi
+  fr: couler
+  nom_action: dioxi-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: xaru
+  fr: crier
+  nom_action: xaru-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: xadiafi
+  fr: critiquer
+  nom_action: xadiafi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: tagandi
+  fr: créer
+  nom_action: tagandi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: sore
+  fr: cuisiner
+  nom_action: sore-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: tari
+  fr: célébrer
+  nom_action: tari-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: rege
+  fr: danser
+  nom_action: rege-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: yanga
+  fr: descendre
+  nom_action: yanga-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: kanewutu
+  fr: devancer
+  nom_action: kanewutu-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: nia
+  fr: devenir
+  nom_action: nia-ŋe
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: ko
+  fr: dire
+  nom_action: ko-ŋe
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: kaanemaxawutu
+  fr: diriger
+  nom_action: kaanemaxawutu-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: sanku
+  fr: disparaître
+  nom_action: sanku-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: fiwarame
+  fr: disputer
+  nom_action: fiwarame-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: bakuman
+  fr: distinguer
+  nom_action: bakuman-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: djikeranxoso
+  fr: décevoir
+  nom_action: djikeranxoso-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: boxu
+  fr: déchirer
+  nom_action: boxu-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: finsaanindi
+  fr: décider
+  nom_action: finsaanindi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: wunii
+  fr: déverrouiller
+  nom_action: wunii-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: konun
+  fr: effrayer
+  nom_action: konun-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: yagu
+  fr: embarrasser
+  nom_action: yagu-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: fixorondi
+  fr: empirer
+  nom_action: fixorondi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: tuyi
+  fr: informer
+  nom_action: tuyi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: kaban
+  fr: interdire
+  nom_action: kaban-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: suxe
+  fr: jalouser
+  nom_action: suxe-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: fita
+  fr: jeter
+  nom_action: fita-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: wara
+  fr: laisser
+  nom_action: wara-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: fitta
+  fr: lancer
+  nom_action: fitta-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: fanqe
+  fr: lutter
+  nom_action: fanqe-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: waran
+  fr: lâcher
+  nom_action: waran-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: yexi
+  fr: marier
+  nom_action: yexi-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: gara
+  fr: mentir
+  nom_action: gara-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: xentie
+  fr: mesurer
+  nom_action: xentie-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: rondi
+  fr: mettre
+  nom_action: rondi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: sege
+  fr: monter
+  nom_action: sege-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: koyin
+  fr: montrer
+  nom_action: koyin-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: xenyi
+  fr: nager
+  nom_action: xenyi-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: saare
+  fr: naître
+  nom_action: saare-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: waqi
+  fr: nettoyer
+  nom_action: waqi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: batu
+  fr: obéir
+  nom_action: batu-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 2e
+- radical: ku
+  fr: offrir
+  nom_action: ku-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: mungu
+  fr: oublier
+  nom_action: mungu-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: wunyi
+  fr: ouvrir
+  nom_action: wunyi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: yampa
+  fr: pardonner
+  nom_action: yampa-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: simme
+  fr: penser
+  nom_action: simme-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: konti
+  fr: perdre
+  nom_action: konti-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: wu
+  fr: pleurer
+  nom_action: wu-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: gunudi
+  fr: plier
+  nom_action: gunudi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: dufintandi
+  fr: plonger
+  nom_action: dufintandi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: wutundi
+  fr: porter
+  nom_action: wutundi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: yonto
+  fr: pousser
+  nom_action: yonto-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: laydurangandi
+  fr: promettre
+  nom_action: laydurangandi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: fimaxagomundi
+  fr: préparer
+  nom_action: fimaxagomundi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: finkoyindi
+  fr: présenter
+  nom_action: finkoyindi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: roxo
+  fr: prêter
+  nom_action: roxo-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: maxankutondi
+  fr: raconter
+  nom_action: maxankutondi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: si
+  fr: raser
+  nom_action: si-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: fallanyille
+  fr: reculer
+  nom_action: fallanyille-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: bara
+  fr: refuser
+  nom_action: bara-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: fayi
+  fr: regarder
+  nom_action: fayi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: mekitandi
+  fr: relier
+  nom_action: mekitandi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: tambotuga
+  fr: rembourser
+  nom_action: tambotuga-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: tuma
+  fr: reposer
+  nom_action: tuma-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: doron
+  fr: respecter
+  nom_action: doron-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: fufe
+  fr: respirer
+  nom_action: fufe-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: baano
+  fr: ressembler
+  nom_action: baano-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: soyi
+  fr: rire
+  nom_action: soyi-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: finsirondi
+  fr: réconcilier
+  nom_action: finsirondi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: gomundi
+  fr: réparer
+  nom_action: gomundi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: diabi
+  fr: répondre
+  nom_action: diabi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: yaxawunyi-yen xedie
+  fr: réveiller
+  nom_action: yaxawunyi-yen xedie-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: kuyi
+  fr: rêver
+  nom_action: kuyi-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: mexindi
+  fr: salir
+  nom_action: mexindi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 2e
+- radical: kunyi
+  fr: saluer
+  nom_action: kunyi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: bonte
+  fr: sauter
+  nom_action: bonte-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: kanalaga
+  fr: sentir
+  nom_action: kanalaga-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: xithi
+  fr: serrer
+  nom_action: xithi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: tuyindi
+  fr: signaler
+  nom_action: tuyindi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: bagu
+  fr: sortir
+  nom_action: bagu-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: korosin
+  fr: surveiller
+  nom_action: korosin-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: boguman
+  fr: séparer
+  nom_action: boguman-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: duguta
+  fr: terminer
+  nom_action: duguta-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: fuutu
+  fr: tirer
+  nom_action: fuutu-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: sonundi
+  fr: tisser
+  nom_action: sonundi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: xenu
+  fr: tomber
+  nom_action: xenu-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: keti
+  fr: toucher
+  nom_action: keti-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: niaŋundi
+  fr: transformer
+  nom_action: niaŋundi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: golinia
+  fr: travailler
+  nom_action: golinia-ŋe
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: koroosa
+  fr: tricoter
+  nom_action: koroosa-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: wari
+  fr: trouver
+  nom_action: wari-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: kari
+  fr: tuer
+  nom_action: kari-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: kofuma
+  fr: unir
+  nom_action: kofuma-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 2e
+- radical: gage
+  fr: vendre
+  nom_action: gage-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: riyi
+  fr: venir
+  nom_action: riyi-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: soxondi
+  fr: verrouiller
+  nom_action: soxondi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: xaso
+  fr: vieillir
+  nom_action: xaso-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 2e
+- radical: xenne
+  fr: violer
+  nom_action: xenne-ne
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: tarandi
+  fr: visiter
+  nom_action: tarandi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: bire
+  fr: vivre
+  nom_action: bire-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: sakundi
+  fr: égarer
+  nom_action: sakundi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: laaton
+  fr: éloigner
+  nom_action: laaton-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: maaman
+  fr: énerver
+  nom_action: maaman-de
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: kerin
+  fr: éteindre
+  nom_action: kerin-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: kawafi
+  fr: étonner
+  nom_action: kawafi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: bante
+  fr: absenter
+  nom_action: bante-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: xemparadangi
+  fr: abuser
+  nom_action: xemparadangi-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: xoraxu
+  fr: affranchir
+  nom_action: xoraxu-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 2e
+- radical: suruba
+  fr: aspirer
+  nom_action: suruba-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: sangalu
+  fr: clôturer
+  nom_action: sangalu-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: sukandi
+  fr: cocher
+  nom_action: sukandi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: sameti
+  fr: confier
+  nom_action: sameti-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: maxage
+  fr: cordonner
+  nom_action: maxage-me
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: misso
+  fr: saboter
+  nom_action: misso-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: bulxa
+  fr: effacer
+  nom_action: bulxa-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: simandi
+  fr: en rappeler
+  nom_action: simandi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: mulondi
+  fr: froidir
+  nom_action: mulondi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 2e
+- radical: besin
+  fr: frotter
+  nom_action: besin-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: mugni
+  fr: impatienter
+  nom_action: mugni-ye
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: sumba
+  fr: souquer
+  nom_action: sumba-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: sigi
+  fr: stopper
+  nom_action: sigi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: tilifi
+  fr: torturer
+  nom_action: tilifi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: filinka
+  fr: tourner
+  nom_action: filinka-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: noni
+  fr: tracer
+  nom_action: noni-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: wurebandi
+  fr: traduire
+  nom_action: wurebandi-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 3e
+- radical: diamba
+  fr: trahir
+  nom_action: diamba-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 2e
+- radical: tulu
+  fr: tresser
+  nom_action: tulu-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: bexin
+  fr: zipper
+  nom_action: bexin-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
+- radical: dufuutu
+  fr: étirer
+  nom_action: dufuutu-nde
+  source: liste du locuteur (2026-09-25)
+  manque: forme en -ni ; transitivité
+  groupe_fr: 1er
 sources:
-  # --- G1979 : accompli → inaccompli (gérondif) ---
-  - {radical: daga, fr: partir, gerondif: dagana, ref: G1979, note: "= daga du locuteur (daga-na)"}
-  - {radical: sefe, fr: parler, gerondif: sefene, ref: G1979, note: "= sefe du locuteur"}
-  - {radical: ri, fr: arriver, gerondif: rini, ref: G1979, note: "le locuteur : ri = venir"}
-  - {radical: yiga, fr: manger, gerondif: yigana, intransitif: yige, ref: "G1979, B2013", note: "le locuteur : yige (sans objet), yiga (avec objet)"}
-  - {radical: mini, fr: boire, gerondif: minni, ref: "G1979, B2013", note: "= mini du locuteur"}
-  - {radical: wari, fr: voir, gerondif: "walla / warini / walli", ref: "G1979, B2013", note: "le locuteur dit wori"}
-  - {radical: ku, fr: donner, gerondif: kunu, intransitif: kuyi, ref: "G1979, B2013"}
-  - {radical: ko, fr: raconter, gerondif: kono, ref: G1979}
-  - {radical: nya, fr: faire, gerondif: nyana, ref: G1979}
-  - {radical: kutu, fr: couper, gerondif: kutunu, ref: G1979}
-  - {radical: kunyi, fr: saluer, gerondif: kunyini, ref: G1979}
-  - {radical: kita, fr: recevoir, gerondif: kitana, ref: G1979}
-  - {radical: bire, fr: vivre, gerondif: birene, ref: "G1979, B2013"}
-  - {radical: saaga, fr: rendre, gerondif: saagana, ref: G1979}
-  - {radical: muuru, fr: chercher, gerondif: muurunu, ref: G1979}
-  - {radical: kuyi, fr: offrir, gerondif: kuyini, ref: G1979}
-  - {radical: kampi, fr: voler (dérober), gerondif: kampini, ref: G1979}
-  - {radical: dangi, fr: traverser, gerondif: dangini, ref: G1979}
-  - {radical: nyaxali, fr: être content, gerondif: nyaxalini, ref: G1979}
-  - {radical: digamu, fr: parler, gerondif: digamunu, ref: G1979}
-  - {radical: tifi, fr: semer, gerondif: tifini, ref: G1979}
-  - {radical: dotti, fr: tomber, gerondif: dottini, ref: G1979}
-  - {radical: miri, fr: tisser, gerondif: mirini, ref: G1979}
-  - {radical: rondi, fr: porter (un vêtement), gerondif: rondini, ref: G1979}
-  - {radical: wutu, fr: prendre, gerondif: wuttu, ref: "G1979, B2013"}
-  - {radical: katu, fr: frapper, gerondif: katta, intransitif: kati, ref: "G1979, B2013"}
-  - {radical: xata, fr: maudire, gerondif: xatta, ref: G1979}
-  - {radical: gunu, fr: plier, gerondif: gunnu, intransitif: guni, ref: "G1979, B2013"}
-  - {radical: bunu, fr: toucher (une cible), gerondif: bunnu, ref: G1979}
-  - {radical: bono, fr: gâter, gerondif: bonno, ref: "G1979, B2013"}
-  - {radical: xenu, fr: tomber, gerondif: xenne, ref: "G1979, B2013"}
-  - {radical: kanu, fr: avoir peur, gerondif: kanna, ref: "G1979, B2013"}
-  - {radical: goro, fr: piler, gerondif: gollo, intransitif: gore, ref: "G1979, B2013"}
-  - {radical: kara, fr: mourir, gerondif: kalla, ref: "G1979, B2013"}
-  - {radical: bara, fr: refuser, gerondif: balla, ref: G1979}
-  - {radical: tere, fr: marcher, gerondif: "telle / terene", ref: G1979}
-  - {radical: jara, fr: dégouliner, gerondif: jalla, ref: G1979}
-  - {radical: kuti, fr: cesser, gerondif: kutti, ref: G1979}
-  - {radical: kari, fr: tuer, gerondif: kalli, ref: "G1979, B2013"}
-  - {radical: mugu, fr: "comprendre / entendre", gerondif: mukku, intransitif: mugi, ref: "G1979, B2013"}
-  - {radical: bogu, fr: sortir, gerondif: bakka, ref: "G1979, B2013"}
-  - {radical: joxu, fr: verser, gerondif: joqo, ref: G1979}
-  - {radical: toxo, fr: rester, gerondif: toqo, ref: G1979}
-  - {radical: saxu, fr: se coucher, gerondif: saqa, ref: G1979}
-  - {radical: kafu, fr: réunir, gerondif: kapa, intransitif: kafi, ref: "G1979, B2013"}
-  - {radical: xesu, fr: puiser, gerondif: xece, ref: G1979}
-
-  # --- K2018 ---
-  - {radical: qobo, fr: acheter, gerondif: qobono, ref: K2018, note: "xobo à Bakel"}
-  - {radical: gaaga, fr: vendre, gerondif: gaagana, intransitif: gaage, ref: "K2018, B2013"}
-  - {radical: siiti, fr: attacher, gerondif: siitini, ref: K2018}
-  - {radical: salli, fr: prier, gerondif: sallini, ref: "K2018, B2013"}
-  - {radical: duguta, fr: "s'échapper", ref: K2018}
-  - {radical: danbu, fr: donner un coup de pied, ref: K2018}
-  - {radical: taaxu, fr: "s'asseoir", gerondif: taaxunu, ref: "K2018, B2013"}
-  - {radical: ke, fr: entrer, ref: K2018}
-  - {radical: deema, fr: aider, ref: K2018}
-  - {radical: ŋari, fr: voir, ref: K2018}
-  - {radical: booxo, fr: déchirer, ref: K2018}
-
-  # --- B2013 : transitif / intransitif (-i) / antipassif (-ndi) ---
-  - {radical: faaba, fr: aider (secourir), intransitif: faabe, antipassif: faabandi, ref: B2013}
-  - {radical: banbu, fr: porter sur le dos, intransitif: banbi, antipassif: banbundi, ref: B2013}
-  - {radical: boora, fr: déshabiller, intransitif: boore, antipassif: boorandi, ref: B2013}
-  - {radical: buruxa, fr: effacer / exterminer, intransitif: buruxe, antipassif: buruxandi, ref: B2013}
-  - {radical: buuda, fr: trop cuire, intransitif: buude, antipassif: buudundi, ref: B2013}
-  - {radical: cucufu, fr: asperger, intransitif: cucufi, antipassif: cucufindi, ref: B2013}
-  - {radical: danpu, fr: piétiner, intransitif: danpi, antipassif: danpundi, ref: B2013}
-  - {radical: duqquta, fr: arracher, intransitif: duqqute, antipassif: duqqutandi, ref: B2013}
-  - {radical: fata, fr: "séparer / récolter / sevrer", intransitif: fate, antipassif: fatandi, ref: B2013}
-  - {radical: fubba, fr: plonger (qqch), intransitif: fubbe, antipassif: fubbandi, ref: B2013}
-  - {radical: garaba, fr: fendre, intransitif: garabe, antipassif: garabandi, ref: B2013}
-  - {radical: jaga, fr: creuser, intransitif: jage, antipassif: jagandi, ref: B2013}
-  - {radical: kaga, fr: gratter, intransitif: kage, antipassif: kagandi, ref: B2013}
-  - {radical: kippa, fr: retourner, intransitif: kippe, antipassif: kippandi, ref: B2013}
-  - {radical: langa, fr: maudire, intransitif: lange, antipassif: langandi, ref: B2013}
-  - {radical: nafa, fr: rendre service, intransitif: nafe, antipassif: nafandi, ref: B2013}
-  - {radical: raga, fr: saisir, intransitif: rage, antipassif: ragandi, ref: B2013}
-  - {radical: saada, fr: entasser, intransitif: saade, antipassif: saadandi, ref: B2013}
-  - {radical: safa, fr: écrire, intransitif: safe, antipassif: safandi, ref: B2013}
-  - {radical: saga, fr: défricher, intransitif: sage, antipassif: sagandi, ref: B2013}
-  - {radical: sagara, fr: ramasser, intransitif: sagare, antipassif: sagarandi, ref: B2013}
-  - {radical: sagata, fr: joindre, intransitif: sagate, antipassif: sagatandi, ref: B2013}
-  - {radical: sella, fr: balayer, intransitif: selle, antipassif: sellandi, ref: B2013}
-  - {radical: taga, fr: construire, intransitif: tage, antipassif: tagandi, ref: B2013}
-  - {radical: tulu, fr: tresser (cheveux), intransitif: tuli, antipassif: tulundi, ref: B2013}
-  - {radical: waara, fr: ouvrir grand, intransitif: waare, antipassif: waarandi, ref: B2013}
-  - {radical: wara, fr: relâcher, intransitif: ware, antipassif: warandi, ref: B2013}
-  - {radical: wundu, fr: réveiller, intransitif: wundi, antipassif: wundundi, ref: B2013}
-  - {radical: xamu, fr: traire, intransitif: xami, antipassif: xamundi, ref: B2013}
-  - {radical: xoso, fr: "casser / vaincre", intransitif: xose, antipassif: xosondi, ref: B2013}
-  - {radical: yiriga, fr: compter, antipassif: yirigandi, ref: B2013}
-  - {radical: yonto, fr: pousser, intransitif: yonte, antipassif: yontondi, ref: B2013}
-  - {radical: yoola, fr: noyer, intransitif: yoole, antipassif: yoolandi, ref: B2013}
-  - {radical: soro, fr: cuisiner, intransitif: sore, ref: B2013}
-  - {radical: faamu, fr: comprendre, intransitif: faami, ref: B2013}
-  - {radical: joppa, fr: commencer, intransitif: joppe, ref: B2013}
-  - {radical: saara, fr: accoucher, intransitif: saare, ref: B2013}
-  - {radical: xobo, fr: acheter, intransitif: xobe, ref: B2013}
-  - {radical: yaara, fr: glaner, intransitif: yaare, ref: B2013}
-  - {radical: soxo, fr: cultiver, intransitif: soxe, gerondif: soxono, ref: B2013}
-  - {radical: xara, fr: apprendre, ref: B2013}
-  - {radical: lifi, fr: coudre, gerondif: lifini, ref: B2013}
-  - {radical: bayi, fr: étendre, antipassif: bayindi, ref: B2013}
-  - {radical: buyi, fr: brûler, ref: B2013}
-  - {radical: dabari, fr: réparer, ref: B2013}
-  - {radical: faccari, fr: traduire, ref: B2013}
-  - {radical: jaabi, fr: répondre, ref: B2013}
-  - {radical: kori, fr: tamiser, ref: B2013}
-  - {radical: koroosi, fr: surveiller, gerondif: koroosini, ref: B2013}
-  - {radical: guuji, fr: verser, ref: B2013}
-  - {radical: loggi, fr: suspendre, ref: B2013}
-  - {radical: wanqi, fr: laver, ref: B2013}
-  - {radical: wuñi, fr: ouvrir, ref: B2013}
-  - {radical: xiyili, fr: traîner, ref: B2013}
-  - {radical: sii, fr: raser, ref: B2013}
-  - {radical: ka, fr: insulter, intransitif: kayi, ref: B2013}
-  - {radical: tu, fr: connaître, intransitif: tuyi, ref: B2013}
-  - {radical: baami, fr: galoper, ref: B2013}
-  - {radical: soyi, fr: rire, ref: B2013}
-  - {radical: butu, fr: se fâcher, ref: B2013}
-  - {radical: muxu, fr: se cacher, ref: B2013}
-  - {radical: kaawa, fr: sécher, ref: B2013}
-  - {radical: rege, fr: danser, ref: B2013}
+- radical: daga
+  fr: partir
+  gerondif: dagana
+  ref: G1979
+  note: = daga du locuteur (daga-na)
+- radical: sefe
+  fr: parler
+  gerondif: sefene
+  ref: G1979
+  note: = sefe du locuteur
+- radical: ri
+  fr: arriver
+  gerondif: rini
+  ref: G1979
+  note: 'le locuteur : ri = venir'
+- radical: yiga
+  fr: manger
+  gerondif: yigana
+  intransitif: yige
+  ref: G1979, B2013
+  note: 'le locuteur : yige (sans objet), yiga (avec objet)'
+- radical: mini
+  fr: boire
+  gerondif: minni
+  ref: G1979, B2013
+  note: = mini du locuteur
+- radical: wari
+  fr: voir
+  gerondif: walla / warini / walli
+  ref: G1979, B2013
+  note: le locuteur dit wori
+- radical: ku
+  fr: donner
+  gerondif: kunu
+  intransitif: kuyi
+  ref: G1979, B2013
+- radical: ko
+  fr: raconter
+  gerondif: kono
+  ref: G1979
+- radical: nya
+  fr: faire
+  gerondif: nyana
+  ref: G1979
+- radical: kutu
+  fr: couper
+  gerondif: kutunu
+  ref: G1979
+- radical: kunyi
+  fr: saluer
+  gerondif: kunyini
+  ref: G1979
+- radical: kita
+  fr: recevoir
+  gerondif: kitana
+  ref: G1979
+- radical: bire
+  fr: vivre
+  gerondif: birene
+  ref: G1979, B2013
+- radical: saaga
+  fr: rendre
+  gerondif: saagana
+  ref: G1979
+- radical: muuru
+  fr: chercher
+  gerondif: muurunu
+  ref: G1979
+- radical: kuyi
+  fr: offrir
+  gerondif: kuyini
+  ref: G1979
+- radical: kampi
+  fr: voler (dérober)
+  gerondif: kampini
+  ref: G1979
+- radical: dangi
+  fr: traverser
+  gerondif: dangini
+  ref: G1979
+- radical: nyaxali
+  fr: être content
+  gerondif: nyaxalini
+  ref: G1979
+- radical: digamu
+  fr: parler
+  gerondif: digamunu
+  ref: G1979
+- radical: tifi
+  fr: semer
+  gerondif: tifini
+  ref: G1979
+- radical: dotti
+  fr: tomber
+  gerondif: dottini
+  ref: G1979
+- radical: miri
+  fr: tisser
+  gerondif: mirini
+  ref: G1979
+- radical: rondi
+  fr: porter (un vêtement)
+  gerondif: rondini
+  ref: G1979
+- radical: wutu
+  fr: prendre
+  gerondif: wuttu
+  ref: G1979, B2013
+- radical: katu
+  fr: frapper
+  gerondif: katta
+  intransitif: kati
+  ref: G1979, B2013
+- radical: xata
+  fr: maudire
+  gerondif: xatta
+  ref: G1979
+- radical: gunu
+  fr: plier
+  gerondif: gunnu
+  intransitif: guni
+  ref: G1979, B2013
+- radical: bunu
+  fr: toucher (une cible)
+  gerondif: bunnu
+  ref: G1979
+- radical: bono
+  fr: gâter
+  gerondif: bonno
+  ref: G1979, B2013
+- radical: xenu
+  fr: tomber
+  gerondif: xenne
+  ref: G1979, B2013
+- radical: kanu
+  fr: avoir peur
+  gerondif: kanna
+  ref: G1979, B2013
+- radical: goro
+  fr: piler
+  gerondif: gollo
+  intransitif: gore
+  ref: G1979, B2013
+- radical: kara
+  fr: mourir
+  gerondif: kalla
+  ref: G1979, B2013
+- radical: bara
+  fr: refuser
+  gerondif: balla
+  ref: G1979
+- radical: tere
+  fr: marcher
+  gerondif: telle / terene
+  ref: G1979
+- radical: jara
+  fr: dégouliner
+  gerondif: jalla
+  ref: G1979
+- radical: kuti
+  fr: cesser
+  gerondif: kutti
+  ref: G1979
+- radical: kari
+  fr: tuer
+  gerondif: kalli
+  ref: G1979, B2013
+- radical: mugu
+  fr: comprendre / entendre
+  gerondif: mukku
+  intransitif: mugi
+  ref: G1979, B2013
+- radical: bogu
+  fr: sortir
+  gerondif: bakka
+  ref: G1979, B2013
+- radical: joxu
+  fr: verser
+  gerondif: joqo
+  ref: G1979
+- radical: toxo
+  fr: rester
+  gerondif: toqo
+  ref: G1979
+- radical: saxu
+  fr: se coucher
+  gerondif: saqa
+  ref: G1979
+- radical: kafu
+  fr: réunir
+  gerondif: kapa
+  intransitif: kafi
+  ref: G1979, B2013
+- radical: xesu
+  fr: puiser
+  gerondif: xece
+  ref: G1979
+- radical: qobo
+  fr: acheter
+  gerondif: qobono
+  ref: K2018
+  note: xobo à Bakel
+- radical: gaaga
+  fr: vendre
+  gerondif: gaagana
+  intransitif: gaage
+  ref: K2018, B2013
+- radical: siiti
+  fr: attacher
+  gerondif: siitini
+  ref: K2018
+- radical: salli
+  fr: prier
+  gerondif: sallini
+  ref: K2018, B2013
+- radical: duguta
+  fr: s'échapper
+  ref: K2018
+- radical: danbu
+  fr: donner un coup de pied
+  ref: K2018
+- radical: taaxu
+  fr: s'asseoir
+  gerondif: taaxunu
+  ref: K2018, B2013
+- radical: ke
+  fr: entrer
+  ref: K2018
+- radical: deema
+  fr: aider
+  ref: K2018
+- radical: ŋari
+  fr: voir
+  ref: K2018
+- radical: booxo
+  fr: déchirer
+  ref: K2018
+- radical: faaba
+  fr: aider (secourir)
+  intransitif: faabe
+  antipassif: faabandi
+  ref: B2013
+- radical: banbu
+  fr: porter sur le dos
+  intransitif: banbi
+  antipassif: banbundi
+  ref: B2013
+- radical: boora
+  fr: déshabiller
+  intransitif: boore
+  antipassif: boorandi
+  ref: B2013
+- radical: buruxa
+  fr: effacer / exterminer
+  intransitif: buruxe
+  antipassif: buruxandi
+  ref: B2013
+- radical: buuda
+  fr: trop cuire
+  intransitif: buude
+  antipassif: buudundi
+  ref: B2013
+- radical: cucufu
+  fr: asperger
+  intransitif: cucufi
+  antipassif: cucufindi
+  ref: B2013
+- radical: danpu
+  fr: piétiner
+  intransitif: danpi
+  antipassif: danpundi
+  ref: B2013
+- radical: duqquta
+  fr: arracher
+  intransitif: duqqute
+  antipassif: duqqutandi
+  ref: B2013
+- radical: fata
+  fr: séparer / récolter / sevrer
+  intransitif: fate
+  antipassif: fatandi
+  ref: B2013
+- radical: fubba
+  fr: plonger (qqch)
+  intransitif: fubbe
+  antipassif: fubbandi
+  ref: B2013
+- radical: garaba
+  fr: fendre
+  intransitif: garabe
+  antipassif: garabandi
+  ref: B2013
+- radical: jaga
+  fr: creuser
+  intransitif: jage
+  antipassif: jagandi
+  ref: B2013
+- radical: kaga
+  fr: gratter
+  intransitif: kage
+  antipassif: kagandi
+  ref: B2013
+- radical: kippa
+  fr: retourner
+  intransitif: kippe
+  antipassif: kippandi
+  ref: B2013
+- radical: langa
+  fr: maudire
+  intransitif: lange
+  antipassif: langandi
+  ref: B2013
+- radical: nafa
+  fr: rendre service
+  intransitif: nafe
+  antipassif: nafandi
+  ref: B2013
+- radical: raga
+  fr: saisir
+  intransitif: rage
+  antipassif: ragandi
+  ref: B2013
+- radical: saada
+  fr: entasser
+  intransitif: saade
+  antipassif: saadandi
+  ref: B2013
+- radical: safa
+  fr: écrire
+  intransitif: safe
+  antipassif: safandi
+  ref: B2013
+- radical: saga
+  fr: défricher
+  intransitif: sage
+  antipassif: sagandi
+  ref: B2013
+- radical: sagara
+  fr: ramasser
+  intransitif: sagare
+  antipassif: sagarandi
+  ref: B2013
+- radical: sagata
+  fr: joindre
+  intransitif: sagate
+  antipassif: sagatandi
+  ref: B2013
+- radical: sella
+  fr: balayer
+  intransitif: selle
+  antipassif: sellandi
+  ref: B2013
+- radical: taga
+  fr: construire
+  intransitif: tage
+  antipassif: tagandi
+  ref: B2013
+- radical: tulu
+  fr: tresser (cheveux)
+  intransitif: tuli
+  antipassif: tulundi
+  ref: B2013
+- radical: waara
+  fr: ouvrir grand
+  intransitif: waare
+  antipassif: waarandi
+  ref: B2013
+- radical: wara
+  fr: relâcher
+  intransitif: ware
+  antipassif: warandi
+  ref: B2013
+- radical: wundu
+  fr: réveiller
+  intransitif: wundi
+  antipassif: wundundi
+  ref: B2013
+- radical: xamu
+  fr: traire
+  intransitif: xami
+  antipassif: xamundi
+  ref: B2013
+- radical: xoso
+  fr: casser / vaincre
+  intransitif: xose
+  antipassif: xosondi
+  ref: B2013
+- radical: yiriga
+  fr: compter
+  antipassif: yirigandi
+  ref: B2013
+- radical: yonto
+  fr: pousser
+  intransitif: yonte
+  antipassif: yontondi
+  ref: B2013
+- radical: yoola
+  fr: noyer
+  intransitif: yoole
+  antipassif: yoolandi
+  ref: B2013
+- radical: soro
+  fr: cuisiner
+  intransitif: sore
+  ref: B2013
+- radical: faamu
+  fr: comprendre
+  intransitif: faami
+  ref: B2013
+- radical: joppa
+  fr: commencer
+  intransitif: joppe
+  ref: B2013
+- radical: saara
+  fr: accoucher
+  intransitif: saare
+  ref: B2013
+- radical: xobo
+  fr: acheter
+  intransitif: xobe
+  ref: B2013
+- radical: yaara
+  fr: glaner
+  intransitif: yaare
+  ref: B2013
+- radical: soxo
+  fr: cultiver
+  intransitif: soxe
+  gerondif: soxono
+  ref: B2013
+- radical: xara
+  fr: apprendre
+  ref: B2013
+- radical: lifi
+  fr: coudre
+  gerondif: lifini
+  ref: B2013
+- radical: bayi
+  fr: étendre
+  antipassif: bayindi
+  ref: B2013
+- radical: buyi
+  fr: brûler
+  ref: B2013
+- radical: dabari
+  fr: réparer
+  ref: B2013
+- radical: faccari
+  fr: traduire
+  ref: B2013
+- radical: jaabi
+  fr: répondre
+  ref: B2013
+- radical: kori
+  fr: tamiser
+  ref: B2013
+- radical: koroosi
+  fr: surveiller
+  gerondif: koroosini
+  ref: B2013
+- radical: guuji
+  fr: verser
+  ref: B2013
+- radical: loggi
+  fr: suspendre
+  ref: B2013
+- radical: wanqi
+  fr: laver
+  ref: B2013
+- radical: wuñi
+  fr: ouvrir
+  ref: B2013
+- radical: xiyili
+  fr: traîner
+  ref: B2013
+- radical: sii
+  fr: raser
+  ref: B2013
+- radical: ka
+  fr: insulter
+  intransitif: kayi
+  ref: B2013
+- radical: tu
+  fr: connaître
+  intransitif: tuyi
+  ref: B2013
+- radical: baami
+  fr: galoper
+  ref: B2013
+- radical: soyi
+  fr: rire
+  ref: B2013
+- radical: butu
+  fr: se fâcher
+  ref: B2013
+- radical: muxu
+  fr: se cacher
+  ref: B2013
+- radical: kaawa
+  fr: sécher
+  ref: B2013
+- radical: rege
+  fr: danser
+  ref: B2013

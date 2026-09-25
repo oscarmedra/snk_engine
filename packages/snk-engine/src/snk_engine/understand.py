@@ -131,7 +131,7 @@ def load_lexicon(engine: ConjugationEngine | None = None, data_dir: Path | None 
     ref_path = data_dir / "references" / "verbes.yaml"
     if ref_path.exists():
         data = yaml.safe_load(ref_path.read_text(encoding="utf-8")) or {}
-        for item in data.get("locuteur") or []:
+        for item in (data.get("locuteur") or []) + (data.get("liste") or []):
             radical, sens = item.get("radical"), item.get("fr")
             if radical and sens and radical != "?" and "?" not in sens:
                 reference.setdefault(_key(radical), sens)
