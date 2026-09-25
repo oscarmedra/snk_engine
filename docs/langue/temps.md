@@ -15,6 +15,7 @@ Toutes les phrases ci-dessous sont produites par le moteur.
 | action en cours | pronom + `yi` + forme en -ni | `nke yi yigene` | je mange |
 | demande | pronom + `na` + verbe | `a na yige` | qu'il mange |
 | demande avec objet | pronom + `na` + objet + verbe | `a na maro n'yiga` | qu'il mange le riz |
+| futur lointain | pronom + `rini` + verbe | `nke rini daga` | je partirai (plus tard) |
 | sur le point de | pronom + `fayi rini` + verbe | `nke fayi rini daga` | je suis sur le point de partir |
 | en train de (watia) | pronom + `fayi` + forme en -ni + `watia` | `ake m'fayi yigene watia` | il est en train de manger, là, maintenant |
 | futur | pronom + `yi rini` + verbe | `anke n'yi rini daga` | tu partiras |

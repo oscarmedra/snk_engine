@@ -110,6 +110,8 @@ def conjugate_fr(verb: FrenchVerb, person: str, tense: str, obj: str | None = No
         return _elide(subject, f"{AUX['etre'][i]} en train de {verb.french_infinitive}") + tail
     if tense == "future":
         return _elide(subject, f"{ALLER[i]} {verb.french_infinitive}") + tail
+    if tense == "future_lointain":
+        return _elide(subject, future) + tail          # futur simple : je partirai
     if tense == "past_negative":
         return _negate(subject, AUX[verb.aux][i], f"{participle}{tail}")
     if tense in ("future_negative", "future_negative_ntaxa"):

@@ -120,6 +120,11 @@ def load_lexicon(engine: ConjugationEngine | None = None, data_dir: Path | None 
                                  ("nom_action", verb.action_noun)):
             if form:
                 verbs.setdefault(_key(form), (name, field_name))
+        # formes particulières déclarées dans les règles du verbe (riya, data…)
+        for tense, rule in verb.rules.items():
+            for form in [rule.form, *rule.exceptions.values()]:
+                if form and "{" not in form:
+                    verbs.setdefault(_key(form), (name, f"conjugaison.{tense}"))
 
     # verbes du locuteur, pas encore confirmés ; la section `sources` est écartée
     reference: dict[str, str] = {}
@@ -233,14 +238,23 @@ def assemble(tokens: list[Token], lex: Lexicon) -> tuple[dict, list[str]]:
 
     # 2. marqueur de temps
     candidates: tuple[str, ...] = ()
+    marker_at = None
     found = _marker_at(tokens, i, lex)
     if found:
         _, candidates, length = found
-        i += length
+        marker_at, i = i, i + length
 
     # 3. verbe, et ce qui le précède (l'objet)
     verb_at = next((j for j in range(i, len(tokens))
                     if {"verbe", "verbe_reference"} & set(tokens[j].tags)), None)
+    if verb_at is None and marker_at is not None:
+        # certains mots sont à la fois marqueur et verbe (« rini » : futur lointain,
+        # mais aussi forme en -ni de « venir ») : sans autre verbe, c'est le verbe
+        for j in range(marker_at, i):
+            if "verbe" in tokens[j].tags:
+                verb_at, i, candidates = j, marker_at, ()
+                notes.append(f"« {tokens[j].word} » lu comme verbe, faute d'un autre verbe dans la phrase")
+                break
     if verb_at is not None:
         object_tokens = [t for t in tokens[i:verb_at] if "interrogatif" not in t.tags]
         if object_tokens:

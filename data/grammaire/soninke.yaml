@@ -41,6 +41,10 @@ temps:
     marqueur: fayi
     suffixe: watia       # insiste sur le moment : « là, maintenant »
     particule: true      # anke m'fayi dagana watia
+  future_lointain:
+    nom: futur lointain
+    marqueur: rini        # nke rini daga = je partirai (plus tard)
+    particule: true       # anke l'rini daga
   future:
     nom: futur proche     # « yi rini » : l'action est imminente, pas lointaine
     marqueur: yi rini
@@ -167,6 +171,8 @@ classes:
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
       future:
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
+      future_lointain:  # confirmé 2026-09-25 : nke rini daga, anke l'rini daga
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
       en_cours_objet:  # confirmé 2026-09-20 : nke yi maro yigane, anke n'yi maro yigane
         forme: "{gerondif_objet}"   # le verbe après l'objet reste nu à ce temps
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
@@ -259,6 +265,9 @@ verbes:
     gerondif: rini
     classe: regulier
     conjugaison:
+      future_lointain: # confirmé : a rini riya (il viendra) — forme particulière
+        forme: riya
+        personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]
       future:          # confirmé : rini porte déjà « venir » → oku yi rini (pas « yi rini ri »)
         forme: ""
         personnes: [nke, anke, ake, oku, xaku, iku, n, an, a, o, xa, i]

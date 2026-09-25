@@ -198,6 +198,19 @@ def test_object_form_differs_from_bare_form():
     assert e.conjugate("yigeyer", "ake", "past_object", "maro").endswith("n'yiga")
 
 
+@pytest.mark.parametrize(
+    "verb, subject, expected",
+    [
+        ("dagaer", "nke", "nke rini daga"),
+        ("dagaer", "anke", "anke l'rini daga"),
+        ("rier", "a", "a rini riya"),          # « venir » a sa propre forme à ce temps
+        ("rier", "iku", "iku l'rini riya"),
+    ],
+)
+def test_distant_future(verb, subject, expected):
+    assert default_engine().conjugate(verb, subject, "future_lointain") == expected
+
+
 def test_keyword_api():
     assert conjugate(verb="dagaer", subject="nke", tense="past") == "nke daga"
 

@@ -90,6 +90,11 @@
    "suffixe": "watia",
    "particule": true
   },
+  "future_lointain": {
+   "nom": "futur lointain",
+   "marqueur": "rini",
+   "particule": true
+  },
   "future": {
    "nom": "futur proche",
    "marqueur": "yi rini",
@@ -239,6 +244,22 @@
      ]
     },
     "future": {
+     "personnes": [
+      "nke",
+      "anke",
+      "ake",
+      "oku",
+      "xaku",
+      "iku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
+     ]
+    },
+    "future_lointain": {
      "personnes": [
       "nke",
       "anke",
@@ -598,6 +619,23 @@
    "gerondif": "rini",
    "classe": "regulier",
    "conjugaison": {
+    "future_lointain": {
+     "forme": "riya",
+     "personnes": [
+      "nke",
+      "anke",
+      "ake",
+      "oku",
+      "xaku",
+      "iku",
+      "n",
+      "an",
+      "a",
+      "o",
+      "xa",
+      "i"
+     ]
+    },
     "future": {
      "forme": "",
      "personnes": [

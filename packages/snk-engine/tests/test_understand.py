@@ -165,6 +165,15 @@ def test_tagger_lists_every_candidate(lex):
     assert "marqueur" in tags["yi"] and "determinant" in tags["ke"]
 
 
+def test_marker_that_is_also_a_verb(lex):
+    # « rini » : marqueur du futur lointain, mais aussi forme en -ni de « venir »
+    distant = analyze("nke rini daga", lex)
+    assert distant.frame["temps"] == "future_lointain" and distant.fr == "je partirai"
+    alone = analyze("An l'rini kan dimma ?", lex)
+    assert alone.frame["verbe"] == "rier"          # faute d'autre verbe, c'est le verbe
+    assert any("lu comme verbe" in n for n in alone.notes)
+
+
 def test_particle_mismatch_is_reported(lex):
     a = analyze("ake n'mini", lex)        # attendu : m'mini
     assert any("particule inattendue" in n for n in a.notes)
