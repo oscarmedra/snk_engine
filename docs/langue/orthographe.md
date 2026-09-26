@@ -1,3 +1,7 @@
+---
+description: "L'orthographe du soninké : alphabet, les lettres ŋ, x, ñ, les voyelles longues, et la graphie retenue ici."
+---
+
 # L'orthographe
 
 Le projet suit l'orthographe employée dans la littérature linguistique (Creissels,

@@ -1,3 +1,7 @@
+---
+description: "snk_engine : moteur de conjugaison et d'analyse du soninké, en Python, piloté par des données validées par un locuteur."
+---
+
 # Le moteur
 
 Le moteur applique les règles décrites sur ce site. Il ne contient aucune forme

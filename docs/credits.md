@@ -1,3 +1,7 @@
+---
+description: "Crédits, sources et licences du projet soninké : code sous MIT, données et corpus sous CC BY 4.0."
+---
+
 # Crédits et licences
 
 ## Qui a fait ce travail

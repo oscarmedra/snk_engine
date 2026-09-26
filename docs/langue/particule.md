@@ -1,3 +1,7 @@
+---
+description: "La particule soninké n', m', l', ŋ' : quand elle apparaît et quelle forme elle prend selon l'initiale du mot suivant."
+---
+
 # La particule
 
 C'est la règle la plus caractéristique de la langue, et celle qui structure tout le

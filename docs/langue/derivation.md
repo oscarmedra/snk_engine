@@ -1,3 +1,7 @@
+---
+description: "Fabriquer des noms à partir des verbes en soninké : le nom d'action et les suffixes."
+---
+
 # Fabriquer des noms à partir d'un verbe
 
 Le soninké forme des noms en ajoutant un suffixe au verbe. La règle est très

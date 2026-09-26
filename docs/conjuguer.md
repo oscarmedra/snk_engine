@@ -1,3 +1,7 @@
+---
+description: "Conjugueur soninké en ligne : choisis un verbe français ou soninké et obtiens sa conjugaison à tous les temps, aux douze pronoms."
+---
+
 # Conjuguer un verbe
 
 Choisis un verbe : le tableau donne sa conjugaison à tous les temps.

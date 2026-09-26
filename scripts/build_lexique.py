@@ -17,7 +17,10 @@ def main() -> None:
     verbes_ref = load("references/verbes.yaml")
     mots = load("references/mots.yaml")
 
-    out = ["# Le lexique", "",
+    out = ["---",
+           'description: "Lexique soninké-français : verbes avec leur radical et leur forme en -ni, noms et mots courants, tirés des données du moteur."',
+           "---", "",
+           "# Le lexique", "",
            "Cette page est **générée** à partir des données (`scripts/build_lexique.py`).", "",
            "## Verbes du moteur", "",
            "Entièrement conjugables : toutes les formes sont confirmées par le locuteur.", "",

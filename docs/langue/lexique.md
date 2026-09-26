@@ -1,3 +1,7 @@
+---
+description: "Lexique soninké-français : verbes avec leur radical et leur forme en -ni, noms et mots courants, tirés des données du moteur."
+---
+
 # Le lexique
 
 Cette page est **générée** à partir des données (`scripts/build_lexique.py`).

@@ -1,3 +1,7 @@
+---
+description: "Traducteur soninké-français et français-soninké : écris une phrase, l'analyse grammaticale et la traduction s'affichent pendant la saisie."
+---
+
 # Traduire
 
 Écris en soninké ou en français : la traduction apparaît pendant que tu tapes.

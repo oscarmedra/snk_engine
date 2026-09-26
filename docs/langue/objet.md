@@ -1,3 +1,7 @@
+---
+description: "L'objet direct en soninké, le marqueur di et la transitivité des verbes."
+---
+
 # L'objet et la transitivité
 
 ## L'ordre des mots

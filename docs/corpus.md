@@ -1,3 +1,7 @@
+---
+description: "Corpus parallèle soninké-français : phrases validées par un locuteur, librement réutilisables (CC BY 4.0)."
+---
+
 # Le corpus
 
 Le corpus a deux parties, de nature très différente.

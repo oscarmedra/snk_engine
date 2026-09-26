@@ -1,3 +1,7 @@
+---
+description: "Les temps et constructions du soninké : accompli, action en cours, futur proche et lointain, demande, négation."
+---
+
 # Les temps
 
 Le verbe soninké **ne change pas de terminaison selon la personne**. Ce qui change,

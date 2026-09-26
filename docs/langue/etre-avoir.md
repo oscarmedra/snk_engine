@@ -1,3 +1,7 @@
+---
+description: "Être, avoir et la négation en soninké : ni, ya, ntaxa et les tournures équivalentes."
+---
+
 # Être, avoir, et la négation
 
 ## Être quelque part

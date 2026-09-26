@@ -1,9 +1,15 @@
 site_name: Soninké — structure et corpus
 site_description: Description de la langue soninké, moteur de conjugaison et corpus parallèle soninké-français
+# site_url est ce qui remplit sitemap.xml et pose les liens canoniques : sans lui le
+# sitemap sort vide et les moteurs n'ont aucune liste de pages à parcourir.
+site_url: https://oscarmedra.github.io/snk_engine/
+repo_url: https://github.com/oscarmedra/snk_engine
+repo_name: oscarmedra/snk_engine
 docs_dir: docs
 theme:
   name: material
   language: fr
+  custom_dir: overrides
   palette:
     - scheme: default
       primary: teal

@@ -1,3 +1,7 @@
+---
+description: "Poser une question en soninké : mots interrogatifs et place dans la phrase."
+---
+
 # Les questions
 
 ## Les mots interrogatifs

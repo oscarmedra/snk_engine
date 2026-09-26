@@ -1,3 +1,7 @@
+---
+description: "Les pronoms personnels du soninké : la série longue (nke, anke, ake…) et la série diminutive (n, an, a…)."
+---
+
 # Les pronoms
 
 Le soninké a **deux séries de pronoms** : une série longue et une série diminutive.

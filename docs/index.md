@@ -1,3 +1,7 @@
+---
+description: "Le soninké (sooninkanxanne) décrit règle par règle : pronoms, particule, temps, lexique, avec un moteur de conjugaison et un corpus parallèle soninké-français."
+---
+
 # Le soninké, décrit et calculable
 
 Ce site documente la **structure du soninké** telle qu'elle est parlée par le locuteur

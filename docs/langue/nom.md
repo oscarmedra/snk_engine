@@ -1,3 +1,7 @@
+---
+description: "Le nom en soninké : les déterminants ke et ku, le singulier et le pluriel."
+---
+
 # Le nom
 
 ## Le déterminant : ke au singulier, ku au pluriel
