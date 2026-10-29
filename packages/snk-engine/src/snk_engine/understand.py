@@ -224,7 +224,7 @@ def assemble(tokens: list[Token], lex: Lexicon) -> tuple[dict, list[str]]:
     notes: list[str] = []
     frame: dict = {"sujet": None, "personne": None, "temps": None, "objet": None,
                    "verbe": None, "verbe_confirme": False, "forme_verbe": None,
-                   "complements": [], "question": None}
+                   "complements": [], "question": None, "sujet_nominal": False}
     i = 0
 
     # 1. sujet : un pronom en tête de phrase
@@ -235,6 +235,36 @@ def assemble(tokens: list[Token], lex: Lexicon) -> tuple[dict, list[str]]:
         frame["sujet"] = pronoun
         frame["personne"] = lex.engine.pronouns[pronoun][0].person
         i = 1
+        # « a renme di maro n'yiga » : le marqueur ne suit pas le pronom mais le nom,
+        # donc le pronom est ici un possessif et le groupe entier est le sujet
+        if not _marker_at(tokens, 1, lex):
+            for j in range(2, min(len(tokens), 6)):
+                if "verbe" in tokens[j - 1].tags:
+                    break
+                if _marker_at(tokens, j, lex):
+                    frame["sujet"] = " ".join(x.raw for x in tokens[:j])
+                    frame["sujet_nominal"] = True
+                    frame["personne"] = "3pl" if _key(tokens[j - 1].word) == "ku" else "3sg"
+                    i = j
+                    break
+    elif tokens and "verbe" not in tokens[0].tags:
+        # Sujet nominal : « n'ma di o su xiri » (ma mère appelle tout le monde).
+        # Un texte suivi parle de gens et de choses, pas de « il » et « nous ».
+        #
+        # On ne le retient que si un marqueur de temps suit, sans quoi la phrase est
+        # un impératif, qui commence lui aussi sans pronom : « kudu xa kini ŋa »
+        # (donne-moi une cuillère) n'a pas de sujet, et n'en veut pas.
+        for j in range(1, min(len(tokens), 6)):
+            if _marker_at(tokens, j, lex):
+                # on prend le mot entier : dans « n'ma » (ma mère) le n' est le
+                # possessif, pas la particule verbale que le tokeniseur a détachée
+                mots = [t.raw for t in tokens[:j]]
+                frame["sujet"] = " ".join(mots)
+                frame["sujet_nominal"] = True
+                # `ku` est le déterminant du pluriel ; sinon le nom vaut un « il »
+                frame["personne"] = "3pl" if _key(mots[-1]) == "ku" else "3sg"
+                i = j
+                break
 
     # 2. marqueur de temps
     candidates: tuple[str, ...] = ()
@@ -277,7 +307,8 @@ def assemble(tokens: list[Token], lex: Lexicon) -> tuple[dict, list[str]]:
     if candidates:
         wants_object = frame["objet"] is not None
         matching = [t for t in candidates if lex.engine.tenses[t].object == wants_object] or list(candidates)
-        if len(matching) > 1 and frame["sujet"] and frame["verbe_confirme"]:
+        if (len(matching) > 1 and frame["sujet"] and frame["verbe_confirme"]
+                and not frame["sujet_nominal"]):
             observed = _key(" ".join(t.raw for t in tokens))
             regenerated = []
             for tense in matching:
@@ -358,15 +389,75 @@ def _translate(word: str, lex: Lexicon, notes: list[str]) -> str:
     return UNKNOWN
 
 
+# Un pronom posé devant un nom en est le possessif. Le guide d'écriture le donne :
+# « n ma » (ma mère), « an yaqe » (ta femme), « a renme » (son enfant),
+# « o faaba » (notre père), « axa ma » (votre mère), « i renme » (leur enfant).
+POSSESSIFS = {
+    "n": ("mon", "ma"), "in": ("mon", "ma"), "nke": ("mon", "ma"),
+    "an": ("ton", "ta"), "anke": ("ton", "ta"),
+    "a": ("son", "sa"), "ake": ("son", "sa"),
+    "o": ("notre", "notre"), "oku": ("notre", "notre"),
+    "xa": ("votre", "votre"), "axa": ("votre", "votre"), "xaku": ("votre", "votre"),
+    "i": ("leur", "leur"), "iku": ("leur", "leur"),
+}
+
+
+# Plusieurs sens coexistent pour un même mot : « ma » vaut « jusqu'à » autant que
+# « mère ». Dans un possessif seul un nom a un sens, et « mon jusqu'à » n'en a aucun.
+GRAMMATICAL = ("prédicatif", "jusqu", "introduit", "marque", "particule", "postposition",
+               "conjonction", "pronom", "adverbe", "suffixe", "pluriel")
+
+
+def _mot_grammatical(sens: str) -> bool:
+    bas = sens.lower()
+    return any(g in bas for g in GRAMMATICAL) or bas in ("ou", "et", "mais", "dans", "avec")
+
+
+def _traduire_sujet(sujet: str, lex: Lexicon, notes: list[str]) -> str | None:
+    """Traduit un groupe sujet : un nom, ou un pronom possessif suivi d'un nom."""
+    direct = _translate(sujet, lex, notes)
+    if direct and UNKNOWN not in direct:
+        return direct
+
+    mots = sujet.split()
+    tete = _key(mots[0]).rstrip("'")
+    # « n'ma » s'écrit collé : le possessif est la particule que le tokeniseur a ôtée
+    if len(mots) == 1:
+        for prefixe in ("n'", "ŋ'", "m'", "l'"):
+            if sujet.lower().startswith(prefixe):
+                tete, mots = "n", [prefixe, sujet[len(prefixe):]]
+                break
+    if tete not in POSSESSIFS or len(mots) < 2:
+        return None
+
+    nom_fr = _translate(" ".join(mots[1:]), lex, notes)
+    if not nom_fr or UNKNOWN in nom_fr or _mot_grammatical(nom_fr):
+        return None
+    masculin, feminin = POSSESSIFS[tete]
+    # le genre se lit dans l'article de la glose, qu'on remplace par le possessif
+    sans_article = re.sub(r"^(le |la |les |l'|un |une |du |de la |des )", "", nom_fr, flags=re.I)
+    feminin_ici = re.match(r"^(la |une |de la )", nom_fr, flags=re.I) is not None
+    return f"{feminin if feminin_ici else masculin} {sans_article}"
+
+
 def to_french(frame: dict, lex: Lexicon, notes: list[str]) -> str:
     complements = [_translate(w, lex, notes) for w in frame["complements"]]
     obj_fr = _translate(frame["objet"], lex, notes) if frame["objet"] else None
     person = frame["personne"] or "2sg"
     subject = SUBJECTS.get(person, UNKNOWN)
+    # un sujet nominal se traduit et prend la place du pronom : « le père a mangé »
+    # plutôt que « il a mangé »
+    sujet_fr = _traduire_sujet(frame["sujet"], lex, notes) if frame["sujet_nominal"] else None
+    if sujet_fr:
+        subject = sujet_fr
 
     if frame["verbe_confirme"] and frame["temps"] and frame["verbe"] in lex.french:
         try:
             core = conjugate_fr(lex.french[frame["verbe"]], person, frame["temps"], obj_fr)
+            if sujet_fr:
+                pronom = SUBJECTS.get(person, "")
+                if core.startswith(f"{pronom} "):
+                    core = f"{sujet_fr} {core[len(pronom) + 1:]}"
         except FrenchError as exc:
             notes.append(f"pas de traduction française pour ce temps ({exc}) → {UNKNOWN}")
             core = f"{subject} {UNKNOWN}" + (f" {obj_fr}" if obj_fr else "")

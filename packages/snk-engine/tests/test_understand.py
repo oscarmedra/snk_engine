@@ -177,3 +177,36 @@ def test_marker_that_is_also_a_verb(lex):
 def test_particle_mismatch_is_reported(lex):
     a = analyze("ake n'mini", lex)        # attendu : m'mini
     assert any("particule inattendue" in n for n in a.notes)
+
+
+def test_le_sujet_nest_pas_forcement_un_pronom(lex):
+    """« le sujet c'est comme en français, elle peut prendre différentes choses » (locuteur).
+
+    L'assembleur n'acceptait qu'un pronom en tête et basculait sinon sur
+    l'impératif : « faabe di maro n'yiga » se lisait « mange du riz ».
+    """
+    f = analyze("faabe di maro n'yiga", lex).frame
+    assert f["sujet"] == "faabe" and f["sujet_nominal"]
+    assert f["temps"] == "past_object" and f["personne"] == "3sg"
+
+    # le déterminant du pluriel donne la troisième personne du pluriel
+    f = analyze("lomunu ku wa maro n'yiga", lex).frame
+    assert f["sujet"] == "lomunu ku" and f["personne"] == "3pl"
+
+
+def test_un_pronom_devant_un_nom_est_un_possessif(lex):
+    # le marqueur suit le nom, pas le pronom : le groupe entier est le sujet
+    f = analyze("a renme di maro n'yiga", lex).frame
+    assert f["sujet"] == "a renme" and f["sujet_nominal"]
+    assert analyze("a renme di maro n'yiga", lex).fr == "son enfant a mangé du riz"
+
+
+def test_limperatif_na_toujours_pas_de_sujet(lex):
+    # une phrase sans marqueur de temps reste un impératif, et ne s'invente pas un sujet
+    f = analyze("maro n'yiga", lex).frame
+    assert f["sujet"] is None and f["temps"] == "imperatif_objet"
+
+
+def test_le_sujet_pronom_est_intact(lex):
+    f = analyze("nke di maro n'yiga", lex).frame
+    assert f["sujet"] == "nke" and not f["sujet_nominal"] and f["temps"] == "past_object"
