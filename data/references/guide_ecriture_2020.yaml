@@ -1,0 +1,100 @@
+# « Guide d'écriture de la langue soninké / Sooninkanxannen safandimoxon geesundidokko »
+# Bandiougou S. DRAMÉ (Diallan) et Marianne HAGG, SIL Mali, 1re éd. janvier 2020.
+# Vérifié et validé par la Direction Nationale de l'Éducation Non-Formelle –
+# Langues Nationales (DNENF-LN) du Mali. © SIL Mali, 2020.
+#
+# Fondé sur le décret malien du 29 juillet 1982 et sur les rencontres
+# d'harmonisation : Bakel 1995, Aulnay-sous-Bois 2010, Nouakchott 2014,
+# Bamako 2016, Serekunda 2017 et 2018.
+#
+# C'est une norme D'ÉCRITURE, pas une norme de parole. Le guide le dit lui-même :
+# « Standardiser ne veut pas dire changer sa manière de parler mais plutôt avoir
+# une seule façon d'écrire les mots. » (p. 3)
+#
+# Ce fichier ne sert donc PAS à corriger le locuteur : il sert à comprendre la
+# structure, et à savoir comment ses formes s'écriraient dans la norme malienne.
+
+alphabet:
+  lettres: 26
+  voyelles: [a, e, i, o, u]
+  consonnes: [b, c, d, f, g, h, j, k, l, m, n, ɲ, ŋ, p, q, r, s, t, w, x, y]
+  prononciation:
+    a: {son: a, exemple: Alla, fr: Dieu}
+    b: {son: b, exemple: barama, fr: marmite}
+    c: {son: "th, ti, tch", exemple: ceero, fr: perroquet}
+    d: {son: d, exemple: dala, fr: mare}
+    e: {son: é, exemple: gesere, fr: généalogiste}
+    f: {son: "f (ou h aspiré)", exemple: fare, fr: âne}
+    g: {son: "g dur, toujours", exemple: gede, fr: puits}
+    h: {son: h aspiré, exemple: hoore, fr: noble}
+    i: {son: i, exemple: iyo, fr: oui}
+    j: {son: "di, dj", exemple: jaare, fr: griot}
+    k: {son: k, exemple: ka, fr: maison}
+    l: {son: l, exemple: labo, fr: couteau}
+    m: {son: m, exemple: ma, fr: mère}
+    n: {son: n, exemple: na, fr: vache}
+    ɲ: {son: "gn, ny", exemple: ɲogome, fr: chameau, note: "ɲ au Mali, ñ au Sénégal/Gambie/Mauritanie"}
+    ŋ: {son: ng, exemple: fanŋe, fr: fleuve}
+    o: {son: o, exemple: orodoome, fr: bouteille}
+    p: {son: p, exemple: pandi, fr: pioche}
+    q: {son: "q uvulaire (qaaf arabe)", exemple: samaqe, fr: serpent}
+    r: {son: "r roulé", exemple: renme, fr: enfant}
+    s: {son: s, exemple: sere, fr: personne}
+    t: {son: t, exemple: te, fr: champ}
+    u: {son: ou, exemple: unmu, fr: Oumou}
+    w: {son: "ou, w", exemple: waaga, fr: l'an prochain}
+    x: {son: "kh uvulaire (kha arabe)", exemple: xaaxo, fr: hivernage}
+    y: {son: y, exemple: yaaxe, fr: œil}
+
+voyelles:
+  longues: "notées doublées (aa, ee, ii, oo, uu) ; jamais au début ni à la fin d'un mot"
+  nasales: "notées an, en, in, on, un"
+  note: "chaque voyelle existe donc en trois formes : brève, longue, nasale"
+
+# Pourquoi la particule du projet prend des formes différentes : ce n'est pas une
+# règle d'écriture, c'est l'assimilation de la nasale, que la norme écrit toujours n.
+nasale_devant:
+  m_b_p: {prononce: m, ecrit: n, exemples: ["kanme [kamme] pluie", "kanbe [kambe] dent", "konpe [kompe] case"]}
+  ŋ: {prononce: ŋ géminé, ecrit: nŋ, exemples: ["fanŋe [faŋŋe] fleuve"]}
+  a: {prononce: ŋ lourd, ecrit: "n + a", exemples: ["N alimaami [ŋŋalimaami] mon imam"]}
+  w: {prononce: ŋ lourd, ecrit: "n + w", exemples: ["n wulle [ŋŋulle] mon chien"]}
+  y: {prononce: ɲ géminé, ecrit: "n + y", exemples: ["an yaqe [aɲɲaqe] ta femme"]}
+  f_h: {prononce: p, ecrit: "n + f / n + h", exemples: ["n fare [m pare] mon âne"]}
+  s: {prononce: c, ecrit: ns, exemples: ["gansi [ganci] annoncer"]}
+  x: {prononce: q, ecrit: nq, exemples: ["yanqa descendre", "sonqo dispute"]}
+  r_l: {ecrit: nl, exemples: ["fo + n + raqe = fonlaqe (porte)"]}
+
+variation_documentee:
+  f_h: "les « f-phones » (Ouest du Mali) distinguent f et h ; les « h-phones » (Est, centre) disent toujours h. La norme écrit f."
+  r_l: "un r initial se prononce l en début de phrase ou après une nasale, mais s'écrit toujours r. Test : le placer après le pronom a."
+  x_q: "une uvulaire initiale se dit x à l'Ouest du Mali, q à l'Est. On écrit toujours x au début d'un mot, jamais q."
+  variantes_dialectales: "admises à l'écrit selon le parler — le guide donne lege (Est) / rege (Ouest), danser."
+  pluriel: "-nu préféré à -ni (décision de Bakel)."
+
+# Table 2.1 du guide : les catégories, avec les mots que la norme y range.
+categories:
+  nom: [ka, soxaana, Xunba, butte, fare, Maali]
+  adjectif: [xoore, liŋe, xote, sire, xase, binne, laate]
+  verbe: [daga, ɲa, soxo, xara, soro, yige, wurundi]
+  auxiliaire: [wa, da, ma, nta, ga, "ga wa", na, nan, ɲi, nda, ntaxa, maxa]
+  copule: [ni, feti, wa, ɲi, nta, ntaxa, do, "a do"]
+  adverbe: [siri, buru, daaru, yere, xosi, doome]
+  # la série longue du projet (nke, anke…) figure bien dans la norme malienne
+  pronom: [n, in, an, a, o, axa, xa, i, me, du, nke, anken, aken, oku, axakun, ike, ikun]
+  postposition: [yi, ya, ŋa, di, danŋa, katta, katti, ti, ma]
+  determinant: [ke, ku, ken, kun, yogo, mani, kan]
+  demonstratif: [ke, ken, ku, kun]
+  quantificateur: [gabe, baane]
+  numeral: [baane, fillo, sikko]
+  pronom_relatif: [be, beenu]
+  conjonction: [do, ma, walla, wo, baawo, saado, sababu]
+  marque_de_question: [ba, xori, yaala]
+  focalisateur: [ya]
+  interjection: [borotoyo, palipali, xeretete, kirititi, layilayi]
+
+composition:
+  mots_composes: "les éléments sont collés : tiga + dare = tigadare (feuille d'arachide)"
+  connecteur_n: "makka + n + futo = makkanfuto (couscous de maïs)"
+  derivation: "racine + suffixe, collés : soxo + aana = soxaana (cultivateur)"
+  redoublement: "séparé par un trait d'union : kutu-kutu (morceler), buru-buru (à l'excès)"
+  redouble_derive: "mais collé une fois nominalisé : kutu-kutu + nde = kutukutunde"
