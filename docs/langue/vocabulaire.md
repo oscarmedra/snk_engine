@@ -7,7 +7,7 @@ description: "Vocabulaire soninké-français : plus de mille mots réunis des do
 Cette page est **générée** à partir des données (`scripts/build_vocabulaire.py`).
 Elle réunit tout ce que le projet sait d'un mot, quelle qu'en soit la provenance.
 
-**1142 mots**, dont **210** attestés par au moins deux sources indépendantes — ceux-là portent un ✓.
+**1314 mots**, dont **210** attestés par au moins deux sources indépendantes — ceux-là portent un ✓.
 
 ## D'où viennent ces mots
 
@@ -30,16 +30,16 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | soninké | français | source |
 |---|---|---|
 | **baayi** | une tante (sœur du père) | locuteur, SIL 2016 ✓ |
-| **faabe** | le père ; Père ( terme de respect) | locuteur, SIL 2016, glossaire ✓ |
+| **faabe** | un père ; le père | locuteur, SIL 2016, glossaire ✓ |
 | **gidanyaxare** | une grande sœur | locuteur, SIL 2016 ✓ |
 | **gidanyugo** | un grand frère | locuteur, SIL 2016 ✓ |
-| **kaagume** | le chef de famille | locuteur, SIL 2016 ✓ |
+| **kaagume** | un chef de famille ; le chef de famille | locuteur, SIL 2016 ✓ |
 | **kaagunyaxare** | une femme | SIL 2016 |
 | **kallo** | beau-père | SIL 2016 |
 | **kallu ; belle-mère, gendre** | beau-père | SIL 2016 |
 | **kallungoora** | un cousin à plaisanterie | locuteur, SIL 2016 ✓ |
 | **kawu · kaawu** | oncle ; un oncle maternel | locuteur, SIL 2016 ✓ |
-| **kiine · Kine · Kiñe** | le mari ; Mari (terme de respect) | locuteur, SIL 2016, glossaire ✓ |
+| **kiine · Kine · Kiñe** | un mari ; le mari | locuteur, SIL 2016, glossaire ✓ |
 | **kisima · kissima** | un grand-père ; grand-père | locuteur, SIL 2016, glossaire ✓ |
 | **lemine** | un enfant ; enfant | locuteur, SIL 2016, glossaire ✓ |
 | **maama · Mamma** | une grand-mère ; Grand-mère | locuteur, SIL 2016, glossaire ✓ |
@@ -53,7 +53,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **renme** | un enfant ; Enfant ( vis à vis de ses parents) | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
 | **renyaxare** | une fille | locuteur, SIL 2016 ✓ |
 | **renyugo** | un fils | locuteur, SIL 2016 ✓ |
-| **saaxe** | la mère ; Mère (terme de respect) | locuteur, SIL 2016, glossaire ✓ |
+| **saaxe** | une mère ; la mère | locuteur, SIL 2016, glossaire ✓ |
 | **une petite sœur** | un petit frère | SIL 2016 |
 | **xoxone** | un petit frère ; frère | locuteur, SIL 2016, glossaire ✓ |
 | **yaqe · Yaqqe** | une femme ; Epouse | locuteur, SIL 2016, glossaire ✓ |
@@ -64,42 +64,42 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 
 | soninké | français | source |
 |---|---|---|
-| **butte** | le foie ; Foie | locuteur, SIL 2016, glossaire ✓ |
-| **doronme** | le doigt ; Doigt | locuteur, SIL 2016, glossaire ✓ |
-| **faradinlenme** | le rein | locuteur, SIL 2016 ✓ |
+| **butte** | un foie ; le foie | locuteur, SIL 2016, glossaire ✓ |
+| **doronme** | un doigt ; le doigt | locuteur, SIL 2016, glossaire ✓ |
+| **faradinlenme** | un rein ; le rein | locuteur, SIL 2016 ✓ |
 | **fentelle** | la joue | SIL 2016 |
-| **furutu** | le poumon ; Poumons | locuteur, SIL 2016, glossaire ✓ |
+| **furutu** | un poumon ; le poumon | locuteur, SIL 2016, glossaire ✓ |
 | **gonme** | l'estomac | locuteur, SIL 2016 ✓ |
-| **kanbe** | la dent ; Dent | locuteur, SIL 2016, glossaire ✓ |
+| **kanbe** | une dent ; la dent | locuteur, SIL 2016, glossaire ✓ |
 | **kanbo, kanbu** | la dent | SIL 2016 |
-| **kitte** | la main ; Bras + main | locuteur, SIL 2016, glossaire ✓ |
-| **kitti nooge** | la main gauche | locuteur, SIL 2016 ✓ |
-| **kitti teye** | la main droite | locuteur, SIL 2016 ✓ |
-| **konbo** | le sein | locuteur, SIL 2016 ✓ |
+| **kitte** | une main ; la main | locuteur, SIL 2016, glossaire ✓ |
+| **kitti nooge** | une main gauche ; la main gauche | locuteur, SIL 2016 ✓ |
+| **kitti teye** | une main droite ; la main droite | locuteur, SIL 2016 ✓ |
+| **konbo** | un sein ; le sein | locuteur, SIL 2016 ✓ |
 | **kunke** | l'épaule ; Epaule | locuteur, SIL 2016, glossaire ✓ |
 | **laqe** | la bouche | SIL 2016 |
-| **neene** | la langue | locuteur, SIL 2016 ✓ |
-| **noxo** | le ventre ; dans | locuteur, SIL 2016, glossaire ✓ |
-| **nuxunne** | le nez ; Nez | locuteur, SIL 2016, glossaire ✓ |
-| **raqe · Raqqe** | la bouche ; Bouche | locuteur, SIL 2016, glossaire ✓ |
+| **neene** | une langue ; la langue | locuteur, SIL 2016 ✓ |
+| **noxo** | un ventre ; dans | locuteur, SIL 2016, glossaire ✓ |
+| **nuxunne** | un nez ; le nez | locuteur, SIL 2016, glossaire ✓ |
+| **raqe · Raqqe** | une bouche ; la bouche | locuteur, SIL 2016, glossaire ✓ |
 | **segene · Segeñe** | l'ongle ; Ongle, griffe | SIL 2016, glossaire ✓ |
 | **segeɲe** | l'ongle | locuteur, SIL 2016 ✓ |
-| **sinqe** | le menton | locuteur, SIL 2016 ✓ |
+| **sinqe** | un menton ; le menton | locuteur, SIL 2016 ✓ |
 | **sondome** | le cœur | SIL 2016 |
-| **sondonme** | le cœur ; Coeur | locuteur, SIL 2016, glossaire ✓ |
-| **ta** | la jambe ; Membre intérieur, jambe + pied | locuteur, SIL 2016, glossaire ✓ |
+| **sondonme** | un cœur ; le cœur | locuteur, SIL 2016, glossaire ✓ |
+| **ta** | une jambe ; la jambe | locuteur, SIL 2016, glossaire ✓ |
 | **tandoronme** | l'orteil | locuteur, SIL 2016 ✓ |
 | **taro, toru** | l'oreille | SIL 2016 |
-| **teŋe** | le front | locuteur, SIL 2016 ✓ |
+| **teŋe** | un front ; le front | locuteur, SIL 2016 ✓ |
 | **tinkanbe** | les fesses | locuteur, SIL 2016 ✓ |
-| **toge** | la cuisse ; Cuisse | locuteur, SIL 2016, glossaire ✓ |
+| **toge** | une cuisse ; la cuisse | locuteur, SIL 2016, glossaire ✓ |
 | **toro · Tooro** | l'oreille ; Gêner | locuteur, SIL 2016, glossaire ✓ |
-| **xanne** | le cou ; Cou, voix, langage, langue | locuteur, SIL 2016, glossaire ✓ |
-| **xume** | la joue ; Joue | locuteur, SIL 2016, glossaire ✓ |
-| **xurungo** | le genou ; Genou | locuteur, SIL 2016, glossaire ✓ |
+| **xanne** | un cou ; le cou | locuteur, SIL 2016, glossaire ✓ |
+| **xume** | une joue ; la joue | locuteur, SIL 2016, glossaire ✓ |
+| **xurungo** | un genou ; le genou | locuteur, SIL 2016, glossaire ✓ |
 | **yaaxe** | l'œil ; oeil | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
 | **yaaxo** | l'œil | SIL 2016 |
-| **yinkolla** | la tête | locuteur, SIL 2016 ✓ |
+| **yinkolla** | une tête ; la tête | locuteur, SIL 2016 ✓ |
 | **yinte** | les cheveux ; Poil, Cheveu | locuteur, SIL 2016, glossaire ✓ |
 
 ## Les animaux
@@ -108,14 +108,14 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 |---|---|---|
 | **fare · Faare** | l'âne ; Message, messager | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
 | **hare** | l'âne | SIL 2016 |
-| **jaxe** | le mouton ; Ovin, mouton | locuteur, SIL 2016, glossaire ✓ |
-| **muusine** | le chat | locuteur, SIL 2016 ✓ |
-| **na · naa · Ña** | la vache ; vache | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
-| **ɲogome** | le chameau ; chameau | locuteur, SIL 2016, guide 2020 ✓ |
-| **seliɲe** | la poule | locuteur, SIL 2016 ✓ |
-| **si** | le cheval ; Cheval | locuteur, SIL 2016, glossaire ✓ |
-| **sugo** | la chèvre ; Caprin, chèvre | locuteur, SIL 2016, glossaire ✓ |
-| **wulle** | le chien ; Chien | locuteur, SIL 2016, glossaire ✓ |
+| **jaxe** | un mouton ; le mouton | locuteur, SIL 2016, glossaire ✓ |
+| **muusine** | un chat ; le chat | locuteur, SIL 2016 ✓ |
+| **na · naa · Ña** | une vache ; vache | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
+| **ɲogome** | un chameau ; le chameau | locuteur, SIL 2016, guide 2020 ✓ |
+| **seliɲe** | une poule ; la poule | locuteur, SIL 2016 ✓ |
+| **si** | un cheval ; le cheval | locuteur, SIL 2016, glossaire ✓ |
+| **sugo** | une chèvre ; la chèvre | locuteur, SIL 2016, glossaire ✓ |
+| **wulle** | un chien ; le chien | locuteur, SIL 2016, glossaire ✓ |
 
 ## Les vivres
 
@@ -123,63 +123,63 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 |---|---|---|
 | **basalle** | l'oignon | locuteur, SIL 2016 ✓ |
 | **jaba** | l'oignon | SIL 2016 |
-| **jaxataɲɲe** | le gombo | locuteur, SIL 2016 ✓ |
-| **makka · maka** | le maïs ; maïs | locuteur, SIL 2016, glossaire ✓ |
+| **jaxataɲɲe** | un gombo ; le gombo | locuteur, SIL 2016 ✓ |
+| **makka · maka** | un maïs ; maïs | locuteur, SIL 2016, glossaire ✓ |
 | **maro · maaro** | du riz ; riz | locuteur, SIL 2016, glossaire ✓ |
-| **molle** | le haricot | locuteur, SIL 2016 ✓ |
+| **molle** | un haricot ; le haricot | locuteur, SIL 2016 ✓ |
 | **mollo** | le haricot | SIL 2016 |
-| **saabali** | le moringa | locuteur, SIL 2016 ✓ |
+| **saabali** | un moringa ; le moringa | locuteur, SIL 2016 ✓ |
 | **sahe, saayisaayi** | le moringa | SIL 2016 |
 | **sangume · Sangumme** | l'oseille ; Oseille, chanvre | SIL 2016, glossaire ✓ |
 | **sangunme** | l'oseille | locuteur, SIL 2016 ✓ |
 | **tiga** | l'arachide ; arachide | locuteur, SIL 2016 ✓ |
-| **yille · Yiile** | le mil ; rentrer | locuteur, SIL 2016, glossaire ✓ |
+| **yille · Yiile** | un mil ; rentrer | locuteur, SIL 2016, glossaire ✓ |
 
 ## Les choses
 
 | soninké | français | source |
 |---|---|---|
 | **bite** | l'obscurité ; Obscurité, nuit | locuteur, SIL 2016, glossaire ✓ |
-| **debe** | le village ; village | locuteur, SIL 2016, glossaire ✓ |
-| **doroke** | le vêtement ; Chemise, boubou | locuteur, SIL 2016, glossaire ✓ |
-| **fanŋe** | le fleuve ; fleuve | locuteur, SIL 2016, guide 2020 ✓ |
-| **fate** | la peau | locuteur, SIL 2016 ✓ |
-| **fore** | le sang ; Sang | locuteur, SIL 2016, glossaire ✓ |
-| **gede** | le puits ; Puits | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
-| **gide** | la montagne ; Rocher, colline, montagne | locuteur, SIL 2016, glossaire ✓ |
+| **debe** | un village ; village | locuteur, SIL 2016, glossaire ✓ |
+| **doroke** | un vêtement ; le vêtement | locuteur, SIL 2016, glossaire ✓ |
+| **fanŋe** | un fleuve ; le fleuve | locuteur, SIL 2016, guide 2020 ✓ |
+| **fate** | une peau ; la peau | locuteur, SIL 2016 ✓ |
+| **fore** | un sang ; le sang | locuteur, SIL 2016, glossaire ✓ |
+| **gede** | un puits ; le puits | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
+| **gide** | une montagne ; la montagne | locuteur, SIL 2016, glossaire ✓ |
 | **gode** | l'argent ; Anneau | SIL 2016, glossaire ✓ |
-| **gunne · gune** | la brousse ; champ | locuteur, SIL 2016, glossaire ✓ |
+| **gunne · gune** | une brousse ; champ | locuteur, SIL 2016, glossaire ✓ |
 | **hanŋe** | le fleuve | SIL 2016 |
 | **hate** | la peau | SIL 2016 |
-| **jamaane** | le pays | locuteur, SIL 2016 ✓ |
+| **jamaane** | un pays ; le pays | locuteur, SIL 2016 ✓ |
 | **ji · dji** | l'eau ; eau | locuteur, SIL 2016, glossaire ✓ |
-| **ka** | la maison ; maison | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
-| **kacce** | la corde ; Corde | locuteur, SIL 2016, glossaire ✓ |
-| **kanme** | le ciel ; Pluie | locuteur, SIL 2016, glossaire ✓ |
+| **ka** | une maison ; maison | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
+| **kacce** | une corde ; la corde | locuteur, SIL 2016, glossaire ✓ |
+| **kanme** | un ciel ; le ciel | locuteur, SIL 2016, glossaire ✓ |
 | **kara · kaara** | à côté de ; le village | locuteur, SIL 2016, glossaire ✓ |
-| **kille** | la route ; route | locuteur, SIL 2016, glossaire ✓ |
-| **kinŋu** | la cuisine | locuteur, SIL 2016 ✓ |
-| **labo** | le couteau ; Couteau | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
-| **mara** | le grenier ; Garder, conserver | locuteur, SIL 2016, glossaire ✓ |
-| **maxafonji** | la sauce | locuteur, SIL 2016 ✓ |
+| **kille** | une route ; route | locuteur, SIL 2016, glossaire ✓ |
+| **kinŋu** | une cuisine ; la cuisine | locuteur, SIL 2016 ✓ |
+| **labo** | un couteau ; le couteau | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
+| **mara** | un grenier ; le grenier | locuteur, SIL 2016, glossaire ✓ |
+| **maxafonji** | une sauce ; la sauce | locuteur, SIL 2016 ✓ |
 | **moxonji** | la sauce | SIL 2016 |
-| **ɲiiɲe** | la terre | locuteur, SIL 2016 ✓ |
+| **ɲiiɲe** | une terre ; la terre | locuteur, SIL 2016 ✓ |
 | **ɲuɲe** | la terre | SIL 2016 |
 | **saane** | l'étoile ; Etoile oeil d’un marabout (terme de | locuteur, SIL 2016, glossaire ✓ |
-| **sappe · sape** | le sel ; sel | locuteur, SIL 2016, glossaire ✓ |
+| **sappe · sape** | un sel ; sel | locuteur, SIL 2016, glossaire ✓ |
 | **sareti** | la charrette | SIL 2016 |
 | **saxa** | au marché ; marché | locuteur, SIL 2016, glossaire ✓ |
-| **te** | le champ ; Champ | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
-| **tefu** | la chaussure | locuteur, SIL 2016 ✓ |
+| **te** | un champ ; le champ | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
+| **tefu** | une chaussure ; la chaussure | locuteur, SIL 2016 ✓ |
 | **teppu** | la chaussure ; Chaussure | SIL 2016, glossaire ✓ |
-| **tiye** | la viande ; Viande | locuteur, SIL 2016, glossaire ✓ |
-| **wottoro** | la charrette | locuteur, SIL 2016 ✓ |
+| **tiye** | une viande ; la viande | locuteur, SIL 2016, glossaire ✓ |
+| **wottoro** | une charrette ; la charrette | locuteur, SIL 2016 ✓ |
 | **xaalisi · xalisi** | l'argent ; argent | locuteur, SIL 2016, glossaire ✓ |
-| **xaso** | la lune ; Mois, Lune | locuteur, SIL 2016, glossaire ✓ |
+| **xaso** | une lune ; la lune | locuteur, SIL 2016, glossaire ✓ |
 | **xuraye** | la lumière | SIL 2016 |
-| **xureye** | la lumière | locuteur, SIL 2016 ✓ |
-| **yigande** | la nourriture ; nourriture | locuteur, SIL 2016 ✓ |
-| **yinbe** | le feu ; Feu | locuteur, SIL 2016, glossaire ✓ |
+| **xureye** | une lumière ; la lumière | locuteur, SIL 2016 ✓ |
+| **yigande** | une nourriture ; nourriture | locuteur, SIL 2016 ✓ |
+| **yinbe** | un feu ; le feu | locuteur, SIL 2016, glossaire ✓ |
 | **yitte · yite** | l'arbre ; arbre | locuteur, SIL 2016, glossaire ✓ |
 
 ## Les jours
@@ -196,7 +196,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **huturo** | le crépuscule | SIL 2016 |
 | **juma** | vendredi ; Grande mosquée du vendredi | SIL 2016, glossaire ✓ |
 | **kira, kinsiga** | midi | SIL 2016 |
-| **kiye** | le soleil ; soleil | locuteur, SIL 2016, glossaire ✓ |
+| **kiye** | un soleil ; soleil | locuteur, SIL 2016, glossaire ✓ |
 | **koota** | le jour ; Jour, date | SIL 2016, glossaire ✓ |
 | **lele · lelle · Leele** | soir ; l'après-midi | locuteur, SIL 2016, glossaire ✓ |
 | **nelle** | l'après-midi | SIL 2016 |
@@ -340,6 +340,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Baxa** | Basin (étoffe) | glossaire |
 | **Baxalle** | Mulet | glossaire |
 | **Baaye** | Tante (soeur du père) | glossaire |
+| **baayi ke** | la tante (sœur du père) | locuteur |
 | **Be** | Lequel (pronom relatif) | glossaire |
 | **Befe** | Couloir-antichambre des maisons de village | glossaire |
 | **Bendi** | Poêle à frire | glossaire |
@@ -385,6 +386,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Burunjaaji** | Mal attacher | glossaire |
 | **Buusi** | Uriner | glossaire |
 | **Buusu** | Reprendre ; Effeuiller, récolter les feuilles (indigo par ex.) | glossaire |
+| **butte ke** | le foie | locuteur |
 | **Butu** | se fâcher | glossaire |
 | **Cakka** | Collier | glossaire |
 | **Caaku** | Sac | glossaire |
@@ -406,6 +408,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Daro** | Respecter | glossaire |
 | **daru · Daaru** | hier | locuteur, glossaire ✓ |
 | **Daarume** | Avant hier | glossaire |
+| **debe ke** | le village | locuteur |
 | **Debere** | Fétiche, idole | glossaire |
 | **deberi** | faire | locuteur |
 | **Debigume** | Chef de Village | glossaire |
@@ -441,7 +444,9 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Doome** | Ensemble | glossaire |
 | **Dondonne** | Variété de tam-tam | glossaire |
 | **Doono** | Là-bas | glossaire |
+| **doroke ke** | le vêtement | locuteur |
 | **Doromma** | Bague | glossaire |
+| **doronme ke** | le doigt | locuteur |
 | **Du** | Soi-même | glossaire |
 | **Duudo** | Déjà | glossaire |
 | **Due** | Accepter | glossaire |
@@ -460,6 +465,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **faba · Faaba** | père ; Secourir, porter assistance | locuteur, glossaire ✓ |
 | **Faaba-tugunne** | Oncle, petit frère du père | glossaire |
 | **Faaba-xoore** | Oncle , grand frère du père | glossaire |
+| **faabe ke** | le père | locuteur |
 | **Faccari** | Traduire | glossaire |
 | **Faélle** | Dos | glossaire |
 | **Faga** | Etre remlpi, plein, rassasié | glossaire |
@@ -472,13 +478,16 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Faamu** | Comprendre | glossaire |
 | **fana** | premier | locuteur, glossaire ✓ |
 | **Fane · Fanne** | Tôt ; Sillon, Fleuve, rivière permanente | glossaire |
+| **fanŋe ke** | le fleuve | locuteur |
 | **Fanke** | Vent | glossaire |
 | **Fanta-kurufe** | Champignon | glossaire |
 | **Fantanne** | Crapaud | glossaire |
 | **Fanxoore** | Le sénégal: (le grand fleuve) | glossaire |
+| **faradinlenme ke** | le rein | locuteur |
 | **Faranfare** | Beau,belle | glossaire |
 | **Fata** | Séparer, sevrer, récolter (le sougho tardif) | glossaire |
 | **Fatanfanso** | Lutin | glossaire |
+| **fate ke** | la peau | locuteur |
 | **Faati** | Mourir (euphémisme) | glossaire |
 | **faye** | regarder, et aussi rester | locuteur |
 | **Faayi** | Voici, voilà | glossaire |
@@ -510,6 +519,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Fonne** | Un peu | glossaire |
 | **Fonmuume** | Animal | glossaire |
 | **Fonsoppe** | Point de côté | glossaire |
+| **fore ke** | le sang | locuteur |
 | **Foronto** | Piment | glossaire |
 | **Foto** | Photo | glossaire |
 | **Fotondi** | Faire des Photos | glossaire |
@@ -524,6 +534,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Fuura** | Carpe (Poisson) | glossaire |
 | **Fure · Fuure** | Cadavre ; Pirogue, Véhicule | glossaire |
 | **Furun-gallu** | Cimetière | glossaire |
+| **furutu ke** | le poumon | locuteur |
 | **Futte · Fuute** | Sueur ; Souffler | glossaire |
 | **Futo** | Couscous | glossaire |
 | **ga** | introduit la subordonnée ; Prédicatif des propositions temporelles et des potentielles | locuteur, glossaire ✓ |
@@ -543,12 +554,16 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Garra · Gara** | Mensonge ; Cordonnier | glossaire |
 | **Gasere** | Traditionniste (caste proche des griots) | glossaire |
 | **Gawulo** | Sorte de griot d’origine peule | glossaire |
+| **gede ke** | le puits | locuteur |
 | **Geeji** | Mer, océan | glossaire |
 | **Gelli** | Depuis | glossaire |
 | **Gemu** | Se rencontrer, égaler (calcul) | glossaire |
 | **gesere** | généalogiste | guide 2020 |
 | **Geesu** | Conduire quelqu’un (un aveugle par ex.) | glossaire |
 | **Gida** | Grand frère ou grande sur (terme de respect) | glossaire |
+| **gidanyaxare ke** | la grande sœur | locuteur |
+| **gidanyugo ke** | le grand frère | locuteur |
+| **gide ke** | la montagne | locuteur |
 | **Gijinme** | Poitrine | glossaire |
 | **Gille** | Grand , haut , long | glossaire |
 | **gillo** | long | locuteur |
@@ -570,6 +585,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Gulanne** | Cloche | glossaire |
 | **guma** | bâton | locuteur |
 | **Gundo** | Taureau ; Secret | glossaire |
+| **gunne ke** | la brousse | locuteur |
 | **Gurugutte** | Hibou | glossaire |
 | **Guwaane** | Rat palmiste dit " écureuil " | glossaire |
 | **Haccitaare** | Petit déjeuner | glossaire |
@@ -596,6 +612,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Jaabi** | Répondre | glossaire |
 | **Jaga** | Déterrer, dévaster un jardin | glossaire |
 | **Jakka** | Charognard | glossaire |
+| **jamaane ke** | le pays | locuteur |
 | **Janba** | Trahir | glossaire |
 | **Janbangine** | Pipe | glossaire |
 | **Janmu** | Nom de famille | glossaire |
@@ -606,6 +623,8 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Jaate** | Calcul | glossaire |
 | **Jaatigi** | Hôte, propriétaire | glossaire |
 | **Jaxatane** | Gombo | glossaire |
+| **jaxataɲɲe ke** | le gombo | locuteur |
+| **jaxe ke** | le mouton | locuteur |
 | **Jeeniye** | Adultère | glossaire |
 | **Jenjerin-xulle** | Pique-boeuf (oiseau) | glossaire |
 | **Jeere** | Voile de mariée | glossaire |
@@ -629,23 +648,29 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Jula** | commerçant, colporteur | glossaire |
 | **Juppe** | Creux, profond | glossaire |
 | **Jura · Juura** | Farine ; Prier un saint, rechercher son intercession | glossaire |
+| **ka ke** | la maison | locuteur |
 | **Kaba** | Interdire | glossaire |
+| **kacce ke** | la corde | locuteur |
 | **Kaaduuro** | Zéro | glossaire |
 | **Kaafa** | Sabre | glossaire |
 | **Kaafiri** | Impie | glossaire |
 | **Kafo** | Association | glossaire |
 | **Kafu** | Ajouter, additionner | glossaire |
+| **kaagume ke** | le chef de famille | locuteur |
 | **Kala** | Mode | glossaire |
 | **Kalle** | La mort | glossaire |
 | **Kallengora** | Cousin, parent à plaisanterie | glossaire |
 | **Kallu** | Beau-parent ou gendre | glossaire |
+| **kallungoora ke** | le cousin à plaisanterie | locuteur |
 | **kama** | autour de, sur ; Patron, maître | locuteur, glossaire ✓ |
 | **kamu** | ciel | locuteur |
 | **kan dimma** | quand | locuteur |
+| **kanbe ke** | la dent | locuteur |
 | **Kanbu** | Croquer | glossaire |
 | **Kande** | Panier | glossaire |
 | **Kaane · Kanne** | Devant, avant ; Or | glossaire |
 | **Kanjaane** | Lapin | glossaire |
+| **kanme ke** | le ciel | locuteur |
 | **Kanmu** | En haut | glossaire |
 | **Kanpe** | Aile | glossaire |
 | **kanu tami** | dix maisons | locuteur |
@@ -662,29 +687,125 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **kaye** | cahier | locuteur |
 | **Kaayiti** | Papier | glossaire |
 | **Ke** | Celui-ci, ce, cette | glossaire |
+| **ke baayi** | cette tante (sœur du père) | locuteur |
+| **ke butte** | ce foie | locuteur |
+| **ke debe** | ce village | locuteur |
 | **ke doke** | cela | locuteur |
+| **ke doroke** | ce vêtement | locuteur |
+| **ke doronme** | ce doigt | locuteur |
+| **ke faabe** | ce père | locuteur |
+| **ke fanŋe** | ce fleuve | locuteur |
+| **ke faradinlenme** | ce rein | locuteur |
+| **ke fate** | cette peau | locuteur |
+| **ke fore** | ce sang | locuteur |
+| **ke furutu** | ce poumon | locuteur |
+| **ke gede** | ce puits | locuteur |
+| **ke gidanyaxare** | cette grande sœur | locuteur |
+| **ke gidanyugo** | ce grand frère | locuteur |
+| **ke gide** | cette montagne | locuteur |
+| **ke gunne** | cette brousse | locuteur |
+| **ke jamaane** | ce pays | locuteur |
+| **ke jaxataɲɲe** | ce gombo | locuteur |
+| **ke jaxe** | ce mouton | locuteur |
+| **ke ka** | cette maison | locuteur |
 | **ke ka doke** | cette maison-là | locuteur |
 | **ke ka kundu** | cette maison-ci | locuteur |
+| **ke kacce** | cette corde | locuteur |
+| **ke kaagume** | ce chef de famille | locuteur |
+| **ke kallungoora** | ce cousin à plaisanterie | locuteur |
+| **ke kanbe** | cette dent | locuteur |
+| **ke kanme** | ce ciel | locuteur |
+| **ke kille** | cette route | locuteur |
+| **ke kiine** | ce mari | locuteur |
+| **ke kinŋu** | cette cuisine | locuteur |
+| **ke kisima** | ce grand-père | locuteur |
 | **ke kitabe ni anke ni ya xale** | ce livre est à toi | locuteur |
 | **ke kitabe ni nke ni ya xale** | ce livre est à moi | locuteur |
+| **ke kitte** | cette main | locuteur |
+| **ke kitti nooge** | cette main gauche | locuteur |
+| **ke kitti teye** | cette main droite | locuteur |
+| **ke kiye** | ce soleil | locuteur |
+| **ke konbo** | ce sein | locuteur |
 | **ke kundu** | ceci | locuteur |
+| **ke labo** | ce couteau | locuteur |
+| **ke lemine** | cet enfant | locuteur |
+| **ke lettra** | cette lettre | locuteur |
+| **ke makka** | ce maïs | locuteur |
+| **ke maama** | cette grand-mère | locuteur |
+| **ke mara** | ce grenier | locuteur |
+| **ke maarenme** | ce parent | locuteur |
+| **ke maro** | ce riz | locuteur |
+| **ke maxafonji** | cette sauce | locuteur |
+| **ke maaxoore** | cette tante (grande sœur de la mère) | locuteur |
+| **ke menjanŋe** | cet ami | locuteur |
+| **ke molle** | cet haricot | locuteur |
+| **ke muusine** | ce chat | locuteur |
+| **ke na** | cette vache | locuteur |
+| **ke neega** | cet oncle maternel | locuteur |
+| **ke neene** | cette langue | locuteur |
+| **ke noxo** | ce ventre | locuteur |
+| **ke nuxunne** | ce nez | locuteur |
+| **ke ɲiiɲe** | cette terre | locuteur |
+| **ke ɲogome** | ce chameau | locuteur |
+| **ke raqe** | cette bouche | locuteur |
+| **ke renme** | cet enfant | locuteur |
+| **ke renyaxare** | cette fille | locuteur |
+| **ke renyugo** | ce fils | locuteur |
+| **ke saabali** | ce moringa | locuteur |
+| **ke sappe** | ce sel | locuteur |
+| **ke saaxe** | cette mère | locuteur |
+| **ke seliɲe** | cette poule | locuteur |
+| **ke si** | ce cheval | locuteur |
+| **ke sinqe** | ce menton | locuteur |
+| **ke sondonme** | ce cœur | locuteur |
+| **ke sugo** | cette chèvre | locuteur |
+| **ke ta** | cette jambe | locuteur |
+| **ke te** | ce champ | locuteur |
+| **ke tefu** | cette chaussure | locuteur |
+| **ke teŋe** | ce front | locuteur |
+| **ke tiye** | cette viande | locuteur |
+| **ke toge** | cette cuisse | locuteur |
+| **ke wottoro** | cette charrette | locuteur |
+| **ke wulle** | ce chien | locuteur |
+| **ke xanne** | ce cou | locuteur |
+| **ke xaso** | cette lune | locuteur |
+| **ke xati** | ce lait | locuteur |
+| **ke xoxone** | ce petit frère | locuteur |
+| **ke xume** | cette joue | locuteur |
+| **ke xureye** | cette lumière | locuteur |
+| **ke xurungo** | ce genou | locuteur |
+| **ke yaqe** | cette femme | locuteur |
+| **ke yaxare** | cette femme | locuteur |
+| **ke yigande** | cette nourriture | locuteur |
+| **ke yille** | ce mil | locuteur |
+| **ke yinbe** | ce feu | locuteur |
+| **ke yinkolla** | cette tête | locuteur |
+| **ke yugo** | cet homme | locuteur |
 | **kempale** | ensuite ; ensuite, après | locuteur |
 | **Ken** | Celui-là, ce, cette | glossaire |
 | **Kengele** | Pintade | glossaire |
 | **kenkuna** | alors | locuteur |
 | **Kiide** | Baobab | glossaire |
+| **kille ke** | la route | locuteur |
 | **Kiilu** | Esprit | glossaire |
 | **Kiina** | Mari | glossaire |
+| **kiine ke** | le mari | locuteur |
 | **kine-yi** | aliments | locuteur |
 | **Kinge** | Branche | glossaire |
+| **kinŋu ke** | la cuisine | locuteur |
 | **Kini** | Donner | glossaire |
 | **Kinnu** | Foyer | glossaire |
 | **Kira** | Passer la journée | glossaire |
+| **kisima ke** | le grand-père | locuteur |
 | **Kisimare** | Petit-fils ou petite-fille | glossaire |
 | **Kita** | Obtenir | glossaire |
 | **kitabe · Kitaabe** | livre | locuteur, glossaire ✓ |
+| **kitte ke** | la main | locuteur |
 | **Kiiti** | Juger | glossaire |
+| **kitti nooge ke** | la main gauche | locuteur |
+| **kitti teye ke** | la main droite | locuteur |
 | **kitu** | main | locuteur |
+| **kiye ke** | le soleil | locuteur |
 | **kiyi mbaka** | l'est | locuteur |
 | **kiyi nsiga** | midi | locuteur |
 | **ko** | qui ; Dire | locuteur, glossaire ✓ |
@@ -694,6 +815,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Kome** | Captif, esclave | glossaire |
 | **kompo** | chambre | locuteur |
 | **Konbe** | Sein, mamelle | glossaire |
+| **konbo ke** | le sein | locuteur |
 | **Konimoxo** | Prononciation | glossaire |
 | **Konko** | Frapper (à une porte par ex.) | glossaire |
 | **Konpe** | Chambre, bâtiment | glossaire |
@@ -724,6 +846,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Kuttu · Kutu** | Le reste, les autres ; Couper | glossaire |
 | **Kuyi** | Offrir ; Rêver, songer | glossaire |
 | **Labante** | Propre, net | glossaire |
+| **labo ke** | le couteau | locuteur |
 | **Laada** | Coutume | glossaire |
 | **Lagare** | Dernier, benjamin | glossaire |
 | **Lalle** | Canari, jarre | glossaire |
@@ -767,8 +890,10 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **ma** | jusqu'à ; Prédicatif du parfait négatif des verbes intransitifs | locuteur, glossaire, guide 2020 ✓ |
 | **ma-ma** | grand-mère | locuteur |
 | **Maharaba** | Réponse des bommes à une salutation | glossaire |
+| **makka ke** | le maïs | locuteur |
 | **Malla** | Serpent | glossaire |
 | **Malacce** | Acide (adjectif) | glossaire |
+| **maama ke** | la grand-mère | locuteur |
 | **Maana** | Cause, sens, signification | glossaire |
 | **Manankunme** | Fonds de commerce | glossaire |
 | **Mande** | Se saouler | glossaire |
@@ -778,28 +903,36 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **mani-me** | combien | locuteur |
 | **Manjare** | Cauri | glossaire |
 | **Maaño** | Jeune marié(e) | glossaire |
+| **mara ke** | le grenier | locuteur |
 | **Marafa** | Fusil | glossaire |
 | **Mare** | Commander | glossaire |
+| **maarenme ke** | le parent | locuteur |
 | **maro ke** | le riz | locuteur |
 | **Masala** | Discuter, causer | glossaire |
 | **Maxa** | Prédicatif de l’impératif négatif | glossaire |
 | **maxa daga** | ne pars pas | locuteur |
 | **Maxafo** | Condiment | glossaire |
+| **maxafonji ke** | la sauce | locuteur |
 | **Maxanbaane** | Célibataire | glossaire |
 | **Maxañetu** | Parer, orner, décorer | glossaire |
+| **maaxoore ke** | la tante (grande sœur de la mère) | locuteur |
 | **Mba** | Réponse abrégée des hommes à une salutation | glossaire |
 | **mburu** | pain | locuteur |
 | **Me** | L’un l’autre | glossaire |
 | **Mene** | exclamation : pas mal ! ! | glossaire |
 | **Menjanne** | Ami | glossaire |
+| **menjanŋe ke** | l'ami | locuteur |
 | **mina · minna** | où | locuteur |
+| **molle ke** | l'haricot | locuteur |
 | **moxo** | comment | locuteur |
 | **mule** | froid | locuteur |
 | **muma** | tout, entier | locuteur |
+| **muusine ke** | le chat | locuteur |
 | **n'ga / ga** | quand | locuteur |
 | **n'gana** | si | locuteur |
 | **n'paba ka** | la maison de mon père | locuteur |
 | **n'ti** | ne pas être | locuteur |
+| **na ke** | la vache | locuteur |
 | **Ñaaga** | Solliciter | glossaire |
 | **Ñaage** | Quémander, mendier | glossaire |
 | **Ñaala** | Ecrevisse | glossaire |
@@ -820,6 +953,8 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Ñaxami** | Changer, échanger | glossaire |
 | **Ñaxe** | Poisson | glossaire |
 | **Ñaaye** | Prince | glossaire |
+| **neega ke** | l'oncle maternel | locuteur |
+| **neene ke** | la langue | locuteur |
 | **Ñeru** | 7 | glossaire |
 | **ngebe** | beaucoup | locuteur |
 | **Ni · Ñi** | Prédicatif nominal ou adjectival ; Prédicatif de l’imparfait | glossaire |
@@ -836,12 +971,16 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Ñogome** | Dromadaire | glossaire |
 | **Ñoomi** | Beignet | glossaire |
 | **Noqqu** | Endroit | glossaire |
+| **noxo ke** | le ventre | locuteur |
 | **Nta** | prédicatif nominal locatif négatif | glossaire |
 | **Ñuumu** | Etre gourmand | glossaire |
 | **Ñuno** | Pantalon | glossaire |
 | **Ñunqume** | Chat sauvage | glossaire |
 | **Ñuuñu** | Gueule, museau " Longue gueule ", surnom du | glossaire |
 | **Ñuunuñgille** | crocodile | glossaire |
+| **nuxunne ke** | le nez | locuteur |
+| **ɲiiɲe ke** | la terre | locuteur |
+| **ɲogome ke** | le chameau | locuteur |
 | **o su** | tout le monde, nous tous | locuteur |
 | **o ya / oku ya** | à nous | locuteur |
 | **Orege** | Thé | glossaire |
@@ -857,15 +996,20 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Ra** | (anglais " can " ) ; Suffixe indiquant où se passe l’action, abréviation de " raxe " | glossaire |
 | **ra n'ti** | ne pas pouvoir | locuteur |
 | **Raga** | Attraper | glossaire |
+| **raqe ke** | la bouche | locuteur |
 | **Raxe** | Endroit | glossaire |
 | **Rege** | Danser | glossaire |
 | **Ren-yaxare** | Fille | glossaire |
 | **Ren-yugo** | Garçon | glossaire |
+| **renme ke** | l'enfant | locuteur |
+| **renyaxare ke** | la fille | locuteur |
+| **renyugo ke** | le fils | locuteur |
 | **Ri** | Venir | glossaire |
 | **Riti** | Amener, apporter | glossaire |
 | **Ro** | Entrer ; Placer, poser | glossaire |
 | **Roxo** | Manquer, rater ; Prêter | glossaire |
 | **Saabadu** | Cause | glossaire |
+| **saabali ke** | le moringa | locuteur |
 | **Saabara** | Marmite | glossaire |
 | **Saabune** | Savon | glossaire |
 | **Sadaxa** | Aumône | glossaire |
@@ -892,10 +1036,12 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Sanke** | Moustiquaire | glossaire |
 | **Sanku** | Se perdre | glossaire |
 | **Sanpa** | Paume, claque ; Gifler | glossaire |
+| **sappe ke** | le sel | locuteur |
 | **Saara** | er naissance, Accoucher (transitif) | glossaire |
 | **Saare · Sare** | Naître, accoucher (intransitif) ; Etre humain, quelqu’un ; personne | glossaire |
 | **Saasa** | Maintenant | glossaire |
 | **Saase** | Epine | glossaire |
+| **saaxe ke** | la mère | locuteur |
 | **Saxu** | Se coucher | glossaire |
 | **Saxufo** | Prière de la nuit | glossaire |
 | **saxura** | lit | locuteur |
@@ -908,6 +1054,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Sele · Selle** | Bifurquer ; Gallinacé, poule | glossaire |
 | **Selli** | Si | glossaire |
 | **seliŋu** | poules | locuteur |
+| **seliɲe ke** | la poule | locuteur |
 | **Senba** | Moelle | glossaire |
 | **Senbe** | Force | glossaire |
 | **Senta** | Peigner | glossaire |
@@ -917,6 +1064,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **sere su n'ti ka ke noxo** | il n'y a personne dans la maison | locuteur |
 | **Setu** | Monter à cheval | glossaire |
 | **Seyine** | Sable | glossaire |
+| **si ke** | le cheval | locuteur |
 | **Sigi** | S’arrêter, se tenir droit | glossaire |
 | **Sikka** | Douter | glossaire |
 | **Sikaana** | Prostituée | glossaire |
@@ -925,6 +1073,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **siine** | année ; Biche | locuteur, glossaire ✓ |
 | **Singe** | Barbe | glossaire |
 | **Sinme** | Tabac ; Penser | glossaire |
+| **sinqe ke** | le menton | locuteur |
 | **Sira** | Fille aînée | glossaire |
 | **Sire** | Bien | glossaire |
 | **siri** | pas beaucoup | locuteur |
@@ -937,6 +1086,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Sooma** | Fils aîné | glossaire |
 | **Soome** | Lèvre, bec, trompe d’éléphant | glossaire |
 | **Sonbi** | Sombi (espèce de bouillie) | glossaire |
+| **sondonme ke** | le cœur | locuteur |
 | **Soninde** | Syllabe | glossaire |
 | **Sonka** | Nid | glossaire |
 | **Sore** | Faire la cuisine | glossaire |
@@ -947,6 +1097,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **soxu** | dormir | locuteur |
 | **Soyi** | Rire | glossaire |
 | **Su** | Tous | glossaire |
+| **sugo ke** | la chèvre | locuteur |
 | **sugu · Suugu** | chèvres ; Téter, sucer ; embrasser | locuteur, glossaire ✓ |
 | **Sukkara** | Sucre | glossaire |
 | **Suumi** | Jeûner | glossaire |
@@ -962,6 +1113,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Suuxe** | Etre jaloux | glossaire |
 | **suxuba m'po** | petit-déjeuner | locuteur |
 | **suxuba su** | chaque matin | locuteur |
+| **ta ke** | la jambe | locuteur |
 | **Taballe** | Grand tambour de cérémonie (guerres, couronnement, ...) | glossaire |
 | **Taafiya** | Eventail | glossaire |
 | **Taga** | Construire | glossaire |
@@ -994,11 +1146,14 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **taxundi** | poser, mettre | locuteur |
 | **Taye** | Droite | glossaire |
 | **tayeni** | chaud | locuteur |
+| **te ke** | le champ | locuteur |
+| **tefu ke** | la chaussure | locuteur |
 | **teh** | huile | locuteur |
 | **Telle** | Aller, partir (temps de l’inaccompli seulement) | glossaire |
 | **Teleno** | Aller tout droit | glossaire |
 | **Tene** | Front | glossaire |
 | **Tenenne** | Lundi | glossaire |
+| **teŋe ke** | le front | locuteur |
 | **Tere** | Marcher | glossaire |
 | **Terinka** | Ecouter | glossaire |
 | **Texe** | Natte ; Fermer | glossaire |
@@ -1013,7 +1168,9 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Timi** | Sentir ; Jouer un instrument de music | glossaire |
 | **Tinne** | Derrière d’un animal, d’une personne, tronc d’arbre | glossaire |
 | **Tirindi** | Demander | glossaire |
+| **tiye ke** | la viande | locuteur |
 | **tobulu** | nuages | locuteur |
+| **toge ke** | la cuisse | locuteur |
 | **Tone** | Amende | glossaire |
 | **Tonge** | Houe | glossaire |
 | **tongue** | houe | locuteur |
@@ -1071,8 +1228,10 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Weere** | Verre | glossaire |
 | **wetieti** | monnaie | locuteur |
 | **Woto** | Automobile | glossaire |
+| **wottoro ke** | la charrette | locuteur |
 | **Woyi** | Vanner (avec un van) | glossaire |
 | **Wu** | Pleurer | glossaire |
+| **wulle ke** | le chien | locuteur |
 | **Wulluha** | Prière facultative de 9 heures du matin, cette heure | glossaire |
 | **Wuñi** | Ouvrir | glossaire |
 | **Wuno** | Pantalon | glossaire |
@@ -1095,6 +1254,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Xaana · Xana · Xaña** | Iguane ; Ami de coeur | glossaire |
 | **xana-nu** | amis | locuteur |
 | **Xande** | Quinquéliba | glossaire |
+| **xanne ke** | le cou | locuteur |
 | **Xanma** | Dessus | glossaire |
 | **Xanta** | Se souvenir | glossaire |
 | **Xanu** | Aimer, vouloir | glossaire |
@@ -1113,6 +1273,7 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **xaru** | crier | locuteur |
 | **Xaasa** | Limer | glossaire |
 | **xase · Xaase** | vieux ; Termite | locuteur, glossaire ✓ |
+| **xaso ke** | la lune | locuteur |
 | **Xaata · Xata** | Faire bouillir ; Chasser quelqu’un, renvoyer, expulser | glossaire |
 | **xati · Xatti** | du lait ; lait | locuteur, glossaire ✓ |
 | **xati ke** | le lait | locuteur |
@@ -1158,13 +1319,17 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Xote · Xotte** | Dur, lourd ; Os | glossaire |
 | **xoto** | difficile | locuteur |
 | **Xooxo** | Aïeul | glossaire |
+| **xoxone ke** | le petit frère | locuteur |
 | **Xoyi** | Ainsi | glossaire |
 | **Xube** | Construction, bâtiment | glossaire |
 | **Xuli** | Bras | glossaire |
 | **Xumaari** | Arroser | glossaire |
+| **xume ke** | la joue | locuteur |
 | **Xunbane** | Demain | glossaire |
 | **Xura** | Blanchir | glossaire |
+| **xureye ke** | la lumière | locuteur |
 | **Xuru** | Défequer | glossaire |
+| **xurungo ke** | le genou | locuteur |
 | **Xuururo** | Brouillard | glossaire |
 | **Xuso** | o, u) : Vie Vierge | glossaire |
 | **Xusunne** | Petite fille | glossaire |
@@ -1177,9 +1342,11 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **yampimaxa** | s'il te plaît | locuteur |
 | **Yanqa** | Descendre | glossaire |
 | **Yanqandi** | Faire descendre, descendre quelque chose | glossaire |
+| **yaqe ke** | la femme | locuteur |
 | **Yaraxaate** | e (i,u) Déjeuner | glossaire |
 | **Yaxanbaane** | Jeune homme célibataire | glossaire |
 | **Yaxanne** | Jeune fille | glossaire |
+| **yaxare ke** | la femme | locuteur |
 | **Yaxi** | Epouser | glossaire |
 | **Yaaxido** | Le frère ou la soeur qui suit immédiatement | glossaire |
 | **Yaayi** | Eventer | glossaire |
@@ -1193,12 +1360,16 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Yeru** | L’année dernière …prédicatif du présent et du | glossaire |
 | **Yi** | Postposition : à, dans, pour, nominal locatif (dans certains dialectes) | glossaire |
 | **Yiga** | Manger quelque chose | glossaire |
+| **yigande ke** | la nourriture | locuteur |
 | **yigaye** | le fait de manger | locuteur |
 | **Yige** | Manger, prendre un repas | glossaire |
 | **yigu-xoso** | vieil homme | locuteur |
 | **Yiila** | Parcourir en se promenant | glossaire |
+| **yille ke** | le mil | locuteur |
 | **yimbe** | feu | locuteur |
+| **yinbe ke** | le feu | locuteur |
 | **Yingaame** | Hippopotame | glossaire |
+| **yinkolla ke** | la tête | locuteur |
 | **Yinme** | Tête | glossaire |
 | **Yiraame** | Tissu, linge, vêtement | glossaire |
 | **yiramu** | habits | locuteur |
@@ -1212,5 +1383,6 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 | **Yoole** | Se noyer | glossaire |
 | **Yonki** | Souffle, âme, vie | glossaire |
 | **Yonko** | Remuer | glossaire |
+| **yugo ke** | l'homme | locuteur |
 | **Yuxuba** | Desserrer | glossaire |
 

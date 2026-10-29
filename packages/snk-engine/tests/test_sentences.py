@@ -65,3 +65,23 @@ def test_complements_match_the_tense():
     assert not [r for r in rows if r.complement == "daru" and r.tense.startswith("future")]
     assert not [r for r in rows if r.complement == "kumbene" and r.tense == "past"]
     assert [r for r in rows if r.complement == "kumbene" and r.tense == "future"]
+
+
+def test_les_trois_degres_de_determination():
+    """`ke` après le nom détermine, `ke` avant démontre — règle du locuteur.
+
+    Son corpus l'atteste : « Ké lélé » (ce soir), « ké siiné » (cette année),
+    face à « lemine ke » (l'enfant).
+    """
+    from snk_engine.sentences import load_objects
+
+    objets, _ = load_objects()
+    par_snk = {o["snk"]: o["fr"] for o in objets}
+    assert par_snk["wulle"] == "un chien"
+    assert par_snk["wulle ke"] == "le chien"
+    assert par_snk["ke wulle"] == "ce chien"
+    # une matière garde son partitif : « un riz » serait du mauvais français
+    assert par_snk["maro"] == "du riz"
+    assert par_snk["maro ke"] == "le riz"
+    # et aucune forme ne se détermine deux fois
+    assert not [s for s in par_snk if s.endswith(" ke ke") or s.startswith("ke ke ")]
