@@ -62,9 +62,9 @@ entrees:
 - snk: Baane
   fr: Un, seul
 - snk: Baano
-  fr: Tabaski, fête du mouton ou de l'Aïd Souhaiter la bienvenue de façon
+  fr: Tabaski, fête du mouton ou de l'Aïd
 - snk: Baasu
-  fr: officielle
+  fr: Souhaiter la bienvenue de façon officielle
   nombre: u, nu
 - snk: Baawo / Bawoni
   fr: Parce que, car
@@ -134,9 +134,9 @@ entrees:
   fr: Gonfler au maximun
   forme2: beerene
 - snk: Beeta
-  fr: 'Beeta : Salut du matin Couloir-antichambre des maisons de'
+  fr: 'Beeta : Salut du matin'
 - snk: Befe
-  fr: village
+  fr: Couloir-antichambre des maisons de village
   nombre: i, u
 - snk: Bendi
   fr: Poêle à frire
@@ -163,10 +163,10 @@ entrees:
   fr: se coucher sur le ventre
   forme2: bippi
 - snk: Biida
-  fr: Boa, serpent légendaire du Wagadou Jouet fait avec un bout de calebasse et
+  fr: Boa, serpent légendaire du Wagadou
   nombre: a, nu
 - snk: Biifi
-  fr: de la ficelle
+  fr: Jouet fait avec un bout de calebasse et de la ficelle
   nombre: i, nu
 - snk: Biijibaajo
   fr: Aurore
@@ -296,9 +296,9 @@ entrees:
 - snk: Da
   fr: Prédicatif affirmatif passé
 - snk: Da
-  fr: 'postposition : à, pour Bouche d’un marabout (terme de'
+  fr: 'postposition : à, pour'
 - snk: Daage
-  fr: respect)
+  fr: Bouche d’un marabout (terme de respect)
   nombre: ', u'
 - snk: Daaru
   fr: Hier
@@ -537,10 +537,10 @@ entrees:
   fr: Beau,belle
   nombre: a , o
 - snk: Fare
-  fr: Ane Séparer, sevrer, récolter (le sougho
+  fr: Ane
   nombre: i, u
 - snk: Fata
-  fr: tardif)
+  fr: Séparer, sevrer, récolter (le sougho tardif)
   forme2: fatana
 - snk: Fatanfanso
   fr: Lutin
@@ -557,10 +557,10 @@ entrees:
   fr: S’exiler, émigrer
   forme2: feregono
 - snk: Feri
-  fr: Etre fier, orgueilleux Prédicatif nominal négatif (de la
+  fr: Etre fier, orgueilleux
   forme2: ferini
 - snk: Feti
-  fr: relation)
+  fr: Prédicatif nominal négatif (de la relation)
 - snk: Fi
   fr: Problème
   forme2: fi, fiinu
@@ -609,10 +609,10 @@ entrees:
 - snk: Fonne
   fr: Un peu
 - snk: Fonsoppe
-  fr: Point de côté Lettré coranique, Fodié prénom
+  fr: Point de côté
   nombre: i,u
 - snk: Foodiye
-  fr: masculin
+  fr: Lettré coranique, Fodié prénom masculin
   nombre: i,u
 - snk: Foofo
   fr: Rien
@@ -688,10 +688,10 @@ entrees:
   fr: Pirogue, Véhicule
   nombre: i,u
 - snk: Fuute
-  fr: Souffler Prédicatif des propositions
+  fr: Souffler
   forme2: Fuutene
 - snk: Ga
-  fr: temporelles et des potentielles
+  fr: Prédicatif des propositions temporelles et des potentielles
 - snk: Gaada
   fr: Servante
   nombre: a, nu
@@ -733,10 +733,10 @@ entrees:
 - snk: Ganni
   fr: Autrefois
 - snk: Gara
-  fr: Cordonnier Traditionniste (caste proche des
+  fr: Cordonnier
   forme2: a, ..
 - snk: Gasere
-  fr: griots)
+  fr: Traditionniste (caste proche des griots)
   nombre: i,u
 - snk: Gawulo
   fr: Sorte de griot d’origine peule
@@ -753,10 +753,10 @@ entrees:
 - snk: Gelli
   fr: Depuis
 - snk: Gemu
-  fr: Se rencontrer, égaler (calcul) Grand frère ou grande sur (terme de
+  fr: Se rencontrer, égaler (calcul)
   forme2: genme
 - snk: Gida
-  fr: respect)
+  fr: Grand frère ou grande sur (terme de respect)
   nombre: a, anu
 - snk: Gide
   fr: Rocher, colline, montagne
@@ -804,10 +804,10 @@ entrees:
   fr: Piler (transitif)
   forme2: gollo
 - snk: Goro
-  fr: Noix de cola Tapis de prière, peau servant de
+  fr: Noix de cola
   nombre: o,nu
 - snk: Guja
-  fr: trône royal
+  fr: Tapis de prière, peau servant de trône royal
   nombre: a,nu
 - snk: Gulanne
   fr: Cloche
@@ -887,13 +887,13 @@ entrees:
   fr: Noble
   nombre: a,o
 - snk: I
-  fr: Ils, elles Soi (réfléchi de la troisième personne du singulier) Moi (réfléchi de a première personne
+  fr: Ils, elles personne du singulier)
 - snk: In
-  fr: du singulier )
+  fr: Soi (réfléchi de la troisième Moi (réfléchi de a première personne du singulier )
 - snk: Iyo
-  fr: Oui Parole d’un marabout (terme de
+  fr: Oui
 - snk: Jaabe
-  fr: respect)
+  fr: Parole d’un marabout (terme de respect)
   nombre: i,u
 - snk: Jaabi
   fr: Répondre
@@ -1017,16 +1017,16 @@ entrees:
   fr: Creux, profond
   nombre: i,u
 - snk: Jura
-  fr: Farine Prier un saint, rechercher son
+  fr: Farine
   nombre: a,
 - snk: Juura
-  fr: intercession Maison, concession de famille
+  fr: Prier un saint, rechercher son intercession
   forme2: juurana
 - snk: Ka
-  fr: étendue Appellation de l’oncle, abréviation de
+  fr: Maison, concession de famille étendue
   forme2: a, kaanu
 - snk: Ka
-  fr: Kaawu
+  fr: Appellation de l’oncle, abréviation de
 - snk: Ka
   fr: Injurer
   forme2: Kana
@@ -1200,10 +1200,10 @@ entrees:
   fr: Pastèque
   nombre: i,u
 - snk: Ko
-  fr: 'Dire Beau-frère : époux de la soeur, Belle soeur : femme du frère'
+  fr: Dire
   forme2: Koo
 - snk: Kobi
-  fr: (impliquant un rapport de plaisanterie)
+  fr: 'Kaawu Beau-frère : époux de la soeur, Belle soeur : femme du frère (impliquant un rapport de plaisanterie)'
   nombre: i,nu
 - snk: Kocce
   fr: Caillou
@@ -1336,10 +1336,10 @@ entrees:
   fr: Prière de 16 heures environ
   nombre: a, nu
 - snk: Lebi
-  fr: Bégayer Oiseau au plumage noir avec des
+  fr: Bégayer
   forme2: lebini
 - snk: Leelaane
-  fr: reflets bleu
+  fr: Oiseau au plumage noir avec des reflets bleu
   nombre: n,u
 - snk: Leele
   fr: Tortue d’eau
@@ -1369,10 +1369,10 @@ entrees:
   fr: Coudre quelque chose (transitif)
   forme2: lippi
 - snk: Likke
-  fr: Charge, fardeau Coudre, faire de la couture
+  fr: Charge, fardeau
   nombre: ',u'
 - snk: Lifi
-  fr: (intransitif)
+  fr: Coudre, faire de la couture (intransitif)
   forme2: lifini
 - snk: Likke
   fr: Charge, fardeau
@@ -1392,10 +1392,10 @@ entrees:
   fr: Sourd
   nombre: a,o
 - snk: Luwaase
-  fr: Loyer Prédicatif du parfait négatif des
+  fr: Loyer
   nombre: i,u
 - snk: Ma
-  fr: verbes intransitifs
+  fr: Prédicatif du parfait négatif des verbes intransitifs
 - snk: Ma
   fr: Jusqu’à, jusqu’à ce que
 - snk: Ma
@@ -1416,10 +1416,10 @@ entrees:
   fr: Jeune marié(e)
   forme2: u, maanunu
 - snk: Maaro
-  fr: Riz Réponse des bommes à une
+  fr: Riz
   nombre: u,u
 - snk: Maharaba
-  fr: salutation
+  fr: Réponse des bommes à une salutation
 - snk: Makka
   fr: Maïs
   nombre: a,nu
@@ -1435,10 +1435,10 @@ entrees:
   fr: Fonds de commerce
   nombre: n,u
 - snk: Mande
-  fr: Se saouler Aristocrate guerrier et juriste
+  fr: Se saouler
   forme2: mandene
 - snk: Mange
-  fr: traditionnel
+  fr: Aristocrate guerrier et juriste traditionnel
   nombre: a,o
 - snk: Manjare
   fr: Cauri
@@ -1467,10 +1467,10 @@ entrees:
   fr: Célibataire
   nombre: n,u
 - snk: Maxañetu
-  fr: Parer, orner, décorer Réponse abrégée des hommes à une
+  fr: Parer, orner, décorer
   forme2: maxañette
 - snk: Mba
-  fr: salutation
+  fr: Réponse abrégée des hommes à une salutation
 - snk: Me
   fr: L’un l’autre
 - snk: Mene
@@ -1595,10 +1595,10 @@ entrees:
   fr: Inondation
   nombre: i,u
 - snk: Ñaara
-  fr: Grand griot ( de grande renommée) Escarpement le long du lit principal
+  fr: Grand griot ( de grande renommée)
   nombre: a,nu
 - snk: Ñaralleve
-  fr: d’un fleuve
+  fr: Escarpement le long du lit principal d’un fleuve
   nombre: i,u
 - snk: Ñariñanne
   fr: Laid
@@ -1633,9 +1633,9 @@ entrees:
   fr: Elastique particule qui traduit le verbe pouvoir
   nombre: i,u
 - snk: Ra
-  fr: (anglais " can " ) Suffixe indiquant où se passe
+  fr: (anglais " can " )
 - snk: Ra
-  fr: l’action, abréviation de " raxe "
+  fr: Suffixe indiquant où se passe l’action, abréviation de " raxe "
 - snk: Raga
   fr: Attraper
   forme2: ragana
@@ -1732,9 +1732,9 @@ entrees:
   fr: Santé
   forme2: a, ...
 - snk: Sakkaati
-  fr: 'Surtout Boisselier, menuisier : caste proche'
+  fr: Surtout
 - snk: Sakke
-  fr: du forgeron
+  fr: 'Boisselier, menuisier : caste proche du forgeron'
   nombre: a, o
 - snk: Salle
   fr: Prière, fête
@@ -1746,10 +1746,10 @@ entrees:
   fr: Champ personnel
   nombre: a, nu
 - snk: Samaqqe
-  fr: Serpent Champ d’un marabout (terme de
+  fr: Serpent
   nombre: i,u
 - snk: Sana
-  fr: respect)
+  fr: Champ d’un marabout (terme de respect)
   nombre: a, nu
 - snk: Sanga
   fr: Jouer
@@ -1921,10 +1921,10 @@ entrees:
   fr: Fils aîné
   nombre: a,nu
 - snk: Soome
-  fr: Lèvre, bec, trompe d’éléphant Main d’un marabout (terme de
+  fr: Lèvre, bec, trompe d’éléphant
   nombre: i,u
 - snk: Sooxe
-  fr: respect)
+  fr: Main d’un marabout (terme de respect)
   nombre: a,o
 - snk: Sooxo
   fr: Applaudissement, s’il vous plaît
@@ -2018,10 +2018,10 @@ entrees:
   fr: Siège, chaise, ...
   nombre: i,u
 - snk: Taaxu
-  fr: s’installer, s’asseoir Grand tambour de cérémonie
+  fr: s’installer, s’asseoir
   forme2: taaxunu
 - snk: Taballe
-  fr: (guerres, couronnement, ...)
+  fr: Grand tambour de cérémonie (guerres, couronnement, ...)
   nombre: i,u
 - snk: Taga
   fr: Construire
@@ -2084,10 +2084,10 @@ entrees:
   fr: Champ
   nombre: te, tenu
 - snk: Teleno
-  fr: Aller tout droit Aller, partir (temps de l’inaccompli
+  fr: Aller tout droit
   forme2: telenono
 - snk: Telle
-  fr: seulement)
+  fr: Aller, partir (temps de l’inaccompli seulement)
 - snk: Tenenne
   fr: Lundi
 - snk: Tene
@@ -2137,10 +2137,10 @@ entrees:
   fr: Sentir
   forme2: timini
 - snk: Timi
-  fr: Jouer un instrument de music Derrière d’un animal, d’une personne
+  fr: Jouer un instrument de music
   forme2: tinmi
 - snk: Tinne
-  fr: tronc d’arbre
+  fr: Derrière d’un animal, d’une personne, tronc d’arbre
   nombre: n,u
 - snk: Tirindi
   fr: Demander
@@ -2185,10 +2185,10 @@ entrees:
   fr: Oreille
   nombre: u,u
 - snk: Toxo
-  fr: Laisser Prénom d’une personne, nom d’une
+  fr: Laisser
   forme2: toqqo
 - snk: Toxo
-  fr: chose, d’un animal
+  fr: Prénom d’une personne, nom d’une chose, d’un animal
   nombre: o ,nu
 - snk: Tu
   fr: Savoir , connaître
@@ -2238,19 +2238,19 @@ entrees:
   fr: Etourdi, fou
   nombre: a, o
 - snk: Tuwaaxu
-  fr: Connaissance, savoir ) Murmure d’approbation dans une
+  fr: Connaissance, savoir )
   nombre: u, nu
 - snk: Unhun
-  fr: réunion )
+  fr: Murmure d’approbation dans une réunion )
 - snk: Wa
   fr: Prédicatif du présent
 - snk: Waaga
   fr: L’année prochaine
 - snk: Waare
-  fr: Béer Voyager en parlant d’un marabout
+  fr: Béer
   forme2: waarene
 - snk: Waari
-  fr: (terme de respect)
+  fr: Voyager en parlant d’un marabout (terme de respect)
   forme2: waarini
 - snk: Wacca
   fr: Tout de suite
@@ -2296,10 +2296,10 @@ entrees:
   fr: Folie
   nombre: a,o
 - snk: Waxe
-  fr: S’affoler, devenir fou Changer, échanger (monnaies par
+  fr: S’affoler, devenir fou
   forme2: waxene) fou
 - snk: Wecci
-  fr: ex.)
+  fr: Changer, échanger (monnaies par ex.)
   forme2: weccini
 - snk: Weere
   fr: Verre
@@ -2320,10 +2320,10 @@ entrees:
   fr: Millier
   nombre: i,u
 - snk: Wulle
-  fr: Chien Prière facultative de 9 heures du
+  fr: Chien
   nombre: i,u
 - snk: Wulluha
-  fr: matin, cette heure
+  fr: Prière facultative de 9 heures du matin, cette heure
   nombre: a,nu
 - snk: Wuno
   fr: Pantalon
@@ -2403,10 +2403,10 @@ entrees:
   fr: Fondre
   forme2: xajene
 - snk: Xaliibe
-  fr: Ecriture, ce qui sert à écrire Remplaçant , gérant, homme de
+  fr: Ecriture, ce qui sert à écrire
   nombre: i,u
 - snk: Xaliifa
-  fr: confiance
+  fr: Remplaçant , gérant, homme de confiance
   nombre: a, nu
 - snk: Xalle
   fr: Part, ce qui revient à chacun
@@ -2464,10 +2464,10 @@ entrees:
   fr: Vieux
   nombre: a, o
 - snk: Xaso
-  fr: Mois, Lune Chasser quelqu’un, renvoyer
+  fr: Mois, Lune
   nombre: o, u
 - snk: Xata
-  fr: expulser
+  fr: Chasser quelqu’un, renvoyer, expulser
   forme2: xatta
 - snk: Xatti
   fr: Lait
@@ -2529,10 +2529,10 @@ entrees:
 - snk: Xo
   fr: Comme
 - snk: Xobo
-  fr: Acheter, vendre Maison d’un marabout (terme de
+  fr: Acheter, vendre
   forme2: xobono
 - snk: Xoje
-  fr: respect)
+  fr: Maison d’un marabout (terme de respect)
   nombre: i,u
 - snk: Xolle
   fr: Calebasse
@@ -2634,10 +2634,10 @@ entrees:
 - snk: Yaawuri
   fr: Réponse d’une salutation
 - snk: Yaaxe
-  fr: oeil Le frère ou la soeur qui suit
+  fr: oeil
   nombre: a, o
 - snk: Yaaxido
-  fr: immédiatement
+  fr: Le frère ou la soeur qui suit immédiatement
   forme2: o, ...
 - snk: Yaayi
   fr: Eventer
@@ -2645,10 +2645,10 @@ entrees:
 - snk: Yabo
   fr: Oui
 - snk: Yanqa
-  fr: Descendre Faire descendre, descendre
+  fr: Descendre
   forme2: yanqana
 - snk: Yanqandi
-  fr: quelque chose
+  fr: Faire descendre, descendre quelque chose
   forme2: yanqandini
 - snk: Yaqqe
   fr: Epouse
@@ -2687,9 +2687,9 @@ entrees:
 - snk: Yere
   fr: Ici
 - snk: Yeru
-  fr: 'L’année dernière Postposition : à, dans, pour, …prédicatif du présent et du'
+  fr: L’année dernière …prédicatif du présent et du
 - snk: Yi
-  fr: nominal locatif (dans certains dialectes)
+  fr: 'Postposition : à, dans, pour, nominal locatif (dans certains dialectes)'
 - snk: Yiga
   fr: Manger quelque chose
   forme2: yigana

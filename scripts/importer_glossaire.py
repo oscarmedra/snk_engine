@@ -43,6 +43,10 @@ def parse(lignes: list[str]) -> list[dict]:
     """
     entrees: list[dict] = []
     courante: dict | None = None
+    # Une ligne haute du tableau fait parfois commencer sa traduction AU-DESSUS de son
+    # mot. Un débordement qui ouvre par une majuscule alors que l'entrée courante a
+    # déjà un sens appartient donc à l'entrée suivante, pas à celle-ci.
+    en_attente = ""
 
     def ferme():
         nonlocal courante
@@ -60,8 +64,11 @@ def parse(lignes: list[str]) -> list[dict]:
         tete = ligne[:TETE].strip()
 
         if not tete:                                   # suite : du français qui déborde
-            if courante:
-                courante["fr"] = (courante.get("fr", "") + " " + " ".join(champs)).strip()
+            suite = " ".join(champs)
+            if courante and courante.get("fr") and suite[:1].isupper():
+                en_attente = (en_attente + " " + suite).strip()
+            elif courante:
+                courante["fr"] = (courante.get("fr", "") + " " + suite).strip()
             continue
         if tete.startswith("(") and courante:          # la seconde forme, sur sa propre ligne
             courante["forme2"] = champs[0].strip("() ")
@@ -88,6 +95,8 @@ def parse(lignes: list[str]) -> list[dict]:
         if "(" in mot:
             mot, _, reste = mot.partition("(")
             forme2 = reste.strip(") ")
+        if not sens and en_attente:
+            sens, en_attente = en_attente, ""
         courante = {"snk": repare_eng(mot.strip()), "fr": sens}
         if forme2 or forme_col:
             courante["forme2"] = forme2 or forme_col
