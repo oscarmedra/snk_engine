@@ -1,0 +1,220 @@
+# « O nan sefe sooninken do faransen ŋa / Parlons le soninké et le français »
+# Marianne Hagg, SIL Mali, 2e édition révisée, janvier 2016 (1re éd. avril 2015).
+# © SIL Mali 2015, 2016 — adapté du dogon Toro So de Zacharie Togo.
+#
+# ATTENTION : la dernière page précise « Orthographe : soninké du Mali ». Ce n'est
+# donc pas forcément la variété du locuteur du projet. Le fichier est une SOURCE
+# EXTERNE : rien n'en sort pour le moteur sans arbitrage mot à mot du locuteur.
+# Voir scripts/comparer_hagg.py, qui confronte chaque entrée aux données du projet.
+
+source:
+  titre: "O nan sefe sooninken do faransen ŋa"
+  auteur: Marianne Hagg
+  editeur: SIL Mali
+  edition: "2e, janvier 2016"
+  orthographe: "soninké du Mali (déclaré par l'ouvrage)"
+  valide_par_locuteur: "2026-10-29 — comme bonne source, pas entrée par entrée"
+
+famille:
+  - {snk: kaagume, fr: le chef de famille}
+  - {snk: faabe, fr: le père, variante: "n faaba (mon père)"}
+  - {snk: saaxe, fr: la mère, variante: "n ma (ma mère)"}
+  - {snk: kiine, fr: le mari, variante: "n kiina (mon mari)"}
+  - {snk: yaqe, fr: une femme, variante: kaagunyaxare}
+  - {snk: renme, fr: un enfant}
+  - {snk: renyugo, fr: un fils}
+  - {snk: renyaxare, fr: une fille}
+  - {snk: gidanyugo, fr: un grand frère}
+  - {snk: gidanyaxare, fr: une grande sœur}
+  - {snk: xoxone, fr: un petit frère, variante: "une petite sœur"}
+  - {snk: kisima, fr: un grand-père}
+  - {snk: maama, fr: une grand-mère}
+  - {snk: neega, fr: un oncle maternel, variante: kaawu}
+  - {snk: baayi, fr: une tante (sœur du père)}
+  - {snk: maaxoore, fr: une tante (grande sœur de la mère)}
+  - {snk: maarenme, fr: un parent}
+  - {snk: kallo, fr: beau-père, variante: "kallu ; belle-mère, gendre"}
+  - {snk: kallungoora, fr: un cousin à plaisanterie}
+  - {snk: menjanŋe, fr: un ami}
+  - {snk: yugo, fr: un homme}
+  - {snk: yaxare, fr: une femme}
+  - {snk: lemine, fr: un petit enfant}
+
+pronoms:
+  - {snk: n, fr: je, variante: in}
+  - {snk: an, fr: tu}
+  - {snk: a, fr: il}
+  - {snk: o, fr: nous}
+  - {snk: axa, fr: vous, variante: xa}
+  - {snk: i, fr: ils}
+
+jours:
+  - {snk: bita, fr: le jour, variante: koota}
+  - {snk: soxuba, fr: le matin, variante: suxuba}
+  - {snk: beetaye, fr: le matin entre 9 et 11 heures}
+  - {snk: kiye, fr: midi, variante: "kira, kinsiga"}
+  - {snk: nelle, fr: l'après-midi, variante: lelle}
+  - {snk: futuro, fr: le crépuscule, variante: huturo}
+  - {snk: wuro, fr: le soir}
+  - {snk: alahadi, fr: dimanche}
+  - {snk: tenenŋe, fr: lundi, variante: tineeni}
+  - {snk: tarata, fr: mardi, variante: talaata}
+  - {snk: araba, fr: mercredi}
+  - {snk: alaxamisa, fr: jeudi}
+  - {snk: arijuma, fr: vendredi, variante: juma}
+  - {snk: sibiti, fr: samedi}
+
+mois:
+  - {snk: sanwiyenxaso, fr: janvier}
+  - {snk: fewiriyenxaso, fr: février}
+  - {snk: marisinxaso, fr: mars}
+  - {snk: awirilinxaso, fr: avril}
+  - {snk: menxaso, fr: mai}
+  - {snk: suwenxaso, fr: juin}
+  - {snk: suluyenxaso, fr: juillet}
+  - {snk: utunxaso, fr: août}
+  - {snk: seputanburunxaso, fr: septembre}
+  - {snk: okotoburunxaso, fr: octobre}
+  - {snk: nowanburunxaso, fr: novembre}
+  - {snk: desanburunxaso, fr: décembre}
+  - {snk: sunxaso, fr: ramadan}
+
+corps:
+  - {snk: yinkolla, fr: la tête}
+  - {snk: yinte, fr: les cheveux}
+  - {snk: teŋe, fr: le front}
+  - {snk: yaaxe, fr: l'œil, variante: "yaaxo (les yeux)"}
+  - {snk: nuxunne, fr: le nez}
+  - {snk: toro, fr: l'oreille, variante: "taro, toru"}
+  - {snk: xume, fr: la joue, variante: fentelle}
+  - {snk: raqe, fr: la bouche, variante: laqe}
+  - {snk: kanbe, fr: la dent, variante: "kanbo, kanbu"}
+  - {snk: neene, fr: la langue}
+  - {snk: sinqe, fr: le menton}
+  - {snk: xanne, fr: le cou}
+  - {snk: kunke, fr: l'épaule}
+  - {snk: kitte, fr: la main}
+  - {snk: "kitti nooge", fr: la main gauche}
+  - {snk: "kitti teye", fr: la main droite}
+  - {snk: doronme, fr: le doigt}
+  - {snk: segeɲe, fr: l'ongle, variante: segene}
+  - {snk: konbo, fr: le sein}
+  - {snk: noxo, fr: le ventre}
+  - {snk: butte, fr: le foie}
+  - {snk: gonme, fr: l'estomac}
+  - {snk: sondonme, fr: le cœur, variante: sondome}
+  - {snk: furutu, fr: le poumon}
+  - {snk: faradinlenme, fr: le rein}
+  - {snk: tinkanbe, fr: les fesses}
+  - {snk: toge, fr: la cuisse}
+  - {snk: ta, fr: la jambe}
+  - {snk: xurungo, fr: le genou}
+  - {snk: tandoronme, fr: l'orteil}
+
+vivres:
+  - {snk: yille, fr: le mil}
+  - {snk: tiga, fr: l'arachide}
+  - {snk: molle, fr: le haricot, variante: mollo}
+  - {snk: maaro, fr: le riz}
+  - {snk: makka, fr: le maïs}
+  - {snk: jaxataɲɲe, fr: le gombo}
+  - {snk: sangunme, fr: l'oseille, variante: sangume}
+  - {snk: saabali, fr: le moringa, variante: "sahe, saayisaayi"}
+  - {snk: basalle, fr: l'oignon, variante: jaba}
+
+animaux:
+  - {snk: na, fr: la vache}
+  - {snk: sugo, fr: la chèvre}
+  - {snk: jaxe, fr: le mouton}
+  - {snk: si, fr: le cheval}
+  - {snk: fare, fr: l'âne, variante: hare}
+  - {snk: ɲogome, fr: le chameau}
+  - {snk: wulle, fr: le chien}
+  - {snk: muusine, fr: le chat}
+  - {snk: seliɲe, fr: la poule}
+
+choses:
+  - {snk: gede, fr: le puits}
+  - {snk: ji, fr: l'eau}
+  - {snk: kacce, fr: la corde}
+  - {snk: kanme, fr: le ciel}
+  - {snk: ɲiiɲe, fr: la terre, variante: ɲuɲe}
+  - {snk: kiye, fr: le soleil}
+  - {snk: xaso, fr: la lune}
+  - {snk: saane, fr: l'étoile}
+  - {snk: gide, fr: la montagne}
+  - {snk: fanŋe, fr: le fleuve, variante: hanŋe}
+  - {snk: saxa, fr: le marché}
+  - {snk: ka, fr: la maison}
+  - {snk: mara, fr: le grenier}
+  - {snk: yitte, fr: l'arbre}
+  - {snk: yigande, fr: la nourriture}
+  - {snk: maxafonji, fr: la sauce, variante: moxonji}
+  - {snk: wottoro, fr: la charrette, variante: sareti}
+  - {snk: kille, fr: la route}
+  - {snk: tiye, fr: la viande}
+  - {snk: fore, fr: le sang}
+  - {snk: yinbe, fr: le feu}
+  - {snk: labo, fr: le couteau}
+  - {snk: kinŋu, fr: la cuisine}
+  - {snk: sappe, fr: le sel}
+  - {snk: fate, fr: la peau, variante: hate}
+  - {snk: xaalisi, fr: l'argent, variante: gode}
+  - {snk: xureye, fr: la lumière, variante: xuraye}
+  - {snk: bite, fr: l'obscurité}
+  - {snk: tefu, fr: la chaussure, variante: teppu}
+  - {snk: doroke, fr: le vêtement}
+  - {snk: debe, fr: le village, variante: kaara}
+  - {snk: jamaane, fr: le pays}
+  - {snk: te, fr: le champ}
+  - {snk: gunne, fr: la brousse}
+
+nombres:
+  - {snk: xafu, fr: zéro}
+  - {snk: baane, fr: un}
+  - {snk: fillo, fr: deux}
+  - {snk: sikko, fr: trois}
+  - {snk: naxato, fr: quatre}
+  - {snk: karago, fr: cinq}
+  - {snk: tunmu, fr: six}
+  - {snk: ɲeru, fr: sept}
+  - {snk: segu, fr: huit}
+  - {snk: kabu, fr: neuf}
+  - {snk: tanmu, fr: dix}
+  - {snk: "tanfille", fr: vingt, variante: tanpille}
+  - {snk: tanjikke, fr: trente}
+  - {snk: tannaxate, fr: quarante}
+  - {snk: tankarage, fr: cinquante}
+  - {snk: tandunme, fr: soixante}
+  - {snk: tanɲere, fr: soixante-dix}
+  - {snk: tansege, fr: quatre-vingts}
+  - {snk: tankabe, fr: quatre-vingt-dix}
+  - {snk: kame, fr: cent}
+  - {snk: wujune, fr: mille}
+  # composition : « tanmu do baane » (11), « kamo filli » (200), « wujunu tanmi » (10 000)
+
+questions:
+  - {snk: "An toxo ?", fr: "Quel est ton nom ?"}
+  - {snk: "An janmu ?", fr: "Ton nom de famille ?"}
+  - {snk: "Ko ni ?", fr: "C'est qui ?"}
+  - {snk: "Mani ni ?", fr: "C'est quoi ?"}
+  - {snk: "Manime ni ?", fr: "C'est combien ?"}
+  - {snk: "An wa telle minna ?", fr: "Où vas-tu ?"}
+  - {snk: "Saxan na minna ?", fr: "Où est le marché ?"}
+  - {snk: "An w'in tu ba ?", fr: "Tu me connais ?"}
+  - {snk: "Yaqen w'an maxa ba ?", fr: "As-tu une femme ?"}
+  - {snk: "Kan bire ?", fr: "Quand ?"}
+
+salutations:
+  - {snk: "nawaari", fr: "salut"}
+  - {snk: "anba", fr: "merci (réponse d'un homme)", variante: "nba, marahaba"}
+  - {snk: "yawuri", fr: "merci (réponse d'une femme)"}
+  - {snk: "An moxo ?", fr: "Comment vas-tu ?", variante: "An xubaare ?"}
+  - {snk: "Ma jamu.", fr: "Ça va."}
+  - {snk: "Ma jamu baane.", fr: "Très bien."}
+  - {snk: "An wuyi jamu ?", fr: "Bien dormi ?"}
+  - {snk: "Beeta !", fr: "Bonjour ! (le matin vers 10 h)"}
+  - {snk: "Xa sunka.", fr: "Bonsoir à vous tous."}
+  - {snk: "Bisimilla !", fr: "Bienvenue !"}
+  - {snk: "Katta kaane.", fr: "À bientôt.", variante: "Katti kaane."}
+  - {snk: "N daga.", fr: "Je m'en vais."}
