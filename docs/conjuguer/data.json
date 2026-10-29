@@ -8378,7 +8378,7 @@
   "bono": {
    "fr": "mourir",
    "forme": "bono",
-   "gerondif": "bonono",
+   "gerondif": "bonno",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "etre",
@@ -8462,7 +8462,7 @@
   "bosi": {
    "fr": "sucer",
    "forme": "bosi",
-   "gerondif": "bosini",
+   "gerondif": "bocco",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -8504,7 +8504,7 @@
   "bunu": {
    "fr": "piquer",
    "forme": "bunu",
-   "gerondif": "bununu",
+   "gerondif": "bunnu",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -8546,7 +8546,7 @@
   "butu": {
    "fr": "se fâcher",
    "forme": "butu",
-   "gerondif": "butunu",
+   "gerondif": "buttu",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -8966,7 +8966,7 @@
   "deni": {
    "fr": "emmener",
    "forme": "deni",
-   "gerondif": "denini",
+   "gerondif": "denne",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -9218,7 +9218,7 @@
   "firixindi": {
    "fr": "nouer",
    "forme": "firixindi",
-   "gerondif": "firixindini",
+   "gerondif": "fixirindini",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -9470,7 +9470,7 @@
   "gaada": {
    "fr": "commencer",
    "forme": "gaada",
-   "gerondif": "gaadana",
+   "gerondif": "gaagana",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -9512,7 +9512,7 @@
   "gaja": {
    "fr": "lutter",
    "forme": "gaja",
-   "gerondif": "gajana",
+   "gerondif": "gajaa",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -9554,7 +9554,7 @@
   "gemu": {
    "fr": "se rencontrer",
    "forme": "gemu",
-   "gerondif": "gemunu",
+   "gerondif": "genme",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -9596,7 +9596,7 @@
   "giri": {
    "fr": "se lever",
    "forme": "giri",
-   "gerondif": "girini",
+   "gerondif": "gilli",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -9680,7 +9680,7 @@
   "goro": {
    "fr": "piler",
    "forme": "goro",
-   "gerondif": "gorono",
+   "gerondif": "gollo",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -9974,7 +9974,7 @@
   "jimi": {
    "fr": "se pencher",
    "forme": "jimi",
-   "gerondif": "jimini",
+   "gerondif": "jinmi",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -10100,7 +10100,7 @@
   "joxu": {
    "fr": "verser",
    "forme": "joxu",
-   "gerondif": "joxunu",
+   "gerondif": "joqqo",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -10394,7 +10394,7 @@
   "kini": {
    "fr": "donner",
    "forme": "kini",
-   "gerondif": "kinini",
+   "gerondif": "kinni",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -10436,7 +10436,7 @@
   "kiñe": {
    "fr": "arriver",
    "forme": "kiñe",
-   "gerondif": "kiñene",
+   "gerondif": "kinene",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "etre",
@@ -10478,7 +10478,7 @@
   "kita": {
    "fr": "obtenir",
    "forme": "kita",
-   "gerondif": "kitana",
+   "gerondif": "kitta",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -10562,7 +10562,7 @@
   "kori": {
    "fr": "echouer",
    "forme": "kori",
-   "gerondif": "korini",
+   "gerondif": "koriri",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -10982,7 +10982,7 @@
   "maxañetu": {
    "fr": "parer",
    "forme": "maxañetu",
-   "gerondif": "maxañetunu",
+   "gerondif": "maxañette",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -11318,7 +11318,7 @@
   "ñaxami": {
    "fr": "changer",
    "forme": "ñaxami",
-   "gerondif": "ñaxamini",
+   "gerondif": "ñaxanmi",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -11444,7 +11444,7 @@
   "ro": {
    "fr": "entrer",
    "forme": "ro",
-   "gerondif": "rono",
+   "gerondif": "roono",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "etre",
@@ -11612,7 +11612,7 @@
   "saxu": {
    "fr": "se coucher",
    "forme": "saxu",
-   "gerondif": "saxunu",
+   "gerondif": "saqqa",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -11654,7 +11654,7 @@
   "sele": {
    "fr": "bifurquer",
    "forme": "sele",
-   "gerondif": "selene",
+   "gerondif": "seleme",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -12494,7 +12494,7 @@
   "tifi": {
    "fr": "planter",
    "forme": "tifi",
-   "gerondif": "tifini",
+   "gerondif": "tippi",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -12536,7 +12536,7 @@
   "timi": {
    "fr": "sentir",
    "forme": "timi",
-   "gerondif": "timini",
+   "gerondif": "tinmi",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -12746,7 +12746,7 @@
   "toxo": {
    "fr": "laisser",
    "forme": "toxo",
-   "gerondif": "toxono",
+   "gerondif": "toqqo",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -12830,7 +12830,7 @@
   "tuhuumar": {
    "fr": "se reposer",
    "forme": "tuhuumar",
-   "gerondif": "tuhuumarni",
+   "gerondif": "tuhuumana",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -13334,7 +13334,7 @@
   "xini": {
    "fr": "nager",
    "forme": "xini",
-   "gerondif": "xinini",
+   "gerondif": "xinni",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -13586,7 +13586,7 @@
   "xura": {
    "fr": "blanchir",
    "forme": "xura",
-   "gerondif": "xurana",
+   "gerondif": "xuraa",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",
@@ -13628,7 +13628,7 @@
   "xuru": {
    "fr": "défequer",
    "forme": "xuru",
-   "gerondif": "xurunu",
+   "gerondif": "xullu",
    "classe": "regulier",
    "francais": {
     "auxiliaire": "avoir",

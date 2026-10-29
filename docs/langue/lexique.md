@@ -196,11 +196,11 @@ Entièrement conjugables : toutes les formes sont confirmées par le locuteur.
 | `wurebandi` | traduire | wurebandi | wurebandini | — |
 | `bangandi` | engendrer | bangandi | bangandini | — |
 | `betu` | serrer | betu | betunu | — |
-| `bono` | mourir | bono | bonono | — |
+| `bono` | mourir | bono | bonno | — |
 | `boore` | se déshabiller | boore | boorene | — |
-| `bosi` | sucer | bosi | bosini | — |
-| `bunu` | piquer | bunu | bununu | — |
-| `butu` | se fâcher | butu | butunu | — |
+| `bosi` | sucer | bosi | bocco | — |
+| `bunu` | piquer | bunu | bunnu | — |
+| `butu` | se fâcher | butu | buttu | — |
 | `buusi` | uriner | buusi | buusini | — |
 | `buusu` | effeuiller | buusu | buusunu | — |
 | `caxabuccaxabu` | patauger | caxabuccaxabu | caxabuccaxabunu | — |
@@ -210,45 +210,45 @@ Entièrement conjugables : toutes les formes sont confirmées par le locuteur.
 | `deela` | verser | deela | deelana | — |
 | `deele` | couler | deele | deelene | — |
 | `deema` | aider | deema | deemana | — |
-| `deni` | emmener | deni | denini | — |
+| `deni` | emmener | deni | denne | — |
 | `due` | accepter | due | duene | — |
 | `faaba` | secourir | faaba | faabana | — |
 | `fata` | séparer | fata | fatana | — |
 | `ficce` | vomir | ficce | ficcene | — |
 | `filla` | doubler | filla | fillana | — |
-| `firixindi` | nouer | firixindi | firixindini | — |
+| `firixindi` | nouer | firixindi | fixirindini | — |
 | `foxu` | aboyer | foxu | foxunu | — |
 | `funu` | surpasser | funu | fununu | — |
 | `fuufe` | respirer | fuufe | fuufene | — |
 | `fuule` | siffler | fuule | fuulene | — |
 | `fuute` | souffler | fuute | fuutene | — |
-| `gaada` | commencer | gaada | gaadana | — |
-| `gaja` | lutter | gaja | gajana | — |
-| `gemu` | se rencontrer | gemu | gemunu | — |
-| `giri` | se lever | giri | girini | — |
+| `gaada` | commencer | gaada | gaagana | — |
+| `gaja` | lutter | gaja | gajaa | — |
+| `gemu` | se rencontrer | gemu | genme | — |
+| `giri` | se lever | giri | gilli | — |
 | `gooli` | défricher | gooli | goolini | — |
-| `goro` | piler | goro | gorono | — |
+| `goro` | piler | goro | gollo | — |
 | `guube` | dévier | guube | guubene | — |
 | `jaara` | soigner | jaara | jaarana | — |
 | `jaga` | déterrer | jaga | jagana | — |
 | `janba` | trahir | janba | janbana | — |
 | `jewo` | se dépêcher | jewo | jewono | — |
 | `jigijappe` | bégayer | jigijappe | jigijappene | — |
-| `jimi` | se pencher | jimi | jimini | — |
+| `jimi` | se pencher | jimi | jinmi | — |
 | `joofe` | arriver | joofe | joofene | — |
 | `joppe` | commencer | joppe | joppene | — |
-| `joxu` | verser | joxu | joxunu | — |
+| `joxu` | verser | joxu | joqqo | — |
 | `ka` | injurer | ka | kana | — |
 | `kaawa` | sécher | kaawa | kaawana | — |
 | `kafu` | ajouter | kafu | kafunu | — |
 | `kanbu` | croquer | kanbu | kanbunu | — |
 | `kare` | traverser | kare | karene | — |
 | `kiiti` | juger | kiiti | kiitini | — |
-| `kini` | donner | kini | kinini | — |
-| `kiñe` | arriver | kiñe | kiñene | — |
-| `kita` | obtenir | kita | kitana | — |
+| `kini` | donner | kini | kinni | — |
+| `kiñe` | arriver | kiñe | kinene | — |
+| `kita` | obtenir | kita | kitta | — |
 | `konto` | manquer | konto | kontono | — |
-| `kori` | echouer | kori | korini | — |
+| `kori` | echouer | kori | koriri | — |
 | `koroosi` | surveiller | koroosi | koroosini | — |
 | `kutu` | couper | kutu | kutunu | — |
 | `lebi` | bégayer | lebi | lebini | — |
@@ -258,7 +258,7 @@ Entièrement conjugables : toutes les formes sont confirmées par le locuteur.
 | `mara` | garder | mara | marana | — |
 | `mare` | commander | mare | marene | — |
 | `masala` | discuter | masala | masalana | — |
-| `maxañetu` | parer | maxañetu | maxañetunu | — |
+| `maxañetu` | parer | maxañetu | maxañette | — |
 | `nimisi` | regretter | nimisi | nimisini | — |
 | `ña` | devenir | ña | ñana | — |
 | `ñaaga` | solliciter | ñaaga | ñaagana | — |
@@ -266,15 +266,15 @@ Entièrement conjugables : toutes les formes sont confirmées par le locuteur.
 | `ñaamari` | autoriser | ñaamari | ñaamarini | — |
 | `ñame` | se terminer | ñame | ñamene | — |
 | `ñaxali` | se réjouir | ñaxali | ñaxalini | — |
-| `ñaxami` | changer | ñaxami | ñaxamini | — |
+| `ñaxami` | changer | ñaxami | ñaxanmi | — |
 | `ñi` | trouver | ñi | ñini | — |
 | `ñaali` | briller | ñaali | ñaalini | — |
-| `ro` | entrer | ro | rono | — |
+| `ro` | entrer | ro | roono | — |
 | `saage` | retourner | saage | saagene | — |
 | `sanga` | jouer | sanga | sangana | — |
 | `sanpa` | gifler | sanpa | sanpana | — |
-| `saxu` | se coucher | saxu | saxunu | — |
-| `sele` | bifurquer | sele | selene | — |
+| `saxu` | se coucher | saxu | saqqa | — |
+| `sele` | bifurquer | sele | seleme | — |
 | `sella` | balayer | sella | sellana | — |
 | `selle` | guérir | selle | sellene | — |
 | `senta` | peigner | senta | sentana | — |
@@ -294,15 +294,15 @@ Entièrement conjugables : toutes les formes sont confirmées par le locuteur.
 | `terinka` | ecouter | terinka | terinkana | — |
 | `texe` | fermer | texe | texene | — |
 | `texu` | tousser | texu | texunu | — |
-| `tifi` | planter | tifi | tifini | — |
-| `timi` | sentir | timi | timini | — |
+| `tifi` | planter | tifi | tippi | — |
+| `timi` | sentir | timi | tinmi | — |
 | `tirindi` | demander | tirindi | tirindini | — |
 | `toni` | avaler | toni | tonini | — |
 | `toori` | introniser | toori | toorini | — |
 | `tooro` | gêner | tooro | toorono | — |
-| `toxo` | laisser | toxo | toxono | — |
+| `toxo` | laisser | toxo | toqqo | — |
 | `tuga` | payer | tuga | tugana | — |
-| `tuhuumar` | se reposer | tuhuumar | tuhuumarni | — |
+| `tuhuumar` | se reposer | tuhuumar | tuhuumana | — |
 | `tunsi` | accompagner | tunsi | tunsini | — |
 | `waare` | béer | waare | waarene | — |
 | `wanqi` | laver | wanqi | wanqini | — |
@@ -314,14 +314,14 @@ Entièrement conjugables : toutes les formes sont confirmées par le locuteur.
 | `xawa` | devoir | xawa | xawana | — |
 | `xawo` | ressembler | xawo | xawono | — |
 | `xenqe` | dormir | xenqe | xenqene | — |
-| `xini` | nager | xini | xinini | — |
+| `xini` | nager | xini | xinni | — |
 | `xobo` | acheter | xobo | xobono | — |
 | `xomi` | arroser | xomi | xomini | — |
 | `xooro` | grandir | xooro | xoorono | — |
 | `xose` | se casser | xose | xosene | — |
 | `xumaari` | arroser | xumaari | xumaarini | — |
-| `xura` | blanchir | xura | xurana | — |
-| `xuru` | défequer | xuru | xurunu | — |
+| `xura` | blanchir | xura | xuraa | — |
+| `xuru` | défequer | xuru | xullu | — |
 | `yaala` | se promener | yaala | yaalana | — |
 | `yaayi` | eventer | yaayi | yaayini | — |
 | `yaxi` | epouser | yaxi | yaxini | — |

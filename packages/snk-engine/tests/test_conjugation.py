@@ -421,3 +421,20 @@ def test_particle_by_initial(form, expected):
 def test_particle_unconfirmed_initials(form):
     with pytest.raises(ConjugationNotDefinedError, match="Particle not confirmed"):
         default_engine().particle(form)
+
+
+def test_la_forme_employee_prime_sur_la_forme_derivee():
+    """« Ma règle n'est pas fausse mais ce que le glossaire a montré est celui
+    utilisé. En parlant on saute beaucoup de choses et au final ça devient la
+    norme. » (locuteur)
+
+    La règle donne la forme sous-jacente — bono + no = bonono — que l'usage
+    contracte en bonno. Le moteur doit produire ce qui se dit.
+    """
+    engine = default_engine()
+    assert engine.verbs["bono"].gerund == "bonno"
+    assert engine.verbs["giri"].gerund == "gilli"
+    assert engine.verbs["butu"].gerund == "buttu"
+    # mais une forme que le locuteur a lui-même confirmée ne bouge pas :
+    # son `rini` sert aussi de marqueur de temps
+    assert engine.verbs["rier"].gerund == "rini"
