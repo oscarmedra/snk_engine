@@ -8290,6 +8290,5760 @@
      "traduisez"
     ]
    }
+  },
+  "bangandi": {
+   "fr": "engendrer",
+   "forme": "bangandi",
+   "gerondif": "bangandini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "engendrer",
+    "participe": "engendré",
+    "present": [
+     "engendre",
+     "engendres",
+     "engendre",
+     "engendrons",
+     "engendrez",
+     "engendrent"
+    ],
+    "imparfait": [
+     "engendrais",
+     "engendrais",
+     "engendrait",
+     "engendrions",
+     "engendriez",
+     "engendraient"
+    ],
+    "futur_radical": "engendrer",
+    "subjonctif": [
+     "engendre",
+     "engendres",
+     "engendre",
+     "engendrions",
+     "engendriez",
+     "engendrent"
+    ],
+    "imperatif": [
+     "engendre",
+     "engendrons",
+     "engendrez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "betu": {
+   "fr": "serrer",
+   "forme": "betu",
+   "gerondif": "betunu",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "serrer",
+    "participe": "serré",
+    "present": [
+     "serre",
+     "serres",
+     "serre",
+     "serrons",
+     "serrez",
+     "serrent"
+    ],
+    "imparfait": [
+     "serrais",
+     "serrais",
+     "serrait",
+     "serrions",
+     "serriez",
+     "serraient"
+    ],
+    "futur_radical": "serrer",
+    "subjonctif": [
+     "serre",
+     "serres",
+     "serre",
+     "serrions",
+     "serriez",
+     "serrent"
+    ],
+    "imperatif": [
+     "serre",
+     "serrons",
+     "serrez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "bono": {
+   "fr": "mourir",
+   "forme": "bono",
+   "gerondif": "bonono",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "etre",
+    "infinitif": "mourir",
+    "participe": "mouri",
+    "present": [
+     "mouris",
+     "mouris",
+     "mourit",
+     "mourissons",
+     "mourissez",
+     "mourissent"
+    ],
+    "imparfait": [
+     "mourissais",
+     "mourissais",
+     "mourissait",
+     "mourissions",
+     "mourissiez",
+     "mourissaient"
+    ],
+    "futur_radical": "mourir",
+    "subjonctif": [
+     "mourisse",
+     "mourisses",
+     "mourisse",
+     "mourissions",
+     "mourissiez",
+     "mourissent"
+    ],
+    "imperatif": [
+     "mouris",
+     "mourissons",
+     "mourissez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "boore": {
+   "fr": "se déshabiller",
+   "forme": "boore",
+   "gerondif": "boorene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "se déshabiller",
+    "participe": "se déshabillé",
+    "present": [
+     "se déshabille",
+     "se déshabilles",
+     "se déshabille",
+     "se déshabillons",
+     "se déshabillez",
+     "se déshabillent"
+    ],
+    "imparfait": [
+     "se déshabillais",
+     "se déshabillais",
+     "se déshabillait",
+     "se déshabillions",
+     "se déshabilliez",
+     "se déshabillaient"
+    ],
+    "futur_radical": "se déshabiller",
+    "subjonctif": [
+     "se déshabille",
+     "se déshabilles",
+     "se déshabille",
+     "se déshabillions",
+     "se déshabilliez",
+     "se déshabillent"
+    ],
+    "imperatif": [
+     "se déshabille",
+     "se déshabillons",
+     "se déshabillez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "bosi": {
+   "fr": "sucer",
+   "forme": "bosi",
+   "gerondif": "bosini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "sucer",
+    "participe": "sucé",
+    "present": [
+     "suce",
+     "suces",
+     "suce",
+     "suçons",
+     "sucez",
+     "sucent"
+    ],
+    "imparfait": [
+     "suçais",
+     "suçais",
+     "suçait",
+     "sucions",
+     "suciez",
+     "suçaient"
+    ],
+    "futur_radical": "sucer",
+    "subjonctif": [
+     "suce",
+     "suces",
+     "suce",
+     "sucions",
+     "suciez",
+     "sucent"
+    ],
+    "imperatif": [
+     "suce",
+     "suçons",
+     "sucez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "bunu": {
+   "fr": "piquer",
+   "forme": "bunu",
+   "gerondif": "bununu",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "piquer",
+    "participe": "piqué",
+    "present": [
+     "pique",
+     "piques",
+     "pique",
+     "piquons",
+     "piquez",
+     "piquent"
+    ],
+    "imparfait": [
+     "piquais",
+     "piquais",
+     "piquait",
+     "piquions",
+     "piquiez",
+     "piquaient"
+    ],
+    "futur_radical": "piquer",
+    "subjonctif": [
+     "pique",
+     "piques",
+     "pique",
+     "piquions",
+     "piquiez",
+     "piquent"
+    ],
+    "imperatif": [
+     "pique",
+     "piquons",
+     "piquez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "butu": {
+   "fr": "se fâcher",
+   "forme": "butu",
+   "gerondif": "butunu",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "se fâcher",
+    "participe": "se fâché",
+    "present": [
+     "se fâche",
+     "se fâches",
+     "se fâche",
+     "se fâchons",
+     "se fâchez",
+     "se fâchent"
+    ],
+    "imparfait": [
+     "se fâchais",
+     "se fâchais",
+     "se fâchait",
+     "se fâchions",
+     "se fâchiez",
+     "se fâchaient"
+    ],
+    "futur_radical": "se fâcher",
+    "subjonctif": [
+     "se fâche",
+     "se fâches",
+     "se fâche",
+     "se fâchions",
+     "se fâchiez",
+     "se fâchent"
+    ],
+    "imperatif": [
+     "se fâche",
+     "se fâchons",
+     "se fâchez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "buusi": {
+   "fr": "uriner",
+   "forme": "buusi",
+   "gerondif": "buusini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "uriner",
+    "participe": "uriné",
+    "present": [
+     "urine",
+     "urines",
+     "urine",
+     "urinons",
+     "urinez",
+     "urinent"
+    ],
+    "imparfait": [
+     "urinais",
+     "urinais",
+     "urinait",
+     "urinions",
+     "uriniez",
+     "urinaient"
+    ],
+    "futur_radical": "uriner",
+    "subjonctif": [
+     "urine",
+     "urines",
+     "urine",
+     "urinions",
+     "uriniez",
+     "urinent"
+    ],
+    "imperatif": [
+     "urine",
+     "urinons",
+     "urinez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "buusu": {
+   "fr": "effeuiller",
+   "forme": "buusu",
+   "gerondif": "buusunu",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "effeuiller",
+    "participe": "effeuillé",
+    "present": [
+     "effeuille",
+     "effeuilles",
+     "effeuille",
+     "effeuillons",
+     "effeuillez",
+     "effeuillent"
+    ],
+    "imparfait": [
+     "effeuillais",
+     "effeuillais",
+     "effeuillait",
+     "effeuillions",
+     "effeuilliez",
+     "effeuillaient"
+    ],
+    "futur_radical": "effeuiller",
+    "subjonctif": [
+     "effeuille",
+     "effeuilles",
+     "effeuille",
+     "effeuillions",
+     "effeuilliez",
+     "effeuillent"
+    ],
+    "imperatif": [
+     "effeuille",
+     "effeuillons",
+     "effeuillez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "caxabuccaxabu": {
+   "fr": "patauger",
+   "forme": "caxabuccaxabu",
+   "gerondif": "caxabuccaxabunu",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "patauger",
+    "participe": "pataugé",
+    "present": [
+     "patauge",
+     "patauges",
+     "patauge",
+     "pataugeons",
+     "pataugez",
+     "pataugent"
+    ],
+    "imparfait": [
+     "pataugeais",
+     "pataugeais",
+     "pataugeait",
+     "pataugions",
+     "pataugiez",
+     "pataugeaient"
+    ],
+    "futur_radical": "patauger",
+    "subjonctif": [
+     "patauge",
+     "patauges",
+     "patauge",
+     "pataugions",
+     "pataugiez",
+     "pataugent"
+    ],
+    "imperatif": [
+     "patauge",
+     "pataugeons",
+     "pataugez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "dalla": {
+   "fr": "durer",
+   "forme": "dalla",
+   "gerondif": "dallana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "durer",
+    "participe": "duré",
+    "present": [
+     "dure",
+     "dures",
+     "dure",
+     "durons",
+     "durez",
+     "durent"
+    ],
+    "imparfait": [
+     "durais",
+     "durais",
+     "durait",
+     "durions",
+     "duriez",
+     "duraient"
+    ],
+    "futur_radical": "durer",
+    "subjonctif": [
+     "dure",
+     "dures",
+     "dure",
+     "durions",
+     "duriez",
+     "durent"
+    ],
+    "imperatif": [
+     "dure",
+     "durons",
+     "durez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "dangi": {
+   "fr": "passer",
+   "forme": "dangi",
+   "gerondif": "dangini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "etre",
+    "infinitif": "passer",
+    "participe": "passé",
+    "present": [
+     "passe",
+     "passes",
+     "passe",
+     "passons",
+     "passez",
+     "passent"
+    ],
+    "imparfait": [
+     "passais",
+     "passais",
+     "passait",
+     "passions",
+     "passiez",
+     "passaient"
+    ],
+    "futur_radical": "passer",
+    "subjonctif": [
+     "passe",
+     "passes",
+     "passe",
+     "passions",
+     "passiez",
+     "passent"
+    ],
+    "imperatif": [
+     "passe",
+     "passons",
+     "passez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "daro": {
+   "fr": "respecter",
+   "forme": "daro",
+   "gerondif": "darono",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "respecter",
+    "participe": "respecté",
+    "present": [
+     "respecte",
+     "respectes",
+     "respecte",
+     "respectons",
+     "respectez",
+     "respectent"
+    ],
+    "imparfait": [
+     "respectais",
+     "respectais",
+     "respectait",
+     "respections",
+     "respectiez",
+     "respectaient"
+    ],
+    "futur_radical": "respecter",
+    "subjonctif": [
+     "respecte",
+     "respectes",
+     "respecte",
+     "respections",
+     "respectiez",
+     "respectent"
+    ],
+    "imperatif": [
+     "respecte",
+     "respectons",
+     "respectez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "deela": {
+   "fr": "verser",
+   "forme": "deela",
+   "gerondif": "deelana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "verser",
+    "participe": "versé",
+    "present": [
+     "verse",
+     "verses",
+     "verse",
+     "versons",
+     "versez",
+     "versent"
+    ],
+    "imparfait": [
+     "versais",
+     "versais",
+     "versait",
+     "versions",
+     "versiez",
+     "versaient"
+    ],
+    "futur_radical": "verser",
+    "subjonctif": [
+     "verse",
+     "verses",
+     "verse",
+     "versions",
+     "versiez",
+     "versent"
+    ],
+    "imperatif": [
+     "verse",
+     "versons",
+     "versez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "deele": {
+   "fr": "couler",
+   "forme": "deele",
+   "gerondif": "deelene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "couler",
+    "participe": "coulé",
+    "present": [
+     "coule",
+     "coules",
+     "coule",
+     "coulons",
+     "coulez",
+     "coulent"
+    ],
+    "imparfait": [
+     "coulais",
+     "coulais",
+     "coulait",
+     "coulions",
+     "couliez",
+     "coulaient"
+    ],
+    "futur_radical": "couler",
+    "subjonctif": [
+     "coule",
+     "coules",
+     "coule",
+     "coulions",
+     "couliez",
+     "coulent"
+    ],
+    "imperatif": [
+     "coule",
+     "coulons",
+     "coulez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "deema": {
+   "fr": "aider",
+   "forme": "deema",
+   "gerondif": "deemana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "aider",
+    "participe": "aidé",
+    "present": [
+     "aide",
+     "aides",
+     "aide",
+     "aidons",
+     "aidez",
+     "aident"
+    ],
+    "imparfait": [
+     "aidais",
+     "aidais",
+     "aidait",
+     "aidions",
+     "aidiez",
+     "aidaient"
+    ],
+    "futur_radical": "aider",
+    "subjonctif": [
+     "aide",
+     "aides",
+     "aide",
+     "aidions",
+     "aidiez",
+     "aident"
+    ],
+    "imperatif": [
+     "aide",
+     "aidons",
+     "aidez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "deni": {
+   "fr": "emmener",
+   "forme": "deni",
+   "gerondif": "denini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "emmener",
+    "participe": "emmené",
+    "present": [
+     "emmene",
+     "emmenes",
+     "emmene",
+     "emmenons",
+     "emmenez",
+     "emmenent"
+    ],
+    "imparfait": [
+     "emmenais",
+     "emmenais",
+     "emmenait",
+     "emmenions",
+     "emmeniez",
+     "emmenaient"
+    ],
+    "futur_radical": "emmener",
+    "subjonctif": [
+     "emmene",
+     "emmenes",
+     "emmene",
+     "emmenions",
+     "emmeniez",
+     "emmenent"
+    ],
+    "imperatif": [
+     "emmene",
+     "emmenons",
+     "emmenez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "due": {
+   "fr": "accepter",
+   "forme": "due",
+   "gerondif": "duene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "accepter",
+    "participe": "accepté",
+    "present": [
+     "accepte",
+     "acceptes",
+     "accepte",
+     "acceptons",
+     "acceptez",
+     "acceptent"
+    ],
+    "imparfait": [
+     "acceptais",
+     "acceptais",
+     "acceptait",
+     "acceptions",
+     "acceptiez",
+     "acceptaient"
+    ],
+    "futur_radical": "accepter",
+    "subjonctif": [
+     "accepte",
+     "acceptes",
+     "accepte",
+     "acceptions",
+     "acceptiez",
+     "acceptent"
+    ],
+    "imperatif": [
+     "accepte",
+     "acceptons",
+     "acceptez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "faaba": {
+   "fr": "secourir",
+   "forme": "faaba",
+   "gerondif": "faabana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "secourir",
+    "participe": "secouri",
+    "present": [
+     "secouris",
+     "secouris",
+     "secourit",
+     "secourissons",
+     "secourissez",
+     "secourissent"
+    ],
+    "imparfait": [
+     "secourissais",
+     "secourissais",
+     "secourissait",
+     "secourissions",
+     "secourissiez",
+     "secourissaient"
+    ],
+    "futur_radical": "secourir",
+    "subjonctif": [
+     "secourisse",
+     "secourisses",
+     "secourisse",
+     "secourissions",
+     "secourissiez",
+     "secourissent"
+    ],
+    "imperatif": [
+     "secouris",
+     "secourissons",
+     "secourissez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "fata": {
+   "fr": "séparer",
+   "forme": "fata",
+   "gerondif": "fatana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "séparer",
+    "participe": "séparé",
+    "present": [
+     "sépare",
+     "sépares",
+     "sépare",
+     "séparons",
+     "séparez",
+     "séparent"
+    ],
+    "imparfait": [
+     "séparais",
+     "séparais",
+     "séparait",
+     "séparions",
+     "sépariez",
+     "séparaient"
+    ],
+    "futur_radical": "séparer",
+    "subjonctif": [
+     "sépare",
+     "sépares",
+     "sépare",
+     "séparions",
+     "sépariez",
+     "séparent"
+    ],
+    "imperatif": [
+     "sépare",
+     "séparons",
+     "séparez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "ficce": {
+   "fr": "vomir",
+   "forme": "ficce",
+   "gerondif": "ficcene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "vomir",
+    "participe": "vomi",
+    "present": [
+     "vomis",
+     "vomis",
+     "vomit",
+     "vomissons",
+     "vomissez",
+     "vomissent"
+    ],
+    "imparfait": [
+     "vomissais",
+     "vomissais",
+     "vomissait",
+     "vomissions",
+     "vomissiez",
+     "vomissaient"
+    ],
+    "futur_radical": "vomir",
+    "subjonctif": [
+     "vomisse",
+     "vomisses",
+     "vomisse",
+     "vomissions",
+     "vomissiez",
+     "vomissent"
+    ],
+    "imperatif": [
+     "vomis",
+     "vomissons",
+     "vomissez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "filla": {
+   "fr": "doubler",
+   "forme": "filla",
+   "gerondif": "fillana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "doubler",
+    "participe": "doublé",
+    "present": [
+     "double",
+     "doubles",
+     "double",
+     "doublons",
+     "doublez",
+     "doublent"
+    ],
+    "imparfait": [
+     "doublais",
+     "doublais",
+     "doublait",
+     "doublions",
+     "doubliez",
+     "doublaient"
+    ],
+    "futur_radical": "doubler",
+    "subjonctif": [
+     "double",
+     "doubles",
+     "double",
+     "doublions",
+     "doubliez",
+     "doublent"
+    ],
+    "imperatif": [
+     "double",
+     "doublons",
+     "doublez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "firixindi": {
+   "fr": "nouer",
+   "forme": "firixindi",
+   "gerondif": "firixindini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "nouer",
+    "participe": "noué",
+    "present": [
+     "noue",
+     "noues",
+     "noue",
+     "nouons",
+     "nouez",
+     "nouent"
+    ],
+    "imparfait": [
+     "nouais",
+     "nouais",
+     "nouait",
+     "nouions",
+     "nouiez",
+     "nouaient"
+    ],
+    "futur_radical": "nouer",
+    "subjonctif": [
+     "noue",
+     "noues",
+     "noue",
+     "nouions",
+     "nouiez",
+     "nouent"
+    ],
+    "imperatif": [
+     "noue",
+     "nouons",
+     "nouez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "foxu": {
+   "fr": "aboyer",
+   "forme": "foxu",
+   "gerondif": "foxunu",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "aboyer",
+    "participe": "aboyé",
+    "present": [
+     "aboye",
+     "aboyes",
+     "aboye",
+     "aboyons",
+     "aboyez",
+     "aboyent"
+    ],
+    "imparfait": [
+     "aboyais",
+     "aboyais",
+     "aboyait",
+     "aboyions",
+     "aboyiez",
+     "aboyaient"
+    ],
+    "futur_radical": "aboyer",
+    "subjonctif": [
+     "aboye",
+     "aboyes",
+     "aboye",
+     "aboyions",
+     "aboyiez",
+     "aboyent"
+    ],
+    "imperatif": [
+     "aboye",
+     "aboyons",
+     "aboyez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "funu": {
+   "fr": "surpasser",
+   "forme": "funu",
+   "gerondif": "fununu",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "surpasser",
+    "participe": "surpassé",
+    "present": [
+     "surpasse",
+     "surpasses",
+     "surpasse",
+     "surpassons",
+     "surpassez",
+     "surpassent"
+    ],
+    "imparfait": [
+     "surpassais",
+     "surpassais",
+     "surpassait",
+     "surpassions",
+     "surpassiez",
+     "surpassaient"
+    ],
+    "futur_radical": "surpasser",
+    "subjonctif": [
+     "surpasse",
+     "surpasses",
+     "surpasse",
+     "surpassions",
+     "surpassiez",
+     "surpassent"
+    ],
+    "imperatif": [
+     "surpasse",
+     "surpassons",
+     "surpassez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "fuufe": {
+   "fr": "respirer",
+   "forme": "fuufe",
+   "gerondif": "fuufene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "respirer",
+    "participe": "respiré",
+    "present": [
+     "respire",
+     "respires",
+     "respire",
+     "respirons",
+     "respirez",
+     "respirent"
+    ],
+    "imparfait": [
+     "respirais",
+     "respirais",
+     "respirait",
+     "respirions",
+     "respiriez",
+     "respiraient"
+    ],
+    "futur_radical": "respirer",
+    "subjonctif": [
+     "respire",
+     "respires",
+     "respire",
+     "respirions",
+     "respiriez",
+     "respirent"
+    ],
+    "imperatif": [
+     "respire",
+     "respirons",
+     "respirez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "fuule": {
+   "fr": "siffler",
+   "forme": "fuule",
+   "gerondif": "fuulene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "siffler",
+    "participe": "sifflé",
+    "present": [
+     "siffle",
+     "siffles",
+     "siffle",
+     "sifflons",
+     "sifflez",
+     "sifflent"
+    ],
+    "imparfait": [
+     "sifflais",
+     "sifflais",
+     "sifflait",
+     "sifflions",
+     "siffliez",
+     "sifflaient"
+    ],
+    "futur_radical": "siffler",
+    "subjonctif": [
+     "siffle",
+     "siffles",
+     "siffle",
+     "sifflions",
+     "siffliez",
+     "sifflent"
+    ],
+    "imperatif": [
+     "siffle",
+     "sifflons",
+     "sifflez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "fuute": {
+   "fr": "souffler",
+   "forme": "fuute",
+   "gerondif": "fuutene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "souffler",
+    "participe": "soufflé",
+    "present": [
+     "souffle",
+     "souffles",
+     "souffle",
+     "soufflons",
+     "soufflez",
+     "soufflent"
+    ],
+    "imparfait": [
+     "soufflais",
+     "soufflais",
+     "soufflait",
+     "soufflions",
+     "souffliez",
+     "soufflaient"
+    ],
+    "futur_radical": "souffler",
+    "subjonctif": [
+     "souffle",
+     "souffles",
+     "souffle",
+     "soufflions",
+     "souffliez",
+     "soufflent"
+    ],
+    "imperatif": [
+     "souffle",
+     "soufflons",
+     "soufflez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "gaada": {
+   "fr": "commencer",
+   "forme": "gaada",
+   "gerondif": "gaadana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "commencer",
+    "participe": "commencé",
+    "present": [
+     "commence",
+     "commences",
+     "commence",
+     "commençons",
+     "commencez",
+     "commencent"
+    ],
+    "imparfait": [
+     "commençais",
+     "commençais",
+     "commençait",
+     "commencions",
+     "commenciez",
+     "commençaient"
+    ],
+    "futur_radical": "commencer",
+    "subjonctif": [
+     "commence",
+     "commences",
+     "commence",
+     "commencions",
+     "commenciez",
+     "commencent"
+    ],
+    "imperatif": [
+     "commence",
+     "commençons",
+     "commencez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "gaja": {
+   "fr": "lutter",
+   "forme": "gaja",
+   "gerondif": "gajana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "lutter",
+    "participe": "lutté",
+    "present": [
+     "lutte",
+     "luttes",
+     "lutte",
+     "luttons",
+     "luttez",
+     "luttent"
+    ],
+    "imparfait": [
+     "luttais",
+     "luttais",
+     "luttait",
+     "luttions",
+     "luttiez",
+     "luttaient"
+    ],
+    "futur_radical": "lutter",
+    "subjonctif": [
+     "lutte",
+     "luttes",
+     "lutte",
+     "luttions",
+     "luttiez",
+     "luttent"
+    ],
+    "imperatif": [
+     "lutte",
+     "luttons",
+     "luttez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "gemu": {
+   "fr": "se rencontrer",
+   "forme": "gemu",
+   "gerondif": "gemunu",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "se rencontrer",
+    "participe": "se rencontré",
+    "present": [
+     "se rencontre",
+     "se rencontres",
+     "se rencontre",
+     "se rencontrons",
+     "se rencontrez",
+     "se rencontrent"
+    ],
+    "imparfait": [
+     "se rencontrais",
+     "se rencontrais",
+     "se rencontrait",
+     "se rencontrions",
+     "se rencontriez",
+     "se rencontraient"
+    ],
+    "futur_radical": "se rencontrer",
+    "subjonctif": [
+     "se rencontre",
+     "se rencontres",
+     "se rencontre",
+     "se rencontrions",
+     "se rencontriez",
+     "se rencontrent"
+    ],
+    "imperatif": [
+     "se rencontre",
+     "se rencontrons",
+     "se rencontrez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "giri": {
+   "fr": "se lever",
+   "forme": "giri",
+   "gerondif": "girini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "se lever",
+    "participe": "se levé",
+    "present": [
+     "se leve",
+     "se leves",
+     "se leve",
+     "se levons",
+     "se levez",
+     "se levent"
+    ],
+    "imparfait": [
+     "se levais",
+     "se levais",
+     "se levait",
+     "se levions",
+     "se leviez",
+     "se levaient"
+    ],
+    "futur_radical": "se lever",
+    "subjonctif": [
+     "se leve",
+     "se leves",
+     "se leve",
+     "se levions",
+     "se leviez",
+     "se levent"
+    ],
+    "imperatif": [
+     "se leve",
+     "se levons",
+     "se levez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "gooli": {
+   "fr": "défricher",
+   "forme": "gooli",
+   "gerondif": "goolini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "défricher",
+    "participe": "défriché",
+    "present": [
+     "défriche",
+     "défriches",
+     "défriche",
+     "défrichons",
+     "défrichez",
+     "défrichent"
+    ],
+    "imparfait": [
+     "défrichais",
+     "défrichais",
+     "défrichait",
+     "défrichions",
+     "défrichiez",
+     "défrichaient"
+    ],
+    "futur_radical": "défricher",
+    "subjonctif": [
+     "défriche",
+     "défriches",
+     "défriche",
+     "défrichions",
+     "défrichiez",
+     "défrichent"
+    ],
+    "imperatif": [
+     "défriche",
+     "défrichons",
+     "défrichez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "goro": {
+   "fr": "piler",
+   "forme": "goro",
+   "gerondif": "gorono",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "piler",
+    "participe": "pilé",
+    "present": [
+     "pile",
+     "piles",
+     "pile",
+     "pilons",
+     "pilez",
+     "pilent"
+    ],
+    "imparfait": [
+     "pilais",
+     "pilais",
+     "pilait",
+     "pilions",
+     "piliez",
+     "pilaient"
+    ],
+    "futur_radical": "piler",
+    "subjonctif": [
+     "pile",
+     "piles",
+     "pile",
+     "pilions",
+     "piliez",
+     "pilent"
+    ],
+    "imperatif": [
+     "pile",
+     "pilons",
+     "pilez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "guube": {
+   "fr": "dévier",
+   "forme": "guube",
+   "gerondif": "guubene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "dévier",
+    "participe": "dévié",
+    "present": [
+     "dévie",
+     "dévies",
+     "dévie",
+     "dévions",
+     "déviez",
+     "dévient"
+    ],
+    "imparfait": [
+     "déviais",
+     "déviais",
+     "déviait",
+     "déviions",
+     "déviiez",
+     "déviaient"
+    ],
+    "futur_radical": "dévier",
+    "subjonctif": [
+     "dévie",
+     "dévies",
+     "dévie",
+     "déviions",
+     "déviiez",
+     "dévient"
+    ],
+    "imperatif": [
+     "dévie",
+     "dévions",
+     "déviez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "jaara": {
+   "fr": "soigner",
+   "forme": "jaara",
+   "gerondif": "jaarana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "soigner",
+    "participe": "soigné",
+    "present": [
+     "soigne",
+     "soignes",
+     "soigne",
+     "soignons",
+     "soignez",
+     "soignent"
+    ],
+    "imparfait": [
+     "soignais",
+     "soignais",
+     "soignait",
+     "soignions",
+     "soigniez",
+     "soignaient"
+    ],
+    "futur_radical": "soigner",
+    "subjonctif": [
+     "soigne",
+     "soignes",
+     "soigne",
+     "soignions",
+     "soigniez",
+     "soignent"
+    ],
+    "imperatif": [
+     "soigne",
+     "soignons",
+     "soignez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "jaga": {
+   "fr": "déterrer",
+   "forme": "jaga",
+   "gerondif": "jagana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "déterrer",
+    "participe": "déterré",
+    "present": [
+     "déterre",
+     "déterres",
+     "déterre",
+     "déterrons",
+     "déterrez",
+     "déterrent"
+    ],
+    "imparfait": [
+     "déterrais",
+     "déterrais",
+     "déterrait",
+     "déterrions",
+     "déterriez",
+     "déterraient"
+    ],
+    "futur_radical": "déterrer",
+    "subjonctif": [
+     "déterre",
+     "déterres",
+     "déterre",
+     "déterrions",
+     "déterriez",
+     "déterrent"
+    ],
+    "imperatif": [
+     "déterre",
+     "déterrons",
+     "déterrez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "janba": {
+   "fr": "trahir",
+   "forme": "janba",
+   "gerondif": "janbana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "trahir",
+    "participe": "trahi",
+    "present": [
+     "trahis",
+     "trahis",
+     "trahit",
+     "trahissons",
+     "trahissez",
+     "trahissent"
+    ],
+    "imparfait": [
+     "trahissais",
+     "trahissais",
+     "trahissait",
+     "trahissions",
+     "trahissiez",
+     "trahissaient"
+    ],
+    "futur_radical": "trahir",
+    "subjonctif": [
+     "trahisse",
+     "trahisses",
+     "trahisse",
+     "trahissions",
+     "trahissiez",
+     "trahissent"
+    ],
+    "imperatif": [
+     "trahis",
+     "trahissons",
+     "trahissez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "jewo": {
+   "fr": "se dépêcher",
+   "forme": "jewo",
+   "gerondif": "jewono",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "se dépêcher",
+    "participe": "se dépêché",
+    "present": [
+     "se dépêche",
+     "se dépêches",
+     "se dépêche",
+     "se dépêchons",
+     "se dépêchez",
+     "se dépêchent"
+    ],
+    "imparfait": [
+     "se dépêchais",
+     "se dépêchais",
+     "se dépêchait",
+     "se dépêchions",
+     "se dépêchiez",
+     "se dépêchaient"
+    ],
+    "futur_radical": "se dépêcher",
+    "subjonctif": [
+     "se dépêche",
+     "se dépêches",
+     "se dépêche",
+     "se dépêchions",
+     "se dépêchiez",
+     "se dépêchent"
+    ],
+    "imperatif": [
+     "se dépêche",
+     "se dépêchons",
+     "se dépêchez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "jigijappe": {
+   "fr": "bégayer",
+   "forme": "jigijappe",
+   "gerondif": "jigijappene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "bégayer",
+    "participe": "bégayé",
+    "present": [
+     "bégaye",
+     "bégayes",
+     "bégaye",
+     "bégayons",
+     "bégayez",
+     "bégayent"
+    ],
+    "imparfait": [
+     "bégayais",
+     "bégayais",
+     "bégayait",
+     "bégayions",
+     "bégayiez",
+     "bégayaient"
+    ],
+    "futur_radical": "bégayer",
+    "subjonctif": [
+     "bégaye",
+     "bégayes",
+     "bégaye",
+     "bégayions",
+     "bégayiez",
+     "bégayent"
+    ],
+    "imperatif": [
+     "bégaye",
+     "bégayons",
+     "bégayez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "jimi": {
+   "fr": "se pencher",
+   "forme": "jimi",
+   "gerondif": "jimini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "se pencher",
+    "participe": "se penché",
+    "present": [
+     "se penche",
+     "se penches",
+     "se penche",
+     "se penchons",
+     "se penchez",
+     "se penchent"
+    ],
+    "imparfait": [
+     "se penchais",
+     "se penchais",
+     "se penchait",
+     "se penchions",
+     "se penchiez",
+     "se penchaient"
+    ],
+    "futur_radical": "se pencher",
+    "subjonctif": [
+     "se penche",
+     "se penches",
+     "se penche",
+     "se penchions",
+     "se penchiez",
+     "se penchent"
+    ],
+    "imperatif": [
+     "se penche",
+     "se penchons",
+     "se penchez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "joofe": {
+   "fr": "arriver",
+   "forme": "joofe",
+   "gerondif": "joofene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "etre",
+    "infinitif": "arriver",
+    "participe": "arrivé",
+    "present": [
+     "arrive",
+     "arrives",
+     "arrive",
+     "arrivons",
+     "arrivez",
+     "arrivent"
+    ],
+    "imparfait": [
+     "arrivais",
+     "arrivais",
+     "arrivait",
+     "arrivions",
+     "arriviez",
+     "arrivaient"
+    ],
+    "futur_radical": "arriver",
+    "subjonctif": [
+     "arrive",
+     "arrives",
+     "arrive",
+     "arrivions",
+     "arriviez",
+     "arrivent"
+    ],
+    "imperatif": [
+     "arrive",
+     "arrivons",
+     "arrivez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "joppe": {
+   "fr": "commencer",
+   "forme": "joppe",
+   "gerondif": "joppene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "commencer",
+    "participe": "commencé",
+    "present": [
+     "commence",
+     "commences",
+     "commence",
+     "commençons",
+     "commencez",
+     "commencent"
+    ],
+    "imparfait": [
+     "commençais",
+     "commençais",
+     "commençait",
+     "commencions",
+     "commenciez",
+     "commençaient"
+    ],
+    "futur_radical": "commencer",
+    "subjonctif": [
+     "commence",
+     "commences",
+     "commence",
+     "commencions",
+     "commenciez",
+     "commencent"
+    ],
+    "imperatif": [
+     "commence",
+     "commençons",
+     "commencez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "joxu": {
+   "fr": "verser",
+   "forme": "joxu",
+   "gerondif": "joxunu",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "verser",
+    "participe": "versé",
+    "present": [
+     "verse",
+     "verses",
+     "verse",
+     "versons",
+     "versez",
+     "versent"
+    ],
+    "imparfait": [
+     "versais",
+     "versais",
+     "versait",
+     "versions",
+     "versiez",
+     "versaient"
+    ],
+    "futur_radical": "verser",
+    "subjonctif": [
+     "verse",
+     "verses",
+     "verse",
+     "versions",
+     "versiez",
+     "versent"
+    ],
+    "imperatif": [
+     "verse",
+     "versons",
+     "versez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "ka": {
+   "fr": "injurer",
+   "forme": "ka",
+   "gerondif": "kana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "injurer",
+    "participe": "injuré",
+    "present": [
+     "injure",
+     "injures",
+     "injure",
+     "injurons",
+     "injurez",
+     "injurent"
+    ],
+    "imparfait": [
+     "injurais",
+     "injurais",
+     "injurait",
+     "injurions",
+     "injuriez",
+     "injuraient"
+    ],
+    "futur_radical": "injurer",
+    "subjonctif": [
+     "injure",
+     "injures",
+     "injure",
+     "injurions",
+     "injuriez",
+     "injurent"
+    ],
+    "imperatif": [
+     "injure",
+     "injurons",
+     "injurez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "kaawa": {
+   "fr": "sécher",
+   "forme": "kaawa",
+   "gerondif": "kaawana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "sécher",
+    "participe": "séché",
+    "present": [
+     "séche",
+     "séches",
+     "séche",
+     "séchons",
+     "séchez",
+     "séchent"
+    ],
+    "imparfait": [
+     "séchais",
+     "séchais",
+     "séchait",
+     "séchions",
+     "séchiez",
+     "séchaient"
+    ],
+    "futur_radical": "sécher",
+    "subjonctif": [
+     "séche",
+     "séches",
+     "séche",
+     "séchions",
+     "séchiez",
+     "séchent"
+    ],
+    "imperatif": [
+     "séche",
+     "séchons",
+     "séchez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "kafu": {
+   "fr": "ajouter",
+   "forme": "kafu",
+   "gerondif": "kafunu",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "ajouter",
+    "participe": "ajouté",
+    "present": [
+     "ajoute",
+     "ajoutes",
+     "ajoute",
+     "ajoutons",
+     "ajoutez",
+     "ajoutent"
+    ],
+    "imparfait": [
+     "ajoutais",
+     "ajoutais",
+     "ajoutait",
+     "ajoutions",
+     "ajoutiez",
+     "ajoutaient"
+    ],
+    "futur_radical": "ajouter",
+    "subjonctif": [
+     "ajoute",
+     "ajoutes",
+     "ajoute",
+     "ajoutions",
+     "ajoutiez",
+     "ajoutent"
+    ],
+    "imperatif": [
+     "ajoute",
+     "ajoutons",
+     "ajoutez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "kanbu": {
+   "fr": "croquer",
+   "forme": "kanbu",
+   "gerondif": "kanbunu",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "croquer",
+    "participe": "croqué",
+    "present": [
+     "croque",
+     "croques",
+     "croque",
+     "croquons",
+     "croquez",
+     "croquent"
+    ],
+    "imparfait": [
+     "croquais",
+     "croquais",
+     "croquait",
+     "croquions",
+     "croquiez",
+     "croquaient"
+    ],
+    "futur_radical": "croquer",
+    "subjonctif": [
+     "croque",
+     "croques",
+     "croque",
+     "croquions",
+     "croquiez",
+     "croquent"
+    ],
+    "imperatif": [
+     "croque",
+     "croquons",
+     "croquez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "kare": {
+   "fr": "traverser",
+   "forme": "kare",
+   "gerondif": "karene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "traverser",
+    "participe": "traversé",
+    "present": [
+     "traverse",
+     "traverses",
+     "traverse",
+     "traversons",
+     "traversez",
+     "traversent"
+    ],
+    "imparfait": [
+     "traversais",
+     "traversais",
+     "traversait",
+     "traversions",
+     "traversiez",
+     "traversaient"
+    ],
+    "futur_radical": "traverser",
+    "subjonctif": [
+     "traverse",
+     "traverses",
+     "traverse",
+     "traversions",
+     "traversiez",
+     "traversent"
+    ],
+    "imperatif": [
+     "traverse",
+     "traversons",
+     "traversez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "kiiti": {
+   "fr": "juger",
+   "forme": "kiiti",
+   "gerondif": "kiitini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "juger",
+    "participe": "jugé",
+    "present": [
+     "juge",
+     "juges",
+     "juge",
+     "jugeons",
+     "jugez",
+     "jugent"
+    ],
+    "imparfait": [
+     "jugeais",
+     "jugeais",
+     "jugeait",
+     "jugions",
+     "jugiez",
+     "jugeaient"
+    ],
+    "futur_radical": "juger",
+    "subjonctif": [
+     "juge",
+     "juges",
+     "juge",
+     "jugions",
+     "jugiez",
+     "jugent"
+    ],
+    "imperatif": [
+     "juge",
+     "jugeons",
+     "jugez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "kini": {
+   "fr": "donner",
+   "forme": "kini",
+   "gerondif": "kinini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "donner",
+    "participe": "donné",
+    "present": [
+     "donne",
+     "donnes",
+     "donne",
+     "donnons",
+     "donnez",
+     "donnent"
+    ],
+    "imparfait": [
+     "donnais",
+     "donnais",
+     "donnait",
+     "donnions",
+     "donniez",
+     "donnaient"
+    ],
+    "futur_radical": "donner",
+    "subjonctif": [
+     "donne",
+     "donnes",
+     "donne",
+     "donnions",
+     "donniez",
+     "donnent"
+    ],
+    "imperatif": [
+     "donne",
+     "donnons",
+     "donnez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "kiñe": {
+   "fr": "arriver",
+   "forme": "kiñe",
+   "gerondif": "kiñene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "etre",
+    "infinitif": "arriver",
+    "participe": "arrivé",
+    "present": [
+     "arrive",
+     "arrives",
+     "arrive",
+     "arrivons",
+     "arrivez",
+     "arrivent"
+    ],
+    "imparfait": [
+     "arrivais",
+     "arrivais",
+     "arrivait",
+     "arrivions",
+     "arriviez",
+     "arrivaient"
+    ],
+    "futur_radical": "arriver",
+    "subjonctif": [
+     "arrive",
+     "arrives",
+     "arrive",
+     "arrivions",
+     "arriviez",
+     "arrivent"
+    ],
+    "imperatif": [
+     "arrive",
+     "arrivons",
+     "arrivez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "kita": {
+   "fr": "obtenir",
+   "forme": "kita",
+   "gerondif": "kitana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "obtenir",
+    "participe": "obteni",
+    "present": [
+     "obtenis",
+     "obtenis",
+     "obtenit",
+     "obtenissons",
+     "obtenissez",
+     "obtenissent"
+    ],
+    "imparfait": [
+     "obtenissais",
+     "obtenissais",
+     "obtenissait",
+     "obtenissions",
+     "obtenissiez",
+     "obtenissaient"
+    ],
+    "futur_radical": "obtenir",
+    "subjonctif": [
+     "obtenisse",
+     "obtenisses",
+     "obtenisse",
+     "obtenissions",
+     "obtenissiez",
+     "obtenissent"
+    ],
+    "imperatif": [
+     "obtenis",
+     "obtenissons",
+     "obtenissez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "konto": {
+   "fr": "manquer",
+   "forme": "konto",
+   "gerondif": "kontono",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "manquer",
+    "participe": "manqué",
+    "present": [
+     "manque",
+     "manques",
+     "manque",
+     "manquons",
+     "manquez",
+     "manquent"
+    ],
+    "imparfait": [
+     "manquais",
+     "manquais",
+     "manquait",
+     "manquions",
+     "manquiez",
+     "manquaient"
+    ],
+    "futur_radical": "manquer",
+    "subjonctif": [
+     "manque",
+     "manques",
+     "manque",
+     "manquions",
+     "manquiez",
+     "manquent"
+    ],
+    "imperatif": [
+     "manque",
+     "manquons",
+     "manquez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "kori": {
+   "fr": "echouer",
+   "forme": "kori",
+   "gerondif": "korini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "echouer",
+    "participe": "echoué",
+    "present": [
+     "echoue",
+     "echoues",
+     "echoue",
+     "echouons",
+     "echouez",
+     "echouent"
+    ],
+    "imparfait": [
+     "echouais",
+     "echouais",
+     "echouait",
+     "echouions",
+     "echouiez",
+     "echouaient"
+    ],
+    "futur_radical": "echouer",
+    "subjonctif": [
+     "echoue",
+     "echoues",
+     "echoue",
+     "echouions",
+     "echouiez",
+     "echouent"
+    ],
+    "imperatif": [
+     "echoue",
+     "echouons",
+     "echouez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "koroosi": {
+   "fr": "surveiller",
+   "forme": "koroosi",
+   "gerondif": "koroosini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "surveiller",
+    "participe": "surveillé",
+    "present": [
+     "surveille",
+     "surveilles",
+     "surveille",
+     "surveillons",
+     "surveillez",
+     "surveillent"
+    ],
+    "imparfait": [
+     "surveillais",
+     "surveillais",
+     "surveillait",
+     "surveillions",
+     "surveilliez",
+     "surveillaient"
+    ],
+    "futur_radical": "surveiller",
+    "subjonctif": [
+     "surveille",
+     "surveilles",
+     "surveille",
+     "surveillions",
+     "surveilliez",
+     "surveillent"
+    ],
+    "imperatif": [
+     "surveille",
+     "surveillons",
+     "surveillez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "kutu": {
+   "fr": "couper",
+   "forme": "kutu",
+   "gerondif": "kutunu",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "couper",
+    "participe": "coupé",
+    "present": [
+     "coupe",
+     "coupes",
+     "coupe",
+     "coupons",
+     "coupez",
+     "coupent"
+    ],
+    "imparfait": [
+     "coupais",
+     "coupais",
+     "coupait",
+     "coupions",
+     "coupiez",
+     "coupaient"
+    ],
+    "futur_radical": "couper",
+    "subjonctif": [
+     "coupe",
+     "coupes",
+     "coupe",
+     "coupions",
+     "coupiez",
+     "coupent"
+    ],
+    "imperatif": [
+     "coupe",
+     "coupons",
+     "coupez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "lebi": {
+   "fr": "bégayer",
+   "forme": "lebi",
+   "gerondif": "lebini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "bégayer",
+    "participe": "bégayé",
+    "present": [
+     "bégaye",
+     "bégayes",
+     "bégaye",
+     "bégayons",
+     "bégayez",
+     "bégayent"
+    ],
+    "imparfait": [
+     "bégayais",
+     "bégayais",
+     "bégayait",
+     "bégayions",
+     "bégayiez",
+     "bégayaient"
+    ],
+    "futur_radical": "bégayer",
+    "subjonctif": [
+     "bégaye",
+     "bégayes",
+     "bégaye",
+     "bégayions",
+     "bégayiez",
+     "bégayent"
+    ],
+    "imperatif": [
+     "bégaye",
+     "bégayons",
+     "bégayez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "lori": {
+   "fr": "repiquer",
+   "forme": "lori",
+   "gerondif": "lorini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "repiquer",
+    "participe": "repiqué",
+    "present": [
+     "repique",
+     "repiques",
+     "repique",
+     "repiquons",
+     "repiquez",
+     "repiquent"
+    ],
+    "imparfait": [
+     "repiquais",
+     "repiquais",
+     "repiquait",
+     "repiquions",
+     "repiquiez",
+     "repiquaient"
+    ],
+    "futur_radical": "repiquer",
+    "subjonctif": [
+     "repique",
+     "repiques",
+     "repique",
+     "repiquions",
+     "repiquiez",
+     "repiquent"
+    ],
+    "imperatif": [
+     "repique",
+     "repiquons",
+     "repiquez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "maama": {
+   "fr": "remercier",
+   "forme": "maama",
+   "gerondif": "maamana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "remercier",
+    "participe": "remercié",
+    "present": [
+     "remercie",
+     "remercies",
+     "remercie",
+     "remercions",
+     "remerciez",
+     "remercient"
+    ],
+    "imparfait": [
+     "remerciais",
+     "remerciais",
+     "remerciait",
+     "remerciions",
+     "remerciiez",
+     "remerciaient"
+    ],
+    "futur_radical": "remercier",
+    "subjonctif": [
+     "remercie",
+     "remercies",
+     "remercie",
+     "remerciions",
+     "remerciiez",
+     "remercient"
+    ],
+    "imperatif": [
+     "remercie",
+     "remercions",
+     "remerciez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "mande": {
+   "fr": "se saouler",
+   "forme": "mande",
+   "gerondif": "mandene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "se saouler",
+    "participe": "se saoulé",
+    "present": [
+     "se saoule",
+     "se saoules",
+     "se saoule",
+     "se saoulons",
+     "se saoulez",
+     "se saoulent"
+    ],
+    "imparfait": [
+     "se saoulais",
+     "se saoulais",
+     "se saoulait",
+     "se saoulions",
+     "se saouliez",
+     "se saoulaient"
+    ],
+    "futur_radical": "se saouler",
+    "subjonctif": [
+     "se saoule",
+     "se saoules",
+     "se saoule",
+     "se saoulions",
+     "se saouliez",
+     "se saoulent"
+    ],
+    "imperatif": [
+     "se saoule",
+     "se saoulons",
+     "se saoulez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "mara": {
+   "fr": "garder",
+   "forme": "mara",
+   "gerondif": "marana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "garder",
+    "participe": "gardé",
+    "present": [
+     "garde",
+     "gardes",
+     "garde",
+     "gardons",
+     "gardez",
+     "gardent"
+    ],
+    "imparfait": [
+     "gardais",
+     "gardais",
+     "gardait",
+     "gardions",
+     "gardiez",
+     "gardaient"
+    ],
+    "futur_radical": "garder",
+    "subjonctif": [
+     "garde",
+     "gardes",
+     "garde",
+     "gardions",
+     "gardiez",
+     "gardent"
+    ],
+    "imperatif": [
+     "garde",
+     "gardons",
+     "gardez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "mare": {
+   "fr": "commander",
+   "forme": "mare",
+   "gerondif": "marene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "commander",
+    "participe": "commandé",
+    "present": [
+     "commande",
+     "commandes",
+     "commande",
+     "commandons",
+     "commandez",
+     "commandent"
+    ],
+    "imparfait": [
+     "commandais",
+     "commandais",
+     "commandait",
+     "commandions",
+     "commandiez",
+     "commandaient"
+    ],
+    "futur_radical": "commander",
+    "subjonctif": [
+     "commande",
+     "commandes",
+     "commande",
+     "commandions",
+     "commandiez",
+     "commandent"
+    ],
+    "imperatif": [
+     "commande",
+     "commandons",
+     "commandez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "masala": {
+   "fr": "discuter",
+   "forme": "masala",
+   "gerondif": "masalana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "discuter",
+    "participe": "discuté",
+    "present": [
+     "discute",
+     "discutes",
+     "discute",
+     "discutons",
+     "discutez",
+     "discutent"
+    ],
+    "imparfait": [
+     "discutais",
+     "discutais",
+     "discutait",
+     "discutions",
+     "discutiez",
+     "discutaient"
+    ],
+    "futur_radical": "discuter",
+    "subjonctif": [
+     "discute",
+     "discutes",
+     "discute",
+     "discutions",
+     "discutiez",
+     "discutent"
+    ],
+    "imperatif": [
+     "discute",
+     "discutons",
+     "discutez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "maxañetu": {
+   "fr": "parer",
+   "forme": "maxañetu",
+   "gerondif": "maxañetunu",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "parer",
+    "participe": "paré",
+    "present": [
+     "pare",
+     "pares",
+     "pare",
+     "parons",
+     "parez",
+     "parent"
+    ],
+    "imparfait": [
+     "parais",
+     "parais",
+     "parait",
+     "parions",
+     "pariez",
+     "paraient"
+    ],
+    "futur_radical": "parer",
+    "subjonctif": [
+     "pare",
+     "pares",
+     "pare",
+     "parions",
+     "pariez",
+     "parent"
+    ],
+    "imperatif": [
+     "pare",
+     "parons",
+     "parez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "nimisi": {
+   "fr": "regretter",
+   "forme": "nimisi",
+   "gerondif": "nimisini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "regretter",
+    "participe": "regretté",
+    "present": [
+     "regrette",
+     "regrettes",
+     "regrette",
+     "regrettons",
+     "regrettez",
+     "regrettent"
+    ],
+    "imparfait": [
+     "regrettais",
+     "regrettais",
+     "regrettait",
+     "regrettions",
+     "regrettiez",
+     "regrettaient"
+    ],
+    "futur_radical": "regretter",
+    "subjonctif": [
+     "regrette",
+     "regrettes",
+     "regrette",
+     "regrettions",
+     "regrettiez",
+     "regrettent"
+    ],
+    "imperatif": [
+     "regrette",
+     "regrettons",
+     "regrettez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "ña": {
+   "fr": "devenir",
+   "forme": "ña",
+   "gerondif": "ñana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "devenir",
+    "participe": "deveni",
+    "present": [
+     "devenis",
+     "devenis",
+     "devenit",
+     "devenissons",
+     "devenissez",
+     "devenissent"
+    ],
+    "imparfait": [
+     "devenissais",
+     "devenissais",
+     "devenissait",
+     "devenissions",
+     "devenissiez",
+     "devenissaient"
+    ],
+    "futur_radical": "devenir",
+    "subjonctif": [
+     "devenisse",
+     "devenisses",
+     "devenisse",
+     "devenissions",
+     "devenissiez",
+     "devenissent"
+    ],
+    "imperatif": [
+     "devenis",
+     "devenissons",
+     "devenissez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "ñaaga": {
+   "fr": "solliciter",
+   "forme": "ñaaga",
+   "gerondif": "ñaagana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "solliciter",
+    "participe": "sollicité",
+    "present": [
+     "sollicite",
+     "sollicites",
+     "sollicite",
+     "sollicitons",
+     "sollicitez",
+     "sollicitent"
+    ],
+    "imparfait": [
+     "sollicitais",
+     "sollicitais",
+     "sollicitait",
+     "sollicitions",
+     "sollicitiez",
+     "sollicitaient"
+    ],
+    "futur_radical": "solliciter",
+    "subjonctif": [
+     "sollicite",
+     "sollicites",
+     "sollicite",
+     "sollicitions",
+     "sollicitiez",
+     "sollicitent"
+    ],
+    "imperatif": [
+     "sollicite",
+     "sollicitons",
+     "sollicitez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "ñaage": {
+   "fr": "quémander",
+   "forme": "ñaage",
+   "gerondif": "ñaagene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "quémander",
+    "participe": "quémandé",
+    "present": [
+     "quémande",
+     "quémandes",
+     "quémande",
+     "quémandons",
+     "quémandez",
+     "quémandent"
+    ],
+    "imparfait": [
+     "quémandais",
+     "quémandais",
+     "quémandait",
+     "quémandions",
+     "quémandiez",
+     "quémandaient"
+    ],
+    "futur_radical": "quémander",
+    "subjonctif": [
+     "quémande",
+     "quémandes",
+     "quémande",
+     "quémandions",
+     "quémandiez",
+     "quémandent"
+    ],
+    "imperatif": [
+     "quémande",
+     "quémandons",
+     "quémandez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "ñaamari": {
+   "fr": "autoriser",
+   "forme": "ñaamari",
+   "gerondif": "ñaamarini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "autoriser",
+    "participe": "autorisé",
+    "present": [
+     "autorise",
+     "autorises",
+     "autorise",
+     "autorisons",
+     "autorisez",
+     "autorisent"
+    ],
+    "imparfait": [
+     "autorisais",
+     "autorisais",
+     "autorisait",
+     "autorisions",
+     "autorisiez",
+     "autorisaient"
+    ],
+    "futur_radical": "autoriser",
+    "subjonctif": [
+     "autorise",
+     "autorises",
+     "autorise",
+     "autorisions",
+     "autorisiez",
+     "autorisent"
+    ],
+    "imperatif": [
+     "autorise",
+     "autorisons",
+     "autorisez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "ñame": {
+   "fr": "se terminer",
+   "forme": "ñame",
+   "gerondif": "ñamene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "se terminer",
+    "participe": "se terminé",
+    "present": [
+     "se termine",
+     "se termines",
+     "se termine",
+     "se terminons",
+     "se terminez",
+     "se terminent"
+    ],
+    "imparfait": [
+     "se terminais",
+     "se terminais",
+     "se terminait",
+     "se terminions",
+     "se terminiez",
+     "se terminaient"
+    ],
+    "futur_radical": "se terminer",
+    "subjonctif": [
+     "se termine",
+     "se termines",
+     "se termine",
+     "se terminions",
+     "se terminiez",
+     "se terminent"
+    ],
+    "imperatif": [
+     "se termine",
+     "se terminons",
+     "se terminez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "ñaxali": {
+   "fr": "se réjouir",
+   "forme": "ñaxali",
+   "gerondif": "ñaxalini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "se réjouir",
+    "participe": "se réjoui",
+    "present": [
+     "se réjouis",
+     "se réjouis",
+     "se réjouit",
+     "se réjouissons",
+     "se réjouissez",
+     "se réjouissent"
+    ],
+    "imparfait": [
+     "se réjouissais",
+     "se réjouissais",
+     "se réjouissait",
+     "se réjouissions",
+     "se réjouissiez",
+     "se réjouissaient"
+    ],
+    "futur_radical": "se réjouir",
+    "subjonctif": [
+     "se réjouisse",
+     "se réjouisses",
+     "se réjouisse",
+     "se réjouissions",
+     "se réjouissiez",
+     "se réjouissent"
+    ],
+    "imperatif": [
+     "se réjouis",
+     "se réjouissons",
+     "se réjouissez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "ñaxami": {
+   "fr": "changer",
+   "forme": "ñaxami",
+   "gerondif": "ñaxamini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "changer",
+    "participe": "changé",
+    "present": [
+     "change",
+     "changes",
+     "change",
+     "changeons",
+     "changez",
+     "changent"
+    ],
+    "imparfait": [
+     "changeais",
+     "changeais",
+     "changeait",
+     "changions",
+     "changiez",
+     "changeaient"
+    ],
+    "futur_radical": "changer",
+    "subjonctif": [
+     "change",
+     "changes",
+     "change",
+     "changions",
+     "changiez",
+     "changent"
+    ],
+    "imperatif": [
+     "change",
+     "changeons",
+     "changez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "ñi": {
+   "fr": "trouver",
+   "forme": "ñi",
+   "gerondif": "ñini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "trouver",
+    "participe": "trouvé",
+    "present": [
+     "trouve",
+     "trouves",
+     "trouve",
+     "trouvons",
+     "trouvez",
+     "trouvent"
+    ],
+    "imparfait": [
+     "trouvais",
+     "trouvais",
+     "trouvait",
+     "trouvions",
+     "trouviez",
+     "trouvaient"
+    ],
+    "futur_radical": "trouver",
+    "subjonctif": [
+     "trouve",
+     "trouves",
+     "trouve",
+     "trouvions",
+     "trouviez",
+     "trouvent"
+    ],
+    "imperatif": [
+     "trouve",
+     "trouvons",
+     "trouvez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "ñaali": {
+   "fr": "briller",
+   "forme": "ñaali",
+   "gerondif": "ñaalini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "briller",
+    "participe": "brillé",
+    "present": [
+     "brille",
+     "brilles",
+     "brille",
+     "brillons",
+     "brillez",
+     "brillent"
+    ],
+    "imparfait": [
+     "brillais",
+     "brillais",
+     "brillait",
+     "brillions",
+     "brilliez",
+     "brillaient"
+    ],
+    "futur_radical": "briller",
+    "subjonctif": [
+     "brille",
+     "brilles",
+     "brille",
+     "brillions",
+     "brilliez",
+     "brillent"
+    ],
+    "imperatif": [
+     "brille",
+     "brillons",
+     "brillez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "ro": {
+   "fr": "entrer",
+   "forme": "ro",
+   "gerondif": "rono",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "etre",
+    "infinitif": "entrer",
+    "participe": "entré",
+    "present": [
+     "entre",
+     "entres",
+     "entre",
+     "entrons",
+     "entrez",
+     "entrent"
+    ],
+    "imparfait": [
+     "entrais",
+     "entrais",
+     "entrait",
+     "entrions",
+     "entriez",
+     "entraient"
+    ],
+    "futur_radical": "entrer",
+    "subjonctif": [
+     "entre",
+     "entres",
+     "entre",
+     "entrions",
+     "entriez",
+     "entrent"
+    ],
+    "imperatif": [
+     "entre",
+     "entrons",
+     "entrez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "saage": {
+   "fr": "retourner",
+   "forme": "saage",
+   "gerondif": "saagene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "etre",
+    "infinitif": "retourner",
+    "participe": "retourné",
+    "present": [
+     "retourne",
+     "retournes",
+     "retourne",
+     "retournons",
+     "retournez",
+     "retournent"
+    ],
+    "imparfait": [
+     "retournais",
+     "retournais",
+     "retournait",
+     "retournions",
+     "retourniez",
+     "retournaient"
+    ],
+    "futur_radical": "retourner",
+    "subjonctif": [
+     "retourne",
+     "retournes",
+     "retourne",
+     "retournions",
+     "retourniez",
+     "retournent"
+    ],
+    "imperatif": [
+     "retourne",
+     "retournons",
+     "retournez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "sanga": {
+   "fr": "jouer",
+   "forme": "sanga",
+   "gerondif": "sangana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "jouer",
+    "participe": "joué",
+    "present": [
+     "joue",
+     "joues",
+     "joue",
+     "jouons",
+     "jouez",
+     "jouent"
+    ],
+    "imparfait": [
+     "jouais",
+     "jouais",
+     "jouait",
+     "jouions",
+     "jouiez",
+     "jouaient"
+    ],
+    "futur_radical": "jouer",
+    "subjonctif": [
+     "joue",
+     "joues",
+     "joue",
+     "jouions",
+     "jouiez",
+     "jouent"
+    ],
+    "imperatif": [
+     "joue",
+     "jouons",
+     "jouez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "sanpa": {
+   "fr": "gifler",
+   "forme": "sanpa",
+   "gerondif": "sanpana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "gifler",
+    "participe": "giflé",
+    "present": [
+     "gifle",
+     "gifles",
+     "gifle",
+     "giflons",
+     "giflez",
+     "giflent"
+    ],
+    "imparfait": [
+     "giflais",
+     "giflais",
+     "giflait",
+     "giflions",
+     "gifliez",
+     "giflaient"
+    ],
+    "futur_radical": "gifler",
+    "subjonctif": [
+     "gifle",
+     "gifles",
+     "gifle",
+     "giflions",
+     "gifliez",
+     "giflent"
+    ],
+    "imperatif": [
+     "gifle",
+     "giflons",
+     "giflez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "saxu": {
+   "fr": "se coucher",
+   "forme": "saxu",
+   "gerondif": "saxunu",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "se coucher",
+    "participe": "se couché",
+    "present": [
+     "se couche",
+     "se couches",
+     "se couche",
+     "se couchons",
+     "se couchez",
+     "se couchent"
+    ],
+    "imparfait": [
+     "se couchais",
+     "se couchais",
+     "se couchait",
+     "se couchions",
+     "se couchiez",
+     "se couchaient"
+    ],
+    "futur_radical": "se coucher",
+    "subjonctif": [
+     "se couche",
+     "se couches",
+     "se couche",
+     "se couchions",
+     "se couchiez",
+     "se couchent"
+    ],
+    "imperatif": [
+     "se couche",
+     "se couchons",
+     "se couchez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "sele": {
+   "fr": "bifurquer",
+   "forme": "sele",
+   "gerondif": "selene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "bifurquer",
+    "participe": "bifurqué",
+    "present": [
+     "bifurque",
+     "bifurques",
+     "bifurque",
+     "bifurquons",
+     "bifurquez",
+     "bifurquent"
+    ],
+    "imparfait": [
+     "bifurquais",
+     "bifurquais",
+     "bifurquait",
+     "bifurquions",
+     "bifurquiez",
+     "bifurquaient"
+    ],
+    "futur_radical": "bifurquer",
+    "subjonctif": [
+     "bifurque",
+     "bifurques",
+     "bifurque",
+     "bifurquions",
+     "bifurquiez",
+     "bifurquent"
+    ],
+    "imperatif": [
+     "bifurque",
+     "bifurquons",
+     "bifurquez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "sella": {
+   "fr": "balayer",
+   "forme": "sella",
+   "gerondif": "sellana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "balayer",
+    "participe": "balayé",
+    "present": [
+     "balaye",
+     "balayes",
+     "balaye",
+     "balayons",
+     "balayez",
+     "balayent"
+    ],
+    "imparfait": [
+     "balayais",
+     "balayais",
+     "balayait",
+     "balayions",
+     "balayiez",
+     "balayaient"
+    ],
+    "futur_radical": "balayer",
+    "subjonctif": [
+     "balaye",
+     "balayes",
+     "balaye",
+     "balayions",
+     "balayiez",
+     "balayent"
+    ],
+    "imperatif": [
+     "balaye",
+     "balayons",
+     "balayez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "selle": {
+   "fr": "guérir",
+   "forme": "selle",
+   "gerondif": "sellene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "guérir",
+    "participe": "guéri",
+    "present": [
+     "guéris",
+     "guéris",
+     "guérit",
+     "guérissons",
+     "guérissez",
+     "guérissent"
+    ],
+    "imparfait": [
+     "guérissais",
+     "guérissais",
+     "guérissait",
+     "guérissions",
+     "guérissiez",
+     "guérissaient"
+    ],
+    "futur_radical": "guérir",
+    "subjonctif": [
+     "guérisse",
+     "guérisses",
+     "guérisse",
+     "guérissions",
+     "guérissiez",
+     "guérissent"
+    ],
+    "imperatif": [
+     "guéris",
+     "guérissons",
+     "guérissez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "senta": {
+   "fr": "peigner",
+   "forme": "senta",
+   "gerondif": "sentana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "peigner",
+    "participe": "peigné",
+    "present": [
+     "peigne",
+     "peignes",
+     "peigne",
+     "peignons",
+     "peignez",
+     "peignent"
+    ],
+    "imparfait": [
+     "peignais",
+     "peignais",
+     "peignait",
+     "peignions",
+     "peigniez",
+     "peignaient"
+    ],
+    "futur_radical": "peigner",
+    "subjonctif": [
+     "peigne",
+     "peignes",
+     "peigne",
+     "peignions",
+     "peigniez",
+     "peignent"
+    ],
+    "imperatif": [
+     "peigne",
+     "peignons",
+     "peignez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "sikka": {
+   "fr": "douter",
+   "forme": "sikka",
+   "gerondif": "sikkana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "douter",
+    "participe": "douté",
+    "present": [
+     "doute",
+     "doutes",
+     "doute",
+     "doutons",
+     "doutez",
+     "doutent"
+    ],
+    "imparfait": [
+     "doutais",
+     "doutais",
+     "doutait",
+     "doutions",
+     "doutiez",
+     "doutaient"
+    ],
+    "futur_radical": "douter",
+    "subjonctif": [
+     "doute",
+     "doutes",
+     "doute",
+     "doutions",
+     "doutiez",
+     "doutent"
+    ],
+    "imperatif": [
+     "doute",
+     "doutons",
+     "doutez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "sinme": {
+   "fr": "penser",
+   "forme": "sinme",
+   "gerondif": "sinmene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "penser",
+    "participe": "pensé",
+    "present": [
+     "pense",
+     "penses",
+     "pense",
+     "pensons",
+     "pensez",
+     "pensent"
+    ],
+    "imparfait": [
+     "pensais",
+     "pensais",
+     "pensait",
+     "pensions",
+     "pensiez",
+     "pensaient"
+    ],
+    "futur_radical": "penser",
+    "subjonctif": [
+     "pense",
+     "penses",
+     "pense",
+     "pensions",
+     "pensiez",
+     "pensent"
+    ],
+    "imperatif": [
+     "pense",
+     "pensons",
+     "pensez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "sobindi": {
+   "fr": "avertir",
+   "forme": "sobindi",
+   "gerondif": "sobindini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "avertir",
+    "participe": "averti",
+    "present": [
+     "avertis",
+     "avertis",
+     "avertit",
+     "avertissons",
+     "avertissez",
+     "avertissent"
+    ],
+    "imparfait": [
+     "avertissais",
+     "avertissais",
+     "avertissait",
+     "avertissions",
+     "avertissiez",
+     "avertissaient"
+    ],
+    "futur_radical": "avertir",
+    "subjonctif": [
+     "avertisse",
+     "avertisses",
+     "avertisse",
+     "avertissions",
+     "avertissiez",
+     "avertissent"
+    ],
+    "imperatif": [
+     "avertis",
+     "avertissons",
+     "avertissez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "soxo": {
+   "fr": "cultiver",
+   "forme": "soxo",
+   "gerondif": "soxono",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "cultiver",
+    "participe": "cultivé",
+    "present": [
+     "cultive",
+     "cultives",
+     "cultive",
+     "cultivons",
+     "cultivez",
+     "cultivent"
+    ],
+    "imparfait": [
+     "cultivais",
+     "cultivais",
+     "cultivait",
+     "cultivions",
+     "cultiviez",
+     "cultivaient"
+    ],
+    "futur_radical": "cultiver",
+    "subjonctif": [
+     "cultive",
+     "cultives",
+     "cultive",
+     "cultivions",
+     "cultiviez",
+     "cultivent"
+    ],
+    "imperatif": [
+     "cultive",
+     "cultivons",
+     "cultivez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "sugu": {
+   "fr": "téter",
+   "forme": "sugu",
+   "gerondif": "sugunu",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "téter",
+    "participe": "tété",
+    "present": [
+     "téte",
+     "tétes",
+     "téte",
+     "tétons",
+     "tétez",
+     "tétent"
+    ],
+    "imparfait": [
+     "tétais",
+     "tétais",
+     "tétait",
+     "tétions",
+     "tétiez",
+     "tétaient"
+    ],
+    "futur_radical": "téter",
+    "subjonctif": [
+     "téte",
+     "tétes",
+     "téte",
+     "tétions",
+     "tétiez",
+     "tétent"
+    ],
+    "imperatif": [
+     "téte",
+     "tétons",
+     "tétez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "suugu": {
+   "fr": "chanter",
+   "forme": "suugu",
+   "gerondif": "suugunu",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "chanter",
+    "participe": "chanté",
+    "present": [
+     "chante",
+     "chantes",
+     "chante",
+     "chantons",
+     "chantez",
+     "chantent"
+    ],
+    "imparfait": [
+     "chantais",
+     "chantais",
+     "chantait",
+     "chantions",
+     "chantiez",
+     "chantaient"
+    ],
+    "futur_radical": "chanter",
+    "subjonctif": [
+     "chante",
+     "chantes",
+     "chante",
+     "chantions",
+     "chantiez",
+     "chantent"
+    ],
+    "imperatif": [
+     "chante",
+     "chantons",
+     "chantez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "suumi": {
+   "fr": "jeûner",
+   "forme": "suumi",
+   "gerondif": "suumini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "jeûner",
+    "participe": "jeûné",
+    "present": [
+     "jeûne",
+     "jeûnes",
+     "jeûne",
+     "jeûnons",
+     "jeûnez",
+     "jeûnent"
+    ],
+    "imparfait": [
+     "jeûnais",
+     "jeûnais",
+     "jeûnait",
+     "jeûnions",
+     "jeûniez",
+     "jeûnaient"
+    ],
+    "futur_radical": "jeûner",
+    "subjonctif": [
+     "jeûne",
+     "jeûnes",
+     "jeûne",
+     "jeûnions",
+     "jeûniez",
+     "jeûnent"
+    ],
+    "imperatif": [
+     "jeûne",
+     "jeûnons",
+     "jeûnez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "tanpi": {
+   "fr": "se fatiguer",
+   "forme": "tanpi",
+   "gerondif": "tanpini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "se fatiguer",
+    "participe": "se fatigué",
+    "present": [
+     "se fatigue",
+     "se fatigues",
+     "se fatigue",
+     "se fatiguons",
+     "se fatiguez",
+     "se fatiguent"
+    ],
+    "imparfait": [
+     "se fatiguais",
+     "se fatiguais",
+     "se fatiguait",
+     "se fatiguions",
+     "se fatiguiez",
+     "se fatiguaient"
+    ],
+    "futur_radical": "se fatiguer",
+    "subjonctif": [
+     "se fatigue",
+     "se fatigues",
+     "se fatigue",
+     "se fatiguions",
+     "se fatiguiez",
+     "se fatiguent"
+    ],
+    "imperatif": [
+     "se fatigue",
+     "se fatiguons",
+     "se fatiguez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "tawo": {
+   "fr": "echauffer",
+   "forme": "tawo",
+   "gerondif": "tawono",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "echauffer",
+    "participe": "echauffé",
+    "present": [
+     "echauffe",
+     "echauffes",
+     "echauffe",
+     "echauffons",
+     "echauffez",
+     "echauffent"
+    ],
+    "imparfait": [
+     "echauffais",
+     "echauffais",
+     "echauffait",
+     "echauffions",
+     "echauffiez",
+     "echauffaient"
+    ],
+    "futur_radical": "echauffer",
+    "subjonctif": [
+     "echauffe",
+     "echauffes",
+     "echauffe",
+     "echauffions",
+     "echauffiez",
+     "echauffent"
+    ],
+    "imperatif": [
+     "echauffe",
+     "echauffons",
+     "echauffez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "tawoyi": {
+   "fr": "chauffer",
+   "forme": "tawoyi",
+   "gerondif": "tawoyini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "chauffer",
+    "participe": "chauffé",
+    "present": [
+     "chauffe",
+     "chauffes",
+     "chauffe",
+     "chauffons",
+     "chauffez",
+     "chauffent"
+    ],
+    "imparfait": [
+     "chauffais",
+     "chauffais",
+     "chauffait",
+     "chauffions",
+     "chauffiez",
+     "chauffaient"
+    ],
+    "futur_radical": "chauffer",
+    "subjonctif": [
+     "chauffe",
+     "chauffes",
+     "chauffe",
+     "chauffions",
+     "chauffiez",
+     "chauffent"
+    ],
+    "imperatif": [
+     "chauffe",
+     "chauffons",
+     "chauffez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "taxa": {
+   "fr": "couvrir",
+   "forme": "taxa",
+   "gerondif": "taxana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "couvrir",
+    "participe": "couvri",
+    "present": [
+     "couvris",
+     "couvris",
+     "couvrit",
+     "couvrissons",
+     "couvrissez",
+     "couvrissent"
+    ],
+    "imparfait": [
+     "couvrissais",
+     "couvrissais",
+     "couvrissait",
+     "couvrissions",
+     "couvrissiez",
+     "couvrissaient"
+    ],
+    "futur_radical": "couvrir",
+    "subjonctif": [
+     "couvrisse",
+     "couvrisses",
+     "couvrisse",
+     "couvrissions",
+     "couvrissiez",
+     "couvrissent"
+    ],
+    "imperatif": [
+     "couvris",
+     "couvrissons",
+     "couvrissez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "taxandi": {
+   "fr": "diviser",
+   "forme": "taxandi",
+   "gerondif": "taxandini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "diviser",
+    "participe": "divisé",
+    "present": [
+     "divise",
+     "divises",
+     "divise",
+     "divisons",
+     "divisez",
+     "divisent"
+    ],
+    "imparfait": [
+     "divisais",
+     "divisais",
+     "divisait",
+     "divisions",
+     "divisiez",
+     "divisaient"
+    ],
+    "futur_radical": "diviser",
+    "subjonctif": [
+     "divise",
+     "divises",
+     "divise",
+     "divisions",
+     "divisiez",
+     "divisent"
+    ],
+    "imperatif": [
+     "divise",
+     "divisons",
+     "divisez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "tere": {
+   "fr": "marcher",
+   "forme": "tere",
+   "gerondif": "terene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "marcher",
+    "participe": "marché",
+    "present": [
+     "marche",
+     "marches",
+     "marche",
+     "marchons",
+     "marchez",
+     "marchent"
+    ],
+    "imparfait": [
+     "marchais",
+     "marchais",
+     "marchait",
+     "marchions",
+     "marchiez",
+     "marchaient"
+    ],
+    "futur_radical": "marcher",
+    "subjonctif": [
+     "marche",
+     "marches",
+     "marche",
+     "marchions",
+     "marchiez",
+     "marchent"
+    ],
+    "imperatif": [
+     "marche",
+     "marchons",
+     "marchez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "terinka": {
+   "fr": "ecouter",
+   "forme": "terinka",
+   "gerondif": "terinkana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "ecouter",
+    "participe": "ecouté",
+    "present": [
+     "ecoute",
+     "ecoutes",
+     "ecoute",
+     "ecoutons",
+     "ecoutez",
+     "ecoutent"
+    ],
+    "imparfait": [
+     "ecoutais",
+     "ecoutais",
+     "ecoutait",
+     "ecoutions",
+     "ecoutiez",
+     "ecoutaient"
+    ],
+    "futur_radical": "ecouter",
+    "subjonctif": [
+     "ecoute",
+     "ecoutes",
+     "ecoute",
+     "ecoutions",
+     "ecoutiez",
+     "ecoutent"
+    ],
+    "imperatif": [
+     "ecoute",
+     "ecoutons",
+     "ecoutez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "texe": {
+   "fr": "fermer",
+   "forme": "texe",
+   "gerondif": "texene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "fermer",
+    "participe": "fermé",
+    "present": [
+     "ferme",
+     "fermes",
+     "ferme",
+     "fermons",
+     "fermez",
+     "ferment"
+    ],
+    "imparfait": [
+     "fermais",
+     "fermais",
+     "fermait",
+     "fermions",
+     "fermiez",
+     "fermaient"
+    ],
+    "futur_radical": "fermer",
+    "subjonctif": [
+     "ferme",
+     "fermes",
+     "ferme",
+     "fermions",
+     "fermiez",
+     "ferment"
+    ],
+    "imperatif": [
+     "ferme",
+     "fermons",
+     "fermez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "texu": {
+   "fr": "tousser",
+   "forme": "texu",
+   "gerondif": "texunu",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "tousser",
+    "participe": "toussé",
+    "present": [
+     "tousse",
+     "tousses",
+     "tousse",
+     "toussons",
+     "toussez",
+     "toussent"
+    ],
+    "imparfait": [
+     "toussais",
+     "toussais",
+     "toussait",
+     "toussions",
+     "toussiez",
+     "toussaient"
+    ],
+    "futur_radical": "tousser",
+    "subjonctif": [
+     "tousse",
+     "tousses",
+     "tousse",
+     "toussions",
+     "toussiez",
+     "toussent"
+    ],
+    "imperatif": [
+     "tousse",
+     "toussons",
+     "toussez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "tifi": {
+   "fr": "planter",
+   "forme": "tifi",
+   "gerondif": "tifini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "planter",
+    "participe": "planté",
+    "present": [
+     "plante",
+     "plantes",
+     "plante",
+     "plantons",
+     "plantez",
+     "plantent"
+    ],
+    "imparfait": [
+     "plantais",
+     "plantais",
+     "plantait",
+     "plantions",
+     "plantiez",
+     "plantaient"
+    ],
+    "futur_radical": "planter",
+    "subjonctif": [
+     "plante",
+     "plantes",
+     "plante",
+     "plantions",
+     "plantiez",
+     "plantent"
+    ],
+    "imperatif": [
+     "plante",
+     "plantons",
+     "plantez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "timi": {
+   "fr": "sentir",
+   "forme": "timi",
+   "gerondif": "timini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "sentir",
+    "participe": "senti",
+    "present": [
+     "sentis",
+     "sentis",
+     "sentit",
+     "sentissons",
+     "sentissez",
+     "sentissent"
+    ],
+    "imparfait": [
+     "sentissais",
+     "sentissais",
+     "sentissait",
+     "sentissions",
+     "sentissiez",
+     "sentissaient"
+    ],
+    "futur_radical": "sentir",
+    "subjonctif": [
+     "sentisse",
+     "sentisses",
+     "sentisse",
+     "sentissions",
+     "sentissiez",
+     "sentissent"
+    ],
+    "imperatif": [
+     "sentis",
+     "sentissons",
+     "sentissez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "tirindi": {
+   "fr": "demander",
+   "forme": "tirindi",
+   "gerondif": "tirindini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "demander",
+    "participe": "demandé",
+    "present": [
+     "demande",
+     "demandes",
+     "demande",
+     "demandons",
+     "demandez",
+     "demandent"
+    ],
+    "imparfait": [
+     "demandais",
+     "demandais",
+     "demandait",
+     "demandions",
+     "demandiez",
+     "demandaient"
+    ],
+    "futur_radical": "demander",
+    "subjonctif": [
+     "demande",
+     "demandes",
+     "demande",
+     "demandions",
+     "demandiez",
+     "demandent"
+    ],
+    "imperatif": [
+     "demande",
+     "demandons",
+     "demandez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "toni": {
+   "fr": "avaler",
+   "forme": "toni",
+   "gerondif": "tonini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "avaler",
+    "participe": "avalé",
+    "present": [
+     "avale",
+     "avales",
+     "avale",
+     "avalons",
+     "avalez",
+     "avalent"
+    ],
+    "imparfait": [
+     "avalais",
+     "avalais",
+     "avalait",
+     "avalions",
+     "avaliez",
+     "avalaient"
+    ],
+    "futur_radical": "avaler",
+    "subjonctif": [
+     "avale",
+     "avales",
+     "avale",
+     "avalions",
+     "avaliez",
+     "avalent"
+    ],
+    "imperatif": [
+     "avale",
+     "avalons",
+     "avalez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "toori": {
+   "fr": "introniser",
+   "forme": "toori",
+   "gerondif": "toorini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "introniser",
+    "participe": "intronisé",
+    "present": [
+     "intronise",
+     "intronises",
+     "intronise",
+     "intronisons",
+     "intronisez",
+     "intronisent"
+    ],
+    "imparfait": [
+     "intronisais",
+     "intronisais",
+     "intronisait",
+     "intronisions",
+     "intronisiez",
+     "intronisaient"
+    ],
+    "futur_radical": "introniser",
+    "subjonctif": [
+     "intronise",
+     "intronises",
+     "intronise",
+     "intronisions",
+     "intronisiez",
+     "intronisent"
+    ],
+    "imperatif": [
+     "intronise",
+     "intronisons",
+     "intronisez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "tooro": {
+   "fr": "gêner",
+   "forme": "tooro",
+   "gerondif": "toorono",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "gêner",
+    "participe": "gêné",
+    "present": [
+     "gêne",
+     "gênes",
+     "gêne",
+     "gênons",
+     "gênez",
+     "gênent"
+    ],
+    "imparfait": [
+     "gênais",
+     "gênais",
+     "gênait",
+     "gênions",
+     "gêniez",
+     "gênaient"
+    ],
+    "futur_radical": "gêner",
+    "subjonctif": [
+     "gêne",
+     "gênes",
+     "gêne",
+     "gênions",
+     "gêniez",
+     "gênent"
+    ],
+    "imperatif": [
+     "gêne",
+     "gênons",
+     "gênez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "toxo": {
+   "fr": "laisser",
+   "forme": "toxo",
+   "gerondif": "toxono",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "laisser",
+    "participe": "laissé",
+    "present": [
+     "laisse",
+     "laisses",
+     "laisse",
+     "laissons",
+     "laissez",
+     "laissent"
+    ],
+    "imparfait": [
+     "laissais",
+     "laissais",
+     "laissait",
+     "laissions",
+     "laissiez",
+     "laissaient"
+    ],
+    "futur_radical": "laisser",
+    "subjonctif": [
+     "laisse",
+     "laisses",
+     "laisse",
+     "laissions",
+     "laissiez",
+     "laissent"
+    ],
+    "imperatif": [
+     "laisse",
+     "laissons",
+     "laissez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "tuga": {
+   "fr": "payer",
+   "forme": "tuga",
+   "gerondif": "tugana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "payer",
+    "participe": "payé",
+    "present": [
+     "paye",
+     "payes",
+     "paye",
+     "payons",
+     "payez",
+     "payent"
+    ],
+    "imparfait": [
+     "payais",
+     "payais",
+     "payait",
+     "payions",
+     "payiez",
+     "payaient"
+    ],
+    "futur_radical": "payer",
+    "subjonctif": [
+     "paye",
+     "payes",
+     "paye",
+     "payions",
+     "payiez",
+     "payent"
+    ],
+    "imperatif": [
+     "paye",
+     "payons",
+     "payez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "tuhuumar": {
+   "fr": "se reposer",
+   "forme": "tuhuumar",
+   "gerondif": "tuhuumarni",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "se reposer",
+    "participe": "se reposé",
+    "present": [
+     "se repose",
+     "se reposes",
+     "se repose",
+     "se reposons",
+     "se reposez",
+     "se reposent"
+    ],
+    "imparfait": [
+     "se reposais",
+     "se reposais",
+     "se reposait",
+     "se reposions",
+     "se reposiez",
+     "se reposaient"
+    ],
+    "futur_radical": "se reposer",
+    "subjonctif": [
+     "se repose",
+     "se reposes",
+     "se repose",
+     "se reposions",
+     "se reposiez",
+     "se reposent"
+    ],
+    "imperatif": [
+     "se repose",
+     "se reposons",
+     "se reposez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "tunsi": {
+   "fr": "accompagner",
+   "forme": "tunsi",
+   "gerondif": "tunsini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "accompagner",
+    "participe": "accompagné",
+    "present": [
+     "accompagne",
+     "accompagnes",
+     "accompagne",
+     "accompagnons",
+     "accompagnez",
+     "accompagnent"
+    ],
+    "imparfait": [
+     "accompagnais",
+     "accompagnais",
+     "accompagnait",
+     "accompagnions",
+     "accompagniez",
+     "accompagnaient"
+    ],
+    "futur_radical": "accompagner",
+    "subjonctif": [
+     "accompagne",
+     "accompagnes",
+     "accompagne",
+     "accompagnions",
+     "accompagniez",
+     "accompagnent"
+    ],
+    "imperatif": [
+     "accompagne",
+     "accompagnons",
+     "accompagnez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "waare": {
+   "fr": "béer",
+   "forme": "waare",
+   "gerondif": "waarene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "béer",
+    "participe": "béé",
+    "present": [
+     "bée",
+     "bées",
+     "bée",
+     "béons",
+     "béez",
+     "béent"
+    ],
+    "imparfait": [
+     "béais",
+     "béais",
+     "béait",
+     "béions",
+     "béiez",
+     "béaient"
+    ],
+    "futur_radical": "béer",
+    "subjonctif": [
+     "bée",
+     "bées",
+     "bée",
+     "béions",
+     "béiez",
+     "béent"
+    ],
+    "imperatif": [
+     "bée",
+     "béons",
+     "béez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "wanqi": {
+   "fr": "laver",
+   "forme": "wanqi",
+   "gerondif": "wanqini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "laver",
+    "participe": "lavé",
+    "present": [
+     "lave",
+     "laves",
+     "lave",
+     "lavons",
+     "lavez",
+     "lavent"
+    ],
+    "imparfait": [
+     "lavais",
+     "lavais",
+     "lavait",
+     "lavions",
+     "laviez",
+     "lavaient"
+    ],
+    "futur_radical": "laver",
+    "subjonctif": [
+     "lave",
+     "laves",
+     "lave",
+     "lavions",
+     "laviez",
+     "lavent"
+    ],
+    "imperatif": [
+     "lave",
+     "lavons",
+     "lavez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "wecci": {
+   "fr": "changer",
+   "forme": "wecci",
+   "gerondif": "weccini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "changer",
+    "participe": "changé",
+    "present": [
+     "change",
+     "changes",
+     "change",
+     "changeons",
+     "changez",
+     "changent"
+    ],
+    "imparfait": [
+     "changeais",
+     "changeais",
+     "changeait",
+     "changions",
+     "changiez",
+     "changeaient"
+    ],
+    "futur_radical": "changer",
+    "subjonctif": [
+     "change",
+     "changes",
+     "change",
+     "changions",
+     "changiez",
+     "changent"
+    ],
+    "imperatif": [
+     "change",
+     "changeons",
+     "changez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "wuñi": {
+   "fr": "ouvrir",
+   "forme": "wuñi",
+   "gerondif": "wuñini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "ouvrir",
+    "participe": "ouvri",
+    "present": [
+     "ouvris",
+     "ouvris",
+     "ouvrit",
+     "ouvrissons",
+     "ouvrissez",
+     "ouvrissent"
+    ],
+    "imparfait": [
+     "ouvrissais",
+     "ouvrissais",
+     "ouvrissait",
+     "ouvrissions",
+     "ouvrissiez",
+     "ouvrissaient"
+    ],
+    "futur_radical": "ouvrir",
+    "subjonctif": [
+     "ouvrisse",
+     "ouvrisses",
+     "ouvrisse",
+     "ouvrissions",
+     "ouvrissiez",
+     "ouvrissent"
+    ],
+    "imperatif": [
+     "ouvris",
+     "ouvrissons",
+     "ouvrissez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "xaasa": {
+   "fr": "limer",
+   "forme": "xaasa",
+   "gerondif": "xaasana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "limer",
+    "participe": "limé",
+    "present": [
+     "lime",
+     "limes",
+     "lime",
+     "limons",
+     "limez",
+     "liment"
+    ],
+    "imparfait": [
+     "limais",
+     "limais",
+     "limait",
+     "limions",
+     "limiez",
+     "limaient"
+    ],
+    "futur_radical": "limer",
+    "subjonctif": [
+     "lime",
+     "limes",
+     "lime",
+     "limions",
+     "limiez",
+     "liment"
+    ],
+    "imperatif": [
+     "lime",
+     "limons",
+     "limez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "xanta": {
+   "fr": "se souvenir",
+   "forme": "xanta",
+   "gerondif": "xantana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "se souvenir",
+    "participe": "se souveni",
+    "present": [
+     "se souvenis",
+     "se souvenis",
+     "se souvenit",
+     "se souvenissons",
+     "se souvenissez",
+     "se souvenissent"
+    ],
+    "imparfait": [
+     "se souvenissais",
+     "se souvenissais",
+     "se souvenissait",
+     "se souvenissions",
+     "se souvenissiez",
+     "se souvenissaient"
+    ],
+    "futur_radical": "se souvenir",
+    "subjonctif": [
+     "se souvenisse",
+     "se souvenisses",
+     "se souvenisse",
+     "se souvenissions",
+     "se souvenissiez",
+     "se souvenissent"
+    ],
+    "imperatif": [
+     "se souvenis",
+     "se souvenissons",
+     "se souvenissez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "xara": {
+   "fr": "etudier",
+   "forme": "xara",
+   "gerondif": "xarana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "etudier",
+    "participe": "etudié",
+    "present": [
+     "etudie",
+     "etudies",
+     "etudie",
+     "etudions",
+     "etudiez",
+     "etudient"
+    ],
+    "imparfait": [
+     "etudiais",
+     "etudiais",
+     "etudiait",
+     "etudiions",
+     "etudiiez",
+     "etudiaient"
+    ],
+    "futur_radical": "etudier",
+    "subjonctif": [
+     "etudie",
+     "etudies",
+     "etudie",
+     "etudiions",
+     "etudiiez",
+     "etudient"
+    ],
+    "imperatif": [
+     "etudie",
+     "etudions",
+     "etudiez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "xawa": {
+   "fr": "devoir",
+   "forme": "xawa",
+   "gerondif": "xawana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "devoir",
+    "participe": "devoi",
+    "present": [
+     "devois",
+     "devois",
+     "devoit",
+     "devoissons",
+     "devoissez",
+     "devoissent"
+    ],
+    "imparfait": [
+     "devoissais",
+     "devoissais",
+     "devoissait",
+     "devoissions",
+     "devoissiez",
+     "devoissaient"
+    ],
+    "futur_radical": "devoir",
+    "subjonctif": [
+     "devoisse",
+     "devoisses",
+     "devoisse",
+     "devoissions",
+     "devoissiez",
+     "devoissent"
+    ],
+    "imperatif": [
+     "devois",
+     "devoissons",
+     "devoissez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "xawo": {
+   "fr": "ressembler",
+   "forme": "xawo",
+   "gerondif": "xawono",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "ressembler",
+    "participe": "ressemblé",
+    "present": [
+     "ressemble",
+     "ressembles",
+     "ressemble",
+     "ressemblons",
+     "ressemblez",
+     "ressemblent"
+    ],
+    "imparfait": [
+     "ressemblais",
+     "ressemblais",
+     "ressemblait",
+     "ressemblions",
+     "ressembliez",
+     "ressemblaient"
+    ],
+    "futur_radical": "ressembler",
+    "subjonctif": [
+     "ressemble",
+     "ressembles",
+     "ressemble",
+     "ressemblions",
+     "ressembliez",
+     "ressemblent"
+    ],
+    "imperatif": [
+     "ressemble",
+     "ressemblons",
+     "ressemblez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "xenqe": {
+   "fr": "dormir",
+   "forme": "xenqe",
+   "gerondif": "xenqene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "dormir",
+    "participe": "dormi",
+    "present": [
+     "dormis",
+     "dormis",
+     "dormit",
+     "dormissons",
+     "dormissez",
+     "dormissent"
+    ],
+    "imparfait": [
+     "dormissais",
+     "dormissais",
+     "dormissait",
+     "dormissions",
+     "dormissiez",
+     "dormissaient"
+    ],
+    "futur_radical": "dormir",
+    "subjonctif": [
+     "dormisse",
+     "dormisses",
+     "dormisse",
+     "dormissions",
+     "dormissiez",
+     "dormissent"
+    ],
+    "imperatif": [
+     "dormis",
+     "dormissons",
+     "dormissez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "xini": {
+   "fr": "nager",
+   "forme": "xini",
+   "gerondif": "xinini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "nager",
+    "participe": "nagé",
+    "present": [
+     "nage",
+     "nages",
+     "nage",
+     "nageons",
+     "nagez",
+     "nagent"
+    ],
+    "imparfait": [
+     "nageais",
+     "nageais",
+     "nageait",
+     "nagions",
+     "nagiez",
+     "nageaient"
+    ],
+    "futur_radical": "nager",
+    "subjonctif": [
+     "nage",
+     "nages",
+     "nage",
+     "nagions",
+     "nagiez",
+     "nagent"
+    ],
+    "imperatif": [
+     "nage",
+     "nageons",
+     "nagez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "xobo": {
+   "fr": "acheter",
+   "forme": "xobo",
+   "gerondif": "xobono",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "acheter",
+    "participe": "acheté",
+    "present": [
+     "achete",
+     "achetes",
+     "achete",
+     "achetons",
+     "achetez",
+     "achetent"
+    ],
+    "imparfait": [
+     "achetais",
+     "achetais",
+     "achetait",
+     "achetions",
+     "achetiez",
+     "achetaient"
+    ],
+    "futur_radical": "acheter",
+    "subjonctif": [
+     "achete",
+     "achetes",
+     "achete",
+     "achetions",
+     "achetiez",
+     "achetent"
+    ],
+    "imperatif": [
+     "achete",
+     "achetons",
+     "achetez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "xomi": {
+   "fr": "arroser",
+   "forme": "xomi",
+   "gerondif": "xomini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "arroser",
+    "participe": "arrosé",
+    "present": [
+     "arrose",
+     "arroses",
+     "arrose",
+     "arrosons",
+     "arrosez",
+     "arrosent"
+    ],
+    "imparfait": [
+     "arrosais",
+     "arrosais",
+     "arrosait",
+     "arrosions",
+     "arrosiez",
+     "arrosaient"
+    ],
+    "futur_radical": "arroser",
+    "subjonctif": [
+     "arrose",
+     "arroses",
+     "arrose",
+     "arrosions",
+     "arrosiez",
+     "arrosent"
+    ],
+    "imperatif": [
+     "arrose",
+     "arrosons",
+     "arrosez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "xooro": {
+   "fr": "grandir",
+   "forme": "xooro",
+   "gerondif": "xoorono",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "grandir",
+    "participe": "grandi",
+    "present": [
+     "grandis",
+     "grandis",
+     "grandit",
+     "grandissons",
+     "grandissez",
+     "grandissent"
+    ],
+    "imparfait": [
+     "grandissais",
+     "grandissais",
+     "grandissait",
+     "grandissions",
+     "grandissiez",
+     "grandissaient"
+    ],
+    "futur_radical": "grandir",
+    "subjonctif": [
+     "grandisse",
+     "grandisses",
+     "grandisse",
+     "grandissions",
+     "grandissiez",
+     "grandissent"
+    ],
+    "imperatif": [
+     "grandis",
+     "grandissons",
+     "grandissez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "xose": {
+   "fr": "se casser",
+   "forme": "xose",
+   "gerondif": "xosene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "se casser",
+    "participe": "se cassé",
+    "present": [
+     "se casse",
+     "se casses",
+     "se casse",
+     "se cassons",
+     "se cassez",
+     "se cassent"
+    ],
+    "imparfait": [
+     "se cassais",
+     "se cassais",
+     "se cassait",
+     "se cassions",
+     "se cassiez",
+     "se cassaient"
+    ],
+    "futur_radical": "se casser",
+    "subjonctif": [
+     "se casse",
+     "se casses",
+     "se casse",
+     "se cassions",
+     "se cassiez",
+     "se cassent"
+    ],
+    "imperatif": [
+     "se casse",
+     "se cassons",
+     "se cassez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "xumaari": {
+   "fr": "arroser",
+   "forme": "xumaari",
+   "gerondif": "xumaarini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "arroser",
+    "participe": "arrosé",
+    "present": [
+     "arrose",
+     "arroses",
+     "arrose",
+     "arrosons",
+     "arrosez",
+     "arrosent"
+    ],
+    "imparfait": [
+     "arrosais",
+     "arrosais",
+     "arrosait",
+     "arrosions",
+     "arrosiez",
+     "arrosaient"
+    ],
+    "futur_radical": "arroser",
+    "subjonctif": [
+     "arrose",
+     "arroses",
+     "arrose",
+     "arrosions",
+     "arrosiez",
+     "arrosent"
+    ],
+    "imperatif": [
+     "arrose",
+     "arrosons",
+     "arrosez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "xura": {
+   "fr": "blanchir",
+   "forme": "xura",
+   "gerondif": "xurana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "blanchir",
+    "participe": "blanchi",
+    "present": [
+     "blanchis",
+     "blanchis",
+     "blanchit",
+     "blanchissons",
+     "blanchissez",
+     "blanchissent"
+    ],
+    "imparfait": [
+     "blanchissais",
+     "blanchissais",
+     "blanchissait",
+     "blanchissions",
+     "blanchissiez",
+     "blanchissaient"
+    ],
+    "futur_radical": "blanchir",
+    "subjonctif": [
+     "blanchisse",
+     "blanchisses",
+     "blanchisse",
+     "blanchissions",
+     "blanchissiez",
+     "blanchissent"
+    ],
+    "imperatif": [
+     "blanchis",
+     "blanchissons",
+     "blanchissez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "xuru": {
+   "fr": "défequer",
+   "forme": "xuru",
+   "gerondif": "xurunu",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "défequer",
+    "participe": "défequé",
+    "present": [
+     "défeque",
+     "défeques",
+     "défeque",
+     "défequons",
+     "défequez",
+     "défequent"
+    ],
+    "imparfait": [
+     "défequais",
+     "défequais",
+     "défequait",
+     "défequions",
+     "défequiez",
+     "défequaient"
+    ],
+    "futur_radical": "défequer",
+    "subjonctif": [
+     "défeque",
+     "défeques",
+     "défeque",
+     "défequions",
+     "défequiez",
+     "défequent"
+    ],
+    "imperatif": [
+     "défeque",
+     "défequons",
+     "défequez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "yaala": {
+   "fr": "se promener",
+   "forme": "yaala",
+   "gerondif": "yaalana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "se promener",
+    "participe": "se promené",
+    "present": [
+     "se promene",
+     "se promenes",
+     "se promene",
+     "se promenons",
+     "se promenez",
+     "se promenent"
+    ],
+    "imparfait": [
+     "se promenais",
+     "se promenais",
+     "se promenait",
+     "se promenions",
+     "se promeniez",
+     "se promenaient"
+    ],
+    "futur_radical": "se promener",
+    "subjonctif": [
+     "se promene",
+     "se promenes",
+     "se promene",
+     "se promenions",
+     "se promeniez",
+     "se promenent"
+    ],
+    "imperatif": [
+     "se promene",
+     "se promenons",
+     "se promenez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "yaayi": {
+   "fr": "eventer",
+   "forme": "yaayi",
+   "gerondif": "yaayini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "eventer",
+    "participe": "eventé",
+    "present": [
+     "evente",
+     "eventes",
+     "evente",
+     "eventons",
+     "eventez",
+     "eventent"
+    ],
+    "imparfait": [
+     "eventais",
+     "eventais",
+     "eventait",
+     "eventions",
+     "eventiez",
+     "eventaient"
+    ],
+    "futur_radical": "eventer",
+    "subjonctif": [
+     "evente",
+     "eventes",
+     "evente",
+     "eventions",
+     "eventiez",
+     "eventent"
+    ],
+    "imperatif": [
+     "evente",
+     "eventons",
+     "eventez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "yaxi": {
+   "fr": "epouser",
+   "forme": "yaxi",
+   "gerondif": "yaxini",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "epouser",
+    "participe": "epousé",
+    "present": [
+     "epouse",
+     "epouses",
+     "epouse",
+     "epousons",
+     "epousez",
+     "epousent"
+    ],
+    "imparfait": [
+     "epousais",
+     "epousais",
+     "epousait",
+     "epousions",
+     "epousiez",
+     "epousaient"
+    ],
+    "futur_radical": "epouser",
+    "subjonctif": [
+     "epouse",
+     "epouses",
+     "epouse",
+     "epousions",
+     "epousiez",
+     "epousent"
+    ],
+    "imperatif": [
+     "epouse",
+     "epousons",
+     "epousez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "yiile": {
+   "fr": "se promener",
+   "forme": "yiile",
+   "gerondif": "yiilene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "se promener",
+    "participe": "se promené",
+    "present": [
+     "se promene",
+     "se promenes",
+     "se promene",
+     "se promenons",
+     "se promenez",
+     "se promenent"
+    ],
+    "imparfait": [
+     "se promenais",
+     "se promenais",
+     "se promenait",
+     "se promenions",
+     "se promeniez",
+     "se promenaient"
+    ],
+    "futur_radical": "se promener",
+    "subjonctif": [
+     "se promene",
+     "se promenes",
+     "se promene",
+     "se promenions",
+     "se promeniez",
+     "se promenent"
+    ],
+    "imperatif": [
+     "se promene",
+     "se promenons",
+     "se promenez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "yille": {
+   "fr": "revenir",
+   "forme": "yille",
+   "gerondif": "yillene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "etre",
+    "infinitif": "revenir",
+    "participe": "reveni",
+    "present": [
+     "revenis",
+     "revenis",
+     "revenit",
+     "revenissons",
+     "revenissez",
+     "revenissent"
+    ],
+    "imparfait": [
+     "revenissais",
+     "revenissais",
+     "revenissait",
+     "revenissions",
+     "revenissiez",
+     "revenissaient"
+    ],
+    "futur_radical": "revenir",
+    "subjonctif": [
+     "revenisse",
+     "revenisses",
+     "revenisse",
+     "revenissions",
+     "revenissiez",
+     "revenissent"
+    ],
+    "imperatif": [
+     "revenis",
+     "revenissons",
+     "revenissez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "yonko": {
+   "fr": "remuer",
+   "forme": "yonko",
+   "gerondif": "yonkono",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "remuer",
+    "participe": "remué",
+    "present": [
+     "remue",
+     "remues",
+     "remue",
+     "remuons",
+     "remuez",
+     "remuent"
+    ],
+    "imparfait": [
+     "remuais",
+     "remuais",
+     "remuait",
+     "remuions",
+     "remuiez",
+     "remuaient"
+    ],
+    "futur_radical": "remuer",
+    "subjonctif": [
+     "remue",
+     "remues",
+     "remue",
+     "remuions",
+     "remuiez",
+     "remuent"
+    ],
+    "imperatif": [
+     "remue",
+     "remuons",
+     "remuez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "yoogoyoogo": {
+   "fr": "dorloter",
+   "forme": "yoogoyoogo",
+   "gerondif": "yoogoyoogono",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "dorloter",
+    "participe": "dorloté",
+    "present": [
+     "dorlote",
+     "dorlotes",
+     "dorlote",
+     "dorlotons",
+     "dorlotez",
+     "dorlotent"
+    ],
+    "imparfait": [
+     "dorlotais",
+     "dorlotais",
+     "dorlotait",
+     "dorlotions",
+     "dorlotiez",
+     "dorlotaient"
+    ],
+    "futur_radical": "dorloter",
+    "subjonctif": [
+     "dorlote",
+     "dorlotes",
+     "dorlote",
+     "dorlotions",
+     "dorlotiez",
+     "dorlotent"
+    ],
+    "imperatif": [
+     "dorlote",
+     "dorlotons",
+     "dorlotez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "yoole": {
+   "fr": "se noyer",
+   "forme": "yoole",
+   "gerondif": "yoolene",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "se noyer",
+    "participe": "se noyé",
+    "present": [
+     "se noye",
+     "se noyes",
+     "se noye",
+     "se noyons",
+     "se noyez",
+     "se noyent"
+    ],
+    "imparfait": [
+     "se noyais",
+     "se noyais",
+     "se noyait",
+     "se noyions",
+     "se noyiez",
+     "se noyaient"
+    ],
+    "futur_radical": "se noyer",
+    "subjonctif": [
+     "se noye",
+     "se noyes",
+     "se noye",
+     "se noyions",
+     "se noyiez",
+     "se noyent"
+    ],
+    "imperatif": [
+     "se noye",
+     "se noyons",
+     "se noyez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
+  },
+  "yuxuba": {
+   "fr": "desserrer",
+   "forme": "yuxuba",
+   "gerondif": "yuxubana",
+   "classe": "regulier",
+   "francais": {
+    "auxiliaire": "avoir",
+    "infinitif": "desserrer",
+    "participe": "desserré",
+    "present": [
+     "desserre",
+     "desserres",
+     "desserre",
+     "desserrons",
+     "desserrez",
+     "desserrent"
+    ],
+    "imparfait": [
+     "desserrais",
+     "desserrais",
+     "desserrait",
+     "desserrions",
+     "desserriez",
+     "desserraient"
+    ],
+    "futur_radical": "desserrer",
+    "subjonctif": [
+     "desserre",
+     "desserres",
+     "desserre",
+     "desserrions",
+     "desserriez",
+     "desserrent"
+    ],
+    "imperatif": [
+     "desserre",
+     "desserrons",
+     "desserrez"
+    ]
+   },
+   "source": "glossaire, validé par le locuteur 2026-10-29"
   }
  },
  "objets": [

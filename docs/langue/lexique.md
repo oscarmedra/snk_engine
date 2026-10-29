@@ -194,6 +194,143 @@ Entièrement conjugables : toutes les formes sont confirmées par le locuteur.
 | `bire` | vivre | bire | birene | — |
 | `kerin` | éteindre | kerin | kerinni | — |
 | `wurebandi` | traduire | wurebandi | wurebandini | — |
+| `bangandi` | engendrer | bangandi | bangandini | — |
+| `betu` | serrer | betu | betunu | — |
+| `bono` | mourir | bono | bonono | — |
+| `boore` | se déshabiller | boore | boorene | — |
+| `bosi` | sucer | bosi | bosini | — |
+| `bunu` | piquer | bunu | bununu | — |
+| `butu` | se fâcher | butu | butunu | — |
+| `buusi` | uriner | buusi | buusini | — |
+| `buusu` | effeuiller | buusu | buusunu | — |
+| `caxabuccaxabu` | patauger | caxabuccaxabu | caxabuccaxabunu | — |
+| `dalla` | durer | dalla | dallana | — |
+| `dangi` | passer | dangi | dangini | — |
+| `daro` | respecter | daro | darono | — |
+| `deela` | verser | deela | deelana | — |
+| `deele` | couler | deele | deelene | — |
+| `deema` | aider | deema | deemana | — |
+| `deni` | emmener | deni | denini | — |
+| `due` | accepter | due | duene | — |
+| `faaba` | secourir | faaba | faabana | — |
+| `fata` | séparer | fata | fatana | — |
+| `ficce` | vomir | ficce | ficcene | — |
+| `filla` | doubler | filla | fillana | — |
+| `firixindi` | nouer | firixindi | firixindini | — |
+| `foxu` | aboyer | foxu | foxunu | — |
+| `funu` | surpasser | funu | fununu | — |
+| `fuufe` | respirer | fuufe | fuufene | — |
+| `fuule` | siffler | fuule | fuulene | — |
+| `fuute` | souffler | fuute | fuutene | — |
+| `gaada` | commencer | gaada | gaadana | — |
+| `gaja` | lutter | gaja | gajana | — |
+| `gemu` | se rencontrer | gemu | gemunu | — |
+| `giri` | se lever | giri | girini | — |
+| `gooli` | défricher | gooli | goolini | — |
+| `goro` | piler | goro | gorono | — |
+| `guube` | dévier | guube | guubene | — |
+| `jaara` | soigner | jaara | jaarana | — |
+| `jaga` | déterrer | jaga | jagana | — |
+| `janba` | trahir | janba | janbana | — |
+| `jewo` | se dépêcher | jewo | jewono | — |
+| `jigijappe` | bégayer | jigijappe | jigijappene | — |
+| `jimi` | se pencher | jimi | jimini | — |
+| `joofe` | arriver | joofe | joofene | — |
+| `joppe` | commencer | joppe | joppene | — |
+| `joxu` | verser | joxu | joxunu | — |
+| `ka` | injurer | ka | kana | — |
+| `kaawa` | sécher | kaawa | kaawana | — |
+| `kafu` | ajouter | kafu | kafunu | — |
+| `kanbu` | croquer | kanbu | kanbunu | — |
+| `kare` | traverser | kare | karene | — |
+| `kiiti` | juger | kiiti | kiitini | — |
+| `kini` | donner | kini | kinini | — |
+| `kiñe` | arriver | kiñe | kiñene | — |
+| `kita` | obtenir | kita | kitana | — |
+| `konto` | manquer | konto | kontono | — |
+| `kori` | echouer | kori | korini | — |
+| `koroosi` | surveiller | koroosi | koroosini | — |
+| `kutu` | couper | kutu | kutunu | — |
+| `lebi` | bégayer | lebi | lebini | — |
+| `lori` | repiquer | lori | lorini | — |
+| `maama` | remercier | maama | maamana | — |
+| `mande` | se saouler | mande | mandene | — |
+| `mara` | garder | mara | marana | — |
+| `mare` | commander | mare | marene | — |
+| `masala` | discuter | masala | masalana | — |
+| `maxañetu` | parer | maxañetu | maxañetunu | — |
+| `nimisi` | regretter | nimisi | nimisini | — |
+| `ña` | devenir | ña | ñana | — |
+| `ñaaga` | solliciter | ñaaga | ñaagana | — |
+| `ñaage` | quémander | ñaage | ñaagene | — |
+| `ñaamari` | autoriser | ñaamari | ñaamarini | — |
+| `ñame` | se terminer | ñame | ñamene | — |
+| `ñaxali` | se réjouir | ñaxali | ñaxalini | — |
+| `ñaxami` | changer | ñaxami | ñaxamini | — |
+| `ñi` | trouver | ñi | ñini | — |
+| `ñaali` | briller | ñaali | ñaalini | — |
+| `ro` | entrer | ro | rono | — |
+| `saage` | retourner | saage | saagene | — |
+| `sanga` | jouer | sanga | sangana | — |
+| `sanpa` | gifler | sanpa | sanpana | — |
+| `saxu` | se coucher | saxu | saxunu | — |
+| `sele` | bifurquer | sele | selene | — |
+| `sella` | balayer | sella | sellana | — |
+| `selle` | guérir | selle | sellene | — |
+| `senta` | peigner | senta | sentana | — |
+| `sikka` | douter | sikka | sikkana | — |
+| `sinme` | penser | sinme | sinmene | — |
+| `sobindi` | avertir | sobindi | sobindini | — |
+| `soxo` | cultiver | soxo | soxono | — |
+| `sugu` | téter | sugu | sugunu | — |
+| `suugu` | chanter | suugu | suugunu | — |
+| `suumi` | jeûner | suumi | suumini | — |
+| `tanpi` | se fatiguer | tanpi | tanpini | — |
+| `tawo` | echauffer | tawo | tawono | — |
+| `tawoyi` | chauffer | tawoyi | tawoyini | — |
+| `taxa` | couvrir | taxa | taxana | — |
+| `taxandi` | diviser | taxandi | taxandini | — |
+| `tere` | marcher | tere | terene | — |
+| `terinka` | ecouter | terinka | terinkana | — |
+| `texe` | fermer | texe | texene | — |
+| `texu` | tousser | texu | texunu | — |
+| `tifi` | planter | tifi | tifini | — |
+| `timi` | sentir | timi | timini | — |
+| `tirindi` | demander | tirindi | tirindini | — |
+| `toni` | avaler | toni | tonini | — |
+| `toori` | introniser | toori | toorini | — |
+| `tooro` | gêner | tooro | toorono | — |
+| `toxo` | laisser | toxo | toxono | — |
+| `tuga` | payer | tuga | tugana | — |
+| `tuhuumar` | se reposer | tuhuumar | tuhuumarni | — |
+| `tunsi` | accompagner | tunsi | tunsini | — |
+| `waare` | béer | waare | waarene | — |
+| `wanqi` | laver | wanqi | wanqini | — |
+| `wecci` | changer | wecci | weccini | — |
+| `wuñi` | ouvrir | wuñi | wuñini | — |
+| `xaasa` | limer | xaasa | xaasana | — |
+| `xanta` | se souvenir | xanta | xantana | — |
+| `xara` | etudier | xara | xarana | — |
+| `xawa` | devoir | xawa | xawana | — |
+| `xawo` | ressembler | xawo | xawono | — |
+| `xenqe` | dormir | xenqe | xenqene | — |
+| `xini` | nager | xini | xinini | — |
+| `xobo` | acheter | xobo | xobono | — |
+| `xomi` | arroser | xomi | xomini | — |
+| `xooro` | grandir | xooro | xoorono | — |
+| `xose` | se casser | xose | xosene | — |
+| `xumaari` | arroser | xumaari | xumaarini | — |
+| `xura` | blanchir | xura | xurana | — |
+| `xuru` | défequer | xuru | xurunu | — |
+| `yaala` | se promener | yaala | yaalana | — |
+| `yaayi` | eventer | yaayi | yaayini | — |
+| `yaxi` | epouser | yaxi | yaxini | — |
+| `yiile` | se promener | yiile | yiilene | — |
+| `yille` | revenir | yille | yillene | — |
+| `yonko` | remuer | yonko | yonkono | — |
+| `yoogoyoogo` | dorloter | yoogoyoogo | yoogoyoogono | — |
+| `yoole` | se noyer | yoole | yoolene | — |
+| `yuxuba` | desserrer | yuxuba | yuxubana | — |
 
 ## Verbes donnés par le locuteur, pas encore dans le moteur
 
@@ -520,4 +657,4 @@ Sens compris d'après le contexte, confirmés par le locuteur.
 
 ---
 
-182 verbes conjugables · 44 verbes du locuteur en attente · 120 verbes relevés dans la littérature · environ 305 mots enregistrés.
+319 verbes conjugables · 44 verbes du locuteur en attente · 120 verbes relevés dans la littérature · environ 305 mots enregistrés.

@@ -103,8 +103,10 @@ def test_corpus_sentences_are_understood(lex):
 # --- Rien n'est inventé --------------------------------------------------------
 
 def test_reference_verb_is_marked_unconfirmed(lex):
-    a = analyze("a guiri", lex)                 # guiri : donné par le locuteur, non confirmé
-    assert a.frame["verbe"] == "se lever" and not a.frame["verbe_confirme"]
+    # guiri (se lever) tenait ce rôle jusqu'à ce que le glossaire le confirme ;
+    # xenxe est encore donné par le locuteur sans l'être
+    a = analyze("a xenxe", lex)
+    assert a.frame["verbe"] == "dormir" and not a.frame["verbe_confirme"]
     assert not a.confirme and "non confirmé" in a.fr
     assert any("non confirmé" in n for n in a.notes)
 
