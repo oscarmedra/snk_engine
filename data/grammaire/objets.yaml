@@ -14,6 +14,110 @@ objets:
   - {snk: lettra, fr: une lettre, verbes: [safa, wori], source: "serie_03 #16"}
   - {snk: "lettra ke", fr: la lettre, verbes: [safa, wori], source: "serie_03 #16"}
 
+
+  # --- noms des sources validées le 2026-10-29 ---
+  - {snk: kaagume, fr: le chef de famille, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: faabe, fr: le père, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: saaxe, fr: la mère, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: kiine, fr: le mari, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: yaqe, fr: une femme, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: renme, fr: un enfant, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: renyugo, fr: un fils, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: renyaxare, fr: une fille, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: gidanyugo, fr: un grand frère, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: gidanyaxare, fr: une grande sœur, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: xoxone, fr: un petit frère, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: kisima, fr: un grand-père, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: maama, fr: une grand-mère, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: neega, fr: un oncle maternel, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: baayi, fr: une tante (sœur du père), verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: maaxoore, fr: une tante (grande sœur de la mère), verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: maarenme, fr: un parent, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: kallungoora, fr: un cousin à plaisanterie, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: menjanŋe, fr: un ami, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: yugo, fr: un homme, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: yaxare, fr: une femme, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: yinkolla, fr: la tête, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: yinte, fr: les cheveux, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: teŋe, fr: le front, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: yaaxe, fr: l'œil, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: nuxunne, fr: le nez, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: toro, fr: l'oreille, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: xume, fr: la joue, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: raqe, fr: la bouche, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: kanbe, fr: la dent, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: neene, fr: la langue, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: sinqe, fr: le menton, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: xanne, fr: le cou, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: kunke, fr: l'épaule, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: kitte, fr: la main, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: kitti nooge, fr: la main gauche, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: kitti teye, fr: la main droite, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: doronme, fr: le doigt, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: segeɲe, fr: l'ongle, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: konbo, fr: le sein, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: noxo, fr: le ventre, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: butte, fr: le foie, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: gonme, fr: l'estomac, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: sondonme, fr: le cœur, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: furutu, fr: le poumon, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: faradinlenme, fr: le rein, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: tinkanbe, fr: les fesses, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: toge, fr: la cuisse, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: ta, fr: la jambe, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: xurungo, fr: le genou, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: tandoronme, fr: l'orteil, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: na, fr: la vache, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: sugo, fr: la chèvre, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: jaxe, fr: le mouton, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: si, fr: le cheval, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: fare, fr: l'âne, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: ɲogome, fr: le chameau, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: wulle, fr: le chien, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: muusine, fr: le chat, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: seliɲe, fr: la poule, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: yille, fr: le mil, verbes: [yigeyer, wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: tiga, fr: l'arachide, verbes: [yigeyer, wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: molle, fr: le haricot, verbes: [yigeyer, wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: makka, fr: le maïs, verbes: [yigeyer, wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: jaxataɲɲe, fr: le gombo, verbes: [yigeyer, wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: sangunme, fr: l'oseille, verbes: [yigeyer, wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: saabali, fr: le moringa, verbes: [yigeyer, wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: basalle, fr: l'oignon, verbes: [yigeyer, wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: gede, fr: le puits, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: ji, fr: l'eau, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: kacce, fr: la corde, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: kanme, fr: le ciel, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: ɲiiɲe, fr: la terre, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: kiye, fr: le soleil, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: xaso, fr: la lune, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: saane, fr: l'étoile, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: gide, fr: la montagne, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: fanŋe, fr: le fleuve, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: ka, fr: la maison, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: mara, fr: le grenier, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: yitte, fr: l'arbre, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: yigande, fr: la nourriture, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: maxafonji, fr: la sauce, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: wottoro, fr: la charrette, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: kille, fr: la route, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: tiye, fr: la viande, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: fore, fr: le sang, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: yinbe, fr: le feu, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: labo, fr: le couteau, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: kinŋu, fr: la cuisine, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: sappe, fr: le sel, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: fate, fr: la peau, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: xaalisi, fr: l'argent, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: xureye, fr: la lumière, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: bite, fr: l'obscurité, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: tefu, fr: la chaussure, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: doroke, fr: le vêtement, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: debe, fr: le village, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: jamaane, fr: le pays, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: te, fr: le champ, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: gunne, fr: la brousse, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+
 complements:
   - {snk: saxa, fr: au marché, source: "corp1 #27"}
   - {snk: lenki, fr: aujourd'hui, source: "serie_02 #19",
@@ -23,3 +127,25 @@ complements:
   - {snk: "koota su", fr: tous les jours, source: "2026-09-20", temps: [en_cours, en_cours_objet, en_cours_fayi, en_cours_objet_fayi]}
   - {snk: "waxati su", fr: à tout moment, source: "2026-09-20",
      temps: [en_cours, en_cours_objet, en_cours_fayi, en_cours_objet_fayi]}
+
+  # --- noms des sources validées le 2026-10-29 ---
+  - {snk: alahadi, fr: dimanche, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: tenenŋe, fr: lundi, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: tarata, fr: mardi, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: araba, fr: mercredi, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: alaxamisa, fr: jeudi, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: arijuma, fr: vendredi, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: sibiti, fr: samedi, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: sanwiyenxaso, fr: en janvier, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: fewiriyenxaso, fr: en février, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: marisinxaso, fr: en mars, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: awirilinxaso, fr: en avril, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: menxaso, fr: en mai, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: suwenxaso, fr: en juin, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: suluyenxaso, fr: en juillet, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: utunxaso, fr: en août, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: seputanburunxaso, fr: en septembre, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: okotoburunxaso, fr: en octobre, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: nowanburunxaso, fr: en novembre, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: desanburunxaso, fr: en décembre, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}
+  - {snk: sunxaso, fr: en ramadan, source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29"}

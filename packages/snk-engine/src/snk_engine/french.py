@@ -56,6 +56,11 @@ def _elide(subject: str, word: str) -> str:
     return f"{subject} {word}"
 
 
+def _de(infinitive: str) -> str:
+    """« de » s'élide devant une voyelle : en train d'écrire, sur le point d'aller."""
+    return f"d'{infinitive}" if infinitive[:1].lower() in "aeiouéèêh" else f"de {infinitive}"
+
+
 def _negate(subject: str, first: str, rest: str) -> str:
     ne = "n'" if first[:1].lower() in "aeiouéèêh" else "ne "
     head = "j'" + first if subject == "je" and ne == "n'" else f"{subject} {ne}{first}"
@@ -96,7 +101,7 @@ def conjugate_fr(verb: FrenchVerb, person: str, tense: str, obj: str | None = No
         que = "qu'" if subject.startswith(("il", "el")) else "que "
         return f"{que}{subject} {verb.subjunctive[i]}{tail}"
     if tense in ("en_cours_do", "en_cours_objet_do"):
-        return _elide(subject, f"{AUX['etre'][i]} en train de {verb.french_infinitive}") + tail
+        return _elide(subject, f"{AUX['etre'][i]} en train {_de(verb.french_infinitive)}") + tail
     if tense in ("en_cours_objet", "en_cours_objet_fayi", "en_cours_objet_wa"):
         return _elide(subject, verb.present[i]) + tail
     if tense in ("en_cours", "en_cours_fayi", "en_cours_wa"):
@@ -105,9 +110,9 @@ def conjugate_fr(verb: FrenchVerb, person: str, tense: str, obj: str | None = No
     if tense == "imperfect":
         return _elide(subject, verb.imperfect[i]) + tail
     if tense == "imminent":
-        return _elide(subject, f"{AUX['etre'][i]} sur le point de {verb.french_infinitive}") + tail
+        return _elide(subject, f"{AUX['etre'][i]} sur le point {_de(verb.french_infinitive)}") + tail
     if tense == "progressive_watia":
-        return _elide(subject, f"{AUX['etre'][i]} en train de {verb.french_infinitive}") + tail
+        return _elide(subject, f"{AUX['etre'][i]} en train {_de(verb.french_infinitive)}") + tail
     if tense == "future":
         return _elide(subject, f"{ALLER[i]} {verb.french_infinitive}") + tail
     if tense == "future_lointain":

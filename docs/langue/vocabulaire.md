@@ -7,7 +7,7 @@ description: "Vocabulaire soninké-français : plus de mille mots réunis des do
 Cette page est **générée** à partir des données (`scripts/build_vocabulaire.py`).
 Elle réunit tout ce que le projet sait d'un mot, quelle qu'en soit la provenance.
 
-**1142 mots**, dont **156** attestés par au moins deux sources indépendantes — ceux-là portent un ✓.
+**1142 mots**, dont **210** attestés par au moins deux sources indépendantes — ceux-là portent un ✓.
 
 ## D'où viennent ces mots
 
@@ -29,183 +29,183 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 
 | soninké | français | source |
 |---|---|---|
-| **baayi** | une tante (sœur du père) | SIL 2016 |
-| **faabe** | le père ; Père ( terme de respect) | SIL 2016, glossaire ✓ |
-| **gidanyaxare** | une grande sœur | SIL 2016 |
-| **gidanyugo** | un grand frère | SIL 2016 |
-| **kaagume** | le chef de famille | SIL 2016 |
+| **baayi** | une tante (sœur du père) | locuteur, SIL 2016 ✓ |
+| **faabe** | le père ; Père ( terme de respect) | locuteur, SIL 2016, glossaire ✓ |
+| **gidanyaxare** | une grande sœur | locuteur, SIL 2016 ✓ |
+| **gidanyugo** | un grand frère | locuteur, SIL 2016 ✓ |
+| **kaagume** | le chef de famille | locuteur, SIL 2016 ✓ |
 | **kaagunyaxare** | une femme | SIL 2016 |
 | **kallo** | beau-père | SIL 2016 |
 | **kallu ; belle-mère, gendre** | beau-père | SIL 2016 |
-| **kallungoora** | un cousin à plaisanterie | SIL 2016 |
+| **kallungoora** | un cousin à plaisanterie | locuteur, SIL 2016 ✓ |
 | **kawu · kaawu** | oncle ; un oncle maternel | locuteur, SIL 2016 ✓ |
-| **kiine · Kine · Kiñe** | le mari ; Mari (terme de respect) | SIL 2016, glossaire ✓ |
-| **kissima · kisima** | grand-père ; un grand-père | locuteur, SIL 2016, glossaire ✓ |
+| **kiine · Kine · Kiñe** | le mari ; Mari (terme de respect) | locuteur, SIL 2016, glossaire ✓ |
+| **kisima · kissima** | un grand-père ; grand-père | locuteur, SIL 2016, glossaire ✓ |
 | **lemine** | un enfant ; enfant | locuteur, SIL 2016, glossaire ✓ |
-| **maama · Mamma** | une grand-mère ; Grand-mère | SIL 2016, glossaire ✓ |
-| **maarenme** | un parent | SIL 2016 |
-| **maaxoore** | une tante (grande sœur de la mère) | SIL 2016 |
-| **menjanŋe** | un ami | SIL 2016 |
+| **maama · Mamma** | une grand-mère ; Grand-mère | locuteur, SIL 2016, glossaire ✓ |
+| **maarenme** | un parent | locuteur, SIL 2016 ✓ |
+| **maaxoore** | une tante (grande sœur de la mère) | locuteur, SIL 2016 ✓ |
+| **menjanŋe** | un ami | locuteur, SIL 2016 ✓ |
 | **n faaba** | le père | SIL 2016 |
 | **n kiina** | le mari | SIL 2016 |
 | **n ma** | la mère | SIL 2016 |
-| **neega** | un oncle maternel | SIL 2016 |
-| **renme** | un enfant ; Enfant ( vis à vis de ses parents) | SIL 2016, glossaire, guide 2020 ✓ |
-| **renyaxare** | une fille | SIL 2016 |
-| **renyugo** | un fils | SIL 2016 |
-| **saaxe** | la mère ; Mère (terme de respect) | SIL 2016, glossaire ✓ |
+| **neega** | un oncle maternel | locuteur, SIL 2016 ✓ |
+| **renme** | un enfant ; Enfant ( vis à vis de ses parents) | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
+| **renyaxare** | une fille | locuteur, SIL 2016 ✓ |
+| **renyugo** | un fils | locuteur, SIL 2016 ✓ |
+| **saaxe** | la mère ; Mère (terme de respect) | locuteur, SIL 2016, glossaire ✓ |
 | **une petite sœur** | un petit frère | SIL 2016 |
-| **xoxone** | frère ; un petit frère | locuteur, SIL 2016, glossaire ✓ |
-| **yaqe · Yaqqe** | une femme ; Epouse | SIL 2016, glossaire ✓ |
-| **yaxare** | une femme ; Femme | SIL 2016, glossaire ✓ |
-| **yugo** | un homme ; Homme, mâle | SIL 2016, glossaire ✓ |
+| **xoxone** | un petit frère ; frère | locuteur, SIL 2016, glossaire ✓ |
+| **yaqe · Yaqqe** | une femme ; Epouse | locuteur, SIL 2016, glossaire ✓ |
+| **yaxare** | une femme ; Femme | locuteur, SIL 2016, glossaire ✓ |
+| **yugo** | un homme ; Homme, mâle | locuteur, SIL 2016, glossaire ✓ |
 
 ## Le corps
 
 | soninké | français | source |
 |---|---|---|
-| **butte** | le foie ; Foie | SIL 2016, glossaire ✓ |
-| **doronme** | le doigt ; Doigt | SIL 2016, glossaire ✓ |
-| **faradinlenme** | le rein | SIL 2016 |
+| **butte** | le foie ; Foie | locuteur, SIL 2016, glossaire ✓ |
+| **doronme** | le doigt ; Doigt | locuteur, SIL 2016, glossaire ✓ |
+| **faradinlenme** | le rein | locuteur, SIL 2016 ✓ |
 | **fentelle** | la joue | SIL 2016 |
-| **furutu** | le poumon ; Poumons | SIL 2016, glossaire ✓ |
-| **gonme** | l'estomac | SIL 2016 |
-| **kanbe** | la dent ; Dent | SIL 2016, glossaire ✓ |
+| **furutu** | le poumon ; Poumons | locuteur, SIL 2016, glossaire ✓ |
+| **gonme** | l'estomac | locuteur, SIL 2016 ✓ |
+| **kanbe** | la dent ; Dent | locuteur, SIL 2016, glossaire ✓ |
 | **kanbo, kanbu** | la dent | SIL 2016 |
-| **kitte** | la main ; Bras + main | SIL 2016, glossaire ✓ |
-| **kitti nooge** | la main gauche | SIL 2016 |
-| **kitti teye** | la main droite | SIL 2016 |
-| **konbo** | le sein | SIL 2016 |
-| **kunke** | l'épaule ; Epaule | SIL 2016, glossaire ✓ |
+| **kitte** | la main ; Bras + main | locuteur, SIL 2016, glossaire ✓ |
+| **kitti nooge** | la main gauche | locuteur, SIL 2016 ✓ |
+| **kitti teye** | la main droite | locuteur, SIL 2016 ✓ |
+| **konbo** | le sein | locuteur, SIL 2016 ✓ |
+| **kunke** | l'épaule ; Epaule | locuteur, SIL 2016, glossaire ✓ |
 | **laqe** | la bouche | SIL 2016 |
-| **neene** | la langue | SIL 2016 |
-| **noxo** | dans ; le ventre | locuteur, SIL 2016, glossaire ✓ |
-| **nuxunne** | le nez ; Nez | SIL 2016, glossaire ✓ |
-| **raqe · Raqqe** | la bouche ; Bouche | SIL 2016, glossaire ✓ |
+| **neene** | la langue | locuteur, SIL 2016 ✓ |
+| **noxo** | le ventre ; dans | locuteur, SIL 2016, glossaire ✓ |
+| **nuxunne** | le nez ; Nez | locuteur, SIL 2016, glossaire ✓ |
+| **raqe · Raqqe** | la bouche ; Bouche | locuteur, SIL 2016, glossaire ✓ |
 | **segene · Segeñe** | l'ongle ; Ongle, griffe | SIL 2016, glossaire ✓ |
-| **segeɲe** | l'ongle | SIL 2016 |
-| **sinqe** | le menton | SIL 2016 |
+| **segeɲe** | l'ongle | locuteur, SIL 2016 ✓ |
+| **sinqe** | le menton | locuteur, SIL 2016 ✓ |
 | **sondome** | le cœur | SIL 2016 |
-| **sondonme** | le cœur ; Coeur | SIL 2016, glossaire ✓ |
-| **ta** | la jambe ; Membre intérieur, jambe + pied | SIL 2016, glossaire ✓ |
-| **tandoronme** | l'orteil | SIL 2016 |
+| **sondonme** | le cœur ; Coeur | locuteur, SIL 2016, glossaire ✓ |
+| **ta** | la jambe ; Membre intérieur, jambe + pied | locuteur, SIL 2016, glossaire ✓ |
+| **tandoronme** | l'orteil | locuteur, SIL 2016 ✓ |
 | **taro, toru** | l'oreille | SIL 2016 |
-| **teŋe** | le front | SIL 2016 |
-| **tinkanbe** | les fesses | SIL 2016 |
-| **toge** | la cuisse ; Cuisse | SIL 2016, glossaire ✓ |
-| **toro · Tooro** | l'oreille ; Gêner | SIL 2016, glossaire ✓ |
-| **xanne** | le cou ; Cou, voix, langage, langue | SIL 2016, glossaire ✓ |
-| **xume** | la joue ; Joue | SIL 2016, glossaire ✓ |
-| **xurungo** | le genou ; Genou | SIL 2016, glossaire ✓ |
-| **yaaxe** | l'œil ; oeil | SIL 2016, glossaire, guide 2020 ✓ |
+| **teŋe** | le front | locuteur, SIL 2016 ✓ |
+| **tinkanbe** | les fesses | locuteur, SIL 2016 ✓ |
+| **toge** | la cuisse ; Cuisse | locuteur, SIL 2016, glossaire ✓ |
+| **toro · Tooro** | l'oreille ; Gêner | locuteur, SIL 2016, glossaire ✓ |
+| **xanne** | le cou ; Cou, voix, langage, langue | locuteur, SIL 2016, glossaire ✓ |
+| **xume** | la joue ; Joue | locuteur, SIL 2016, glossaire ✓ |
+| **xurungo** | le genou ; Genou | locuteur, SIL 2016, glossaire ✓ |
+| **yaaxe** | l'œil ; oeil | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
 | **yaaxo** | l'œil | SIL 2016 |
-| **yinkolla** | la tête | SIL 2016 |
-| **yinte** | les cheveux ; Poil, Cheveu | SIL 2016, glossaire ✓ |
+| **yinkolla** | la tête | locuteur, SIL 2016 ✓ |
+| **yinte** | les cheveux ; Poil, Cheveu | locuteur, SIL 2016, glossaire ✓ |
 
 ## Les animaux
 
 | soninké | français | source |
 |---|---|---|
-| **fare · Faare** | l'âne ; Message, messager | SIL 2016, glossaire, guide 2020 ✓ |
+| **fare · Faare** | l'âne ; Message, messager | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
 | **hare** | l'âne | SIL 2016 |
-| **jaxe** | le mouton ; Ovin, mouton | SIL 2016, glossaire ✓ |
-| **muusine** | le chat | SIL 2016 |
-| **naa · na · Ña** | vache ; la vache | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
-| **ɲogome** | le chameau ; chameau | SIL 2016, guide 2020 ✓ |
-| **seliɲe** | la poule | SIL 2016 |
-| **si** | le cheval ; Cheval | SIL 2016, glossaire ✓ |
-| **sugo** | la chèvre ; Caprin, chèvre | SIL 2016, glossaire ✓ |
-| **wulle** | le chien ; Chien | SIL 2016, glossaire ✓ |
+| **jaxe** | le mouton ; Ovin, mouton | locuteur, SIL 2016, glossaire ✓ |
+| **muusine** | le chat | locuteur, SIL 2016 ✓ |
+| **na · naa · Ña** | la vache ; vache | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
+| **ɲogome** | le chameau ; chameau | locuteur, SIL 2016, guide 2020 ✓ |
+| **seliɲe** | la poule | locuteur, SIL 2016 ✓ |
+| **si** | le cheval ; Cheval | locuteur, SIL 2016, glossaire ✓ |
+| **sugo** | la chèvre ; Caprin, chèvre | locuteur, SIL 2016, glossaire ✓ |
+| **wulle** | le chien ; Chien | locuteur, SIL 2016, glossaire ✓ |
 
 ## Les vivres
 
 | soninké | français | source |
 |---|---|---|
-| **basalle** | l'oignon | SIL 2016 |
+| **basalle** | l'oignon | locuteur, SIL 2016 ✓ |
 | **jaba** | l'oignon | SIL 2016 |
-| **jaxataɲɲe** | le gombo | SIL 2016 |
-| **maka · makka** | maïs ; le maïs | locuteur, SIL 2016, glossaire ✓ |
+| **jaxataɲɲe** | le gombo | locuteur, SIL 2016 ✓ |
+| **makka · maka** | le maïs ; maïs | locuteur, SIL 2016, glossaire ✓ |
 | **maro · maaro** | du riz ; riz | locuteur, SIL 2016, glossaire ✓ |
-| **molle** | le haricot | SIL 2016 |
+| **molle** | le haricot | locuteur, SIL 2016 ✓ |
 | **mollo** | le haricot | SIL 2016 |
-| **saabali** | le moringa | SIL 2016 |
+| **saabali** | le moringa | locuteur, SIL 2016 ✓ |
 | **sahe, saayisaayi** | le moringa | SIL 2016 |
 | **sangume · Sangumme** | l'oseille ; Oseille, chanvre | SIL 2016, glossaire ✓ |
-| **sangunme** | l'oseille | SIL 2016 |
-| **tiga** | arachide ; l'arachide | locuteur, SIL 2016 ✓ |
-| **yille · Yiile** | rentrer ; le mil | locuteur, SIL 2016, glossaire ✓ |
+| **sangunme** | l'oseille | locuteur, SIL 2016 ✓ |
+| **tiga** | l'arachide ; arachide | locuteur, SIL 2016 ✓ |
+| **yille · Yiile** | le mil ; rentrer | locuteur, SIL 2016, glossaire ✓ |
 
 ## Les choses
 
 | soninké | français | source |
 |---|---|---|
-| **bite** | l'obscurité ; Obscurité, nuit | SIL 2016, glossaire ✓ |
-| **debe** | village ; le village | locuteur, SIL 2016, glossaire ✓ |
-| **doroke** | le vêtement ; Chemise, boubou | SIL 2016, glossaire ✓ |
-| **fanŋe** | le fleuve ; fleuve | SIL 2016, guide 2020 ✓ |
-| **fate** | la peau | SIL 2016 |
-| **fore** | le sang ; Sang | SIL 2016, glossaire ✓ |
-| **gede** | le puits ; Puits | SIL 2016, glossaire, guide 2020 ✓ |
-| **gide** | la montagne ; Rocher, colline, montagne | SIL 2016, glossaire ✓ |
+| **bite** | l'obscurité ; Obscurité, nuit | locuteur, SIL 2016, glossaire ✓ |
+| **debe** | le village ; village | locuteur, SIL 2016, glossaire ✓ |
+| **doroke** | le vêtement ; Chemise, boubou | locuteur, SIL 2016, glossaire ✓ |
+| **fanŋe** | le fleuve ; fleuve | locuteur, SIL 2016, guide 2020 ✓ |
+| **fate** | la peau | locuteur, SIL 2016 ✓ |
+| **fore** | le sang ; Sang | locuteur, SIL 2016, glossaire ✓ |
+| **gede** | le puits ; Puits | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
+| **gide** | la montagne ; Rocher, colline, montagne | locuteur, SIL 2016, glossaire ✓ |
 | **gode** | l'argent ; Anneau | SIL 2016, glossaire ✓ |
-| **gunne · gune** | champ ; la brousse | locuteur, SIL 2016, glossaire ✓ |
+| **gunne · gune** | la brousse ; champ | locuteur, SIL 2016, glossaire ✓ |
 | **hanŋe** | le fleuve | SIL 2016 |
 | **hate** | la peau | SIL 2016 |
-| **jamaane** | le pays | SIL 2016 |
-| **dji · ji** | eau ; l'eau | locuteur, SIL 2016, glossaire ✓ |
-| **ka** | maison ; la maison | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
-| **kacce** | la corde ; Corde | SIL 2016, glossaire ✓ |
-| **kanme** | le ciel ; Pluie | SIL 2016, glossaire ✓ |
+| **jamaane** | le pays | locuteur, SIL 2016 ✓ |
+| **ji · dji** | l'eau ; eau | locuteur, SIL 2016, glossaire ✓ |
+| **ka** | la maison ; maison | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
+| **kacce** | la corde ; Corde | locuteur, SIL 2016, glossaire ✓ |
+| **kanme** | le ciel ; Pluie | locuteur, SIL 2016, glossaire ✓ |
 | **kara · kaara** | à côté de ; le village | locuteur, SIL 2016, glossaire ✓ |
-| **kille** | route ; la route | locuteur, SIL 2016, glossaire ✓ |
-| **kinŋu** | la cuisine | SIL 2016 |
-| **labo** | le couteau ; Couteau | SIL 2016, glossaire, guide 2020 ✓ |
-| **mara** | le grenier ; Garder, conserver | SIL 2016, glossaire ✓ |
-| **maxafonji** | la sauce | SIL 2016 |
+| **kille** | la route ; route | locuteur, SIL 2016, glossaire ✓ |
+| **kinŋu** | la cuisine | locuteur, SIL 2016 ✓ |
+| **labo** | le couteau ; Couteau | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
+| **mara** | le grenier ; Garder, conserver | locuteur, SIL 2016, glossaire ✓ |
+| **maxafonji** | la sauce | locuteur, SIL 2016 ✓ |
 | **moxonji** | la sauce | SIL 2016 |
-| **ɲiiɲe** | la terre | SIL 2016 |
+| **ɲiiɲe** | la terre | locuteur, SIL 2016 ✓ |
 | **ɲuɲe** | la terre | SIL 2016 |
-| **saane** | l'étoile ; Etoile oeil d’un marabout (terme de | SIL 2016, glossaire ✓ |
-| **sape · sappe** | sel ; le sel | locuteur, SIL 2016, glossaire ✓ |
+| **saane** | l'étoile ; Etoile oeil d’un marabout (terme de | locuteur, SIL 2016, glossaire ✓ |
+| **sappe · sape** | le sel ; sel | locuteur, SIL 2016, glossaire ✓ |
 | **sareti** | la charrette | SIL 2016 |
 | **saxa** | au marché ; marché | locuteur, SIL 2016, glossaire ✓ |
-| **te** | le champ ; Champ | SIL 2016, glossaire, guide 2020 ✓ |
-| **tefu** | la chaussure | SIL 2016 |
+| **te** | le champ ; Champ | locuteur, SIL 2016, glossaire, guide 2020 ✓ |
+| **tefu** | la chaussure | locuteur, SIL 2016 ✓ |
 | **teppu** | la chaussure ; Chaussure | SIL 2016, glossaire ✓ |
-| **tiye** | la viande ; Viande | SIL 2016, glossaire ✓ |
-| **wottoro** | la charrette | SIL 2016 |
-| **xalisi · xaalisi** | argent ; l'argent | locuteur, SIL 2016, glossaire ✓ |
-| **xaso** | la lune ; Mois, Lune | SIL 2016, glossaire ✓ |
+| **tiye** | la viande ; Viande | locuteur, SIL 2016, glossaire ✓ |
+| **wottoro** | la charrette | locuteur, SIL 2016 ✓ |
+| **xaalisi · xalisi** | l'argent ; argent | locuteur, SIL 2016, glossaire ✓ |
+| **xaso** | la lune ; Mois, Lune | locuteur, SIL 2016, glossaire ✓ |
 | **xuraye** | la lumière | SIL 2016 |
-| **xureye** | la lumière | SIL 2016 |
-| **yigande** | nourriture ; la nourriture | locuteur, SIL 2016 ✓ |
-| **yinbe** | le feu ; Feu | SIL 2016, glossaire ✓ |
-| **yite · yitte** | arbre ; l'arbre | locuteur, SIL 2016, glossaire ✓ |
+| **xureye** | la lumière | locuteur, SIL 2016 ✓ |
+| **yigande** | la nourriture ; nourriture | locuteur, SIL 2016 ✓ |
+| **yinbe** | le feu ; Feu | locuteur, SIL 2016, glossaire ✓ |
+| **yitte · yite** | l'arbre ; arbre | locuteur, SIL 2016, glossaire ✓ |
 
 ## Les jours
 
 | soninké | français | source |
 |---|---|---|
-| **alahadi** | dimanche | SIL 2016, glossaire ✓ |
-| **alaxamisa** | jeudi | SIL 2016, glossaire ✓ |
-| **araba** | mercredi | SIL 2016, glossaire ✓ |
-| **arijuma** | vendredi | SIL 2016 |
+| **alahadi** | dimanche | locuteur, SIL 2016, glossaire ✓ |
+| **alaxamisa** | jeudi | locuteur, SIL 2016, glossaire ✓ |
+| **araba** | mercredi | locuteur, SIL 2016, glossaire ✓ |
+| **arijuma** | vendredi | locuteur, SIL 2016 ✓ |
 | **beetaye** | le matin entre 9 et 11 heures | SIL 2016 |
 | **bita** | le jour | SIL 2016 |
 | **futuro** | le crépuscule ; Crépuscule, prière du crépuscule | SIL 2016, glossaire ✓ |
 | **huturo** | le crépuscule | SIL 2016 |
 | **juma** | vendredi ; Grande mosquée du vendredi | SIL 2016, glossaire ✓ |
 | **kira, kinsiga** | midi | SIL 2016 |
-| **kiye** | soleil ; midi | locuteur, SIL 2016, glossaire ✓ |
+| **kiye** | le soleil ; soleil | locuteur, SIL 2016, glossaire ✓ |
 | **koota** | le jour ; Jour, date | SIL 2016, glossaire ✓ |
 | **lele · lelle · Leele** | soir ; l'après-midi | locuteur, SIL 2016, glossaire ✓ |
 | **nelle** | l'après-midi | SIL 2016 |
-| **sibiti** | samedi | SIL 2016, glossaire ✓ |
+| **sibiti** | samedi | locuteur, SIL 2016, glossaire ✓ |
 | **soxuba** | le matin | SIL 2016 |
 | **suxuba** | matin ; le matin | locuteur, SIL 2016, glossaire ✓ |
 | **talaata** | mardi | SIL 2016, glossaire ✓ |
-| **tarata** | mardi | SIL 2016 |
-| **tenenŋe** | lundi | SIL 2016 |
+| **tarata** | mardi | locuteur, SIL 2016 ✓ |
+| **tenenŋe** | lundi | locuteur, SIL 2016 ✓ |
 | **tineeni** | lundi | SIL 2016 |
 | **wuro** | nuit ; le soir | locuteur, SIL 2016, glossaire ✓ |
 
@@ -213,19 +213,19 @@ Voir aussi [Le lexique](lexique.md), qui ne donne que les mots du moteur.
 
 | soninké | français | source |
 |---|---|---|
-| **awirilinxaso** | avril | SIL 2016 |
-| **desanburunxaso** | décembre | SIL 2016 |
-| **fewiriyenxaso** | février | SIL 2016 |
-| **marisinxaso** | mars | SIL 2016 |
-| **menxaso** | mai | SIL 2016 |
-| **nowanburunxaso** | novembre | SIL 2016 |
-| **okotoburunxaso** | octobre | SIL 2016 |
-| **sanwiyenxaso** | janvier | SIL 2016 |
-| **seputanburunxaso** | septembre | SIL 2016 |
-| **suluyenxaso** | juillet | SIL 2016 |
-| **sunxaso** | ramadan | SIL 2016 |
-| **suwenxaso** | juin | SIL 2016 |
-| **utunxaso** | août | SIL 2016 |
+| **awirilinxaso** | en avril ; avril | locuteur, SIL 2016 ✓ |
+| **desanburunxaso** | en décembre ; décembre | locuteur, SIL 2016 ✓ |
+| **fewiriyenxaso** | en février ; février | locuteur, SIL 2016 ✓ |
+| **marisinxaso** | en mars ; mars | locuteur, SIL 2016 ✓ |
+| **menxaso** | en mai ; mai | locuteur, SIL 2016 ✓ |
+| **nowanburunxaso** | en novembre ; novembre | locuteur, SIL 2016 ✓ |
+| **okotoburunxaso** | en octobre ; octobre | locuteur, SIL 2016 ✓ |
+| **sanwiyenxaso** | en janvier ; janvier | locuteur, SIL 2016 ✓ |
+| **seputanburunxaso** | en septembre ; septembre | locuteur, SIL 2016 ✓ |
+| **suluyenxaso** | en juillet ; juillet | locuteur, SIL 2016 ✓ |
+| **sunxaso** | en ramadan ; ramadan | locuteur, SIL 2016 ✓ |
+| **suwenxaso** | en juin ; juin | locuteur, SIL 2016 ✓ |
+| **utunxaso** | en août ; août | locuteur, SIL 2016 ✓ |
 
 ## Les nombres
 

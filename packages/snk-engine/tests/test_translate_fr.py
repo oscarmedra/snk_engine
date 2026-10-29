@@ -50,3 +50,15 @@ def test_round_trip(lex):
                 "nke yi maro yigane koota su"]:
         fr = render_fr(analyze_text(snk, lex))
         assert fr2snk(fr, lex) == snk, (snk, fr)
+
+
+def test_de_selide_devant_une_voyelle(lex):
+    # « il est en train de écrire » était produit tant que « de » ne s'élidait pas
+    from snk_engine.french import conjugate_fr
+
+    safa = lex.french["safa"]
+    assert conjugate_fr(safa, "3sg", "progressive_watia") == "il est en train d'écrire"
+    assert conjugate_fr(safa, "1sg", "imminent") == "je suis sur le point d'écrire"
+    # et reste « de » devant une consonne
+    yige = lex.french["yigeyer"]
+    assert conjugate_fr(yige, "3sg", "progressive_watia") == "il est en train de manger"
