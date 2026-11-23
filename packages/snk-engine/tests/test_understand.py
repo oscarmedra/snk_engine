@@ -212,3 +212,18 @@ def test_limperatif_na_toujours_pas_de_sujet(lex):
 def test_le_sujet_pronom_est_intact(lex):
     f = analyze("nke di maro n'yiga", lex).frame
     assert f["sujet"] == "nke" and not f["sujet_nominal"] and f["temps"] == "past_object"
+
+
+def test_n_colle_au_marqueur_est_le_pronom_je(lex):
+    """« n'di lemine n'wori » : le locuteur annote « avec le pronom n ».
+
+    Une particule ne peut précéder un marqueur de temps, qui n'est pas un verbe.
+    Ce n' est donc le pronom « je », écrit collé.
+    """
+    a = analyze("n'di lemine n'wori", lex)
+    assert a.frame["sujet"] == "n" and a.frame["personne"] == "1sg"
+    assert a.frame["temps"] == "past_object"
+    assert a.fr == "j'ai vu un enfant"
+
+    # devant un verbe, le même n' reste la particule et la phrase un impératif
+    assert analyze("n'daga", lex).frame["temps"] == "imperatif"

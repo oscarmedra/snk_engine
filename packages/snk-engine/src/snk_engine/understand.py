@@ -228,7 +228,18 @@ def assemble(tokens: list[Token], lex: Lexicon) -> tuple[dict, list[str]]:
     i = 0
 
     # 1. sujet : un pronom en tête de phrase
-    if tokens and "pronom" in tokens[0].tags:
+    #
+    # « n'di lemine n'wori » (j'ai vu l'enfant) : le locuteur annote lui-même
+    # « avec le pronom n ». Une particule ne peut pas précéder un marqueur de temps,
+    # qui n'est pas un verbe — donc ce n' est le pronom « je », écrit collé.
+    if (tokens and tokens[0].particle == "n'" and "marqueur" in tokens[0].tags
+            and "pronom" not in tokens[0].tags):
+        frame["sujet"] = "n"
+        frame["personne"] = lex.engine.pronouns["n"][0].person
+        notes.append("« n' » collé au marqueur : lu comme le pronom « je »")
+        tokens = [Token(tk.index, tk.word, tk.word, None, tk.tags) if i == 0 else tk
+                  for i, tk in enumerate(tokens)]
+    elif tokens and "pronom" in tokens[0].tags:
         pronoun = _key(tokens[0].word)
         if pronoun == "xa" and len(tokens) > 1:
             notes.append("« xa » en tête : lu comme le pronom « vous » (il peut aussi vouloir dire « où »)")
