@@ -293,6 +293,723 @@ objets:
   - {snk: "gunne ke", fr: la brousse, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29 — forme déterminé"}
   - {snk: "ke gunne", fr: cette brousse, verbes: [wori], source: "SIL 2016 (Hagg), validé par le locuteur 2026-10-29 — forme démontré"}
 
+
+  # --- noms du glossaire, avec leurs trois déterminations ---
+  - {snk: "alikaati", fr: un policier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "alikaati ke", fr: le policier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke alikaati", fr: ce policier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "alikeebu", fr: un étrier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "alikeebu ke", fr: l'étrier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke alikeebu", fr: cet étrier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "alimeeti", fr: une allumette, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "alimeeti ke", fr: l'allumette, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke alimeeti", fr: cette allumette, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "aliyatiime", fr: un orphelin, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "aliyatiime ke", fr: l'orphelin, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke aliyatiime", fr: cet orphelin, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "anniye", fr: un souhait, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "anniye ke", fr: le souhait, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke anniye", fr: ce souhait, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "baafe", fr: une porte, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "baafe ke", fr: la porte, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke baafe", fr: cette porte, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "badaane", fr: une variole, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "badaane ke", fr: la variole, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke badaane", fr: cette variole, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "baraaje", fr: une grâce divine, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "baraaje ke", fr: la grâce divine, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke baraaje", fr: cette grâce divine, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "barama", fr: une marmite, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "barama ke", fr: la marmite, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke barama", fr: cette marmite, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "baxalle", fr: un mulet, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "baxalle ke", fr: le mulet, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke baxalle", fr: ce mulet, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "benne", fr: une corne, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "benne ke", fr: la corne, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke benne", fr: cette corne, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "bereta", fr: une cotisation, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "bereta ke", fr: la cotisation, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke bereta", fr: cette cotisation, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "bindaane", fr: une servante, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "bindaane ke", fr: la servante, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke bindaane", fr: cette servante, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "bole", fr: un goitre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "bole ke", fr: le goitre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke bole", fr: ce goitre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "booto", fr: un sac, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "booto ke", fr: le sac, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke booto", fr: ce sac, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "bunne", fr: une flèche, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "bunne ke", fr: la flèche, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke bunne", fr: cette flèche, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "bununbuna", fr: une guêpe maçonne, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "bununbuna ke", fr: la guêpe maçonne, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke bununbuna", fr: cette guêpe maçonne, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "buure", fr: un criquet, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "buure ke", fr: le criquet, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke buure", fr: ce criquet, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "caaku", fr: un sac, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "caaku ke", fr: le sac, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke caaku", fr: ce sac, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "caakuto", fr: un geai, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "caakuto ke", fr: le geai, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke caakuto", fr: ce geai, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "cakka", fr: un collier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "cakka ke", fr: le collier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke cakka", fr: ce collier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ceero", fr: un perroquet, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ceero ke", fr: le perroquet, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke ceero", fr: ce perroquet, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "danga", fr: un porte-monnaie, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "danga ke", fr: le porte-monnaie, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke danga", fr: ce porte-monnaie, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "dara", fr: un drap, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "dara ke", fr: le drap, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke dara", fr: ce drap, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "deemu", fr: un chimpanzé, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "deemu ke", fr: le chimpanzé, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke deemu", fr: ce chimpanzé, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "deene", fr: un nourrisson, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "deene ke", fr: le nourrisson, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke deene", fr: ce nourrisson, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "dere", fr: une feuille, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "dere ke", fr: la feuille, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke dere", fr: cette feuille, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "dogotooro", fr: un docteur, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "dogotooro ke", fr: le docteur, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke dogotooro", fr: ce docteur, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "doromma", fr: une bague, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "doromma ke", fr: la bague, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke doromma", fr: cette bague, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "dunde", fr: une île, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "dunde ke", fr: l'île, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke dunde", fr: cette île, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "duuñe", fr: un pou, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "duuñe ke", fr: le pou, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke duuñe", fr: ce pou, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "faaba", fr: un père, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "faaba ke", fr: le père, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke faaba", fr: ce père, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "falanteere", fr: une fenêtre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "falanteere ke", fr: la fenêtre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke falanteere", fr: cette fenêtre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "faélle", fr: un dos, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "faélle ke", fr: le dos, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke faélle", fr: ce dos, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fanke", fr: un vent, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fanke ke", fr: le vent, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke fanke", fr: ce vent, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fantanne", fr: un crapaud, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fantanne ke", fr: le crapaud, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke fantanne", fr: ce crapaud, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fanta-kurufe", fr: un champignon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fanta-kurufe ke", fr: le champignon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke fanta-kurufe", fr: ce champignon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fengeñe", fr: une fesse, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fengeñe ke", fr: la fesse, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke fengeñe", fr: cette fesse, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "firinfiraane", fr: une hirondelle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "firinfiraane ke", fr: l'hirondelle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke firinfiraane", fr: cette hirondelle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "finkinte", fr: un aveugle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "finkinte ke", fr: l'aveugle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke finkinte", fr: cet aveugle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "firige", fr: une autruche, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "firige ke", fr: l'autruche, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke firige", fr: cette autruche, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fonmuume", fr: un animal, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fonmuume ke", fr: l'animal, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke fonmuume", fr: cet animal, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "foronto", fr: un piment, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "foronto ke", fr: le piment, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke foronto", fr: ce piment, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "foto", fr: une photo, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "foto ke", fr: la photo, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke foto", fr: cette photo, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fule", fr: une flûte, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fule ke", fr: la flûte, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke fule", fr: cette flûte, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fulu-tinma", fr: un flûtiste, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fulu-tinma ke", fr: le flûtiste, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke fulu-tinma", fr: ce flûtiste, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fune", fr: un singe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fune ke", fr: le singe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke fune", fr: ce singe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fure", fr: un cadavre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fure ke", fr: le cadavre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke fure", fr: ce cadavre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "futo", fr: un couscous, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "futo ke", fr: le couscous, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke futo", fr: ce couscous, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "futte", fr: une sueur, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "futte ke", fr: la sueur, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke futte", fr: cette sueur, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fuuge", fr: une fleur, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "fuuge ke", fr: la fleur, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke fuuge", fr: cette fleur, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "gaada", fr: une servante, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "gaada ke", fr: la servante, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke gaada", fr: cette servante, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "garra", fr: un mensonge, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "garra ke", fr: le mensonge, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke garra", fr: ce mensonge, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "gacce", fr: une honte, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "gacce ke", fr: l'honte, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke gacce", fr: cette honte, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "gaja", fr: un rat, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "gaja ke", fr: le rat, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke gaja", fr: ce rat, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ganbare", fr: une guitare traditionnelle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ganbare ke", fr: la guitare traditionnelle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke ganbare", fr: cette guitare traditionnelle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ganma", fr: un coq, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ganma ke", fr: le coq, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke ganma", fr: ce coq, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "gijinme", fr: une poitrine, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "gijinme ke", fr: la poitrine, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke gijinme", fr: cette poitrine, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "gode", fr: un anneau, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "gode ke", fr: l'anneau, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke gode", fr: cet anneau, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "golle", fr: un travail, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "golle ke", fr: le travail, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke golle", fr: ce travail, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "gondome", fr: un pilon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "gondome ke", fr: le pilon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke gondome", fr: ce pilon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "gulanne", fr: une cloche, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "gulanne ke", fr: la cloche, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke gulanne", fr: cette cloche, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "gundo", fr: un taureau, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "gundo ke", fr: le taureau, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke gundo", fr: ce taureau, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "gurugutte", fr: un hibou, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "gurugutte ke", fr: l'hibou, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke gurugutte", fr: cet hibou, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "haccitaare", fr: un petit déjeuner, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "haccitaare ke", fr: le petit déjeuner, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke haccitaare", fr: ce petit déjeuner, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "hanmi", fr: un souci, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "hanmi ke", fr: le souci, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke hanmi", fr: ce souci, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "hanniye", fr: un souhait, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "hanniye ke", fr: le souhait, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke hanniye", fr: ce souhait, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "harafi-yugo", fr: une consonne, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "harafi-yugo ke", fr: la consonne, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke harafi-yugo", fr: cette consonne, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "harafi-yaxare", fr: une voyelle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "harafi-yaxare ke", fr: la voyelle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke harafi-yaxare", fr: cette voyelle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "hariire", fr: une soie, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "hariire ke", fr: la soie, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke hariire", fr: cette soie, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "hijibe", fr: un chapitre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "hijibe ke", fr: le chapitre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke hijibe", fr: ce chapitre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "hoore", fr: un noble, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "hoore ke", fr: le noble, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke hoore", fr: ce noble, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jaare", fr: un griot, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jaare ke", fr: le griot, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke jaare", fr: ce griot, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jabare", fr: une chaleur, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jabare ke", fr: la chaleur, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke jabare", fr: cette chaleur, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jakka", fr: un charognard, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jakka ke", fr: le charognard, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke jakka", fr: ce charognard, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "janbangine", fr: une pipe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "janbangine ke", fr: la pipe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke janbangine", fr: cette pipe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jarinte", fr: un lion, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jarinte ke", fr: le lion, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke jarinte", fr: ce lion, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jaxatane", fr: un gombo, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jaxatane ke", fr: le gombo, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke jaxatane", fr: ce gombo, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jeeniye", fr: un adultère, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jeeniye ke", fr: l'adultère, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke jeeniye", fr: cet adultère, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jiiba", fr: une poche, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jiiba ke", fr: la poche, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke jiiba", fr: cette poche, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jinme", fr: un oiseau échassier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jinme ke", fr: l'oiseau échassier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke jinme", fr: cet oiseau échassier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jin-xulle", fr: une cigogne, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jin-xulle ke", fr: la cigogne, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke jin-xulle", fr: cette cigogne, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jonge", fr: un toit, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jonge ke", fr: le toit, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke jonge", fr: ce toit, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jonke", fr: un prix, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jonke ke", fr: le prix, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke jonke", fr: ce prix, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "joogiye", fr: une blessure, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "joogiye ke", fr: la blessure, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke joogiye", fr: cette blessure, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jura", fr: une farine, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "jura ke", fr: la farine, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke jura", fr: cette farine, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kaafa", fr: un sabre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kaafa ke", fr: le sabre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kaafa", fr: ce sabre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kaafiri", fr: une impie, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kaafiri ke", fr: l'impie, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kaafiri", fr: cette impie, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kaara", fr: une côté, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kaara ke", fr: la côté, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kaara", fr: cette côté, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kaayiti", fr: un papier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kaayiti ke", fr: le papier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kaayiti", fr: ce papier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kafo", fr: une association, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kafo ke", fr: l'association, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kafo", fr: cette association, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kande", fr: un panier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kande ke", fr: le panier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kande", fr: ce panier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kanpe", fr: une aile, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kanpe ke", fr: l'aile, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kanpe", fr: cette aile, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kappallenma", fr: un compagnon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kappallenma ke", fr: le compagnon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kappallenma", fr: ce compagnon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "karankare", fr: une jambe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "karankare ke", fr: la jambe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke karankare", fr: cette jambe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kengele", fr: une pintade, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kengele ke", fr: la pintade, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kengele", fr: cette pintade, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kiide", fr: un baobab, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kiide ke", fr: le baobab, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kiide", fr: ce baobab, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kiilu", fr: un esprit, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kiilu ke", fr: l'esprit, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kiilu", fr: cet esprit, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kiina", fr: un mari, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kiina ke", fr: le mari, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kiina", fr: ce mari, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kinge", fr: une branche, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kinge ke", fr: la branche, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kinge", fr: cette branche, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kinnu", fr: un foyer, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kinnu ke", fr: le foyer, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kinnu", fr: ce foyer, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kitaabe", fr: un livre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kitaabe ke", fr: le livre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kitaabe", fr: ce livre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kocce", fr: un caillou, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kocce ke", fr: le caillou, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kocce", fr: ce caillou, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "konimoxo", fr: une prononciation, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "konimoxo ke", fr: la prononciation, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke konimoxo", fr: cette prononciation, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kotolle", fr: un coton, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kotolle ke", fr: le coton, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kotolle", fr: ce coton, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kuma", fr: une flamme, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kuma ke", fr: la flamme, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kuma", fr: cette flamme, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kunto", fr: un clitoris, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kunto ke", fr: le clitoris, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kunto", fr: ce clitoris, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kure", fr: une guerre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kure ke", fr: la guerre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kure", fr: cette guerre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kuuse", fr: un estomac, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kuuse ke", fr: l'estomac, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kuuse", fr: cet estomac, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kuuto", fr: un varan, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "kuuto ke", fr: le varan, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke kuuto", fr: ce varan, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "laada", fr: une coutume, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "laada ke", fr: la coutume, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke laada", fr: cette coutume, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "laxanji", fr: une salive, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "laxanji ke", fr: la salive, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke laxanji", fr: cette salive, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "leele", fr: un tortue d’eau, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "leele ke", fr: le tortue d’eau, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke leele", fr: ce tortue d’eau, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "lekolu", fr: une école, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "lekolu ke", fr: l'école, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke lekolu", fr: cette école, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "lippe", fr: une couture, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "lippe ke", fr: la couture, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke lippe", fr: cette couture, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "lungunte", fr: un sourd, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "lungunte ke", fr: le sourd, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke lungunte", fr: ce sourd, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "luwaase", fr: un loyer, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "luwaase ke", fr: le loyer, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke luwaase", fr: ce loyer, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ma", fr: une mère, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ma ke", fr: la mère, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke ma", fr: cette mère, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "malla", fr: un serpent, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "malla ke", fr: le serpent, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke malla", fr: ce serpent, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "manjare", fr: un cauri, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "manjare ke", fr: le cauri, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke manjare", fr: ce cauri, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "marafa", fr: un fusil, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "marafa ke", fr: le fusil, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke marafa", fr: ce fusil, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "maxafo", fr: un condiment, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "maxafo ke", fr: le condiment, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke maxafo", fr: ce condiment, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "maxanbaane", fr: un célibataire, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "maxanbaane ke", fr: le célibataire, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke maxanbaane", fr: ce célibataire, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "menjanne", fr: un ami, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "menjanne ke", fr: l'ami, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke menjanne", fr: cet ami, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "noqqu", fr: un endroit, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "noqqu ke", fr: l'endroit, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke noqqu", fr: cet endroit, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñaala", fr: une écrevisse, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñaala ke", fr: l'écrevisse, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke ñaala", fr: cette écrevisse, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñaaye", fr: un prince, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñaaye ke", fr: le prince, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke ñaaye", fr: ce prince, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñange", fr: un caméléon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñange ke", fr: le caméléon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke ñange", fr: ce caméléon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñanto", fr: un scorpion, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñanto ke", fr: le scorpion, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke ñanto", fr: ce scorpion, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñaxe", fr: un poisson, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñaxe ke", fr: le poisson, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke ñaxe", fr: ce poisson, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñiine", fr: une souris, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñiine ke", fr: la souris, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke ñiine", fr: cette souris, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñogome", fr: un dromadaire, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñogome ke", fr: le dromadaire, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke ñogome", fr: ce dromadaire, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñunqume", fr: un chat sauvage, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñunqume ke", fr: le chat sauvage, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke ñunqume", fr: ce chat sauvage, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñuunuñgille", fr: un crocodile, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñuunuñgille ke", fr: le crocodile, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke ñuunuñgille", fr: ce crocodile, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñaame", fr: une inondation, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñaame ke", fr: l'inondation, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke ñaame", fr: cette inondation, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñoomi", fr: un beignet, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñoomi ke", fr: le beignet, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke ñoomi", fr: ce beignet, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñuno", fr: un pantalon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ñuno ke", fr: le pantalon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke ñuno", fr: ce pantalon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "orege", fr: un thé, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "orege ke", fr: le thé, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke orege", fr: ce thé, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "paaka", fr: un poignard, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "paaka ke", fr: le poignard, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke paaka", fr: ce poignard, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "paasoporo", fr: un passeport, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "paasoporo ke", fr: le passeport, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke paasoporo", fr: ce passeport, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "raxe", fr: un endroit, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "raxe ke", fr: l'endroit, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke raxe", fr: cet endroit, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ren-yaxare", fr: une fille, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ren-yaxare ke", fr: la fille, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke ren-yaxare", fr: cette fille, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ren-yugo", fr: un garçon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ren-yugo ke", fr: le garçon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke ren-yugo", fr: ce garçon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "saabadu", fr: une cause, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "saabadu ke", fr: la cause, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke saabadu", fr: cette cause, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "saabara", fr: une marmite, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "saabara ke", fr: la marmite, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke saabara", fr: cette marmite, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "saabune", fr: un savon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "saabune ke", fr: le savon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke saabune", fr: ce savon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "saase", fr: une épine, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "saase ke", fr: l'épine, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke saase", fr: cette épine, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sadaxa", fr: une aumône, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sadaxa ke", fr: l'aumône, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke sadaxa", fr: cette aumône, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "salluma", fr: un champ personnel, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "salluma ke", fr: le champ personnel, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke salluma", fr: ce champ personnel, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "samaqqe", fr: un serpent, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "samaqqe ke", fr: le serpent, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke samaqqe", fr: ce serpent, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sangallé", fr: un enclos, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sangallé ke", fr: l'enclos, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke sangallé", fr: cet enclos, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sanke", fr: une moustiquaire, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sanke ke", fr: la moustiquaire, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke sanke", fr: cette moustiquaire, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "segemaade", fr: une échelle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "segemaade ke", fr: l'échelle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke segemaade", fr: cette échelle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "senba", fr: une moelle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "senba ke", fr: la moelle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke senba", fr: cette moelle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "senbe", fr: une force, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "senbe ke", fr: la force, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke senbe", fr: cette force, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "seyine", fr: un sable, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "seyine ke", fr: le sable, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke seyine", fr: ce sable, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "siine", fr: une biche, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "siine ke", fr: la biche, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke siine", fr: cette biche, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sikaana", fr: une prostituée, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sikaana ke", fr: la prostituée, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke sikaana", fr: cette prostituée, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sinme", fr: un tabac, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sinme ke", fr: le tabac, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke sinme", fr: ce tabac, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "singe", fr: une barbe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "singe ke", fr: la barbe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke singe", fr: cette barbe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sire", fr: un bien, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sire ke", fr: le bien, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke sire", fr: ce bien, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "siyinde", fr: un baptême, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "siyinde ke", fr: le baptême, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke siyinde", fr: ce baptême, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sokke", fr: une herbe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sokke ke", fr: l'herbe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke sokke", fr: cette herbe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "solle", fr: un bâton, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "solle ke", fr: le bâton, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke solle", fr: ce bâton, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "soninde", fr: une syllabe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "soninde ke", fr: la syllabe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke soninde", fr: cette syllabe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sonka", fr: un nid, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sonka ke", fr: le nid, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke sonka", fr: ce nid, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sooma", fr: un fils aîné, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sooma ke", fr: le fils aîné, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke sooma", fr: ce fils aîné, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sukkara", fr: un sucre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sukkara ke", fr: le sucre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke sukkara", fr: ce sucre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sunpo", fr: un nombril, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sunpo ke", fr: le nombril, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke sunpo", fr: ce nombril, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sunpu", fr: une parenté, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "sunpu ke", fr: la parenté, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke sunpu", fr: cette parenté, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "suraqqe", fr: une maure, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "suraqqe ke", fr: la maure, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke suraqqe", fr: cette maure, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "suxuba", fr: un matin, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "suxuba ke", fr: le matin, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke suxuba", fr: ce matin, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "taafiya", fr: un éventail, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "taafiya ke", fr: l'éventail, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke taafiya", fr: cet éventail, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "taage", fr: une molaire, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "taage ke", fr: la molaire, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke taage", fr: cette molaire, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "taali", fr: un proverbe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "taali ke", fr: le proverbe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke taali", fr: ce proverbe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "taalibe", fr: un étudiant coranique, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "taalibe ke", fr: l'étudiant coranique, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke taalibe", fr: cet étudiant coranique, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "taane", fr: une enclume, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "taane ke", fr: l'enclume, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke taane", fr: cette enclume, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "taarixu", fr: une chronique historique, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "taarixu ke", fr: la chronique historique, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke taarixu", fr: cette chronique historique, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tamare", fr: une datte, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tamare ke", fr: la datte, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke tamare", fr: cette datte, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tanbaxodoone", fr: un escargot, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tanbaxodoone ke", fr: l'escargot, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke tanbaxodoone", fr: cet escargot, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tanxulle", fr: un hérisson, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tanxulle ke", fr: l'hérisson, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke tanxulle", fr: cet hérisson, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tarallenma", fr: un compagnon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tarallenma ke", fr: le compagnon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke tarallenma", fr: ce compagnon, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "taxaade", fr: un couvercle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "taxaade ke", fr: le couvercle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke taxaade", fr: ce couvercle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tene", fr: un front, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tene ke", fr: le front, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke tene", fr: ce front, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "teppu", fr: une chaussure, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "teppu ke", fr: la chaussure, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke teppu", fr: cette chaussure, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "texe", fr: une natte, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "texe ke", fr: la natte, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke texe", fr: cette natte, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tibille", fr: une girafe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tibille ke", fr: la girafe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke tibille", fr: cette girafe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tonge", fr: une houe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tonge ke", fr: l'houe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke tonge", fr: cette houe, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tonnu", fr: une vérité, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tonnu ke", fr: la vérité, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke tonnu", fr: cette vérité, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tone", fr: une amende, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tone ke", fr: l'amende, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke tone", fr: cette amende, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "toore", fr: une tresse, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "toore ke", fr: la tresse, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke toore", fr: cette tresse, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tugume", fr: un cadet, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tugume ke", fr: le cadet, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke tugume", fr: ce cadet, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tulle", fr: une abeille, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tulle ke", fr: l'abeille, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke tulle", fr: cette abeille, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tumuja", fr: un gibier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tumuja ke", fr: le gibier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke tumuja", fr: ce gibier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tunka", fr: un roi, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tunka ke", fr: le roi, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke tunka", fr: ce roi, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "turo", fr: un figuier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "turo ke", fr: le figuier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke turo", fr: ce figuier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tuune", fr: un chacal, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tuune ke", fr: le chacal, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke tuune", fr: ce chacal, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tuure", fr: un éléphant, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "tuure ke", fr: l'éléphant, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke tuure", fr: cet éléphant, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "wandalle", fr: un canard, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "wandalle ke", fr: le canard, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke wandalle", fr: ce canard, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "warijaxe", fr: une chance, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "warijaxe ke", fr: la chance, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke warijaxe", fr: cette chance, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "watte", fr: une maladie, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "watte ke", fr: la maladie, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke watte", fr: cette maladie, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "waxante", fr: un fou, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "waxante ke", fr: le fou, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke waxante", fr: ce fou, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "waxe", fr: une folie, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "waxe ke", fr: la folie, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke waxe", fr: cette folie, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "weere", fr: un verre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "weere ke", fr: le verre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke weere", fr: ce verre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "welo", fr: une bicyclette, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "welo ke", fr: la bicyclette, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke welo", fr: cette bicyclette, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "woto", fr: une automobile, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "woto ke", fr: l'automobile, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke woto", fr: cette automobile, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "wujjuune", fr: un millier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "wujjuune ke", fr: le millier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke wujjuune", fr: ce millier, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "wuro", fr: une nuit, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "wuro ke", fr: la nuit, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke wuro", fr: cette nuit, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xaana", fr: un iguane, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xaana ke", fr: l'iguane, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xaana", fr: cet iguane, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xaare", fr: une mare, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xaare ke", fr: la mare, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xaare", fr: cette mare, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xaarite", fr: une karité, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xaarite ke", fr: la karité, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xaarite", fr: cette karité, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xaase", fr: un termite, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xaase ke", fr: le termite, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xaase", fr: ce termite, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xaaxe", fr: un crachat, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xaaxe ke", fr: le crachat, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xaaxe", fr: ce crachat, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xaaxo", fr: un hivernage, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xaaxo ke", fr: l'hivernage, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xaaxo", fr: cet hivernage, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xaba", fr: un nuage, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xaba ke", fr: le nuage, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xaba", fr: ce nuage, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xame", fr: une cendre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xame ke", fr: la cendre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xame", fr: cette cendre, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xande", fr: un quinquéliba, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xande ke", fr: le quinquéliba, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xande", fr: ce quinquéliba, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xarallenma", fr: un élève, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xarallenma ke", fr: l'élève, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xarallenma", fr: cet élève, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xarallenme", fr: une clé, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xarallenme ke", fr: la clé, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xarallenme", fr: cette clé, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xaranmoxo", fr: un professeur, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xaranmoxo ke", fr: le professeur, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xaranmoxo", fr: ce professeur, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xemeccu", fr: un ciseaux, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xemeccu ke", fr: le ciseaux, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xemeccu", fr: ce ciseaux, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xibaare", fr: une nouvelle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xibaare ke", fr: la nouvelle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xibaare", fr: cette nouvelle, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xiide", fr: une nostalgie, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xiide ke", fr: la nostalgie, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xiide", fr: cette nostalgie, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xiidifate", fr: un flirt, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xiidifate ke", fr: le flirt, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xiidifate", fr: ce flirt, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xiisa", fr: une légende, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xiisa ke", fr: la légende, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xiisa", fr: cette légende, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xolle", fr: une calebasse, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xolle ke", fr: la calebasse, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xolle", fr: cette calebasse, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xonne", fr: un ennemi, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xonne ke", fr: l'ennemi, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xonne", fr: cet ennemi, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xonto", fr: un sexe masculin, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xonto ke", fr: le sexe masculin, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xonto", fr: ce sexe masculin, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xoqqe", fr: une queue, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xoqqe ke", fr: la queue, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xoqqe", fr: cette queue, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xoroba", fr: une forêt, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xoroba ke", fr: la forêt, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xoroba", fr: cette forêt, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xotte", fr: un os, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xotte ke", fr: l'os, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xotte", fr: cet os, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xuli", fr: un bras, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xuli ke", fr: le bras, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xuli", fr: ce bras, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xuururo", fr: un brouillard, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "xuururo ke", fr: le brouillard, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke xuururo", fr: ce brouillard, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "yaxanne", fr: une jeune fille, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "yaxanne ke", fr: la jeune fille, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke yaxanne", fr: cette jeune fille, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "yeere", fr: une génisse, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "yeere ke", fr: la génisse, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke yeere", fr: cette génisse, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "yeline", fr: un oiseau, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "yeline ke", fr: l'oiseau, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke yeline", fr: cet oiseau, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "yelle", fr: un œuf, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "yelle ke", fr: le œuf, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke yelle", fr: ce œuf, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "yinme", fr: une tête, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "yinme ke", fr: la tête, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+  - {snk: "ke yinme", fr: cette tête, verbes: [wori], source: "glossaire, validé par le locuteur 2026-10-29"}
+
 complements:
   - {snk: saxa, fr: au marché, source: "corp1 #27"}
   - {snk: lenki, fr: aujourd'hui, source: "serie_02 #19",
