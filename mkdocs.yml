@@ -23,6 +23,7 @@ nav:
   - Accueil: index.md
   - La langue:
       - L'orthographe: langue/orthographe.md
+      - La prononciation: langue/prononciation.md
       - Les pronoms: langue/pronoms.md
       - La particule: langue/particule.md
       - Les temps: langue/temps.md
